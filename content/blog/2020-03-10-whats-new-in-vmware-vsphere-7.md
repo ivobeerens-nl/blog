@@ -1,0 +1,104 @@
+---
+author: Ivo Beerens
+categories:
+- vSphere
+date: "2020-03-10T14:04:26Z"
+guid: https://www.ivobeerens.nl/?p=7372
+id: 7372
+image: /wp-content/uploads/2020/03/vSphere-Icon-Color-2020.png
+ssb_old_counts:
+- a:5:{s:7:"twitter";i:0;s:9:"pinterest";i:0;s:7:"fbshare";i:0;s:6:"reddit";i:0;s:6:"tumblr";i:0;}
+ssb_total_counts:
+- "0"
+tags:
+- vSphere
+title: What&#8217;s new in VMware vSphere 7
+url: /2020/03/10/whats-new-in-vmware-vsphere-7/
+---
+
+vSphere 7 is built for supporting modern applications and the hybrid cloud. In the coming years, enterprises will build more and more applications using cloud-native tools and methods. There is a lot more complexity in deploying and managing modern applications. vSphere 7 with Kubernetes (formerly known as Project Pacific) is based on VMware Cloud Foundation 4 (VCF) and will help with this complexity. The developer doesn’t need to deal with infrastructure anymore and the VI Admin can provision and manage the infrastructure workloads with the same tools they already known.
+
+[![](http://localhost/wp-content/uploads/2020/03/kub2-300x163.png)](http://localhost/wp-content/uploads/2020/03/kub2.png)
+
+VMware Cloud Foundation 4 is a full Software-defined infrastructure with compute (vSphere 7), network (NSX-T), storage (vSAN 7), and management (vRealize 8.1). This modern infrastructure is for deploying Kubernetes at cloud scale.
+
+Besides Kubernetes on VMware Cloud Foundation, vSphere 7 adds improvements on these three keys areas:
+
+- **Simplified Lifecycle Management**
+- **Intrinsic Security**
+- **Application Acceleration**
+
+[![](http://localhost/wp-content/uploads/2020/03/01-300x134.png)](http://localhost/wp-content/uploads/2020/03/01.png)
+
+Here an overview of the new improvements in these three key areas:
+
+### **vCenter Server**
+
+- **vCenter Server Profiles**. Profiles can import and export vCenter Server configuration via REST APIs (management, network, authentication and user configurations). This is not the same as Host Profiles. These are the settings you can make in the vCenter Server Appliance Management Interface (VAMI). With this, you can maintain version control between vCenter Servers (max 100 vCenter Servers are supported).
+
+[![](http://localhost/wp-content/uploads/2020/02/7-300x149.jpg)](http://localhost/wp-content/uploads/2020/02/7.jpg)
+
+- **vCenter Server Multi-Homing is now officially supported**. It has a maximum of 4 NICs that are supported per vCenter Server. vCenter Server NIC1 is reserved for vCenter HA (vCHA).
+- **vCenter Server Scalability Enhancements**. The scalability is improved as in each new release (for more information you can refer to the configmax.vmware.com website).
+
+[![](http://localhost/wp-content/uploads/2020/02/10-300x123.jpg)](http://localhost/wp-content/uploads/2020/02/10.jpg)
+
+- **vCenter Server CLI tools**. The vSphere SSO domain consolidation tool (cmsso-util) has been simplified. The repointing option is gone, now you have the ‘unregister’ and ‘domain-repoint’ arguments for that.
+- **Content Library VM templates versioning.** Check-in/Check-out and versioning. When editing a VM template you can check-out the template and make changes and check-in the template. After that, you see the versioning (history) information.
+
+[![](http://localhost/wp-content/uploads/2020/02/11-300x130.jpg)](http://localhost/wp-content/uploads/2020/02/11.jpg)
+
+- **Automatic migration of a vCenter Server external Platform Services Controller (PSC)**. When migrating a vCenter Server with an external Platform Services Controller (PSC), it will be automatically converged to a vCenter Server with an embedded Platform Services Controller. The vCenter Server converged tool is no longer available from the ISO.
+- **vCenter Server Update Planner**. vCenter Server Update Planner is a new tool that helps with discovering, planning and upgrading a vCenter Server. In the vSphere client you receive notifications when an upgrade or update is available. The cool thing is that it detects installed VMware products and if they are compatible or not.
+
+[![](http://localhost/wp-content/uploads/2020/02/12-300x150.jpg)](http://localhost/wp-content/uploads/2020/02/12.jpg) [![](http://localhost/wp-content/uploads/2020/02/14-300x130.jpg)](http://localhost/wp-content/uploads/2020/02/14.jpg)
+
+### **vSphere Lifecycle Manager (vLCM)**
+
+- **Single cluster Image Manager**. This is all about consistency across ESXi hosts in a cluster. The desired state of cluster can be managed with this model also known as single image management. When a host is not compliant (anymore) you can remediate it to the desired state. The host firmware management can be done from within vSphere and works in conjunction with vendor management tools like Dell OpenManage and HPE OneView. The VMware Compatibility Guide (VCG ) and Hardware Compatibility List (HCL) checks remove the risks of unsupported drivers and firmware levels. Single image cluster management is available in the GUI and REST API. vSphere Lifecycle Manager includes desired state vSAN management.
+
+[![](http://localhost/wp-content/uploads/2020/02/15-300x147.jpg)](http://localhost/wp-content/uploads/2020/02/15.jpg)[![](http://localhost/wp-content/uploads/2020/03/L1-300x185.png)](http://localhost/wp-content/uploads/2020/03/L1.png)
+
+### **Hardware &amp; Performance**
+
+- **Improved Distributed Resource Scheduler (DRS)**. In earlier releases of vSphere DRS was based on a cluster-wide standard, equally utilized across the cluster. With vSphere 7, DRS is improved and based on a workload centric standard so it ready for the modern application. In the screenshot, you see the old DRS and the improved DRS standard with the VM DRS score. The VM DRS score is the new metric that migrate or balance the workload across the cluster. The VM DRS score is calculated using the following metrics such as performance, capacity, and migration: 
+    - CPU %RDY (Ready) time
+    - Memory swap (overcommit)
+    - CPU cache behavior
+    - Headroom for the workload to burst
+    - Migration cost
+
+[![](http://localhost/wp-content/uploads/2020/03/16-1-300x168.jpg)](http://localhost/wp-content/uploads/2020/03/16-1.jpg) [![](http://localhost/wp-content/uploads/2020/03/17-300x156.jpg)](http://localhost/wp-content/uploads/2020/03/17.jpg)
+
+- **DRS Scalable shares**: Relative resource entitlement to other resource pools depending on a number of VMs in the resource pool. Setting a share level to ‘high’ ensures prioritization over lower share VM entitlements. The share allocation dynamically changes when spinning up more VMs. This is not enabled by default in vSphere 7.
+- **Assignable Hardware**. It’s a framework that allows Dynamic DirectPath I/O (supports NVIDIA GRID vGPU devices) to use vSphere HA and DRS for initial placement. In earlier releases of vSphere, the VM was stuck on the host. A VM with a pass-thru device. Assignable hardware requires hardware version 17 of the VM. When powering on a VM with a NVIDIA vGPU profile DRS will look if it can place that VM with the vGPU profile on a other host. DRS load balancing of Dynamic DirectPath I/O devices is not available yet. So only for the initial placement of the VM.
+
+[![](http://localhost/wp-content/uploads/2020/03/17a-300x144.jpg)](http://localhost/wp-content/uploads/2020/03/17a.jpg) [![](http://localhost/wp-content/uploads/2020/03/18-300x155.jpg)](http://localhost/wp-content/uploads/2020/03/18.jpg)
+
+- **vMotion.** vMotion is improved so that it reduces the performance impact on large (monster) VMs during a vMotion**.** This brings back vMotion capabilities for large workloads like SAP HANA or Oracle.
+- Enhanced vMotion Compatability (EVC). In vSphere 7 there is support for the Intel Cascade Lake and AMD Zen2 generation.
+- **Virtual Machine Hardware version 17**. VM hardware version 17 is needed when using Assignable Hardware. Other new features in HW v17 are: 
+    - **Watchdog Timer**: Without a watchdog timer guest OSes and applications don’t know they are crashed. A watchdog timer helps by resetting the VM if the guest OS is no longer responding. This is important for clustered applications like databases and filesystems.
+    - **Precision Time Protocol (PTP)**: This is for applications that require sub-millisecond accuracy such as financial and scientific applications. PTP requires both the in-guest device and ESXi service to be enabled. Choose between NTP or PTP for the entire ESXi host.
+
+### **Security &amp; Compliance**
+
+- **vSphere Software Guard Extensions (vSGX)**. This is called hardware protection for secrets. It allows applications to work with hardware to create a secure enclave that cannot be viewed by the guest OS or hypervisor. Applications can move sensitive logic &amp; storage into this enclave. This is only support by Intel.
+- **Improved Certificate Management**. In vSphere 6.x you have a lot of certificates. In vSphere 7 the certificate management is much simpler. And you can manage the vCenter Server certificates programmatically by using APIs.
+- **vSphere Trust Authority (vTA)**. This is all about secure the vSphere infrastructure, how do we trust that our hosts are configured correctly. vTA takes care of this.
+- **Identify Federation.** Standard-based federation authentication with an enterprise provider (idPs) such as ADFS. This reduces the audit scope and vSphere admin workload. SSO still exists.
+
+[![](http://localhost/wp-content/uploads/2020/03/s3-300x214.png)](http://localhost/wp-content/uploads/2020/03/s3.png)
+
+### **vSAN 7.0** 
+
+- **Simpler Lifecycle Management**. See the **vSphere Lifecycle Manager (vLCM)** paragraph above for more details on this.
+- **Native File Services**. This integrated File Services is built-in the hypervisor and provides support for NFS v3 and 4.1 protocols. It is managed in vSAN and provides file shares within the vSAN cluster. The purpose for the integrated file services is for addressing file share needs from traditional and cloud-native workloads on vSAN cluster. So it is not built for replacing a large filer.
+
+[![](http://localhost/wp-content/uploads/2020/03/vSAN1-300x170.png)](http://localhost/wp-content/uploads/2020/03/vSAN1.png)
+
+- **Enhanced Cloud Native Storage**. Integration of Kubernetes running on vSphere and vSAN using file-based persistent volumes.
+
+[![](http://localhost/wp-content/uploads/2020/03/s4-300x179.png)](http://localhost/wp-content/uploads/2020/03/s4.png)
+
+Besides these main improvements, there are dozens of other great enhancements on operations, efficiency, and management level. My favorite vSphere 7 improvement is the **vSphere Lifecycle Manager (vLCM)** enhancement because it makes updating and maintaining vSphere clusters (with vSAN) a lot easier using the desired state model.
