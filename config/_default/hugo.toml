@@ -60,7 +60,6 @@ home = ["HTML", "RSS", "JSON", "WebAppManifest", "SearchIndex"]
 quality = 90
 resampleFilter = "lanczos"
 
-
 ############################# Caches ###############################
 [caches]
 [caches.images]
