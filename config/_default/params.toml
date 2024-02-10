@@ -3,11 +3,11 @@
 favicon = "images/favicon.png"
 
 # logo
-logo = "images/logo.png"
+logo = "images/IBLogo.png"
 
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "150px"
+logo_width = "100px"
 page_not_found_image = "images/404.png" # 404 error page image
 
 # if logo_webp set false, will not generate WEBP version of logo | default is true
@@ -83,9 +83,9 @@ currency = "$"
 
 # promotion
 [promotion]
-title = "Create Stunning Website!!"
-content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare."
-image = "images/promotion.jpg"
+#title = "Create Stunning Website!!"
+#content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare."
+image = "images/favicon.png"
 button_label = "Get Started"
 button_link = "https://themefisher.com/"
 

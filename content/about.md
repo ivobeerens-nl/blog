@@ -1,9 +1,8 @@
 ---
-title: "Hi, I Am John Doe"
-image: "images/author-full.jpg"
-email: "sojonatmail@gmail.com"
-# description
-description: "This is meta description"
+title: "Hi, I Am Ivo Beerens"
+image: "images/ivobeerens.jpg"
+email: "ibeerens@gmail.com"
+description: "About Ivo Beerens"
 layout: "about"
 draft: false
 
@@ -22,22 +21,52 @@ social:
     link: "https://linkedin.com"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum in urna justo elit turpis risus vitae viverra enim. Augue quis vitae in non nisi, posuere ultrices tempus. Feugiat consequat suspendisse laoreet vitae enim adipiscing cursus. Duis nunc vitae tincidunt sed nibh id. Egestas erat consequat, ornare etiam donec faucibus. Lorem ut enim nunc, senectus adipiscing sed. Lobortis commodo aliquet pulvinar molestie faucibus diam. Semper porttitor, et dictum
+My name is Ivo Beerens, currently working as Solution Consultant specialized in virtualization technologies such as VMware SDDC, End-User Computing (EUC), Azure, Azure Virtual Desktop (AVD), Infrastructure as Code (IaC), Business Continuity (BC), and Disaster Recovery (DR).
 
-Faucibus duis urna, consequat morbi imperdiet pulvinar. Mauris vitae sed aliquet eu tincidunt id. Nulla leo eget erat vel pharetra. Morbi nullam morbi non purus, augue. Massa cras odio ante cursus a mauris. Volutpat faucibus feugiat feugiat euismod congue ridiculus. Et ipsum euismod nulla et aenean diam duis. Sem molestie est mauris sit. Et eleifend odio
+![images/ivobeerens.jpg](images/ivobeerens.jpg)
 
-{{< quote by="John Doe" >}}
-Life is a series of natural and spontaneous changes. Don’t resist them – that only create sorrow. Let reality changes be reality. Let things flow naturally way they like.
-{{</ quote >}}
+I'm awarded with the **VMware vExpert title for 2011 till now and for the subprograms vExpert EUC.**
 
-<hr>
+![vexpertbadge](images/vexpertbadge.png)
 
-#### My Skills & Experiences:
+My vExpert directory profile can be found here, [link](https://vexpert.vmware.com/directory/571).
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumto sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+**Certifications**:
+- Microsoft Certified: Azure Fundamentals AZ-900
+- Microsoft Certified: Azure Administrator Associate AZ-104
+- Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
+- Microsoft Azure Virtual Desktop Specialty AZ-140
+- VMware Certified Professional - Data Center Virtualization 2022
+- HashiCorp Certified: Terraform Associate (003)
+- HP ASE - Server Solutions Architect V2
+- ITIL Foundation in IT Service Management
+- Certified Novell Administrator (CNA)
+- Microsoft Server Virtualization with Windows Server Hyper-V and System Center 2012 R2
+- Microsoft Certified Solution Expert (MCSE) Private Cloud
+- Microsoft Certified Professional (MCP)
+- Microsoft Certified System Engineer (MCSE+I) plus internet
+- Microsoft Certified System Engineer (MCSE) on NT4, 2000 and 2003
+- Microsoft Windows Server 2008 R2 Server Virtualization
+- Microsoft Certified Technology Specialist (MCTS)
+- Microsoft Certified Solutions Associate (MCSA) 2012
+- VMware Certified Professional 6 - Data Center Virtualization (VCP6)
+- VMware AirWatch Enterprise Mobility Associate Accreditation
+- VMware Certified Professional - Network Virtualization 2019
+- VMware Certified Professional - Network Virtualization (VCPN610)
+- VMware Certified Professional (VCP) on VMware ESX 2, VI3, vSphere 4 and 5
+- VMware Certified Professional 5 - Data Center Virtualization (VCP550D)
+- VMware Certified Professional (VCP) 5 - Desktop
+- VMware Certified Advanced Professional on vSphere 4 - Datacenter Administration (VCAP-DCA) number 240
+- VMware Certified Advanced Professional on vSphere 4 - Datacenter Design (VCAP-DCD) number 409
+- VMware Certified Advanced Professional on vSphere 5 - Datacenter Design (VDCD510)
+- VMware Certified Associate - Data Center Virtualization
+- Cisco Data Center Unified Computing Design Specialist
+- Designing Cisco Data Center Unified Computing 642-998
+- Analyzing and Visualizing Data with Power BI
+- Veeam Certified Sales Professional 2020
+- Veeam Certified Technical Sales Professional 2020
+- Veeam VMCE 2020
 
-- In enim justo, rhoncus ut,
-- Curabitur ullamcorper ultricies
-- Donec vitae sapien utlorem
-
-Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+### Contact
+E-mail:  info**\[at\]**ivobeerens.nl
+Change the **\[at\]** in the @ sign.

@@ -1,14 +1,11 @@
 ---
 author: Ivo Beerens
 categories:
-- 3i
-- ESX
-- VMware
+- VMware ESX
 date: "2008-08-07T22:11:24Z"
 guid: http://www.ivobeerens.nl/?p=20
 tags:
-- ESX3i
-- VMware
+- VMware ESX
 title: Enable SSH for VMware ESX 3i
 url: /2008/08/07/enable-ssh-for-vmware-esx-3i/
 ---
@@ -19,20 +16,20 @@ There is a hack to enable SSH for VMware ESX 3i. After reading the [VMTN forum](
 
 – Press ALT-F1, you see the console screen
 
-– Type <span style="font-family: courier new">unsupported</span> and press ENTER
+– Type ```unsupported``` and press ENTER
 
 – Enter the root password
 
-– Enter the following command <span style="font-family: courier new">vi /etc/inetd.conf</span>
+– Enter the following command ```vi /etc/inetd.conf```
 
 – Search for the #SSH row
 
 – Remove the # from the SSH row
 
-– Save the config by entering <span style="font-family: courier new">:wq!</span>
+– Save the config by entering ```:wq!```
 
-– Type <span style="font-family: courier new">ps | grep inetd</span> on the console
+– Type ```ps | grep inetd``` on the console
 
-– Send a hangup signal by using the following command <span style="font-family: courier new">kill -s HUP <PID></span>
+– Send a hangup signal by using the following command: ```kill -s HUP <PID>```
 
-Open now your favorite SSH client (for example Putty) and SSH to the VMware 3i server.
+Open now your favorite SSH client (for example Putty) and SSH to the VMware ESXi server.
