@@ -29,3 +29,6 @@ Intel Processors that are VMotion compatiblity:
 VMotion between Intel and AMD processors is still NOT possible. Maybe in VMware ESX 4.
 
 More information can be found in the "VMware VMotion and CPU Compatibility"guide.
+
+
+

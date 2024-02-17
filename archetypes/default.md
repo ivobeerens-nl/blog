@@ -2,9 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 author: Ivo Beerens
 date: {{ .Date }}
-image: 
-draft: true
+draft: false
 url: "{{.Name}}"
 categories:
 tags:
+type: "regular" # available type (regular or featured)
 ---

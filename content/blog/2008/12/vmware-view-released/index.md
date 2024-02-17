@@ -1,21 +1,24 @@
 ---
+author: Ivo Beerens
 title: "VMware View released"
 date: "2008-12-02T07:46:27.000Z"
 categories: 
-  - "vdi"
-  - "vmware-view"
+  - "VDI"
+  - "VMware View"
+Tags:
+  - VMware View
+url: /2008/12/02/VMware-view-released/
 ---
 
 VMware has VMware View released. The solution consist of:
-
-- \- VMware Virtual Desktop Infrastructure (VMware Infrastructure 3 + VMware View Manager 3)
-- \- Storage Optimization with VMware View Composer
-- \- Application Virtualization with VMware ThinApp
-- \- Client Virtualization with Offline Desktop – Experimental Use
+- VMware Virtual Desktop Infrastructure (VMware Infrastructure 3 + VMware View Manager 3)
+- Storage Optimization with VMware View Composer
+- Application Virtualization with VMware ThinApp
+- Client Virtualization with Offline Desktop – Experimental Use
 
 **VMware infrastructure 3:**
 
-VMware View 3 is built on [VMware Infrastructure 3](https://www.ivobeerens.nl/products/vi/) and as a result, IT organizations can extend the benefits of industry-leading virtualization to the desktop. Integrating desktop infrastructure with VMware Infrastructure 3 provides unified management and a host of features that improve performance, reliability and business continuity, including:
+VMware View 3 is built on VMware Infrastructure 3 and as a result, IT organizations can extend the benefits of industry-leading virtualization to the desktop. Integrating desktop infrastructure with VMware Infrastructure 3 provides unified management and a host of features that improve performance, reliability and business continuity, including:
 
 - Ability to group servers, which host virtual desktops, together for redundancy and eliminate single point of failure.
 - Consolidated Backup centralizes backup for desktop virtual machines.
@@ -24,7 +27,7 @@ VMware View 3 is built on [VMware Infrastructure 3](https://www.ivobeerens.nl/pr
 
 **View Manger:**
 
-View Manager 3, a key component of VMware View, is an enterprise class desktop management solution, which streamlines the management, provisioning and deployment of virtual desktops. Users securely and easily access virtual desktops hosted on VMware Infratructure 3, Terminal Servers, Blade PCs or even remote physical PCs through View Manager. Virtual desktop upgrading and patching are done centrally from a single console so you can efficiently manage hundreds or even thousands of desktops—saving time and resources.
+View Manager 3, a key component of VMware View, is an enterprise class desktop management solution, which streamlines the management, provisioning and deployment of virtual desktops. Users securely and easily access virtual desktops hosted on VMware Infrastructure 3, Terminal Servers, Blade PCs or even remote physical PCs through View Manager. Virtual desktop upgrading and patching are done centrally from a single console so you can efficiently manage hundreds or even thousands of desktops—saving time and resources.
 
 **VMware View Composer:**
 
@@ -38,6 +41,7 @@ VMware ThinApp application virtualization software decouples applications from o
 
 Offline Desktop for experimental use allows complete virtual desktops to be moved between the datacenter and physical desktop devices with security policies intact. Changes to the virtual desktop are intelligently synchronized between datacenter and physical desktop device. Offline Desktop allows an end user to access their virtual desktop while not connected to the network or simply take advantage of a physical desktop devices local resources to run their virtual desktop for an enhanced end user experience
 
-[![view_diagram](images/view-diagram-thumb.gif)](https://www.ivobeerens.nl/wp-content/uploads/2008/12/view-diagram.gif) 
+[![view_diagram](images/view-diagram-thumb.gif)](images/view-diagram.gif)
 
-You can download VMware View @ [here](http://www.vmware.com/download/view/).
+
+

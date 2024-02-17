@@ -1,8 +1,14 @@
 ---
+author: Ivo Beerens
 title: "Site Recovery Manager (SRM) Update 1 released"
 date: "2008-12-05T08:10:48.000Z"
 categories: 
-  - "srm"
+  - "SRM"
+  - VMware
+tags:
+  - VMware
+  - SRM
+url: /2008/12/05/site-recovery-manager-srm-update-1-released/
 ---
 
 SRM 1.0 Update 1 has the following new features:
@@ -25,15 +31,12 @@ SRM 1.0 Update 1 has the following new features:
     non-ASCII characters are now allowed in many fields during installation and operation.
 
 SRM 1.0 Update 1 has great improvements such as:
+- RDM support including Microsoft Cluster services
+- Support VM's that span multiple datastores
+- Support for ESX 3.5 Update 3 (You must have the latest patches!)
+- Support for VC 2.5 Update 3
 
-\- RDM support including Microsoft Cluster services
+Before you begin with SRM check the [compatibility matrix](http://www.VMware.com/pdf/srm_10_compat_matrix.pdf). 
 
-\- Support VM's that span multiple datastores
 
-\- Support for ESX 3.5 Update 3 (You must have the latest patches!)
 
-\- Support for VC 2.5 Update 3
-
-Before you begin with SRM check the [compatibility matrix](http://www.vmware.com/pdf/srm_10_compat_matrix.pdf). 
-
-The release notes are [here](http://www.vmware.com/support/srm/srm_10_releasenotes.html).

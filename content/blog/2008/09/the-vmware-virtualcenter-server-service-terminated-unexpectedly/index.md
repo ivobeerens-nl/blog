@@ -1,14 +1,16 @@
 ---
+author: Ivo Beerens
 title: "The VMware VirtualCenter Server service terminated unexpectedly"
 date: "2008-09-25T13:24:09.000Z"
 categories: 
   - "esx"
   - "virtualcenter"
-  - "vmware"
+  - "VMware"
 tags: 
   - "error"
   - "virtualcenter"
-  - "vmware"
+  - "VMware"
+url: /2008/09/25/the-VMware-virtualcenter-server-service-terminated-unexpectedly/
 ---
 
 After rebooting the VMware VirtualCenter (VC) server, i was unable to logon using the VI-client in VC. In the Windows event log the following  Error is listed:
@@ -23,16 +25,17 @@ I did the following:
 
 Open the regedit.exe and browse to the HKLM\\SYSTEM\\CurrentControlSet\\Services\\**MSSQLSERVER** (for MS SQL 2005 standard). So you know the name of the service.
 
-[![image](images/image-thumb.png)](https://www.ivobeerens.nl/wp-content/uploads/2008/10/image.png)
+[![image](images/image-thumb.png)](images/image.png)
 
 Browse to HKLM\\SYSTEM\\CurrentControlSet\\Services\\vpxd and open the DependOnService property
 
-[![image](images/image-thumb1.png)](https://www.ivobeerens.nl/wp-content/uploads/2008/10/image1.png)
+[![image](images/image-thumb1.png)](images/image1.png)
 
 Add the name MSSQLSERVER to this multi-string. **Ensure that the last line is empty**.
 
-[![image](images/image-thumb2.png)](https://www.ivobeerens.nl/wp-content/uploads/2008/10/image2.png)
+[![image](images/image-thumb2.png)](images/image2.png)
 
 Close the Registry Editor and restart the VirtualCenter server and test if it VMware VirtualCenter service starts.
 
-\[ad#verticaal\]
+
+

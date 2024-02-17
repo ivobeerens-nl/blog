@@ -1,0 +1,24 @@
+---
+title: "All you want to know about What&rsquo;s New with VMware vSphere 5.1!"
+date: "2012-08-27T17:45:04.000Z"
+categories: 
+  - "vSphere"
+tags: 
+  - "VMware"
+  - "vSphere"
+author: Ivo Beerens
+---
+
+- [What’s New in VMware vSphere 5.1](http://www.VMware.com/files/pdf/products/vSphere/VMware-what-is-new-vSphere51.pdf)
+- [What’s new in VMware vCenter 5.1](http://www.VMware.com/files/pdf/techpaper/Whats-New-VMware-vCenter-Server-51-Technical-Whitepaper.pdf)
+- [What’s New in VMware vSphere 5.1 – Networking](http://www.VMware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Network-Technical-Whitepaper.pdf)
+- [What’s New in VMware vSphere 5.1 – Platform](http://www.VMware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Platform-Technical-Whitepaper.pdf)
+- [What’s New in VMware vSphere 5.1 – Storage](http://www.VMware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Storage-Technical-Whitepaper.pdf)
+- [What’s New in VMware vSphere 5.1 – Performance](http://www.VMware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Performance-Technical-Whitepaper.pdf)
+- Introduction to VMware vSphere Replication
+- [Introduction to VMware vSphere Data Protection](http://www.VMware.com/files/pdf/techpaper/Introduction-to-Data-Protection.pdf)
+- What’s new in VMware vSphere Storage Appliance
+- [What’s new in vCloud Director 5.1](http://www.VMware.com/files/pdf/techpaper/Whats-New-VMware-vCloud-Director-51-Technical-Whitepaper.pdf)
+
+
+

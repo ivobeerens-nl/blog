@@ -6,10 +6,10 @@ categories:
 - VMware ESX
 tags:
 - VMware ESX
-url: /2008/08/07/enable-ssh-for-vmware-esx-3i/
+url: /2008/08/07/enable-ssh-for-VMware-esx-3i/
 ---
 
-There is a hack to enable SSH for VMware ESX 3i. After reading the [VMTN forum](http://communities.vmware.com/thread/131362). Here is the procedure to enable SSH
+There is a hack to enable SSH for VMware ESX 3i. Here is the procedure to enable SSH
 
 – Boot ESXi and wait till the till"loaded
 
@@ -32,3 +32,6 @@ There is a hack to enable SSH for VMware ESX 3i. After reading the [VMTN forum](
 – Send a hangup signal by using the following command: ```kill -s HUP <PID>```
 
 Open now your favorite SSH client (for example Putty) and SSH to the VMware ESXi server.
+
+
+

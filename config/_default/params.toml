@@ -7,7 +7,7 @@ logo = "images/IBLogo.png"
 
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "100px"
+logo_width = "450px"
 page_not_found_image = "images/404.png" # 404 error page image
 
 # if logo_webp set false, will not generate WEBP version of logo | default is true
@@ -23,10 +23,10 @@ purge_css = true
 mainSections = ["blog"]
 
 # featured post
-featured_post = true
+featured_post = false
 
 # layout
-post_layout = "full" # layout value (full, grid or list)
+post_layout = "list" # layout value (full, grid or list)
 # Sidebar
 sidebar = "right" # sidebar value (left, right or false)
 
@@ -51,7 +51,8 @@ preloader = "" # use jpg, png, svg or gif format.
 
 [search]
 enable = true
-primary_color = "#ce8460"
+#primary_color = "#ce8460"
+primary_color = "#118fe7"
 include_sections = ["blog"] # if `include_sections` is empty, then section's will come from `mainSections`
 show_image = true
 show_description = true
@@ -148,7 +149,7 @@ mastodon = "" # Your verification code
 
 # cookies
 [cookies]
-enable = false
+enable = true
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
@@ -156,10 +157,10 @@ button = "I Accept"
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = [
-  "search",
   "about-me",
-  "promotion",
-  "subscription",
+  "vembu",
+ # "promotion",
+ # "subscription",
   "categories",
   "recent-post",
   "tags",
@@ -169,14 +170,14 @@ sidebar = [
 
 ############################# social site ########################
 [[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://twitter.com/ibeerens"
-
-[[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/in/ivobeerens/"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/ibeerens"
 
 [[social]]
 title = "github"

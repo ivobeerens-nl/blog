@@ -8,7 +8,7 @@ timeZone = "Europe/Amsterdam"
 # post pagination
 languageName = "En"
 languageCode = "en-us"
-paginate = 5 # see https://gohugo.io/extras/pagination/
+paginate = 15 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 50 # see https://gohugo.io/content-management/excerpts/
 # google analytics
@@ -17,6 +17,16 @@ googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read th
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["fr"] # desable language from here
+
+enableGitInfo = true
+enableEmoji = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+[permalinks]
+  posts = '/:year/:month/:title/'
+# https://www.ivobeerens.nl/2019/01/30/home-lab-extension-with-a-shuttle-sh370r6-plus/
 
 ############################# Modules ############################
 [module]
