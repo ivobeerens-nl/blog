@@ -8,7 +8,10 @@ categories:
 tags: 
   - "news"
 author: Ivo Beerens
+url: /2023/06/10/the-latest-technology-news-week-23-2023/
 ---
+
+Here’s the weekly latest technology news from Microsoft Azure, Microsoft Azure Virtual Desktop (AVD), Windows 365, and VMware. The main focus is based on Cloud and End User Computing (EUC) technology.
 
 **Azure Virtual Desktop (AVD)**
 
@@ -49,6 +52,3 @@ author: Ivo Beerens
 
 - **KeePass 2.54 released.** Fixes a bug that leaked the cleartext master password. [Link](https://keepass.info/news/n230603_2.54.html)
 - **How to launch the command prompt and PowerShell from MS Paint**. [Link](https://tzusec.com/how-to-launch-command-prompt-and-PowerShell-from-ms-paint/)
-
-
-

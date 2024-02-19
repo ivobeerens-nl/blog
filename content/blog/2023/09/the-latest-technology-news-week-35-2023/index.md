@@ -11,7 +11,12 @@ tags:
   - "VMware"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/09/03/the-latest-technology-news-week-35-2023/
 ---
+
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 We understand that in today's fast-paced tech landscape, staying informed is key. That's why we're here to make it easy for you. Each week, we'll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
 
@@ -79,8 +84,4 @@ Without further ado, let's dive into this week's top tech insights:
 - **Excalidraw - VMware architecture icons**. [Link](https://www.ntpro.nl/blog/archives/3718-Excalidraw-VMware-architecture-icons.html)
 
 **Other**
-
 - **NVIDIA vGPU software R535 16.1 released**. [Link](https://docs.nvidia.com/grid/index.html)
-
-
-

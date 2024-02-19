@@ -8,14 +8,18 @@ tags:
   - "rds"
 coverImage: "2.jpg"
 author: Ivo Beerens
+url: /2022/12/22/troubleshoot-your-azure-virtual-desktop-avd-or-remote-desktop-environment-with-msrd-collect/
 ---
+
+I recently stumbled on a cool tool called “MSRD-Collect”. MSRD stands for Microsoft CSS Remote Desktop Data Collection and Diagnostic Script. MSRD-Collect is a PowerShell script with separate modules designed to collect information that will help Microsoft Customer Support Services (CSS) to troubleshoot issues in Azure Virtual Desktop or Remote Desktop Services environments.
+
+![newsletter](images/2.jpg)
 
 MSRD-Collect is not only a handy tool for Microsoft CSS but can be used by AVD or RDS administrators having issues or who want to check the health of their session hosts.  MSRD-Collect can be executed from the AVD session or Remote Desktop hosts. The tool is created and maintained by Robert Klemencz and Alexandru Olariu from Microsoft.
 
 ## What checks are performed?
 
 The script performs the following diagnostics, from AVD, and RDS (RDP) environments:
-
 - Overview of the system the script is running on (General information)
 - OS activation / licensing
 - Top 10 processes using the most CPU time on all processors
@@ -71,18 +75,12 @@ The data collected is not uploaded to Microsoft!
 ## **How to run the MSRD-Collect tool?**
 
 - Download MSRD-Collect, [link](https://t.co/gVAK4kv0NH). or use the following URL:
-
-\[code language="PowerShell"\] https://aka.ms/avd-collect \[/code\]
-
+```https://aka.ms/avd-collect```
 - Extract the zip file
 - Set the PowerShell execution mode:
-
-\[code language="text"\] Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force -Scope Process \[/code\]
-
+```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force -Scope Process```
 - Unblock the files
-
-\[code language="PowerShell"\] Get-ChildItem -Recurse -Path C:\\MSRD\_Path\\Modules\\\*.ps\* | Unblock-File -Confirm:$false \[/code\]
-
+```Get-ChildItem -Recurse -Path C:\MSRD\_Path\Modules\*.ps\* | Unblock-File -Confirm:$false```
 - MSRD-Collect can be run from the command line or with GUI. To run MSRD-Collect with a GUI, execute:
     - **MSRD-Collect.ps1** in a PowerShell session with elevated permissions in order to collect all required data
 - Select AVD or RDS as a source and click on Start to begin gathering data
@@ -103,6 +101,3 @@ The output contains all settings and links to other log files. Sections marked i
 MSRD-Collect is definitely a tool that every AVD or RDS administrator must have in their toolbox. MSRD-Collect gives great detailed information about the state of the AVD/RDS environment and makes troubleshooting a lot easier. With the command line option, you can schedule the script to run at regular times.
 
 Make sure you run this tool before calling Microsoft CSS when having issues with your AVD or RDS environment.
-
-
-

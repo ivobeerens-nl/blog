@@ -9,7 +9,12 @@ tags:
   - "VMware"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/08/22/the-latest-technology-news-week-33-2023/
 ---
+
+The latest weekly technology news from Microsoft, VMware, and other partners with a focus on End User Computing (EUC).
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 **Microsoft Azure**
 
@@ -63,10 +68,3 @@ author: Ivo Beerens
 - **VMware Tanzu Cloud Native Webinars**. [Link](https://webinars.tanzu.dk/)
 - **VMware Tools 12.2.6 download**. [Link](https://customerconnect.VMware.com/downloads/details?downloadGroup=VMTOOLS1226&productId=742&rPId=108996)
 - **Automate VMware Horizon Agent Upgrade Using PowerShell.** [Link](https://techcollective.blog/automate-horizon-agent-upgrade-using-PowerShell/)
-
-**Other**
-
-- None
-
-
-

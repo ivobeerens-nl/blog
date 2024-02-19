@@ -11,6 +11,7 @@ tags:
 url: /2024/02/02/the-latest-technology-news-january-2024/
 type: "regular" # available type (regular or featured)
 ---
+
 ![newsletter](images/newblogpost.jpg)
 
 Welcome to our **monthly roundup** of the hottest tech updates in the worlds of Azure, VMware, GitHub, HashiCorp, and other partners. In this series, we’ll have a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.

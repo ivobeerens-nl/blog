@@ -9,7 +9,12 @@ tags:
   - "VMware"
 coverImage: "Design-3-1-1.jpg"
 author: Ivo Beerens
+url: /2023/11/20/the-latest-technology-news-week-46-2023/
 ---
+
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+
+![newsletter](images/Design-3-1-1.jpg)
 
 We understand that in today’s fast-paced tech landscape, staying informed is key. That’s why we’re here to make it easy for you. Each week, we’ll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
 
@@ -116,6 +121,3 @@ Without further ado, let’s dive into this week’s top tech insights:
 - Azure & AI Lowlands '24 ticket available. [Learn more](https://azurelowlands.com/)
 - New Group Policy settings in Windows 11 23H2. [Learn more](https://4sysops.com/archives/new-group-policy-settings-in-windows-11-23h2/)
 - What’s New in Windows Server v.Next. [Learn more](https://ignite.microsoft.com/en-US/sessions/f3901190-1154-45e3-9726-d2498c26c2c9?source=sessions)
-
-
-

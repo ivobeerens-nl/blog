@@ -7,7 +7,12 @@ tags:
   - "news"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/08/28/the-latest-technology-news-week-34-2023/
 ---
+
+The latest weekly technology news from Microsoft, VMware, and other partners with a focus on End User Computing (EUC).
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 **Microsoft Azure**
 
@@ -72,6 +77,3 @@ author: Ivo Beerens
 
 - **ControlUp 50 User FREE License**. [Link](https://www.controlup.com/edge-dx-vip-pack/)
 - **NVIDIA Changed Generative AI Forever (SIGGRAPH 2023 Supercut)**. [Link](https://www.youtube.com/watch?v=dvRsZ4-wUGw)
-
-
-

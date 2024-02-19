@@ -6,6 +6,8 @@ url: "BDRSuite"
 
 **BDRSuite** is a robust and comprehensive backup solution that addresses various backup, recovery, replication, and DR needs of your diversified IT infrastructure such as Virtual, Physical, Cloud workloads & SaaS Applications, and supports advanced use cases, thereby ensuring business continuity at affordable pricing.
 
+![newsletter](images/bdrsuite.svg)
+
 Have a glimpse of the BDRSuite of Products categorized based on different IT environments.
 
 ## **For Virtual Environments (VMware & Hyper-V)**

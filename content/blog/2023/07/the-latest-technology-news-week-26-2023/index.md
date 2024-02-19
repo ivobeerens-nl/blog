@@ -5,7 +5,12 @@ tags:
   - "news"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/07/03/the-latest-technology-news-week-26-2023/
 ---
+
+Here’s the latest weekly technology news from Microsoft, including updates on Microsoft Azure, Microsoft Azure Virtual Desktop (AVD), Windows 365, VMware, and HashiCorp Terraform.
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 **Microsoft Azure**
 
@@ -48,6 +53,3 @@ author: Ivo Beerens
 
 - **PowerShell Client-Checker security script**. [Link](https://github.com/LuemmelSec/Pentest-Tools-Collection/tree/main/tools/Client-Checker)
 - **How to Send Emails Using Microsoft Graph PowerShell**. [Link](https://ourcloudnetwork.com/how-to-send-emails-using-microsoft-graph-PowerShell/)
-
-
-

@@ -9,7 +9,10 @@ tags:
   - "VMware"
 coverImage: "Design-3-1-1.jpg"
 author: Ivo Beerens
+url: /2023/10/31/the-latest-technology-news-week-43-2023/
 ---
+
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
 
 We understand that in today’s fast-paced tech landscape, staying informed is key. That’s why we’re here to make it easy for you. Each week, we’ll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
 
@@ -79,9 +82,5 @@ Without further ado, let’s dive into this week’s top tech insights:
 - VMware Workstation 17.5 Pro and Player are Now Live. [Learn more](https://blogs.VMware.com/workstation/2023/10/workstation-17-5-pro-and-player-are-now-live.html?utm_source=rss&utm_medium=rss&utm_campaign=workstation-17-5-pro-and-player-are-now-live)
 - Best Practices for Patching VMware vSphere. [Learn more](https://core.VMware.com/patch-vSphere-best-practices)
 
-Other
-
+**Other**
 - Building and Deploying a Blog with Hugo and GitHub Pages. [Learn more](https://mikefrobbins.com/2023/10/26/building-and-deploying-a-blog-with-hugo-and-github-pages/)
-
-
-

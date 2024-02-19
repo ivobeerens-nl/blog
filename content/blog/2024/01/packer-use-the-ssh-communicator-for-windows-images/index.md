@@ -1,27 +1,19 @@
 ---
 author: Ivo Beerens
-categories:
-- Packer
 date: "2024-01-15T18:19:53Z"
-guid: https://www.ivobeerens.nl/?p=9202
-id: 9202
-ssb_old_counts:
-- a:5:{s:7:"twitter";i:0;s:9:"pinterest";i:0;s:7:"fbshare";i:0;s:6:"reddit";i:0;s:6:"tumblr";N;}
-ssb_total_counts:
-- "0"
-tags:
-- Image
-- Packer
-title: Packer - Use the SSH communicator for Windows images
+categories: 
+  - news
+tags: 
+  - VMware
+  - News
+  - Azure
+title: "Packer - Use the SSH communicator for Windows images"
 url: /2024/01/15/packer-use-the-ssh-communicator-for-windows-images/
-yarpp_meta:
-- a:1:{s:27:"yarpp_display_for_this_post";i:1;}
 ---
 
 Packer communicators are used to upload files and execute scripts when creating images. The two most common communicators are:
-
-- ssh – An SSH connection will be established to the machine. This communicator is used by Linux
-- winrm – A WinRM connection will be established. This communicator is used by Windows.
+   - ssh – An SSH connection will be established to the machine. This communicator is used by Linux
+   - winrm – A WinRM connection will be established. This communicator is used by Windows.
 
 OpenSSH is available as an Optional Feature in Windows 10 (version 1809 and higher), Windows 11, Windows Server 2019, and Windows Server 2022. OpenSSH uses the SSH protocol (port TCP 22) which encrypts all traffic between client and server.
 
@@ -30,10 +22,9 @@ To configure the SSH communicator for creating Windows images, follow the steps 
 **Prerequisites**
 
 The following prerequisites are needed:
-
-- A device running at least Windows Server 2019 or Windows 10 (build 1809).
-- PowerShell 5.1 or later.
-- An account that is a member of the built-in Administrators group.
+   - A device running at least Windows Server 2019 or Windows 10 (build 1809).
+   - PowerShell 5.1 or later.
+   - An account that is a member of the built-in Administrators group.
 
 **Step 1: Enable SSH in the Windows image**
 
@@ -112,11 +103,8 @@ ssh_timeout = "2h"
 ssh_clear_authorized_keys = "true"
 }
 ```
-
 During the deployment of the image, you see when the communicator connects using SSH to the image.
+
 ![packer](images/2-1024x644.png)
 
 If you use Packer for creating Windows and Linux images, only 1 firewall port (TCP 22) needs to be opened when using the SSH communicator.
-
-
-

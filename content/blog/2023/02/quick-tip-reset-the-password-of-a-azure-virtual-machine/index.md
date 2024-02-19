@@ -6,11 +6,12 @@ categories:
 tags: 
   - "azure"
 author: Ivo Beerens
+url: /2023/02/01/quick-tip-reset-the-password-of-a-azure-virtual-machine/
 ---
 
-[![](images/PasswordResetFailed-300x115.jpg)](images/PasswordResetFailed.jpg)
+In my Azure test tenant, I forgot the password of an Azure Windows Domain Controller VM. In Azure, there is a Reset Password option available in the VM options.
 
- 
+[![](images/PasswordResetFailed-300x115.jpg)](images/PasswordResetFailed.jpg)
 
 The password reset update failed. The password reset option uses a VM Access extension. When digging into the activity log I found the following error:
 
@@ -19,16 +20,15 @@ The password reset update failed. The password reset option uses a VM Access ext
 So I went to another approach using the following steps:
 
 **Prerequisites:**
-
 - Ensure the VM status is running
 - Create a new password
-    - Portal - between 12 - 123 characters
-    - PowerShell - between 8 - 123 characters
+  - Portal - between 12 - 123 characters
+  - PowerShell - between 8 - 123 characters
     - CLI - between 12 - 123
     - Have lower characters
     - Have upper characters
     - Have a digit
-    - Have a special character (Regex match \[\\W\_\])
+    - Have a special character (Regex match [\W_])
 
 ## Using the Azure portal
 
@@ -39,9 +39,7 @@ So I went to another approach using the following steps:
     - Select RunPowerShellScript
     - In the "Run Command Script" window enter:
 
-\[code language="text"\] net user <username> <password> \[/code\]
-
- 
+```net user <username> <password>```
 
 [![](images/0-300x104.jpg)](images/0.jpg)
 
@@ -50,17 +48,10 @@ So I went to another approach using the following steps:
 - Log in to the Azure portal
 - In the Azure Portal open Cloud Shell
 - Select Bash
-- In the following command change: <vm> <resource group the vm belongs > <username> and <password>
+- In the following command change: **<vm> <resource group the vm belongs > <username> and <password>**
 
-\[code language="text"\] az vm run-command invoke --command-id RunPowerShellScript --name <vm> -g <resource group the VM belongs too> --scripts "net user <username> <password>" \[/code\]
-
- 
+```az vm run-command invoke --command-id RunPowerShellScript --name <vm> -g <resource group the VM belongs too> --scripts "net user <username> <password>"```
 
 [![](images/1-300x104.jpg)](images/1.jpg)
 
- 
-
-Using the RunPowerShellScript is a lifesaver when you forgot the password of a Windows Domain Controller VM in Azure. This procedure works also for regular Windows VMs.
-
-
-
+ Using the RunPowerShellScript is a lifesaver when you forgot the password of a Windows Domain Controller VM in Azure. This procedure works also for regular Windows VMs.

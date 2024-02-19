@@ -6,29 +6,56 @@ categories:
 tags: 
   - "VMware"
 author: Ivo Beerens
+url: /2023/09/14/vmware-resources-list/
 ---
+
+Here’s an overview of VMware (Broadcom) resources I frequently use.
 
 ## VMware Downloads
 
-<table style="border-collapse: collapse; width: 100%; height: 166px;"><tbody><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;"><strong>Name</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Description</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Link</strong></td></tr><tr style="height: 22px;"><td style="width: 33.3333%; height: 22px;">VMware Product Downloads</td><td style="width: 33.3333%; height: 22px;">All VMware product downloads.</td><td style="width: 33.3333%; height: 22px;"><a href="https://customerconnect.VMware.com/en/downloads/#all_products" target="_blank" rel="noopener">https://customerconnect.VMware.com/en/downloads/#all_products</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Patches</td><td style="width: 33.3333%; height: 24px;">VMware patches</td><td style="width: 33.3333%; height: 24px;"><a href="https://customerconnect.VMware.com/patch/" target="_blank" rel="noopener">https://customerconnect.VMware.com/patch/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Trials</td><td style="width: 33.3333%; height: 24px;">VMware Trials product downloads such as the</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.VMware.com/trials-test-drives.html" target="_blank" rel="noopener">https://www.VMware.com/trials-test-drives.html</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Tools releases</td><td style="width: 33.3333%; height: 24px;">All VMware tools release</td><td style="width: 33.3333%; height: 24px;"><a href="https://packages.VMware.com/tools/releases/" target="_blank" rel="noopener">https://packages.VMware.com/tools/releases/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Flings</td><td style="width: 33.3333%; height: 24px;">Unofficial apps built by VMware employees to enhance VMware products</td><td style="width: 33.3333%; height: 24px;"><a href="https://flings.VMware.com/" target="_blank" rel="noopener">https://flings.VMware.com/</a></td></tr></tbody></table>
+| **Name** | **Description** | **Link** |
+|---|---|---|
+| VMware Product Downloads | All VMware product downloads. | [https://customerconnect.vmware.com/en/downloads/#all\_products](https://customerconnect.vmware.com/en/downloads/#all_products) |
+| VMware Patches | VMware patches | <https://customerconnect.vmware.com/patch/> |
+| VMware Trials | VMware Trials product downloads such as the | <https://www.vmware.com/trials-test-drives.html> |
+| VMware Tools releases | All VMware tools release | <https://packages.vmware.com/tools/releases/> |
+| VMware Flings | Unofficial apps built by VMware employees to enhance VMware products | <https://flings.vmware.com/> |
 
 ## Technical Reference
 
-<table style="border-collapse: collapse; width: 100%; height: 286px;"><tbody><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;"><strong>Name</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Description</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Link</strong></td></tr><tr style="height: 22px;"><td style="width: 33.3333%; height: 22px;">VMware Knowledge Base</td><td style="width: 33.3333%; height: 22px;">Knowledge Base</td><td style="width: 33.3333%; height: 22px;"><a href="https://kb.VMware.com/" target="_blank" rel="noopener">https://kb.VMware.com/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Support Insider</td><td style="width: 33.3333%; height: 24px;">The top support articles</td><td style="width: 33.3333%; height: 24px;"><a href="https://blogs.VMware.com/kb/" target="_blank" rel="noopener">https://blogs.VMware.com/kb/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">Product Documentation</td><td style="width: 33.3333%; height: 24px;">VMware Product documentation</td><td style="width: 33.3333%; height: 24px;"><a href="https://docs.VMware.com/" target="_blank" rel="noopener">https://docs.VMware.com/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">Tech Zone</td><td style="width: 33.3333%; height: 24px;">Go from zero to hero with the latest technical resources on the VMware Digital Workspace Tech Zone</td><td style="width: 33.3333%; height: 24px;"><a href="https://techzone.VMware.com/" target="_blank" rel="noopener">https://techzone.VMware.com/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">Technical Papers</td><td style="width: 33.3333%; height: 24px;">All published technical papers in PDF format</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.VMware.com/techpapers.html" target="_blank" rel="noopener">https://www.VMware.com/techpapers.html</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Blogs</td><td style="width: 33.3333%; height: 24px;">VMware blogs</td><td style="width: 33.3333%; height: 24px;"><a href="https://blogs.VMware.com/" target="_blank" rel="noopener">https://blogs.VMware.com/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">Community Forums</td><td style="width: 33.3333%; height: 24px;">Community Forums</td><td style="width: 33.3333%; height: 24px;"><a href="https://communities.VMware.com/" target="_blank" rel="noopener">https://communities.VMware.com/</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware ports</td><td style="width: 33.3333%; height: 24px;">Discover which ports are required by VMware products</td><td style="width: 33.3333%; height: 24px;"><a href="https://ports.esp.VMware.com/" target="_blank" rel="noopener">https://ports.esp.VMware.com/</a></td></tr><tr style="height: 48px;"><td style="width: 33.3333%; height: 48px;">VMware Developer</td><td style="width: 33.3333%; height: 48px;">Integrate with VMware APIs to build on top of VMware products, manage our portfolio and automate your infrastructure.</td><td style="width: 33.3333%; height: 48px;"><a href="https://developer.VMware.com/home" target="_blank" rel="noopener">https://developer.VMware.com/home</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware GitHub</td><td style="width: 33.3333%; height: 24px;">VMware GitHub page</td><td style="width: 33.3333%; height: 24px;"><a href="https://github.com/VMware/" target="_blank" rel="noopener">https://github.com/VMware/</a></td></tr></tbody></table>
+| **Name** | **Description** | **Link** |
+|---|---|---|
+| VMware Knowledge Base | Knowledge Base | <https://kb.vmware.com/> |
+| VMware Support Insider | The top support articles | <https://blogs.vmware.com/kb/> |
+| Product Documentation | VMware Product documentation | <https://docs.vmware.com/> |
+| Tech Zone | Go from zero to hero with the latest technical resources on the VMware Digital Workspace Tech Zone | <https://techzone.vmware.com/> |
+| Technical Papers | All published technical papers in PDF format | <https://www.vmware.com/techpapers.html> |
+| VMware Blogs | VMware blogs | <https://blogs.vmware.com/> |
+| Community Forums | Community Forums | <https://communities.vmware.com/> |
+| VMware ports | Discover which ports are required by VMware products | <https://ports.esp.vmware.com/> |
+| VMware Developer | Integrate with VMware APIs to build on top of VMware products, manage our portfolio and automate your infrastructure. | <https://developer.vmware.com/home> |
+| VMware GitHub | VMware GitHub page | <https://github.com/vmware/> |
 
 ## Compatibility checks
 
-<table style="border-collapse: collapse; width: 100%; height: 166px;"><tbody><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;"><strong>Name</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Description</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Link</strong></td></tr><tr style="height: 22px;"><td style="width: 33.3333%; height: 22px;">Compatibility Guides</td><td style="width: 33.3333%; height: 22px;">VMware Hardware Compatability Guides (HCL)</td><td style="width: 33.3333%; height: 22px;"><a href="https://www.VMware.com/resources/compatibility/search.php" target="_blank" rel="noopener">https://www.VMware.com/resources/compatibility/search.php</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">Interoperability matrix</td><td style="width: 33.3333%; height: 24px;">Product Interoperability matrix</td><td style="width: 33.3333%; height: 24px;"><a href="https://interopmatrix.VMware.com/Interoperability" target="_blank" rel="noopener">https://interopmatrix.VMware.com/Interoperability</a></td></tr></tbody></table>
+| **Name** | **Description** | **Link** |
+|---|---|---|
+| Compatibility Guides | VMware Hardware Compatability Guides (HCL) | <https://www.vmware.com/resources/compatibility/search.php> |
+| Interoperability matrix | Product Interoperability matrix | <https://interopmatrix.vmware.com/Interoperability> |
 
 ## Learning
 
-<table style="border-collapse: collapse; width: 100%; height: 166px;"><tbody><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;"><strong>Name</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Description</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Link</strong></td></tr><tr style="height: 22px;"><td style="width: 33.3333%; height: 22px;">VMware Learning</td><td style="width: 33.3333%; height: 22px;">VMware learning site</td><td style="width: 33.3333%; height: 22px;"><a href="https://www.VMware.com/learning.html" target="_blank" rel="noopener">https://www.VMware.com/learning.html</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Hands-on Learning & Trials</td><td style="width: 33.3333%; height: 24px;">VMware Hands-on Learning & Trials</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.VMware.com/trials-test-drives.html" target="_blank" rel="noopener">https://www.VMware.com/trials-test-drives.html</a></td></tr></tbody></table>
+| **Name** | **Description** | **Link** |
+|---|---|---|
+| VMware Learning | VMware learning site | <https://www.vmware.com/learning.html> |
+| VMware Hands-on Learning &amp; Trials | VMware Hands-on Learning &amp; Trials | <https://www.vmware.com/trials-test-drives.html> |
 
 ## Security
 
-<table style="border-collapse: collapse; width: 100%; height: 166px;"><tbody><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;"><strong>Name</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Description</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Link</strong></td></tr><tr style="height: 22px;"><td style="width: 33.3333%; height: 22px;">VMware Security Advisories</td><td style="width: 33.3333%; height: 22px;">VMware Security Advisories document remediation for security vulnerabilities that are reported in VMware products.</td><td style="width: 33.3333%; height: 22px;"><a href="https://www.VMware.com/security/advisories.html" target="_blank" rel="noopener">https://www.VMware.com/security/advisories.html</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;">VMware Security Hardening Guides</td><td style="width: 33.3333%; height: 24px;">Security Hardening Guides provide prescriptive guidance for customers on how to deploy and operate VMware products in a secure manner.</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.VMware.com/security/hardening-guides.html" target="_blank" rel="noopener">https://www.VMware.com/security/hardening-guides.html</a></td></tr><tr style="height: 24px;"><td style="width: 33.3333%; height: 24px;"></td><td style="width: 33.3333%; height: 24px;"></td><td style="width: 33.3333%; height: 24px;"></td></tr></tbody></table>
+| **Name** | **Description** | **Link** |
+|---|---|---|
+| VMware Security Advisories | VMware Security Advisories document remediation for security vulnerabilities that are reported in VMware products. | <https://www.vmware.com/security/advisories.html> |
+| VMware Security Hardening Guides | Security Hardening Guides provide prescriptive guidance for customers on how to deploy and operate VMware products in a secure manner. | <https://www.vmware.com/security/hardening-guides.html> |
+|  |  |  |
 
 If you have other VMware resources let me know!
-
-
-

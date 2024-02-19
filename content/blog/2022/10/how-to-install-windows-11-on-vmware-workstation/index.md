@@ -8,15 +8,17 @@ tags:
   - "VMware-workstation"
   - "windows-11"
 author: Ivo Beerens
+url: /2022/10/17/how-to-install-windows-11-on-vmware-workstation/
 ---
+
+For testing purposes, I frequently use VMware Workstation to install Operating Systems such as Windows 11. The biggest challenge with Windows 11 is that you need a TPM 2.0 device. When installing Windows 11, if your computer does not meet the hardware requirements, you will see a message stating, “**This PC can’t run Windows 11**“.
 
 [![](images/3-300x226.png)](images/3.png)
 
-Windows 11 requires the following hardware specifications:
-
+Windows 11 requires the following minimal hardware specifications:
 - CPU: 1 GHz or faster with 2 or more cores on the processor
 - RAM: 4 GB RAM
--  Storage: 64 GB or larger
+- Storage: 64 GB or larger
 - Firmware: UEFI, Secure boot
 - TPM: Trusted Platform Module (TPM) 2.0
 
@@ -80,8 +82,6 @@ Start VMware Workstation and create a new Virtual Machine with the following con
 
 The VM is encrypted and has a TPM device configured.
 
- 
-
 **Option 2:** The physical endpoint such as a laptop or PC has compatible hardware but no TPM 2.0 device.
 
 Since VMware Workstation 16.2 there is an experimental feature without the need fully encrypt the VM. Use it with care and read the blog from Wil van Antwerpen before using this feature!
@@ -103,9 +103,4 @@ Since VMware Workstation 16.2 there is an experimental feature without the need 
 
 In 2021 I already blogged about this hack. More information can be found here: [Install Windows 11 as VM on VMware vSphere / Workstation without TPM 2.0 - ivobeerens.nl](https://www.ivobeerens.nl/2021/10/06/install-windows-11-as-vm-in-VMware-vSphere-workstation-without-tpm-2-0/)
 
- 
-
 With these 3 options, you are able to install Windows 11 on VMware Workstation Pro/Player and Fusion in most situations.
-
-
-

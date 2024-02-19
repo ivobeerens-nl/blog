@@ -7,7 +7,12 @@ tags:
   - "news"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/06/16/the-latest-technology-news-week-24-2023/
 ---
+
+Here’s the latest weekly technology news from Microsoft, including updates on Azure, Windows 10 and 11, Microsoft Azure Virtual Desktop (AVD), Windows 365, VMware, and HashiCorp Terraform.
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 **Azure**
 
@@ -62,6 +67,3 @@ author: Ivo Beerens
 
 - **Fortinet fixes critical RCE flaw in Fortigate SSL-VPN devices, patch now**. [Link](https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/)
 - **Ivanti Workspace Control version 10.13.20.0 released**. This release contains only some bug fixes. [Link](https://help.ivanti.com/res/help/en_US/IWC/2023/ReleaseNotesRevision/Private_Revision.htm)
-
-
-

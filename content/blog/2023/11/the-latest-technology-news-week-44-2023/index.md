@@ -9,9 +9,14 @@ tags:
   - "VMware"
 coverImage: "Design-3-1-1.jpg"
 author: Ivo Beerens
+url: /2023/11/06/the-latest-technology-news-week-44-2023/
 ---
 
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+
 We understand that in today’s fast-paced tech landscape, staying informed is key. That’s why we’re here to make it easy for you. Each week, we’ll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
+
+![newsletter](images/Design-3-1-1.jpg)
 
 Without further ado, let’s dive into this week’s top tech insights:
 
@@ -87,6 +92,3 @@ Without further ado, let’s dive into this week’s top tech insights:
 - NVIDIA vGPU Release 16.2. [Learn more](https://docs.nvidia.com/grid/16.0/whats-new-vgpu/index.html)
 - Ivanti Workspace Control 2023.4 release notes. [Learn more](https://help.ivanti.com/res/help/en_US/IWC/2023/ReleaseNotesRevision/Major_Release.htm)
 - Bvckup2 1.82.15.0 released. [Learn more](https://t.co/UPKqPIfa6I)
-
-
-

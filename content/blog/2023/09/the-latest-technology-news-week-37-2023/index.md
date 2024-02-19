@@ -9,7 +9,12 @@ tags:
   - "VMware"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/09/18/the-latest-technology-news-week-37-2023/
 ---
+
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 We understand that in today’s fast-paced tech landscape, staying informed is key. That’s why we’re here to make it easy for you. Each week, we’ll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
 
@@ -77,6 +82,3 @@ Without further ado, let’s dive into this week’s top tech insights:
 - End of servicing plan for third-party printer drivers on Windows. [Link](https://learn.microsoft.com/en-us/windows-hardware/drivers/print/end-of-servicing-plan-for-third-party-printer-drivers-on-windows)
 - Release notes: September 2023 - Windows 11, version 22H2. [Link](https://youtu.be/Aa6FViB5bPM?si=6MOo3QtuoulC4PUl)
 - Windows 11 KB5030219 trashes PCs, gaming performance issues affect Starfield. [Link](https://www.windowslatest.com/2023/09/17/windows-11-kb5030219-trashes-pcs-gaming-performance-issues-affect-starfield/)
-
-
-

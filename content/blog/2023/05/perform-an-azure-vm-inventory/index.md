@@ -7,9 +7,12 @@ tags:
   - "azure"
   - "microsoft"
 author: Ivo Beerens
+url: /2023/05/16/perform-an-azure-vm-inventory/
 ---
 
-![](images/1-1024x143.jpg)
+To generate quickly an overview of all the Virtual Machines (VMs) in an Azure subscription I made a PowerShell script that uses the Azure Az PowerShell module. This script will do an inventory of all VMs in a subscription.
+
+![scriptoutput](images/1-1024x143.jpg)
 
 The following VM information is displayed per subscription:
 
@@ -46,6 +49,3 @@ The following VM information is displayed per subscription:
 - `The time the VM was created`
 
 The output will be displayed in the PowerShell console, to a PowerShell GridView output, and saved to a delimited CSV file. The "**azurevm-inventory.ps1**" script can be found on my GitHub repo, [link](https://github.com/ibeerens/Azure).
-
-
-

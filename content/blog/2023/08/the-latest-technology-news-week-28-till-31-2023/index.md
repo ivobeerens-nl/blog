@@ -8,7 +8,12 @@ tags:
   - "news"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/08/07/the-latest-technology-news-week-28-till-31-2023/
 ---
+
+After a great holiday an overview of the latest weekly technology news from Microsoft, VMware, and other partners with a focus on End User Computing (EUC).
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 **Microsoft Azure**
 
@@ -68,6 +73,3 @@ author: Ivo Beerens
 - **Microsoft Edge for Business FAQ**. [Link](https://techcommunity.microsoft.com/t5/microsoft-edge-insider/microsoft-edge-for-business-faq/ba-p/3891837)
 - **Creating cool, glowing architecture diagrams?** [Link](https://www.youtube.com/watch?v=QR-64mFqhf4)
 - **Dynamically install Chocolatey packages with AASC and Azure Artifacts**. [Link](https://medium.com/@gijsreijn/dynamically-install-chocolatey-packages-with-aasc-and-azure-artifacts-aab8409da715)
-
-
-

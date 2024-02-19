@@ -9,7 +9,12 @@ tags:
   - "VMware"
 coverImage: "Design-3-1-1.jpg"
 author: Ivo Beerens
+url: /2023/10/25/the-latest-technology-news-week-41-42-2023/
 ---
+
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+
+![newsletter](images/Design-3-1-1.jpg)
 
 We understand that in today’s fast-paced tech landscape, staying informed is key. That’s why we’re here to make it easy for you. Each week, we’ll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
 
@@ -98,6 +103,3 @@ Without further ado, let’s dive into this week’s top tech insights:
 **Windows**
 
 - Security review for Microsoft Edge version 118. [Learn more](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-review-for-microsoft-edge-version-118/ba-p/3955123#M710)
-
-
-

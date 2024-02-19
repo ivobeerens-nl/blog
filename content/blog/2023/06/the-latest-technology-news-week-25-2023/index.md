@@ -7,7 +7,12 @@ tags:
   - "news"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/06/25/the-latest-technology-news-week-25-2023/
 ---
+
+Here’s the latest weekly technology news from Microsoft, including updates on Microsoft Azure, Microsoft Azure Virtual Desktop (AVD), Windows 365, VMware, and HashiCorp Terraform.
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 **Microsoft Azure**
 
@@ -63,6 +68,3 @@ author: Ivo Beerens
 - **Deployment patterns explained**. [Link](https://newsletter.techworld-with-milan.com/p/what-are-deployment-patterns)
 - **PSConfEU 2023 files & sessions**. [Link](https://github.com/Psconfeu/2023)
 - **The Importance of Updating Installed PowerShell Modules – And automate it too with my script**. [Link](https://blog.sonnes.cloud/the-importance-of-updating-installed-PowerShell-modules-and-automate-it-too/)
-
-
-

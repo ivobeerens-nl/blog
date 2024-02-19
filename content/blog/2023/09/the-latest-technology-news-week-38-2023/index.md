@@ -9,7 +9,12 @@ tags:
   - "VMware"
 coverImage: "weeklytechnews-1.jpg"
 author: Ivo Beerens
+url: /2023/09/25/the-latest-technology-news-week-38-2023/
 ---
+
+Welcome to our weekly roundup of the hottest tech updates in the worlds of Azure, VMware, and other partners. In this series, we’ll be curating a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+
+![newsletter](images/weeklytechnews-1.jpg)
 
 We understand that in today’s fast-paced tech landscape, staying informed is key. That’s why we’re here to make it easy for you. Each week, we’ll handpick the most insightful and informative articles that cover everything from Cloud, virtualization, Infrastructure As Code (IaC), DevOps to End User Computing breakthroughs.
 
@@ -93,6 +98,3 @@ Without further ado, let’s dive into this week’s top tech insights:
 **Other**
 
 - Unleash the Power of Liquidware FlexApp One: Trial it QUICK! Over a Cup of Coffee! [Link](https://blog.liquidware.com/2023/09/22/unleash-the-power-of-liquidware-flexapp-one-trial-it-quick-over-a-cup-of-coffee/)
-
-
-
