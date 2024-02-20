@@ -14,7 +14,7 @@ page_not_found_image = "images/404.png" # 404 error page image
 logo_webp = true
 
 # logo text will only show when logo is missing.
-logo_text = "IvoBeerens.NL"
+# logo_text = "IvoBeerens.NL"
 
 # purgeCSS
 purge_css = true
