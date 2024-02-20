@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 # baseURL = "https://demo.gethugothemes.com/logbook/site/"
 baseName = "https://ivobeerens.netlify.app/"
-title = "IvoBeerens.NL"
+# title = "IvoBeerens.NL"
 theme = "logbook-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Europe/Amsterdam"
