@@ -9,8 +9,10 @@ tags:
   - "vcsa"
   - "VMware"
 author: Ivo Beerens
+url: /2015/02/02/whats-new-vsphere-6-vcenter-server-appliance-vcsa/
 ---
 
+What’s new in the vCenter Server Appliance (vCSA) 6.0:
 - ISO with an easy guided Installer
 - Different deployment options possible during the guided installer such as:
     - Install vCenter Server
@@ -37,9 +39,4 @@ What are we missing:
 - VMware Update Manager is not included in the appliance. Still need an additional Windows Server for VMware Update Manager (VUM)
 - Clustering of the vCenter Server Appliance
 
- 
-
-[![2015-02-02_11h45_45](images/2015-02-02_11h45_45-300x142.png)](images/2015-02-02_11h45_45.png) [![2015-02-02_11h46_18](images/2015-02-02_11h46_18-300x192.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/2015-02-02_11h46_18.png) [![database](images/database-300x193.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/database.png) [![IP](images/IP-300x193.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/IP.png) [![psc](images/psc-300x193.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/psc.png) [![single](images/single-300x193.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/single.png) [![size](images/size-300x192.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/size.png) [![vcsa console](images/vcsa-console-300x228.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/02/vcsa-console.png)
-
-
-
+[![2015-02-02_11h45_45](images/2015-02-02_11h45_45-300x142.png)](images/2015-02-02_11h45_45.png) [![2015-02-02_11h46_18](images/2015-02-02_11h46_18-300x192.png)](images/2015-02-02_11h46_18.png) [![database](images/database-300x193.png)](images/database.png) [![IP](images/IP-300x193.png)](images/IP.png) [![psc](images/psc-300x193.png)](images/psc.png) [![single](images/single-300x193.png)](images/single.png) [![size](images/size-300x192.png)](images/size.png) [![vcsa console](images/vcsa-console-300x228.png)](images/vcsa-console.png)

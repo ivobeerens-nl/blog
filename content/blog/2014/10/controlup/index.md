@@ -10,7 +10,10 @@ tags:
   - "VMware"
   - "VMware-horizon-view"
 author: Ivo Beerens
+url: /2014/10/09/controlup/
 ---
+
+A couple of weeks ago ControlUp released version 4.0 with support for VMware Horizon View. In this blog post I share my experience with ControlUp 4.0 monitoring VMware vSphere and VMware Horizon View.
 
 **What is ControlUp**
 
@@ -72,7 +75,7 @@ In the following example we have 4 Windows 7 VDI desktops. As you can see the s
 
 In a Windows 7 VDI desktop we installed to 3e party tool "heavyload" to generate CPU load on the VDI desktop. When starting "Heavyload" the CPU spiked to 100%.
 
-<table style="height: 113px;" width="1020"><tbody><tr><td>&nbsp;<a href="images/view-sesion-2.png"><img class="wp-image-3064 size-medium aligncenter" src="images/view-sesion-2-300x122.png" alt="view sesion 2" width="300" height="122"></a></td><td>&nbsp;<a href="https://www.ivobeerens.nl/wp-content/uploads/2014/09/view-session-3.png"><img class="size-medium wp-image-3066 aligncenter" src="images/view-session-3-300x115.png" alt="view session 3" width="300" height="115"></a></td></tr></tbody></table>
+<table style="height: 113px;" width="1020"><tbody><tr><td>&nbsp;<a href="images/view-sesion-2.png"><img class="wp-image-3064 size-medium aligncenter" src="images/view-sesion-2-300x122.png" alt="view sesion 2" width="300" height="122"></a></td><td>&nbsp;<a href="images/view-session-3.png"><img class="size-medium wp-image-3066 aligncenter" src="images/view-session-3-300x115.png" alt="view session 3" width="300" height="115"></a></td></tr></tbody></table>
 
 In the ControlUp console we looking in the Computer tab and see the Stress level after a couple of seconds changing to "High" and the CPU graph is raising to 100%.
 
@@ -129,6 +132,3 @@ ControlUp has a lot more features then showed in this blog post. Other features
 - Multiple computers management on the file system, registry and services.
 
 All these features makes ControlUp a powerful tool for the VMware Horizon View Administrator.
-
-
-

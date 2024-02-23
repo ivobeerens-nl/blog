@@ -10,7 +10,10 @@ tags:
   - "maintenance"
   - "VMware-horizon-view"
 author: Ivo Beerens
+url: /2013/08/19/perform-esxi-host-maintenance-on-a-vmware-horizon-view-floating-desktop-pool/
 ---
+
+When you need to perform maintenance (planned downtime) on an ESXi host which is part of a floating pool the following steps can be be taken:
 
 These steps are only required when using local storage for the linked clones!
 
@@ -21,13 +24,4 @@ These steps are only required when using local storage for the linked clones!
 5. When there are no more floating desktops on  the ESXi host place, it in maintenance mode
 6. Perform maintenance of the ESXi host.
 
- 
-
-**![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCbKVj0PVDXm9YtOoH1ulL0tyhAowAfum64F55WOmKzm5gCrHg)**
-
- 
-
 A good practice is to perform steps 1 till 4 a day before the actually maintenance of the ESXi host, so all the VDI desktops are removed. After the maintenance is done perform steps 1 to 6  by using the originally settings.
-
-
-

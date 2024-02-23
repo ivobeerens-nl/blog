@@ -7,7 +7,10 @@ tags:
   - "VMware"
   - "vSphere6"
 author: Ivo Beerens
+url: /2015/02/02/whats-new-vsphere-6/
 ---
+
+Here is an overview of the main new VMware vSphere 6 (over 650 new features and innovations) improvements announced today:
 
 **Scalability**
 
@@ -86,6 +89,3 @@ author: Ivo Beerens
     - Maximum video memory up to 2 GB (512 MB in Hardware Version  10)
     - PCI passtrough 16 devices (6 in Hardware Version  10)
     - 32 serial ports (4 in in Hardware Version  10)
-
-
-

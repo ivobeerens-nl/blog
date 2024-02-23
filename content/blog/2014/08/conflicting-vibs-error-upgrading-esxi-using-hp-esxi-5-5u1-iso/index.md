@@ -2,9 +2,12 @@
 title: "Conflicting VIBS error when upgrading ESXi using the HP ESXi 5.5u1 ISO"
 date: "2014-08-12T19:30:23.000Z"
 author: Ivo Beerens
+url: /2014/08/12/conflicting-vibs-error-upgrading-esxi-using-hp-esxi-5-5u1-iso/
 ---
 
-> <CONFLICTING\_VIBS ERROR:Vibs on the host are conflicting with vibs in metadata.Remove the conflicting VIBs or use Image Builder to create a custom ISO providing newer versions of the conflicting vibs. \['Broadcom\_bootbank\_net-bnx2 – 2.2.5d.v55.2-1OEM.550.0.0.1331820,'Broadcom\_bootbank\_net-bnx2x\_bnx2 – 2.2.5d.v55.2-1OEM.550.0.0.1331820\]>
+When upgrading from VMware vSphere 5.1 Update 2 to vSphere 5.5 Update 1 using the HP 5.5u1 ISO (VMware-ESXi-5.5.0-Update1-1746018-HP-5.74.27-Jun2014) the following error occurred:
+
+> <CONFLICTING_VIBS ERROR:Vibs on the host are conflicting with vibs in metadata.Remove the conflicting VIBs or use Image Builder to create a custom ISO providing newer versions of the conflicting vibs. [‘Broadcom_bootbank_net-bnx2 – 2.2.5d.v55.2-1OEM.550.0.0.1331820,’Broadcom_bootbank_net-bnx2x_bnx2 – 2.2.5d.v55.2-1OEM.550.0.0.1331820]>
 
 [![2014-08-12_08h51_43](images/2014-08-12_08h51_43.png)](images/2014-08-12_08h51_43.png)
 
@@ -16,6 +19,3 @@ To work around this issue use the **VMware-ESXi-5.5.0-Update1-1623387-HP-5.73.2
 
 - VMware Community thread, [link](https://communities.VMware.com/thread/482105?start=0&tstart=0)
 - VMware KB article, [link](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2082027)
-
-
-

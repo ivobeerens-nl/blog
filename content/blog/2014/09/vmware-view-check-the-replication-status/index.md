@@ -9,13 +9,17 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2014/09/17/vmware-view-check-the-replication-status/
 ---
 
+In environments with multiple Horizon View Connection Servers (High Available) the Lightweight Directory Access Protocol (LDAP) directory is replicated. Configuration, Pool and desktop information is stored in the ADAM database. Problems with replication can result in:
 - Configuration changes made are not replicated
 - Authentication problems
 
-The VMware View Administrator dashboard does not check the replication status.  So regular checking the replication status is a good thing. Checking the replication status can be done by using the following command: **_repadmin.exe /showrepl localhost:389 DC=vdi,DC=VMware,DC=int_**
-
+The VMware View Administrator dashboard does not check the replication status.  So regular checking the replication status is a good thing. Checking the replication status can be done by using the following command: 
+```
+repadmin.exe /showrepl localhost:389 DC=vdi,DC=VMware,DC=int
+```
 When the replication is okay, it looks like something below:
 
 [![image](images/image11_thumb.png "image")](images/image11.png)
@@ -28,8 +32,6 @@ When having replication problems, changes are not replicated. Here is an example
 
 <table style="height: 67px;" width="623"><tbody><tr><td><a href="images/4.png"><img class="aligncenter size-medium wp-image-3010" src="images/4-300x62.png" alt="4" width="300" height="62"></a></td><td><a href="https://www.ivobeerens.nl/wp-content/uploads/2014/06/5.png"><img class="aligncenter size-medium wp-image-3011" src="images/5-300x58.png" alt="5" width="300" height="58"></a></td></tr></tbody></table>
 
- 
-
 **Here are some tips for troubleshooting replication problems:**
 
 - Check if port 389 is open on the View Connection Servers
@@ -37,14 +39,12 @@ When having replication problems, changes are not replicated. Here is an example
 
 ![image](images/image1_thumb.png "image")
 
-- Force replication by using the following command: **_repadmin.exe /replicate fqdn-localhost:389 fqdn-remotehost:389 dc=vdi,dc=VMware,dc=int_**
-- _Change the fqdn-locahost and fqdn-remote host to the View Connection Server names in your environment_
+- Force replication by using the following command: `repadmin.exe /replicate fqdn-localhost:389 fqdn-remotehost:389 dc=vdi,dc=VMware,dc=int`
+- Change the fqdn-locahost and fqdn-remote host to the View Connection Server names in your environment
 
 [![image](images/image_thumb5.png "image")](images/image6.png)
 
-- Ensure that replication has not been disabled by using the following command: **_repadmin /options localhost:389 -DISABLE\_OUTBOUND\_REPL -DISABLE\_INBOUND\_REPL_**
+- Ensure that replication has not been disabled by using the following command:
+`repadmin /options localhost:389 -DISABLE_OUTBOUND_REPL -DISABLE_INBOUND_REPL`
 
 With the checks listed above the replication can be checked and in most cases repaired if it is broken.
-
-
-

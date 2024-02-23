@@ -10,7 +10,10 @@ tags:
   - "vcloud-automation-center"
   - "VMware"
 author: Ivo Beerens
+url: /2014/04/23/update-the-vcenter-inventory-in-vcac-manually/
 ---
+
+When creating a new template in vCenter and want to use the new created template in a blueprint, the blueprint will not list the template because the vCenter inventory isn’t updated in vCAC. By default vCAC will update the vCenter inventory once a day. To manually update the vCenter inventory in vCAC 6.x use the following steps:
 
 - Login the vCloud Automation Center console
 - Select the Infrastructure tab
@@ -26,6 +29,3 @@ author: Ivo Beerens
 [![image](images/image_thumb8.png "image")](images/image8.png)
 
 - Creating a new blueprint will list the new created template in vCenter
-
-
-

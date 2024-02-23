@@ -10,7 +10,10 @@ tags:
   - "troubleshooting"
   - "VMware-view"
 author: Ivo Beerens
+url: /2013/07/26/troubleshoot-vmware-view-security-server-pcoip-port-problems/
 ---
+
+Recently I had to troubleshoot a VMware View Client connection problem. In a new VMware View environment the customer has installed a VMware Horizon View Security Server for the external connections. When a external View Client tried to connect through the Security Server using the PCoIP protocol to the View desktop the following appeared:
 
 > The connection to the remote computer ended
 
@@ -24,11 +27,11 @@ Here is an example how to use Netcat:
 
 **On the View desktop  run Netcat  to listen to UDP port 4172**:
 
-nc –l –u –p 4172
+`nc –l –u –p 4172`
 
 **On the security server run Netcat to connect to the View Desktop on UDP port 4172**:
 
-nc –u ipaddress 4172
+`nc –u <IPaddress> 4172`
 
 You can type some text and press enter. The text typed in the screen must be displayed on both sides, If not the port is blocked.
 
@@ -36,7 +39,4 @@ You can type some text and press enter. The text typed in the screen must be dis
 
 So I discovered that the 4172 UDP protocol from the View desktop pool to the Security server was blocked by a firewall. After opening this port in the firewalls the problem was solved.
 
-More information:  Netcat for Windows can be downloaded [here](http://joncraton.org/blog/netcat-for-windows).
-
-
-
+More information: Netcat for Windows can be downloaded [here](http://joncraton.org/blog/netcat-for-windows).

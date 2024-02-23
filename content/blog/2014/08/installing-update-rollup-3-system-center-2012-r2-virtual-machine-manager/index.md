@@ -10,8 +10,10 @@ tags:
   - "system-center"
   - "update-2"
 author: Ivo Beerens
+url: /2014/08/01/installing-update-rollup-3-system-center-2012-r2-virtual-machine-manager/
 ---
 
+Update rollup (UR) 3 for System Center 2012 R2 Virtual Machine Manager is released this week. This update includes a Linux guest agent upgrade to support the following new operating systems:
 - Ubuntu Linux 14.04 (32-bit)
 - Ubuntu Linux 14.04 (64-bit)
 
@@ -33,11 +35,8 @@ The update of the VMM agents doesn’t require a reboot. The Update Rollup 3 ag
 
 Update Rollup 3 includes an VMM DHCP server extension update for the Hyper-V host.  When using Hyper-V Network Virtualization networks with dynamic IP address allocation, the VM may not get an IP address for a few minutes after the reboot. The new DHCP extension fix this problem. To check the DHCP Extension driver version use the following PowerShell command on the Hyper-V host:
 
-_Get-WmiObject -Class win32\_product -Filter 'Name = "Microsoft System Center Virtual Machine Manager DHCP Server(x64)"'_
-
-The new Microsoft System Center Virtual Machine Manager DHCP Server (x64) version is 3.2.7672.0. More information about the installation can be found [here](http://blogs.technet.com/b/scvmm/archive/2014/07/31/support-tip-vms-deployed-to-hyper-v-networks-experience-delays-acquiring-an-ip-address-after-reboot.aspx).
+```
+Get-WmiObject -Class win32_product -Filter ‘Name = “Microsoft System Center Virtual Machine Manager DHCP Server(x64)”
+```
 
 For more tips see my earlier blog post “Tips for deploying SCVMM 2012 R2 Rollup 2”, [Link](https://www.ivobeerens.nl/2014/04/30/tips-for-deploying-scvmm-2012-r2-rollup-pack-2/).
-
-
-

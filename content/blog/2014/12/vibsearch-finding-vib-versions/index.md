@@ -13,7 +13,10 @@ tags:
   - "vib"
   - "VMware"
 author: Ivo Beerens
+url: /2014/12/17/vibsearch-finding-vib-versions/
 ---
+
+VIBSearch is a simple PowerShell script with a GUI that will search for a specified VIB or all the VIBS installed on the ESXi hosts. A VIB stands for vSphere Installation Bundle (VIB). VIBs are used to package and distribute ESXi software such as drivers. The GUI is designed with SAPIEN PowerShell Studio 2014.
 
 With VIBSearch it is easily to verify that all the ESXi host in the cluster have the same VIB versions installed. VIBSearch can be used for example to easily identify the HP-AMS driver version on all the ESXi hosts.
 
@@ -31,8 +34,8 @@ VIBSearch is tested with:
 
 - Download VIBSearch.txt, [link](https://www.dropbox.com/s/fevtlnlm3xdt0du/VIBSearch.ps1?dl=0)
 - Open PowerShell and execute:
-    - Set-ExecutionPolicy  unrestricted
-    - ./vibsearch.ps1
+    - `Set-ExecutionPolicy  unrestricted`
+    - `./vibsearch.ps1`
 
 After executing the script the following GUI appears:
 
@@ -71,6 +74,3 @@ NVIDIA VIB versions:
 [![nvidia](images/nvidia.png)](images/nvidia.png)
 
 Thanks to Francois-Xavier Cat (@LazyWinAdm) for helping me with the VIBSearch tool.
-
-
-

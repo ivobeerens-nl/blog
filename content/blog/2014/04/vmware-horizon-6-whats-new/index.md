@@ -10,8 +10,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2014/04/09/vmware-horizon-6-whats-new/
 ---
 
+VMware Horizon 6 has been today announced. VMware Horizon 6 has five major enhancements:
 - Cloud Pod Architecture.
 - Remote Desktop Session Host (RDS) Hosted Apps
 - Virtual SAN
@@ -107,12 +109,3 @@ Horizon 6 has three new editions available:
 More information can be found on the pricing page, [link](http://www.VMware.com/nl/products/horizon-view/pricing.html) .
 
 The Horizon 6 enhancements are a big step for the End-User Computing (EUC) market!
-
-More information:
-
-- VMware Horizon 6 Technical Overview link
-- Horizon View 6.0 Integration with VMware Virtual SAN link
-- VMware Horizon FAQ [link](https://www.VMware.com/files/pdf/products/horizon/VMware-Horizon-FAQ.pdf)
-
-
-

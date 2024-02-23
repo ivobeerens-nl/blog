@@ -10,8 +10,10 @@ tags:
   - "vcsa"
   - "VMware"
 author: Ivo Beerens
+url: /2013/10/09/vmware-vcenter-server-appliance-vcsa-5-5-deployment-tips-and-tricks/
 ---
 
+Here are some deployment tips and tricks for the VMware vCenter Server Appliance (VCSA):
 - The VMware vCenter Server Appliance is a preconfigured Linux-based virtual machine. The VMware vCenter Server Appliance (VCSA) is available as OVF/ OVA
 - It based on Suse Linux Enterprise 11 64-bit
 - Linked Mode, Microsoft SQL or DB2 is not supported
@@ -39,6 +41,3 @@ author: Ivo Beerens
 - Microsoft Sysprep files can be uploaded in the VAMI summary page. They are stored in: **/etc/VMware-vpx/sysprep/OS directory.**
 - You can add additional software such as SNMP to monitor the VCSA. Adding software can be done with the “Yet another Setup Tool” (YAST).
 - To monitor vCenter Server Appliance database disk usage you can use this script [Link](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2058187).
-
-
-

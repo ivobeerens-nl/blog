@@ -9,7 +9,10 @@ tags:
   - "powercli"
   - "VMware-horizon-view"
 author: Ivo Beerens
+url: /2013/07/23/display-the-maximum-concurrent-connected-users-in-vmware-horizon-view-with-powercli/
 ---
+
+VMware Horizon View generates everyday at 5 minutes for midnight an event how many concurrent users connected to View that day. This information can be useful for example when when investing trends.
 
 When the Event database in the VMware Horizon View Administrator is configured, this information can be found using the VMware Horizon View Administrator, Monitoring, select Events and filter for “over the past”
 
@@ -17,17 +20,14 @@ When the Event database in the VMware Horizon View Administrator is configured, 
 
 With PowerCLI the daily maximum concurrent connected users can be displayed by using  the following command from the VMware View Connection server using View PowerCLI:
 
-Get-EventReport -viewName user\_count\_events
+`Get-EventReport -viewName user_count_events`
 
 [![image](images/image_thumb7.png "image")](images/image7.png)
 
 The following command displays the concurrent users from the last 5 days:
 
-Get-EventReport -viewName user\_count\_events -startDate ((Get-Date).AddDays(-5)) | sort time | Select Time,Usercount
+`Get-EventReport -viewName user_count_events -startDate ((Get-Date).AddDays(-5)) | sort time | Select Time,Usercount`
 
 [![image](images/image_thumb8.png "image")](images/image8.png)
 
 You can customize the command further for your needs.
-
-
-

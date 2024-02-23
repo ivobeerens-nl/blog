@@ -8,8 +8,10 @@ tags:
   - "cloud"
   - "vmworld"
 author: Ivo Beerens
+url: /2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/
 ---
 
+To deliver IT as a Service, VMware has for the coming year(s) the following focus areas:
 - **Software-Defined Data Center (SDDC**). See the VMworld 2013 SDDC recap here [Link](https://www.ivobeerens.nl/2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/)
 - **End User Computing (EUC).** See the VMworld 2013 EUC recap here [Link](https://www.ivobeerens.nl/2013/10/23/vmworld-europe-2013-end-user-computing-euc-recap/)
 - **vCloud Hybrid Services (vCHS)**
@@ -53,8 +55,3 @@ VMware will offer a private beta of vCloud Hybrid Service in the United KingdomÂ
 ## VMware vCloud Management Marketplace (CMM)
 
 VMware vCloud Management Marketplace (CMM) is a single place were VMware and partners can put there solutions such as Orchestration Plug-ins, Management Packs, Blueprints and Content Packs . Customers can browse and download these tested and validated solutions in there environment.
-
-The Marketplace can be found here link.
-
-
-

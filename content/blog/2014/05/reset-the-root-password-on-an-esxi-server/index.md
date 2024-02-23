@@ -10,9 +10,12 @@ tags:
   - "reset"
   - "VMware"
 author: Ivo Beerens
+url: /2014/05/21/reset-the-root-password-on-an-esxi-server/
 ---
 
-> Reinstalling the ESXi host is the only supported way to reset a password on ESXi.  Any other method may lead to a host failure or an unsupported configuration due to the complex nature of the ESXi architecture. ESXi does not have a service console and as such traditional Linux methods of resetting a password, such as single-user mode do not apply. [Link](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1317898)
+Some time ago I needed to make a SSH connection to a new installed ESXi server. The default root password the customer was using was not working. The admin who installed the ESXi server didn’t known the password anymore. So i needed to reset the password. The VMware Knowledge Base states the following on resetting the root password on ESXi:
+
+> Reinstalling the ESXi host is the only supported way to reset a password on ESXi.  Any other method may lead to a host failure or an unsupported configuration due to the complex nature of the ESXi architecture. ESXi does not have a service console and as such traditional Linux methods of resetting a password, such as single-user mode do not apply. [Link](https://kb.vmware.com/s/article/1317898)
 
 I didn’t have the time to reinstall the ESXi server.I remember that Host Profiles has an option to reset the root password. Host Profiles is a feature of the Enterprise plus license. The customer license was Enterprise and not Enterprise Plus. So I requested a 60 day trail license of VMware vSphere. The trail include a Enterprise Plus license.
 
@@ -47,6 +50,3 @@ Here is an overview of the steps to reset the root password:
 - Change the license from Enterprise Plus to the original license
 - Remove the Enterprise Plus license
 - Exit maintenance mode
-
-
-

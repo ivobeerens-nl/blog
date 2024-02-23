@@ -6,7 +6,10 @@ categories:
 tags: 
   - "hyper-v-2"
 author: Ivo Beerens
+url: /2014/01/13/check-for-duplicate-mac-address-pools-in-your-hyper-v-environment/
 ---
+
+When enabling the Hyper-V role on a Windows 2012 (R2) server, it creates a dynamic MAC address pool of 256 MAC addresses available for VMs. The MAC Address Pool configuration can be found in the Virtual Switch Manager under the Global Network Settings.
 
 [![image[16]](images/image16_thumb.png "image[16]")](images/image16.png)
 
@@ -24,18 +27,21 @@ To check the MAC address pool of all the Hyper-V servers, I create a PowerShell 
 
 Script:
 
-$Session = New-PSSession -ComputerName 'server1, 'server2' –Credential domain\\accountname 
+```
+$Session = New-PSSession -ComputerName 'server1, 'server2' –Credential domain\accountname 
 invoke-command –Session $session -scriptblock {Get-VMHost | select ComputerName, MacAddressMinimum, MacAddressMaximum} | ft
+```
 
 [![image](images/image_thumb.png "image")](images/image.png)
 
 Change the MAC address pool use the following command:
 
-Set-VMHost –MacAddressMinimum –MacAddressMaximum 
+```
+Set-VMHost –MacAddressMinimum –MacAddressMaximum
+```
 
 Example:
 
+``` 
 Set-VMHost -MacAddressMinimum 00155D020600 -MacAddressMaximum 00155D0206FF
-
-
-
+```

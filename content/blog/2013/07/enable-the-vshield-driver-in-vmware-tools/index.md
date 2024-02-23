@@ -8,7 +8,10 @@ tags:
   - "esxi-2"
   - "vshield"
 author: Ivo Beerens
+url: /2013/07/11/enable-the-vshield-driver-in-vmware-tools/
 ---
+
+One of the steps of a vShield Endpoint based deployment is to enable the vShield driver in VMware tools. The vShield driver is not enabled by default. This can be done manually or automatically for example in the golden image of a VDI desktop.
 
 Here are the manually steps when the VMware tools already are installed:
 
@@ -40,7 +43,7 @@ If you are installing VMware Tools in a number of Windows virtual machines, you 
 
 - Mount/Extract the VMware Tools ISO
 
-setup.exe /S /v /qn REBOOT=R ADDLOCAL=VMCI REMOVE=Hgfs
+`setup.exe /S /v /qn REBOOT=R ADDLOCAL=VMCI REMOVE=Hgfs`
 
 or choose Automatic Tools Upgrade 
 
@@ -48,7 +51,4 @@ or choose Automatic Tools Upgrade 
 
 In the advanced Options field enter:
 
-/v /qn ADDLOCAL=VMCI,VShield REMOVE=Hgfs
-
-
-
+`/v /qn ADDLOCAL=VMCI,VShield REMOVE=Hgfs`

@@ -11,7 +11,10 @@ tags:
   - "veeam"
   - "VMware"
 author: Ivo Beerens
+url: /2014/07/14/veeam-v8-coming/
 ---
+
+The new version of Veeam is called “Veeam Availability Suite v8”.
 
 [![Veeam](images/2014-07-14_13h47_38.png)](images/2014-07-14_13h47_38.png)
 
@@ -68,7 +71,4 @@ Provides monitoring and alerting tools so that you can discover and be alerted t
 - vCloud Director integration
 - Centralized management
 
-The Veeam Availability Suite v8 is scheduled for Q3 2014.  More information can be found here, [link](http://go.veeam.com/availability-suite-v8).
-
-
-
+The Veeam Availability Suite v8 is scheduled for Q3 2014.

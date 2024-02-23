@@ -7,7 +7,10 @@ tags:
   - "horizon-view"
   - "powercli"
 author: Ivo Beerens
+url: /2015/03/18/what-vmware-horizon-view-powercli-features-you-like-to-see/
 ---
+
+PowerCLI 6.0 R1 is released with some cool new features. One thing I missed in this announcement is improvements in the PowerCLI support for VMware Horizon View. The latest release of VMware Horizon View 6.1 still has NO PowerCLI improvements! This is a huge bummer because PowerCLI is very limited in VMware Horizon View.
 
 On the VMware PowerCLI Blog the following statement is written ([link](http://blogs.VMware.com/PowerCLI/2015/03/powercli-6-0-r1-now-generally-available.html)):
 
@@ -31,6 +34,3 @@ I have the following feature requests:
 Please let me know what features request you have by placing a comment in this blog post, even if it is already mention. All the feature requests will be bundled and forwarded to the PowerCLI team. I hope to see some of the feature requests in the next release of PowerCLI for VMware Horizon View.
 
 Looking forward for your feature requests!
-
-
-

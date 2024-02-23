@@ -8,8 +8,10 @@ tags:
   - "cisco"
   - "ucs"
 author: Ivo Beerens
+url: /2015/04/10/first-impressions-of-cisco-ucs-central-1-3/
 ---
 
+Cisco released version 1.3(1a) of UCS Central. Cisco UCS Central integrates management of one or more UCS domains in a single management solution. This release has the following new enhancements:
 - HTML5 UI: New task based HTML5 user interface.
 - KVM Hypervisor Support: Ability to install Cisco UCS Central in KVM Hypervisor
 - Scheduled backup: Ability to schedule domain backup time. Provides you flexibility to schedule different backup times for different domain groups.
@@ -46,8 +48,3 @@ The new HTML 5 interface can be accessed by using the following URL:
 Below are some screenshots of the new HTML-5 UI:
 
 [![5](images/5-300x130.png)](images/5.png) [![6](images/6-300x150.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/04/6.png) [![7](images/7-300x150.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/04/7.png) [![8](images/8-300x150.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/04/8.png)
-
-More information can be found in the following blog post from: UCS Central User Interface Reworked with UCS Central 1.3 release, link.
-
-
-

@@ -28,7 +28,7 @@ With Update Rollup 6 it is possible to add one or more Azure subscriptions to SC
 
 2\. Create a self-signed Azure management certificate. The self-signed must have a key length of at least 2048 bits and should reside in the Personal certificate store. To create a self-signed management certificate, the makercert tool is used. Makecert is part of  Windows SDK. The SDK can be downloaded here, [link](http://www.microsoft.com/en-us/download/details.aspx?id=8279).
 
-Install the SDK and choose as feature to install “Windows Software Deployment”. After the installation copy the makecert tool to the SCVMM server.
+Install the SDK and choose as feature to install “Windows Software Deployment”. After the installation copy the `makecert` tool to the SCVMM server.
 
 3\. Create the self-signed certificate with makecert with the following command:
 

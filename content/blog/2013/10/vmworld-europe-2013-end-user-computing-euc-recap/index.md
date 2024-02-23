@@ -6,7 +6,10 @@ categories:
 tags: 
   - "vmworld"
 author: Ivo Beerens
+url: /2013/10/23/vmworld-europe-2013-end-user-computing-euc-recap/
 ---
+
+To deliver IT as a Service VMware has for the coming year(s) the following focus areas:
 
 - **Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here. [Link](https://www.ivobeerens.nl/2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/)**
 - **End User Computing (EUC)**
@@ -57,6 +60,3 @@ Horizon Mirage version 4.3 is announced.  When combining View with VMware View 
 - **Windows 7 Migration Enhancements** – During a Windows 7 migration project, user downtime is a critical component to how successful the project will be. In Horizon Mirage 4.3, during OS migration we’ve introduced the ability to deploy Windows 7 applications layers along with the base layer. This helps in getting applications to users in a quicker manner.
 - **Web Console Enhancements.** A new role in the Horizon Mirage Web Console has been introduced. The Protection Manager role helps IT administrate endpoints from a single pane of glass. Endpoint centralization status, trends and endpoint errors are provided in a dashboard view. The Protection Manager can edit upload policies, build collections, restore endpoints,and much more.
 - **Centralization Calculator.**  Endpoints typically get centralized while end users work. Now, estimating how long the centralization process can take is made possible with the new Centralization Calculator. Simply fill in the values that your environment is comprised of, such as total number of endpoints and CVD size, and the calculator will estimate the centralization time phase. This is applicable to any environment of any size.
-
-
-

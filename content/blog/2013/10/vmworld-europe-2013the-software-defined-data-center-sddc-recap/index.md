@@ -8,7 +8,10 @@ tags:
   - "sddc"
   - "vmworld"
 author: Ivo Beerens
+url: /2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/
 ---
+
+Last week i attended VMworld Europe in Barcelona. The theme was “Defy Convention”. Here’s an overview of the VMware focus for the coming year(s):
 
 [![foto](images/foto_thumb.jpg "foto")](images/foto.jpg)
 
@@ -143,6 +146,3 @@ The VMware IT Business Management Suite provides transparency and control over t
 ![](images/Blog_ITBM2.png)
 
 These components and products will form the SDDC.
-
-
-

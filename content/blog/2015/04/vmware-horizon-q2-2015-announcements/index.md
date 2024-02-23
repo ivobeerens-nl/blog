@@ -8,7 +8,10 @@ tags:
   - "euc"
   - "VMware-horizon"
 author: Ivo Beerens
+url: /2015/04/29/vmware-horizon-q2-2015-announcements/
 ---
+
+VMware announced last week what’s new with Horizon 6 (Q2 2015) as well as some brand new offerings that will help you to deliver and manage apps and end users across physical, virtual and cloud-hosted environments. Here are the announcements:
 
 - User Experience improvements
 - Linux Desktops support (GA in Q2)
@@ -53,6 +56,3 @@ The VMware Horizon Application Management Bundle is sold as standalone product a
 **SysTrack Desktop Assessment**
 
 SysTrack Desktop Assessment (Lakeside software)  is a free assessment tool. For customers considering the purchase of VMware Horizon 6 or VMware Horizon Air, Systrack Desktop Assessment provides quick and easy insight into end-user computing infrastructure, applications and desktops. This FREE service provides you with everything you need to gain visibility into your end user environment, understand the best deployment options for Horizon and assess your costs.  More information can be found here, [link](http://www.VMware.com/files/microsites/latitude/index.html).
-
-
-

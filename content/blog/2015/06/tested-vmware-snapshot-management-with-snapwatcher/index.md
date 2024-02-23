@@ -12,7 +12,10 @@ tags:
   - "VMware"
   - "vSphere"
 author: Ivo Beerens
+url: /2015/06/02/tested-vmware-snapshot-management-with-snapwatcher/
 ---
+
+To monitor and manage VMware Virtual Machine Snapshots Opvizor has released a tool called Snapwatcher. As consultant I see often that admins don’t have an overview of all the snapshots that exists in their environment. The main concerns with Virtual Machine snapshots are:
 
 - Snapshots are created and forgot to remove
 - Snapshots can very quickly grow in size
@@ -97,7 +100,4 @@ When the trail period (7 days) is expired it is still possible to use Snapwatch
 
 ### **Conclusion**
 
-Opvizor Snapwatcher is a great tool for a VMware admin to centrally monitor and manage all the snapshots that exists in there VMware environment. Want to try Snapwatcher? Use this [link](http://try.opvizor.com/snapwatcherent/).
-
-
-
+Opvizor Snapwatcher is a great tool for a VMware admin to centrally monitor and manage all the snapshots that exists in there VMware environment.

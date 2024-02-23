@@ -8,8 +8,10 @@ tags:
   - "hyper-v-2"
   - "scvmm"
 author: Ivo Beerens
+url: /2015/02/17/tips-installing-system-center-virtual-machine-manager-2012-r2-update-rollup-ur5/
 ---
 
+Here are some tips for installing System Center 2012 R2 Virtual Machine Manager Update Rollup (UR5):
 - UR5 is available from Microsoft Update or by manual download. If you are not installing UR5 through Microsoft Update (e.g. you’re downloading the update and then installing it), you must install using elevated privileges. If you do not do this the update may fail silently.
 - During the UR5 installion the System Center Virtual Machine Manager & Agent will be stopped
 - [![3](images/3-300x267.png)](images/3.png)
@@ -23,12 +25,8 @@ author: Ivo Beerens
 - Refresh the cluster after updating the agents
 - When starting the VMM console the following error appears:
 - [![pipeline error](images/pipeline-error-300x201.png)](images/pipeline-error.png)
-- This error is permission related. To solve this error add the "Authenticated Users" group to the AddInPipeline directory and assign read and execute rights. The installation of VMM can be found under: <Driveletter>:\\Program Files\\Microsoft System Center 2012 R2\\Virtual Machine Manager\\bin\\AddInPipeline.
-- **Update 24-02-2015**: Microsoft released a hotfix for UR5 that addresses replica and smb shares issues. The link to the KB can be found here, [link](http://support2.microsoft.com/kb/3039296/en-us).
+- This error is permission related. To solve this error add the "Authenticated Users" group to the AddInPipeline directory and assign read and execute rights. The installation of VMM can be found under: `<Driveletter>:\Program Files\Microsoft System Center 2012 R2\Virtual Machine Manager\bin\AddInPipeline.`
 
 For all the details on SCVMM 2012 R2 UR5, see the following:
 
 - KB3023195 - Description of the security update for Update Rollup 5 for System Center 2012 R2 Virtual Machine Manager, [link](http://support.microsoft.com/kb/3023195)
-
-
-

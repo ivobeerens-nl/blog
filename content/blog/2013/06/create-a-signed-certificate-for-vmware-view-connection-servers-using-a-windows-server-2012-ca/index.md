@@ -14,7 +14,10 @@ tags:
   - "VMware"
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2013/06/19/create-a-signed-certificate-for-vmware-view-connection-servers-using-a-windows-server-2012-ca/
 ---
+
+For VMware Horizon View it is recommends that you configure your VMware View Horizon Servers with a signed SSL certificate. Default when you install a VMware View Horizon servers, a certificate is generated that is not signed by a CA. Because it is not signed by a CA It is possible to to intercept traffic. So it is highly recommend to replace the default certificate with a signed certificate after the installation.
 
 In the VMware View Horizon Administrator dashboard you can see that the Connection Server does not have a valid signed certificate.
 
@@ -86,6 +89,3 @@ The following steps explains how-to create a signed certificate and replace the 
 - Login the View Administrator portal and within a couple of minutes the dashboard System Health of the Connection Servers should get a green color. The VMware View Connection Servers has now a signed certificate
 
 <table border="0" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td valign="top" width="200"><a href="images/image18.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb18.png" width="203" height="113"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2013/06/image19.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb19.png" width="244" height="134"></a></td></tr></tbody></table>
-
-
-

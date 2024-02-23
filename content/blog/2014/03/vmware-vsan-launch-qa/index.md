@@ -8,8 +8,10 @@ tags:
   - "VMware"
   - "vsan"
 author: Ivo Beerens
+url: /2014/03/06/vmware-vsan-launch-qa/
 ---
 
+VMware has today announced VSAN. Here are some highlights from the Q&A session:
 - VSAN will be GA at March 10 2014
 - vSphere 5.5 Update 1 will support VSAN GA
 - Beta  VSAN upgrades to the GA release are not supported
@@ -33,6 +35,3 @@ author: Ivo Beerens
 
 - JBOD is not supported in the GA release
 - What is the difference with MS storage spaces: MS Storage spaces is presenting a file server from dedicated servers and JBODs. VSAN is object storage and doesn't require dedicated servers, it uses the same servers you have for your compute, and other benefits like flash cache acceleration, storage policy management and automation and more.
-
-
-

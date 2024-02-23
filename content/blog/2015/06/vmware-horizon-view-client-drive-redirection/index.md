@@ -8,7 +8,10 @@ tags:
   - "view"
   - "VMware-horizon"
 author: Ivo Beerens
+url: /2015/06/05/vmware-horizon-view-client-drive-redirection/
 ---
+
+On of the new features of VMware Horizon 6 version 6.1.1 is Client Drive Redirection (CDR). Microsoft RDS and Citrix already have CDR for many years in there product. Now this handy feature is available in Horizon View. CDR is supported on VDI desktops (single-user) and RDS desktops and applications on Windows and as Tech Preview on Mac OS X clients.
 
 Here's a quick overview how-to enable Client Drive Redirection (CDR):
 
@@ -28,15 +31,10 @@ After installing the new Horizon View Agent is deployed on the Horizon View envi
 
 In the Horizon View Client there is a option called "Share Folders". In the sharing box add local drives and folders to share in the VDI desktop session.
 
-[![0_sharing](images/0_sharing.png)](images/0_sharing.png) [![Sharing](images/Sharing-300x233.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/06/Sharing.png)
+[![0_sharing](images/0_sharing.png)](images/0_sharing.png) [![Sharing](images/Sharing-300x233.png)](images/Sharing.png)
 
 In the Windows Explorer the drives and folders that are mapped are visible.
 
 [![files](images/files-300x181.png)](images/files.png)
 
- 
-
-**Note**: With Client Drive Redirection (CDR), the folders and files that are sent across the network are NOT encrypted!
-
-
-
+ **Note**: With Client Drive Redirection (CDR), the folders and files that are sent across the network are NOT encrypted!

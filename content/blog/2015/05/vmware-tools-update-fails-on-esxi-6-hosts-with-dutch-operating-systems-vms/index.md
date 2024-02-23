@@ -9,7 +9,10 @@ tags:
   - "VMware"
   - "VMware-horizon-view"
 author: Ivo Beerens
+url: /2015/05/04/vmware-tools-update-fails-on-esxi-6-hosts-with-dutch-operating-systems-vms/
 ---
+
+After upgrading all the hosts in the lab environment to VMware ESXi 6, I tried to upgrade the VMware tools version of a Dutch Windows 7 golden VM used by VMware Horizon View. The VMware tools upgrade fails with the following message:
 
 > VMware Tools Setup Wizard ended prematurely
 
@@ -23,6 +26,3 @@ The following work around can be used:
 - Add the user used for installing VMware tools to the "everyone" group
 - Run the VMware tools upgrade
 - Remove the "everyone" group
-
-
-

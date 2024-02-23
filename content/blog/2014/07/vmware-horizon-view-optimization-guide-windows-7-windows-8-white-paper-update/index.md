@@ -12,7 +12,10 @@ tags:
   - "windows-7"
   - "windows-8"
 author: Ivo Beerens
+url: /2014/07/23/vmware-horizon-view-optimization-guide-windows-7-windows-8-white-paper-update/
 ---
+
+VMware released an updated version of the “VMware Horizon with View Optimization Guide for Windows 7 and Windows 8” whitepaper. This white paper discuss the necessary information for optimizing a Windows 7 or Windows 8 virtual desktop image for VMware Horizon View using the Microsoft Deployment Toolkit (MDT) or use a script-based approach.
 
 The updated (July 15, 2014) “VMware Horizon with View Optimization Guide for Windows 7 and Windows 8” whitepaper can be found here. [Link](https://www.VMware.com/resources/techresources/10157?utm_content=buffer99b4d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
@@ -32,8 +35,3 @@ The VMware Labs Flings has an updated version of the "VMware OS Optimalization T
 - Combination of Remote and Local tools into one tool
 - Better template management, with built in and user-definable templates
 - Results report export feature.
-
-The VMware OS Optimization Tool can be found here, [link](https://labs.VMware.com/flings/VMware-os-optimization-tool)
-
-
-
