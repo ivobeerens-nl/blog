@@ -8,7 +8,10 @@ tags:
   - "log"
   - "vrealize"
 author: Ivo Beerens
+url: /2016/03/03/log-insight/
 ---
+
+VMware released vRealize Log Insight 3.3. vRealize Log Insight is a log monitoring and analytics dashboarding tool like Splunk.
 
 [![events](images/events-300x133.png)](images/events.png)
 
@@ -31,6 +34,3 @@ One vCenter Standard license is limited to 25 OSIs and  only Content Pack publi
 In order to enable other non VMware Content Packs, you'll need to purchase a full-feature license for Log Insight.
 
 vRealize Log Insight is a log analyzer and troubleshoot tool that is available for every vCenter Standard customer. A great way to get a better view of the VMware vSphere environment you're hosting.
-
-
-

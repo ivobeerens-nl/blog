@@ -8,7 +8,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2016/04/21/instant-clone/
 ---
+
+Horizon 7 introduced the Instant Clone feature leverages the vmFork technology introduced in vSphere 6.0 U1. With Instant Clone technology it is possible to clone and deploy a VDI desktop VMs in seconds. This is called the Just-In-Time Desktop.
 
 Below is an overview how an Instant Clone VM is created:
 
@@ -75,6 +78,3 @@ In the vCenter Server the following VM conventions are created:
 **Conclusion**
 
 Horizon 7 includes a great new enhancement called "Instant Clones". Within seconds VDI desktop VMs can be deployed. There is no extra infrastructure components needed such as a Composer service. With this version of Instant Clones there are some caveats you need aware off before implementing in production. Further versions of VMware Horizon will improve Instant Clones to add more support.
-
-
-

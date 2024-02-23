@@ -8,8 +8,10 @@ tags:
   - "horizon"
   - "VMware"
 author: Ivo Beerens
+url: /2019/02/13/vmware-unified-access-gateway-uag-3-4-radius-license-change/
 ---
 
+The VMware Unified Access Gateway (UAG) acts as reverse proxy and tunnels sessions (PCoIP and Blast) to desktops and remote apps. Besides Horizon support, new features are added for AirWatch and Identity Manager. With version 3.4, the VMware Unified Access Gateway is offered in three editions based on the Horizon or Workspace ONE licenses:
 - Standard
 - Advanced
 - Enterprise

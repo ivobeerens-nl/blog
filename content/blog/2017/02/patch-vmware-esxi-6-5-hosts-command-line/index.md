@@ -7,7 +7,10 @@ tags:
   - "esxi-2"
   - "VMware"
 author: Ivo Beerens
+url: /2017/02/15/patch-vmware-esxi-6-5-hosts-command-line/
 ---
+
+There a several ways to patch a VMware ESXi server. vSphere Update Manager (VUM) can update for example a complete ESXi host cluster fully automatic. vSphere Update Manager requires a vCenter Server. When you don’t have a vCenter Server patching can be done from the command line.
 
 Here is a quick overview of how to patch an ESXi 6.x  or 7.x host to the latest patch or version (from ESXi 6 to 7 for example).
 
@@ -27,17 +30,17 @@ In the vSphere Web client start the SSH service and make a SSH session to the ES
 
 **Step 4.** Put the host in maintenance mode
 
-\[code language="PowerShell"\] vim-cmd hostsvc/maintenance\_mode\_enter \[/code\]
+```vim-cmd hostsvc/maintenance_mode_enter```
 
 **Step 5**. Install the patch bundle
 
 Using esxcli with the install method has the possibility of overwriting existing drivers. If you are using third-party ESXi images, VMware recommends using the **update** method to prevent an unbootable state. The following command will install the patch bunde:
 
-\[code language="PowerShell"\] esxcli software vib update -d /vmfs/volumes/datastore/patchbundle.zip \[/code\]
+```esxcli software vib update -d /vmfs/volumes/datastore/patchbundle.zip```
 
 For example install HPE ESXi 6 Update 3:
 
-\[code language="PowerShell"\] esxcli software vib update -d /vmfs/volumes/VMFS01/VMware-ESXi-6.0.0-Update3-5050593-HPE-600.9.7.0.17-Feb2017-depot.zip \[/code\]
+```esxcli software vib update -d /vmfs/volumes/VMFS01/VMware-ESXi-6.0.0-Update3-5050593-HPE-600.9.7.0.17-Feb2017-depot.zip ```
 
 After the patch bundle is installed check the message. It must say "The update completed successfully, but the system needs to be rebooted for changes to be effective."
 
@@ -45,11 +48,8 @@ After the patch bundle is installed check the message. It must say "The update c
 
 **Step 6**. Reboot the host  by entering the following command:
 
-\[code language="PowerShell"\] reboot \[/code\]
+```reboot ```
 
 **Step 7**. Make a SSH session to the ESXi host and exit maintenance mode
 
-\[code language="PowerShell"\] vim-cmd hostsvc/maintenance\_mode\_exit \[/code\]
-
-
-
+```vim-cmd hostsvc/maintenance_mode_exit ```

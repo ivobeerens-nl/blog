@@ -7,7 +7,10 @@ categories:
 tags: 
   - "backup"
 author: Ivo Beerens
+url: /2018/08/16/review-nakivo-backup-replication-v7-5-backup-and-recovery/
 ---
+
+In this part of the NAKIVO Backup & Replication review the backup and recovery options will be highlighted.
 
 ## **Backup**
 
@@ -15,7 +18,7 @@ To begin with backup and recovery we first need a backup job. Configuring a back
 
 - **1\. VMs**: Select the VMs to backup from the inventory of the vCenter Server or ESXi host.
 
-[![](images/1-2-267x300.png)](images/1-2.png) [![](images/2-3-271x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/2-3.png)
+[![](images/1-2-267x300.png)](images/1-2.png) [![](images/2-3-271x300.png)](images/2-3.png)
 
 - **2\. Destination**: Select the destination to store the VMs. Select the onboard repository with deduplication and compression enabled for storage space savings.
 
@@ -37,7 +40,7 @@ To begin with backup and recovery we first need a backup job. Configuring a back
     - **_Transport Mode_**: Hot Add, SAN, LAN or automatic can be selected
     - **_Bandwith throttling:_** With bandwidth throttling you can control the amount of bandwidth that is consumed by NAKIVO Backup and Replication.
 
-[![](images/6-1-266x300.png)](images/6-1.png) [![](images/7-1-300x189.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/7-1.png) [![](images/8-1-291x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/8-1.png)
+[![](images/6-1-266x300.png)](images/6-1.png) [![](images/7-1-300x189.png)](images/7-1.png) [![](images/8-1-291x300.png)](images/8-1.png)
 
 The are more options to configure, refer to the following [link](https://helpcenter.nakivo.com/display/NH/Backup+Job+Wizard+for+VMware%3A+Options+Step) for all the options to configure.
 
@@ -89,15 +92,15 @@ I tested several recover options:
 
 - **Individual files.** Individual files per VM can be restored. The files can be recovered on a server (for example on the same location as deleted), downloaded to the browser or emailed. I tested to recover two PowerShell files from a VM and selected the download to browser option. The files recovery is performed in seconds.
 
-[![](images/2-7-300x178.png)](images/2-7.png) [![](images/3-3-300x155.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/3-3.png)
+[![](images/2-7-300x178.png)](images/2-7.png) [![](images/3-3-300x155.png)](images/3-3.png)
 
 - **VM recovery from backup**. With this option one or more full VMs are recovered.  The original VM will be retained so the recovering VM will not overwrite the original VM.  The recovering VM name will append "-recovered" in the end. The recovery is fast.
 
-[![](images/1-5-300x178.png)](images/1-5.png)[![](images/2-8-300x182.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/2-8.png) [![](images/4-1-300x149.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/4-1.png)
+[![](images/1-5-300x178.png)](images/1-5.png)[![](images/2-8-300x182.png)](images/2-8.png) [![](images/4-1-300x149.png)](images/4-1.png)
 
 - **VM Flash boot.** With the VM Flash boot option it's possible to boot VMs directly from the compressed and deduplicated repository without recovering the VMs first. This saves time and can be used for example for testing software updates. VM Flash boot uses iSCSI technology to connect VM disks stored in the backup to a target to the ESXi host. In this test I recovered two VMs in isolated network and performed a software update for testing. The changes are not written to the recovery point that i'm using. When i'm finished with testing i can discard the VMs with a single click so that all the changes are lost.
 
-[![](images/1-8-300x191.png)](images/1-8.png) [![](images/2-9-300x191.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/2-9.png) [![](images/3-4-300x192.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/3-4.png) [![](images/4-3-300x192.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/4-3.png)
+[![](images/1-8-300x191.png)](images/1-8.png) [![](images/2-9-300x191.png)](images/2-9.png) [![](images/3-4-300x192.png)](images/3-4.png) [![](images/4-3-300x192.png)](images/4-3.png)
 
 - **Cross-Platform Recovery.** Cross-Platform Recovery allows exporting virtual disks to other formats such as:
     - VMDKs for VMware
@@ -106,13 +109,10 @@ I tested several recover options:
 
 This allows you to recover VMs in different environments (VMware to Hyper-V and Hyper-V to VMware). In this testI exported a VMware Virtual Machine with two VMDK disks to VHDX disks with the Backup Export Wizard. The "Export backups" wizzard is used and by selecting the VM and recovery point, disks and options to start the export job.
 
-[![](images/1-4-268x300.png)](images/1-4.png) [![](images/3-2-267x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/3-2.png) [![](images/2-5-269x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/2-5.png)
+[![](images/1-4-268x300.png)](images/1-4.png) [![](images/3-2-267x300.png)](images/3-2.png) [![](images/2-5-269x300.png)](images/2-5.png)
 
 When the export completed, I created a new VM in Hyper-V Manager and pointed to the restored VDHX disks. Then i was able to start a Hyper-V VM with the exported disks attached. Cross-Platform Recovery can be used for recover VM disks from between hypervisor such as VMware vSphere to Hyper-V and to VMware Workstation and VirtualBox.
 
 [![](images/1-6-300x226.png)](images/1-6.png)
 
 In this part of the NAKIVO Backup & Replication review I highlighted the backup and recovery features. It was a pleasure to test the backup and recovery features because they were easy, quick and they worked out of the box without any troubleshooting skills needed. In the next review I will highlight the replication feature.
-
-
-

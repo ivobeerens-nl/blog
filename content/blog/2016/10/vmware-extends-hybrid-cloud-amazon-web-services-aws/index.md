@@ -10,7 +10,10 @@ tags:
   - "cloud"
   - "VMware"
 author: Ivo Beerens
+url: /2016/10/13/vmware-extends-hybrid-cloud-amazon-web-services-aws/
 ---
+
+VMware and Amazon Web Services (AWS) will partnering together to bring a new a VMware vSphere-based service, running on the AWS Cloud, that will make it easier and faster to run applications, across a hybrid cloud environment.
 
 [![overview](images/overview-300x129.png)](images/overview.png)
 
@@ -54,6 +57,3 @@ Some use cases are:
 [![usecase](images/usecase-300x112.png)](images/usecase.png)
 
 During VMworld Europe 2016 more information wil be available on the VMware Cloud on AWS partnership.
-
-
-

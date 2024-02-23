@@ -10,7 +10,10 @@ tags:
   - "replication"
   - "VMware"
 author: Ivo Beerens
+url: /2018/08/23/review-nakivo-backup-replication-v7-5-replication/
 ---
+
+In this part of the NAKIVO Backup &amp; Replication review I highlight the replication feature. With the replication feature you can replicate VMs. The source VMs are copied, a VM replica is created of each and replicated to the target VMware environment (also known as the recovery site).
 
 VM Replication protects for example against the following type of disasters:
 
@@ -111,6 +114,3 @@ In a next release of NAKIVO Backup & Replication a new feature called "site reco
 More information about the Site Recovery feature can be found here [link](https://www.nakivo.com/vm-disaster-recovery/).
 
 In the next NAKIVO Backup & Replication review I will highlight the editions, licensing and conclusion of my four reviews.
-
-
-

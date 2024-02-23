@@ -5,8 +5,10 @@ tags:
   - "VMware"
   - "VMware-horizon"
 author: Ivo Beerens
+url: /2019/12/12/export-vmware-horizon-pool-settings/
 ---
 
+I created a simple PowerShell script that exports all the pool settings on a Horizon Connection Server and saves them in a separate JSON file. To run this script follow the requirements below:
 - Download the Export-pools.ps1 script from my [GitHub](https://github.com/ibeerens/VMware-Horizon) page.
 - Edit the script script and enter the correct file location in the '$fileloc' variable. The default file location is c:\\temp
 - Download the VMware.Hv.Helper module ([link](https://github.com/VMware/PowerCLI-Example-Scripts))
@@ -18,6 +20,3 @@ author: Ivo Beerens
 After the 'Export-HorPool.ps1' scrript has run all the pool settings are exported to a JSON file.
 
 [![](images/2-300x172.png)](images/2.png)
-
-
-

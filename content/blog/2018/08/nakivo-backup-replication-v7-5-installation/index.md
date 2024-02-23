@@ -7,10 +7,12 @@ categories:
 tags: 
   - "backup"
 author: Ivo Beerens
+url: /2018/08/03/nakivo-backup-replication-v7-5-installation/
 ---
 
-For the installation of NAKIVO Backup & Replication you have several options. NAKIVO Backup & Replication can be installed as:
+In this part of the NAKIVO Backup & Replication review I highlight the installation and basic configuration.
 
+For the installation of NAKIVO Backup & Replication you have several options. NAKIVO Backup & Replication can be installed as
 - Windows or Linux installation package
 - Virtual Appliance for VMware (OVF)
 - In the Amazon AWS cloud
@@ -56,7 +58,7 @@ The fist time create an user and you're able to log in. In a three step wizard t
 
 Because I have a VMware vSphere environment, I connect to an ESXi or vCenter Server in the inventory tab.
 
-[![](images/6-300x161.png)](images/6.png) [![](images/7-300x160.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/7.png) [![](images/8-300x160.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/8.png)
+[![](images/6-300x161.png)](images/6.png) [![](images/7-300x160.png)](images/7.png) [![](images/8-300x160.png)](images/8.png)
 
 **Transporter**
 
@@ -76,7 +78,7 @@ Other repositories options are: CIFS, NFS and Amazon EBS.
 
 When new updates are available they are displayed in the web interface.
 
-[![](images/2-2-300x194.png)](images/2-2.png) [![](images/3-300x103.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/3.png)
+[![](images/2-2-300x194.png)](images/2-2.png) [![](images/3-300x103.png)](images/3.png)
 
 For the Virtual Appliance (VA) download the updated installer and upload it the VA (/opt/nakivo/updates) folder. Open the console of the VA and select "Software Update" in the menu. It would be great when the upgrade process of the VA can be automated without any manually actions in feature releases.
 
@@ -85,6 +87,3 @@ This was the last step of the 3 step wizard. After approximately 15 minutes i'm 
 - The installation of the Virtual Appliance and NAS option are simple and can be deployed very fast (minutes) without the need of a extra Windows licensing costs.
 - When installing NAKIVO Backup & Replication on a NAS device. There is no need for VM resources or physical hosts which saves money
 - Management via done by Web Browser, no software installation is needed
-
-
-

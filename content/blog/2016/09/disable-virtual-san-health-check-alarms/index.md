@@ -8,7 +8,10 @@ tags:
   - "virtual-san"
   - "vsan"
 author: Ivo Beerens
+url: /2016/09/07/disable-virtual-san-health-check-alarms/
 ---
+
+When using PCIE/NVMe SSDs in the capacity layer of Virtual SAN, the SSDs are generating a warning for the “Hardware Compatibility – SCSI Controller on Virtual SAN HCL” health check, even when the devices are on the Virtual SAN HCL.
 
 [![alarm](images/alarm-300x67.png)](images/alarm.png)
 
@@ -26,6 +29,3 @@ To disable the HCL health check alarm use these simple steps:
 [![alarm3](images/alarm3-300x175.png)](images/alarm3.png)
 
 Another use case is to disable the HCL health check(s) in non-production lab environments that use Virtual SAN with hardware that is not certified.
-
-
-

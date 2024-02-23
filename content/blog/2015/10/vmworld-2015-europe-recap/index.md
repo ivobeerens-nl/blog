@@ -7,7 +7,10 @@ tags:
   - "VMware"
   - "vmworld"
 author: Ivo Beerens
+url: /2015/10/20/vmworld-2015-europe-recap/
 ---
+
+Last week I attended VMworld 2015 Europe conference. I had a great week filled with breakout sessions, Hands-on Labs, Solutions Exchange, parties, chats and great people.
 
 [![vmworld](images/vmworld-300x90.png)](images/vmworld.png)
 
@@ -35,6 +38,3 @@ Next year VMworld will be held on:
 - VMworld 2016 Europe, October  17 - 20  in Barcelona
 
 Hope to see you there again!
-
-
-

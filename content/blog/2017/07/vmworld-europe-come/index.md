@@ -5,7 +5,10 @@ tags:
   - "VMware"
   - "vmworld"
 author: Ivo Beerens
+url: /2017/07/18/vmworld-europe-come/
 ---
+
+In less then 54 days I’m attending VMworld Europe in Barcelona again. My first VMworld visit was in Cannes (France) in 2009. This year I visit VMworld with two other [Ictivity](https://www.ictivity.nl/) (Dutch VMware partner) colleagues.
 
 [![](images/vmworld2017-300x156.jpg)](images/vmworld2017.jpg)
 
@@ -61,6 +64,3 @@ VMworld is an awesome experience!  More information can be found here:
 - Registration: [link](https://reg.rainfocus.com/flow/VMware/vmworldeu17/reg/account?src=so_590b8a703e237&cid=70134000001K7Xj)
 
 Special thanks to the vExpert team for providing me a bloggers pass! See you at VMworld Barcelona!
-
-
-

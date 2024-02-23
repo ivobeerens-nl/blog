@@ -8,8 +8,10 @@ tags:
   - "esxi-2"
   - "usb"
 author: Ivo Beerens
+url: /2018/09/16/quick-tip-create-a-bootable-vmware-esxi-key/
 ---
 
+There are multiple tools available to create a bootable VMware ESXi USB stick/drive/key such as:
 - UNetbootin, [link](https://unetbootin.github.io/)
 - Rufus, [link](https://rufus.ie/)
 

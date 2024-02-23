@@ -9,8 +9,10 @@ tags:
   - "hcl"
   - "VMware"
 author: Ivo Beerens
+url: /2019/08/13/runecast-analyzer-makes-hardware-checking-against-the-vmware-hcl-easy/
 ---
 
+Runecast Analyzer is a tool that helps VMware administrators to proactive manage there vSphere environment. It discovers potential risks in the VMware environment before they can cause a major outage. It uses best practices, security hardening guides (VMware, DISA STIG, PCI-DSS v3.2.1 and HIPAA) and known issues found in the VMware Knowledge Base to protect the Software Defined Data Center (SDDC). Runecast Analyzer supports the following VMware products:
 - VMware vSphere
 - VMware vSAN
 - VMware NSX-V
@@ -19,8 +21,6 @@ author: Ivo Beerens
 Runecast Analyzer introduced a new feature called "**Automated VMware HCL**" and "**ESXi Compatibility Simulation**". The "**Automated VMware HCL**" feature checks the VMware ESXi host hardware, driver and firmware versions against the VMware Hardware Compatibility List (HCL). The VMware Hardware Compatibility List (HCL) lists all the physical hardware components, driver and firmware versions that are supported by VMware. Keeping the hardware aligned with the VMware HCL is essential for a healthy, stable and supported VMware environment but can be difficult to perform. For example see the blog post below how to identify a networkcard and the supported driver.
 
 https://www.ivobeerens.nl/2014/04/15/identify-nic-driver-and-supported-driver-version-for-esxi-server/
-
- 
 
 Within the "**Automated VMware HCL"** feature you can enable "**ESXi Comparability Simulation**". ESXi comparability simulation checks the existing hardware against a newer VMware ESXi version before upgrading to this new version so you can verify if the hardware, driver and firmware levels are supported.
 
@@ -63,6 +63,3 @@ It can be difficult and time consuming for VMware admins to check if the server 
 Another great feature is the ESXi Compatibility Simulation. Again with a simple scan you check if the hardware is compatible against a newer version of ESXi before actually upgrading to this version. The **Automated Hardware Compatibility** and **ESXi Compatibility Simulation** are great new features that saves a lot of value time investigating if the VMware environment is compliant.
 
 You can [download](https://portal.runecast.com/registration) a 30 day full trial version of Runecast Analyzer and try it yourself.
-
-
-

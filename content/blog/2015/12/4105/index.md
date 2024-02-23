@@ -7,14 +7,16 @@ tags:
   - "VMware"
   - "vrealize"
 author: Ivo Beerens
+url: /2015/12/08/4105/
 ---
+
+After upgrading vRealize Operations Manager to version 6.1 the Horizon View metrics are not collected anymore. On the Horizon View Connection Server where the vRealize broker agent is installed the following error is displayed in the logs:
 
 > vRealize Operations Manager broker error "javax.naming.NameNotFoundException"
 > ERROR   BrokerPoll message sending error: javax.naming.NameNotFoundException: V4V-BrokerMessageServer
 
 The logs can be found in the following location on the Horizon View Connection broker:
-
-\[code language="text"\] c:\\ProgramData\\VMware\\vCenter Operations for View\\logs\\v4v\_broker\_agent\_cfg.... log \[/code\]
+`c:\ProgramData\VMware\vCenter Operations for View\logs\v4v_broker_agent_cfg.... log`
 
 To resolve this error you need to restart the collector service on the vRealize Operations Manager Appliance. Run the following steps:
 
@@ -24,7 +26,7 @@ To resolve this error you need to restart the collector service on the vRealize 
 - Change the password the first time
 - Restart the collector service by using the following command:
 
-\[code language="PowerShell"\] service VMware-vcops restart collector \[/code\]
+`service VMware-vcops restart collector`
 
 It can take serveral minutes to pair the Broker Agent with the Horizon View adapter.
 
@@ -32,15 +34,15 @@ The SSH Service on the vRealize Operations Manager Appliance is disabled by def
 
 - Start the SSH service
 
-\[code language="PowerShell"\] service sshd start \[/code\]
+`service sshd start`
 
 - To configure SSH to start automatically
 
-\[code language="PowerShell"\] chkconfig sshd on \[/code\]
+`chkconfig sshd on`
 
 - Check the status of the SSH service
 
-\[code language="PowerShell"\] chkconfig \[/code\]
+`chkconfig`
 
 [![2015-12-08_12h55_01](images/2015-12-08_12h55_01-300x102.png)](images/2015-12-08_12h55_01.png)
 

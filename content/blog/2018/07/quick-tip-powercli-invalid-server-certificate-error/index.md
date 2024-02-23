@@ -5,7 +5,10 @@ tags:
   - "powercli"
   - "VMware"
 author: Ivo Beerens
+url: /2018/07/18/quick-tip-powercli-invalid-server-certificate-error/
 ---
+
+When trying to connect with PowerCLI to a vCenter Server Appliance the following error occurred:
 
 [![](images/powerclo-300x51.png)](images/powerclo.png)
 
@@ -13,11 +16,10 @@ author: Ivo Beerens
 
 As stated in the error, the Set-PowerCLIConfiguration command can be used to ignore the certificate check using the following syntax:
 
-\[code language="PowerShell"\] Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false \[/code\]
+```powershell  
+Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false  
+```
 
 After this command you're able to connect to the vCenter without the certificate error.
 
 [![](images/2-300x100.png)](images/2.png)
-
-
-

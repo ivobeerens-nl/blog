@@ -9,7 +9,10 @@ tags:
   - "vmworld"
   - "vSphere"
 author: Ivo Beerens
+url: /2016/10/18/whats-new-vsphere-6-5/
 ---
+
+Today at VMworld Europe 2016, **vSphere 6.5** is announced.
 
 **Update**: November 15, 2016 vSphere 6.5 is GA.
 
@@ -194,6 +197,3 @@ vSphere 6.5 is packed with great new features. My top is new features are:
 - vCenter Server Appliance (VCSA) native High Availability
 - Virtual SAN (VSAN) Direct Connect
 - A new PowerCLI module for Horizon View
-
-
-

@@ -7,7 +7,10 @@ categories:
 tags: 
   - "scvmm-azure"
 author: Ivo Beerens
+url: /2015/07/15/manage-azure-vms-with-system-center-virtual-machine-manager-scvmm/
 ---
+
+With Update Rollup 6 it is possible to add one or more Azure subscriptions to SCVMM 2012 R2. When the Azure subscription is added in SCVMM, it is possible to perform some basic actions such as:
 
 - Add and Remove one or more Azure subscriptions by using the VMM console.
 - See a list view with details and status of all role instances in all deployments in that subscription.
@@ -29,17 +32,17 @@ Install the SDK and choose as feature to install “Windows Software Deployment�
 
 3\. Create the self-signed certificate with makecert with the following command:
 
-\[code language="PowerShell"\] makecert -sky exchange -r -n "CN=<CertificateName>" -pe -a sha1 -len 2048 -ss My "<CertificateName>.cer" \[/code\]
+```makecert -sky exchange -r -n "CN=<CertificateName>" -pe -a sha1 -len 2048 -ss My "<CertificateName>.cer"```
 
 **Example:**
 
-\[code language="PowerShell"\] makecert -sky exchange -r -n "CN=ivobeerensazure" -pe -a sha1 -len 2048 -ss My d:\\install\\ivobeerensazure.cer \[/code\]
+```makecert -sky exchange -r -n "CN=ivobeerensazure" -pe -a sha1 -len 2048 -ss My d:\install\ivobeerensazure.cer```
 
 4. The certificate needs to be present in the Current User \\ Personal store of the computer running the VMM console.
 
 5\. To upload a management certificate to Azure, go to the Settings page in the Management Portal, and then click **MANAGEMENT CERTIFICATES**.
 
-6\. In SVVMM start the Add Azure Subscription Wizard, click the Azure Add Subscription button. The wizard is a single page dialog box:
+6\. In SCVMM start the Add Azure Subscription Wizard, click the Azure Add Subscription button. The wizard is a single page dialog box:
 
 [![SCVMM](images/SCVMM-300x224.png)](images/SCVMM.png)
 
@@ -56,6 +59,3 @@ Basic actions can be performed on the Azure VMs such as:
 [![stopstart](images/stopstart-300x109.png)](images/stopstart.png)
 
 UR6 adds support for managing Azure VMs. The management is very basic. So hopefully on the next releases the management support for Azure VMs will be improved.
-
-
-

@@ -12,8 +12,10 @@ tags:
   - "vcenter-server-appliance"
   - "vcsa"
 author: Ivo Beerens
+url: /2015/07/30/the-new-way-to-patch-the-vcenter-server-appliance-6/
 ---
 
+The patching process in vCenter Server Appliance (vCSA) version 6 is changed from previous versions. It is not possible anymore to use the Virtual Appliance Management Interface (VAMI) and update the appliance using the User Interface. The new way to patch the vCenter Server Appliance involves the following steps:
 - Download the patch from the VMware Patch Download Center, [link](https://my.VMware.com/group/VMware/patch).
 - Choose vc and select version 6.x
 - Download the latest patch ISO
@@ -27,25 +29,30 @@ author: Ivo Beerens
 
 - Stage the ISO using the following command
 
-\[code language="PowerShell"\] software-packages stage --iso  --acceptEulas \[/code\]
+```
+software-packages stage --iso  --acceptEulas
+```
 
 - See the staged content
 
-\[code language="PowerShell"\] software-packages list --staged \[/code\]
+```
+software-packages list --staged
+```
 
 - Install the staged content
 
-\[code language="PowerShell"\] software-packages install --staged \[/code\]
+```
+software-packages install --staged
+```
 
 - Reboot the appliance
 
-\[code language="PowerShell"\] shutdown reboot -r \[/code\]
+```
+shutdown reboot -r
+```
 
 - After the reboot check the new vCenter Server Appliance build version
 
 [![vcsa version](images/vcsa-version-300x213.png)](images/vcsa-version.png)
 
 The easy updating process that was used in the vCenter Server Appliance 5.x is gone. The new update process involves more manually steps. We hoping that the easy updating will return in further releases of the vCenter Server Appliance.
-
-
-

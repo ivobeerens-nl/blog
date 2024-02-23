@@ -2,12 +2,15 @@
 title: "Review NAKIVO Backup & Replication - Multi-Tenancy, licensing and conclusion"
 date: "2018-11-02T10:38:52.000Z"
 categories: 
-  - "nakivo"
+  - "backup"
   - "reviews"
 tags: 
   - "backup"
 author: Ivo Beerens
+url: /2018/11/02/nakivo-backup-replication-v7-5-editions-and-licensing/
 ---
+
+In the last part of the NAKIVO Backup & Replication review I highlight the Multi-Tenancy option, licensing and the final conclusion.
 
 ### **Multi-Tenancy and branding**
 
@@ -15,7 +18,7 @@ NAKIVO supports multi-tenancy to deliver Backup-as-a-Service (BAAS) and Disaster
 
 For each tenant custom branding can be used.
 
-[![](images/11-300x149.png)](images/11.png) [![](images/33-300x149.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/33.png) [![](images/22-300x151.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/08/22.png)
+[![](images/11-300x149.png)](images/11.png) [![](images/33-300x149.png)](images/33.png) [![](images/22-300x151.png)](images/22.png)
 
 A single copy of NAKIVO can create and manage up to 1000 tenants providing a single pane of glass. The multi-tenancy option is available in the Enterprise Essentials en Enterprise license.
 
@@ -54,6 +57,3 @@ In short my final conclusion about NAKIVO Backup and Replication: **Simple, fast
 Next week VMworld Europe 2018 in Barcelona will start. NAKIVO will show at VMworld some new enhancements that will be available in NAKIVO Backup & Replication v8.1.
 
 More information about NAKIVO can be found here: [link](https://www.nakivo.com)
-
-
-

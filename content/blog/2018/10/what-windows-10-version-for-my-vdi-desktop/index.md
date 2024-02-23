@@ -5,7 +5,10 @@ tags:
   - "vdi"
   - "windows-10"
 author: Ivo Beerens
+url: /2018/10/24/what-windows-10-version-for-my-vdi-desktop/
 ---
+
+In a VDI project one of the questions in the design phase is always: “What version I use for my Windows 10 VDI desktop?”. Before Windows 10, the Operating System release cycle was approximate 3 to 5 years. With Windows 10 a new release management concept is introduced called “Windows as a Service (WaaS)”. WaaS includes:
 
 - **Feature updates**: Twice a year new feature updates to Windows 10 will be released
 - **Quality updates**: Deliver both security and non-security fixes every month on patch Tuesday such as:
@@ -36,6 +39,3 @@ When deciding what channel and Windows 10 version release to use, ask yourself t
 - Perform a Proof of Concept (PoC).
 
 I hope this blog post makes it easier to choose the right Windows 10 version for the VDI desktop.
-
-
-

@@ -8,8 +8,10 @@ tags:
   - "VMware"
   - "vSphere"
 author: Ivo Beerens
+url: /2018/04/23/upgrade-the-vcenter-server-appliance-vcsa-to-version-6-7/
 ---
 
+Last week VMware launched vSphere 6.7. In this blog post I show how easy it is to upgrade a vCenter Server 6.x appliance to a new vCenter Server 6.7 appliance using the graphical interface (GUI) upgrade. The GUI upgrade uses a two stage process:
 - **Stage 1**: Deploy a new vCenter Server 6.7 appliance
 - **Stage 2**: Transfer the services and configuration data from the old to the new appliance
 
@@ -69,8 +71,7 @@ Before upgrading make sure to check this:
 
 ## The upgrade steps
 
-In the following steps a single vCenter Server  Appliance with an embedded PSC and vCenter Server role will be upgraded to version 6.7.
-
+In the following steps a single vCenter Server  Appliance with an embedded PSC and vCenter Server role will be upgraded to version 6.7:
 - Mount the VCSA ISO (VMware-VCSA-all-6.7.0-8217866.iso)
 - Navigate to the _<drive letter>:\\vcsa-ui-installer\\win32\\_ folder and open the _installer.exe_
 - Choose for the _upgrade_ option. With the option you can upgrade a PSC and vCenter Server appliance.
@@ -112,16 +113,6 @@ In the following steps a single vCenter Server  Appliance with an embedded PSC 
 - 9\. Click finish to start stage 1
 
 [![](images/0007-300x183.png)](images/0007.png)
-
- 
-
- 
-
- 
-
- 
-
- 
 
 - After a while the following message appears and you're ready to continue to stage 2.
 
@@ -171,6 +162,3 @@ In the following steps a single vCenter Server  Appliance with an embedded PSC 
 [![](images/0020-300x229.png)](images/0020.png)
 
 After the upgrade the VCSA is upgraded to version 6.7.
-
-
-

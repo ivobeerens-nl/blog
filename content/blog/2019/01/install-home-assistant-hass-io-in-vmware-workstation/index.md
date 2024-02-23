@@ -9,7 +9,10 @@ tags:
   - "home-assistant"
 coverImage: "2019-01-14_19-53-49.png"
 author: Ivo Beerens
+url: /2019/01/15/install-home-assistant-hass-io-in-vmware-workstation/
 ---
+
+There a multiple ways to install Home Assistant Hass.io on different platforms. The instructions for deploying Hass.io as Virtual Machine (VM) are not very clear when using VMware Workstation or VMware ESXi. In this blog post I highlight the steps needed to deploy Hass.io as VM using VMware Workstation 15 Pro.
 
 Here are the steps:
 
@@ -71,6 +74,3 @@ Before starting the VM, edit the Virtual Machine settings and modify to followin
 [![](images/HA-300x113.png)](images/HA.png)
 
 Now you're ready to update Home Assistant and let's start playing.
-
-
-

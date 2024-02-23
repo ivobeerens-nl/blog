@@ -6,7 +6,10 @@ categories:
 tags: 
   - "home-assistant"
 author: Ivo Beerens
+url: /2021/06/21/run-home-assistant-supervised-as-virtual-machine-vm-on-vmware-esxi/
 ---
+
+**Updated: August 19, 2023**. Debian 11 is not supported any more for running Home Assistant Supervised. For a supported configuration, you need Debian 12. The steps in this blog are updated to install Home Assistant as Debian 12 VM in VMware ESXi.
 
 **Updated: December 2, 2022**. Debian 10 is not supported any more for running Home Assistant Supervised. For a supported configuration, you need Debian 11 (Bullseye). The steps in this blog are updated to install Home Assistant as Debian 11 VM in VMware ESXi.
 
@@ -15,7 +18,7 @@ Home Assistant Supervised provides the full Home Assistant experience on a regul
 ## Configure the Virtual Machine hardware specifications
 
 - Download the debian-live-12.1.0-amd64-standard.iso, [Link](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)
-- Make a connection to the ESXi host: https://<ip-address>/ui
+- Make a connection to the ESXi host: `https://<ip-address>/ui`
 - Upload the Debian ISO to a datastore
 - Create a new virtual machine with the following specifications:
     - **Name:** <Name of the VM>
@@ -80,35 +83,55 @@ The Debian VM will be rebooted and is ready for use. After the installation, ope
 
 **Enable SSH**
 
-\[code language="text"\] sudo apt install openssh-server sudo nano /etc/ssh/sshd\_config \[/code\]
-
+```
+sudo apt install openssh-server
+sudo nano /etc/ssh/sshd_config
+```
 Enable port 22 and save the file
 
-\[code language="text"\] systemctl restart ssh \[/code\]
+```
+systemctl restart ssh
+```
+
 
 **Enable Sudo on the user account**
 
-\[code language="text"\] nano /etc/sudoers \[/code\]
+```
+nano /etc/sudoers
+```
 
-Save Under the "User privilege specification" add the user account created during the Debian installation. Replace the <username> with the name of the user you entered in the installation phase.
+Save
 
-\[code language="text"\] username ALL=(ALL:ALL) ALL \[/code\]
+Under the "User privilege specification" add the user account created during the Debian installation. Replace the <username> with the name of the user you entered in the installation phase.
+
+```
+username ALL=(ALL:ALL) ALL
+```
 
 [![](images/sudoers-300x159.jpg)](images/sudoers.jpg)
 
 Press CTRL + X to save the file. Now it is possible to use the sudo account under your username.
 
-\[code language="text"\] exit sudo -i \[/code\]
+```
+exit
+sudo -i
+```
 
 More information: [How to Install and Enable SSH on Debian 12/11/10 - LinuxCapable](https://www.linuxcapable.com/how-to-install-and-enable-ssh-on-debian-linux/#:~:text=How%20to%20Install%20and%20Enable%20SSH%20on%20Debian,needs.%20...%203%20Step%203%3A%20Connect%20with%20SSH)
 
-**Update all Debian packages** \[code language="text"\] apt update && sudo apt upgrade -y && sudo apt autoremove -y \[/code\]
+**Update all Debian packages** 
+
+```
+apt update && sudo apt upgrade -y && sudo apt autoremove -y
+```
 
 **Find the IPv4 address of the VM by using the command:**
 
 VMware Tools is included in the Debian distribution so you don't need to install VMware Tools package. Find the IP address by using the following command:
 
-\[code language="text"\] ifconfig ens192 \[/code\]
+```
+ifconfig ens192
+```
 
 Look for the **inet** address. That's the IP address.
 
@@ -116,43 +139,69 @@ Look for the **inet** address. That's the IP address.
 
 Connect using SSH to the IP address of the Debian VM by using Putty for example.
 
-\[code language="text"\] sudo -i \[/code\]
+```
+sudo -i
+```
 
 **Install the required packages**
 
-\[code language="text"\] apt-get install \\ apparmor \\ jq \\ wget \\ curl \\ udisks2 \\ libglib2.0-bin \\ network-manager \\ dbus \\ lsb-release \\ systemd-journal-remote -y \[/code\]
+```
+apt-get install \
+apparmor \
+jq \
+wget \
+curl \
+udisks2 \
+libglib2.0-bin \
+network-manager \
+dbus \
+lsb-release \
+systemd-journal-remote -y
+```
 
 **Install Docker-CE**
 
-\[code language="text"\] curl -fsSL get.docker.com | sh \[/code\]
+```
+curl -fsSL get.docker.com | sh
+```
 
 **Install the latest Agent**
 
 The latest agents can be found here: https://github.com/home-assistant/os-agent/releases/latest
 
-Replace the "os-agent\_1.5.1\_linux\_x86\_64.deb" with the agent version you downloaded.
+Replace the “os-agent_1.5.1_linux_x86_64.deb” with the agent version you downloaded.
 
-\[code language="text"\] wget https://github.com/home-assistant/os-agent/releases/download/1.5.1/os-agent\_1.5.1\_linux\_x86\_64.deb dpkg -i os-agent\_1.5.1\_linux\_x86\_64.deb \[/code\]
+```
+wget https://github.com/home-assistant/os-agent/releases/download/1.5.1/os-agent_1.5.1_linux_x86_64.deb
+dpkg -i os-agent_1.5.1_linux_x86_64.deb
+```
 
 You can check if the installation was successful by running the following command.
 
-\[code language="text"\] gdbus introspect --system --dest io.hass.os --object-path /io/hass/os \[/code\]
+```
+gdbus introspect --system --dest io.hass.os --object-path /io/hass/os
+```
 
 This should not return an error.
 
 **Install Home Assistant Supervised Debian Package**
 
-\[code language="text"\] wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb dpkg -i homeassistant-supervised.deb \[/code\]
+```
+wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+dpkg -i homeassistant-supervised.deb
+```
 
 A reboot of the Debian VM is necessary.
 
-\[code language="text"\] reboot \[/code\]
+```
+reboot
+```
 
 [![](images/reboot-300x220.jpg)](images/reboot.jpg)
 
-After the reboot, you need to wait (between 1 and 20 minutes) for the initial Home Assistant configuration.  With the command "docker ps" you can view the status of the Docker containers. The status must be Up xx minutes.
+After the reboot, you need to wait (between 1 and 20 minutes) for the initial Home Assistant configuration.  With the command `docker ps` you can view the status of the Docker containers. The status must be Up xx minutes.
 
-Connect to Hass.io: http://;:8123
+Connect to Hass.io: `http://<hostname or IP>:8123`
 
 [![](images/Login-300x147.jpg)](images/Login.jpg)
 
@@ -165,6 +214,3 @@ Settings -> System -> Repairs -> 3 dots -> System Information
 More information:
 
 [GitHub - home-assistant/supervised-installer: Installer for a generic Linux system](https://github.com/home-assistant/supervised-installer)
-
-
-

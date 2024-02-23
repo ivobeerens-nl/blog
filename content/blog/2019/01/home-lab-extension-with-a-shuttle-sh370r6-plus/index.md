@@ -8,10 +8,12 @@ tags:
   - "VMware"
 coverImage: "unnamed.jpg"
 author: Ivo Beerens
+url: /2019/01/30/home-lab-extension-with-a-shuttle-sh370r6-plus/
 ---
 
-I had the following requirements for the new home lab host:
+For my home lab I needed a new host that replaces my Intel NUC ([link](http://www.ivobeerens.nl/2016/02/24/intel-nuc-6th-generation-as-home-server/)) that act as management host. The hardware resources (CPU and memory) on the NUC were limiting my lab activities.
 
+I had the following requirements for the new home lab host:
 - Ability to run the latest VMware ESXi 6.7 U1 version
 - Support for 64 GB memory
 - Fast storage support (M.2 NVMe SSD)
@@ -24,8 +26,7 @@ I did some research for a new home lab host and investigated hosts such as the 
 
 <table><tbody><tr><td><strong>Parts</strong></td><td><strong>~Price (€)</strong></td><td><strong>Link&nbsp;</strong></td></tr><tr><td><strong>Barebone System</strong>: Shuttle XPC cube barebone&nbsp;SH370R6 Plus (500 Watt (80 PLUS Silver) PSU.</td><td>&nbsp;291,00<div></div>&nbsp;</td><td><a href="https://tweakers.net/pricewatch/1250583/shuttle-xpc-cube-sh370r6-plus.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr><td><strong>CPU</strong>: Intel Core i7 8700 with 6 cores and 12 threads 65W</td><td>&nbsp;333,45<div></div>&nbsp;</td><td><a href="https://tweakers.net/pricewatch/1051083/intel-core-i7-8700-tray.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr><td><strong>Memory</strong>: 4 x 16 GB, Kingston ValueRAM KVR26N19D8/16</td><td>&nbsp;488,00</td><td><a href="https://tweakers.net/pricewatch/839937/kingston-valueram-kvr26n19d8-16.html#filter:q1YqSKzMTc0r8UxRsjI0qAUA" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr><td><strong>Disk</strong>: Samsung 970 EVO 1 TB M.2</td><td>&nbsp;217,99</td><td><a href="https://tweakers.net/pricewatch/1169447/samsung-970-evo-1tb.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr><td><strong>USB stick</strong>: Kingston Datatraveler 100 G3 32 GB</td><td>&nbsp; &nbsp;7,30</td><td><a href="https://tweakers.net/pricewatch/340574/kingston-datatraveler-100-g3-32gb-zwart.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr><td><strong>Total</strong></td><td><strong>1337,74</strong></td><td></td></tr></tbody></table>
 
-_**Update May 13, 2019**: _ A new Shuttle **SH370R8** is released. The Shuttle SH370R8 has the following new enhancements:
-
+**Update May 13, 2019**: _ A new Shuttle **SH370R8** is released. The Shuttle SH370R8 has the following new enhancements:
 - 9th generation Intel Core i9 processor support (The latest BIOS of the SH370R6 Shuttle also supports the 9th generation of Intel Core CPUs).
 - Dual Intel Gigabit Ethernet onboard NICs
 - Support for four 3.5" hard drives
@@ -50,19 +51,7 @@ A barebone is pre-installed system with a mainboard, GPU, Power Supply Unit (PSU
 - **Network**: Intel Gigabit I211 adapter
 - **PSU**: Integrated 300  Watt (80 PLUS Bronze) in the SH370R6 or 500 Watt (80 PLUS Silver) in the SH370R6 plus version.
 
-[![](images/SH370R6-hi-55view-L-1-300x226.jpg)](images/SH370R6-hi-55view-L-1.jpg) [![](images/SH370R6-hi-backview-300x274.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/SH370R6-hi-backview.jpg)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+[![](images/SH370R6-hi-55view-L-1-300x226.jpg)](images/SH370R6-hi-55view-L-1.jpg) [![](images/SH370R6-hi-backview-300x274.jpg)](images/SH370R6-hi-backview.jpg)
 
 The Shuttle  SH370R6 plus has a 500 W Power supply so a GPU can be added  if needed. For now I will use the onboard GPU. There is one Intel Gigabit I211 NIC onboard.
 
@@ -98,15 +87,15 @@ Once all the hardware parts were delivered it was time to build the Shuttle XPC 
 - Open the barebone Shuttle by removing 3 screws on the back and the move the aluminium case away.
 - Install the Intel CPU and add some thermal paste.
 
-[![](images/20190112_113219379_iOS-300x225.jpg)](images/20190112_113219379_iOS.jpg) [![](images/20190112_113705505_iOS-300x225.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/20190112_113705505_iOS.jpg) 
+[![](images/20190112_113219379_iOS-300x225.jpg)](images/20190112_113219379_iOS.jpg) [![](images/20190112_113705505_iOS-300x225.jpg)](images/20190112_113705505_iOS.jpg) 
 
 - Shuttle has a own Integrated Cooling Engine (I.C.E.) heatpipe technology that delivers cooling for the CPU with a 92 mm fan.
 
-[![](images/20190112_113820754_iOS-300x225.jpg)](images/20190112_113820754_iOS.jpg)[![](images/20190112_114252818_iOS-300x225.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/20190112_114252818_iOS.jpg)
+[![](images/20190112_113820754_iOS-300x225.jpg)](images/20190112_113820754_iOS.jpg)[![](images/20190112_114252818_iOS-300x225.jpg)](images/20190112_114252818_iOS.jpg)
 
 - Mount the I.C.E. heatpipe cooler on the CPU and attach the fan.
 
-[![](images/20190112_114340469_iOS-300x225.jpg)](images/20190112_114340469_iOS.jpg) [![](images/IMG-0694-225x300.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/IMG-0694.jpg)
+[![](images/20190112_114340469_iOS-300x225.jpg)](images/20190112_114340469_iOS.jpg) [![](images/IMG-0694-225x300.jpg)](images/IMG-0694.jpg)
 
 - The Shuttle supports up to 64 GB DDR4 memory. Insert the 4 memory modules in the DIMM slots.
 
@@ -137,19 +126,17 @@ The Shuttle has no remote management functionality so you'll need a physical mon
 
 As test I installed Windows Server 2019 on the Samsung EVO 970 1 TB. The installation of Windows Server 2019 is finished within a couple of minutes. The onboard Intel Gigabit I211 NIC is not recognized by the Windows. The Intel driver is only for Windows 10 and won’t install on a server OSes by default. This issue is there for a long time (see [link](https://www.ivobeerens.nl/2013/06/24/enable-the-intel-i217-v-nic-in-windows-server-2012/)). Intel does not want that desktop NICs are being used on Windows Server OSes. With some hacking ([link](https://blog.workinghardinit.work/2017/06/19/installing-intel-i211-i217v-i218v-i219v-drivers-windows-server-2016-eufi-boot/)) it is possible to enable the NIC. The add-on Intel Gigabit NIC is recognized by default in Windows Server 2019. Enabled the Hyper-V role and installed some VMs without problems. The user experience is fast, very fast!
 
-[![](images/system-1-300x289.png)](images/system-1.png) [![](images/task-manager-300x265.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/task-manager.png)
-
- 
+[![](images/system-1-300x289.png)](images/system-1.png) [![](images/task-manager-300x265.png)](images/task-manager.png)
 
 ### VMware ESXi
 
 After the Windows Server 2019 test, it was time to create an USB stick ([link](https://www.ivobeerens.nl/2018/09/16/quick-tip-create-a-bootable-VMware-esxi-key/)) and install VMware ESXi  6.7 U1. The installation is a piece of cake. The onboard Intel Gigabit I211 NIC is recognized by ESXi and will be used for management and VM traffic in my config. The add-on Intel 1 GbE NIC is configured as NFS connection to my existing QNAP NAS. After some initial configuration (network and storage connection, NTP, and licensing) I migrated all the VMs from my old NUC to the new Shuttle. Most VMs are placed on the NVMe SSDs. I really like to performance boost of the VMs when they are running on the new hardware. When the load increases on the Shuttle the fan will make more noise (Smart FAN mode ). This can be annoying when you're in the same room. In the BIOS you can tweak the FAN speed. For me this is not a problem because i'll have a separate room were my home lab servers resides.
 
-[![](images/esxi01-300x147.png)](images/esxi01.png) [![](images/esxi02-300x47.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/esxi02.png) [![](images/esxi03-300x24.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/esxi03.png)
+[![](images/esxi01-300x147.png)](images/esxi01.png) [![](images/esxi02-300x47.png)](images/esxi02.png) [![](images/esxi03-300x24.png)](images/esxi03.png)
 
 The onboard SATA controller is recognized by ESXi. I attached two single SSDs to the controller and created a VMFS-6 partition.
 
-[![](images/SATA2-300x51.png)](images/SATA2.png) [![](images/SATA1-300x53.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/01/SATA1.png)
+[![](images/SATA2-300x51.png)](images/SATA2.png) [![](images/SATA1-300x53.png)](images/SATA1.png)
 
 **vSAN**
 

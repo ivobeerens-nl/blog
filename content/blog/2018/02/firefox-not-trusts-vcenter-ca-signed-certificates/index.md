@@ -8,7 +8,10 @@ tags:
   - "vcenter"
   - "vcsa"
 author: Ivo Beerens
+url: /2018/02/13/firefox-not-trusts-vcenter-ca-signed-certificates/
 ---
+
+For a vCenter Server environment I replaced the default SSL certificates with CA signed SSL certificates. The Platform Service Controller (PSC) is configured as VMCA subordinate CA. When opening the vSphere Web/HTML5 Client, Firefox displays the following warning: *Your connection is not secure*.
 
 [![](images/insecure-300x257.png)](images/insecure.png)
 
@@ -27,6 +30,3 @@ The following steps illustrate how to configure Firefox to use the Windows certi
 Firefox now trust the root certificates in the Windows certificate store.
 
 [![](images/secure-300x173.png)](images/secure.png)
-
-
-

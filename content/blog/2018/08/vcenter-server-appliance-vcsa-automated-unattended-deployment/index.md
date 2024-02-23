@@ -5,7 +5,10 @@ tags:
   - "vcsa"
   - "VMware"
 author: Ivo Beerens
+url: /2018/08/20/vcenter-server-appliance-vcsa-automated-unattended-deployment/
 ---
+
+Installing the vCenter Server Aplliance (vCSA) automatically using an unattended scripted deployment can be done by command line (CLI) in combination with a JSON config file. In this example an embedded vCenter Server Appliance with the Platform Service Controller (PSC) and vCenter Server role will be deployed.
 
 **Prerequisites:**
 
@@ -45,17 +48,86 @@ The types of templates are avalable:
 
 Example JSON file to deploy an embedded vCenter Server Appliance with the PSC and vCenter components:
 
-\[code language="xml"\] { "\_\_version": "2.13.0", "\_\_comments": "Sample template to deploy a vCenter Server Appliance with an embedded Platform Services Controller on an ESXi host.", "new\_vcsa": { "esxi": { "hostname": "192.168.11.10", "username": "root", "password": "VMwaaare01!", "deployment\_network": "vlan13-srv", "datastore": "SSD-M2-01" }, "appliance": { "\_\_comments": \[ "You must provide the 'deployment\_option' key with a value, which will affect the VCSA's configuration parameters, such as the VCSA's number of vCPUs, the memory size, the storage size, and the maximum numbers of ESXi hosts and VMs which can be managed. For a list of acceptable values, run the supported deployment sizes help, i.e. vcsa-deploy --supported-deployment-sizes" \], "thin\_disk\_mode": true, "deployment\_option": "tiny", "name": "vcsa03.lab.local" }, "network": { "ip\_family": "ipv4", "mode": "static", "ip": "192.168.13.13", "dns\_servers": \[ "192.168.13.101" \], "prefix": "24", "gateway": "192.168.13.254", "system\_name": "vcsa03.lab.local" }, "os": { "password": "VMware01!", "ntp\_servers": "pool.ntp.org", "ssh\_enable": true }, "sso": { "password": "VMware01!", "domain\_name": "vSphere.local" } }, "ceip": { "description": { "\_\_comments": \[ "++++VMware Customer Experience Improvement Program (CEIP)++++", "VMware's Customer Experience Improvement Program (CEIP) ", "provides VMware with information that enables VMware to ", "improve its products and services, to fix problems, ", "and to advise you on how best to deploy and use our ", "products. As part of CEIP, VMware collects technical ", "information about your organization's use of VMware ", "products and services on a regular basis in association ", "with your organization's VMware license key(s). This ", "information does not personally identify any individual. ", "", "Additional information regarding the data collected ", "through CEIP and the purposes for which it is used by ", "VMware is set forth in the Trust &amp;amp;amp;amp; Assurance Center at ", "http://www.VMware.com/trustVMware/ceip.html . If you ", "prefer not to participate in VMware's CEIP for this ", "product, you should disable CEIP by setting ", "'ceip\_enabled': false. You may join or leave VMware's ", "CEIP for this product at any time. Please confirm your ", "acknowledgement by passing in the parameter ", "--acknowledge-ceip in the command line.", "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" \] }, "settings": { "ceip\_enabled": true } } }
-
-\[/code\]
+```
+{
+    "__version": "2.13.0",
+    "__comments": "Sample template to deploy a vCenter Server Appliance with an embedded Platform Services Controller on an ESXi host.",
+    "new_vcsa": {
+        "esxi": {
+            "hostname": "192.168.11.10",
+            "username": "root",
+            "password": "VMwaaare01!",
+            "deployment_network": "vlan13-srv",
+            "datastore": "SSD-M2-01"
+        },
+        "appliance": {
+            "__comments": [
+                "You must provide the 'deployment_option' key with a value, which will affect the VCSA's configuration parameters, such as the VCSA's number of vCPUs, the memory size, the storage size, and the maximum numbers of ESXi hosts and VMs which can be managed. For a list of acceptable values, run the supported deployment sizes help, i.e. vcsa-deploy --supported-deployment-sizes"
+            ],
+            "thin_disk_mode": true,
+            "deployment_option": "tiny",
+            "name": "vcsa03.lab.local"
+        },
+        "network": {
+            "ip_family": "ipv4",
+            "mode": "static",
+            "ip": "192.168.13.13",
+            "dns_servers": [
+                "192.168.13.101"
+            ],
+            "prefix": "24",
+            "gateway": "192.168.13.254",
+            "system_name": "vcsa03.lab.local"
+        },
+        "os": {
+            "password": "VMware01!",
+            "ntp_servers": "pool.ntp.org",
+            "ssh_enable": true
+        },
+        "sso": {
+            "password": "VMware01!",
+            "domain_name": "vsphere.local"
+        }
+    },
+    "ceip": {
+        "description": {
+            "__comments": [
+                "++++VMware Customer Experience Improvement Program (CEIP)++++",
+                "VMware's Customer Experience Improvement Program (CEIP) ",
+                "provides VMware with information that enables VMware to ",
+                "improve its products and services, to fix problems, ",
+                "and to advise you on how best to deploy and use our ",
+                "products. As part of CEIP, VMware collects technical ",
+                "information about your organization's use of VMware ",
+                "products and services on a regular basis in association ",
+                "with your organization's VMware license key(s). This ",
+                "information does not personally identify any individual. ",
+                "",
+                "Additional information regarding the data collected ",
+                "through CEIP and the purposes for which it is used by ",
+                "VMware is set forth in the Trust &amp;amp;amp;amp;amp; Assurance Center at ",
+                "http://www.vmware.com/trustvmware/ceip.html . If you ",
+                "prefer not to participate in VMware's CEIP for this ",
+                "product, you should disable CEIP by setting ",
+                "'ceip_enabled': false. You may join or leave VMware's ",
+                "CEIP for this product at any time. Please confirm your ",
+                "acknowledgement by passing in the parameter ",
+                "--acknowledge-ceip in the command line.",
+                "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+            ]
+        },
+        "settings": {
+            "ceip_enabled": true
+        }
+    }
+}
+```
 
 The first deployments failed when using the FQDN ESXi hostname in the JSON file, with the following error:
 
-OVF Tool: Transfer Failed
-
-OVF Tool: Error: Failed to send http data
-
-Deployment failed. OVF Tool return error code: 1
+> OVF Tool: Transfer Failed
+  OVF Tool: Error: Failed to send http data
+  Deployment failed. OVF Tool return error code: 1
 
 [![](images/1-9-300x194.png)](images/1-9.png)
 
@@ -78,6 +150,3 @@ When the unattended deployment finished, an embedded vCenter Server Appliance wi
 I created a GitHub repository for the deployment and parameters, [link](https://github.com/ibeerens/VCSA).
 
 VMware documentation about the CLI deployment can be found here, [link](https://docs.VMware.com/en/VMware-vSphere/6.7/com.VMware.vcenter.install.doc/GUID-C17AFF44-22DE-41F4-B85D-19B7A995E144.html).
-
-
-

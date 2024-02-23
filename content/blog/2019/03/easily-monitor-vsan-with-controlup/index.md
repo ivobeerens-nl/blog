@@ -12,7 +12,10 @@ tags:
   - "vsan"
 coverImage: "vsangreen.png"
 author: Ivo Beerens
+url: /2019/03/11/easily-monitor-vsan-with-controlup/
 ---
+
+One of the new enhancements of ControlUp 7.3 is vSAN monitoring support. ControlUp will detect the vSAN cluster(s), objects and displays real-time vSAN specific metrics and metadata. In this blog post I highlight the features of the new vSAN integration in ControlUp 7.3.
 
 ## **Installation**
 
@@ -34,11 +37,11 @@ There are several preset views available with vSAN metrics such as:
 - **vSAN Health**. Includes the vSAN health checks
 - **vSAN Host Network**. Includes vSAN network I/O and packet loss metrics.
 
-[![](images/health-300x168.png)](images/health.png) [![](images/vSAN-Host-Network-300x169.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/03/vSAN-Host-Network.png) [![](images/vsangreen-300x168.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/03/vsangreen.png)
+[![](images/health-300x168.png)](images/health.png) [![](images/vSAN-Host-Network-300x169.png)](/images//vSAN-Host-Network.png) [![](images/vsangreen-300x168.png)](/images/vsangreen.png)
 
 You can easily switch between predefined views in the "Colum Preset". Here is an overview of vSAN metrics used by ControlUp:
 
-Datastores: Name, Type, Capacity, Read/Write IOPS, Read/Write Rate, Read/Write Latency, Compression, Capacity Deduplication, Congestion, Outstanding IO, Disk Configuration, Total Used Capacity, Total Used – Physically Written, Total Used – VM Overreserved, Total Used – System Overhead, vSAN Free Capacity, vSAN Health, vSAN Cluster Health, vSAN Network Health, vSAN Physical Disk Health, vSAN Data Health, vSAN Limits Health, vSAN Hardware Compatibility Health, vSAN Performance Service Health, vSAN Build Recommendation, vSAN Online Health.
+>Datastores: Name, Type, Capacity, Read/Write IOPS, Read/Write Rate, Read/Write Latency, Compression, Capacity Deduplication, Congestion, Outstanding IO, Disk Configuration, Total Used Capacity, Total Used – Physically Written, Total Used – VM Overreserved, Total Used – System Overhead, vSAN Free Capacity, vSAN Health, vSAN Cluster Health, vSAN Network Health, vSAN Physical Disk Health, vSAN Data Health, vSAN Limits Health, vSAN Hardware Compatibility Health, vSAN Performance Service Health, vSAN Build Recommendation, vSAN Online Health.
 Datastores on Hosts: Name, Type, Capacity, Read/Write IOPS, Read/Write Rate, Read/Write Latency, Compression, Capacity Deduplication, Congestion, Outstanding IO, Local Client Cache Hit IOPS, Local Client Cache Hit Rate, vSAN Max Read Cache Read Latency, vSAN Max Write Buffer Write Latency, vSAN Max Read Cache Write Latency, vSAN Max Write Buffer Read Latency, vSAN Min Read Cache Hit Rate, vSAN Write Buffer Min Free Percentage, vSAN Host Network Inbound/Outbound I/O Throughput, vSAN Host Network Inbound/Outbound Packets Per Second, vSAN Host Network Inbound/Outbound Packet Loss Rate
 
 When navigating you see all those metrics available on the vSAN cluster, vSAN datastores on hosts, virtual disks and vSAN Host network utilization views. You can easily drill down by double clicking from the vSAN datastore to the diskgroup(s) on each ESXi host and then drill down to the the virtual disk(s). From the virtual disk(s) you can drill down to the Windows process.
@@ -86,6 +89,3 @@ When using the triggers you're able to start investigating it right away when so
 ControlUp is easy to set-up and great for fast troubleshooting. In version 7.3 is vSAN support added. As shown in the this blog post with a couple of double clicks you're able to perform a root cause analysis and find what process is causing the high IOPS on the vSAN.
 
 There is a free trail available. Give it a try here: [link](https://www.controlup.com/)
-
-
-

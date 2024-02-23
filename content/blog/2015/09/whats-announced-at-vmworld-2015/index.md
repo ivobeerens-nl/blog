@@ -7,7 +7,10 @@ tags:
   - "sddc"
   - "vmworld"
 author: Ivo Beerens
+url: /2015/09/01/whats-announced-at-vmworld-2015/
 ---
+
+This blog contains the most VMworld 2015 announcements summarized. The VMworld 2015 day 1 announcements were all about the Software Defined Datacenter (SDDC), Hybrid cloud and Cloud Native Apps (containers). This blogpost will be updated with new announcements when available.
 
 **VMworld 2015 day 1**
 

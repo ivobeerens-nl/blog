@@ -10,8 +10,10 @@ tags:
   - "exam"
   - "windows-virtual-desktop"
   - "wvd"
+url: /2021/04/13/resources-to-prepare-for-the-az-140-configuring-and-operating-windows-virtual-desktop-on-microsoft-azure-exam/
 author: Ivo Beerens
 ---
+I’m preparing for the **AZ-140 Azure Virtual Desktop (AVD)** exam.
 
 [![](images/avd-284x300.jpg)](images/avd.jpg)
 
@@ -25,7 +27,6 @@ The following resources I'm using for studying for the exam:
 - The AZ-140 exam can be taken online. Know what to expect with an online proctored exam,  [link](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/online-proctored-exams-what-to-expect-and-how-to-prepare/ba-p/1469424)
 
 Create a free Azure account to get some hands-on lab experience
-
 - [Create a Azure free account](https://azure.microsoft.com/en-us/free/)
 
 The Azure Academy did a great job and created  a series of AZ-140 study guides on YouTube:
@@ -68,6 +69,3 @@ Exam tips:
 - [How to pass AZ-140 certification exam - AVD specialisation](https://wvdlogix.net/how-to-pass-az-140-certification-exam-avd-specialisation)
 
 I hope that these resources will help you pass the AZ-104 exam. Let me know in a comment below about your experience with the AZ-104 exam.
-
-
-

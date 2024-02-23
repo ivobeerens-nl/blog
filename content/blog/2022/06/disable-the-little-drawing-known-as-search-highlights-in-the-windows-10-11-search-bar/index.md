@@ -2,10 +2,10 @@
 title: "Disable the little drawing (known as search highlights) in the Windows 10/11 search bar"
 date: "2022-06-27T14:41:27.000Z"
 categories: 
-  - "windows-10"
+  - "Microsoft Windows"
   - "windows-11"
 tags: 
-  - "search-bar"
+  - "Microsoft Windows"
   - "windows-10"
   - "windows-11"
 author: Ivo Beerens

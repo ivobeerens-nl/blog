@@ -6,7 +6,10 @@ categories:
 tags: 
   - "home-lab"
 author: Ivo Beerens
+url: /2015/12/14/4131/
 ---
+
+Last month I extended my VMware ESXi and Hyper-V home lab with a Samsung 950 Pro SSD. The Samsung 950 Pro SSD is the next-gen SSD that has the following characteristics:
 
 - Uses V-NAND memory and the Non-Volatile Memory Express (NVME) protocol. This takes away the 600 MBps bandwidth limit with the SATA protocol.
 - Takes advantage of the PCIe Gen 3 x4 (up to 32 Gb/s) interface
@@ -17,7 +20,7 @@ author: Ivo Beerens
 
 These improvements results in being one of the fastest consumer SSD on the market today. In my current home lab don't have a PCIe Gen3 x4 slot or a M.2 interface. I found a "interface converter PCI-Express, M.2 NGFF" (l[ink](https://www.conrad.nl/nl/interface-converter-pci-express-m2-ngff-1192250.html)) adapter. It's the same adapter as the Lycom DT-120 ([link)](http://www.lycom.com.tw/DT-120.htm) another great blog called TinkerTry is referring to ([link](https://tinkertry.com/how-to-install-a-2nd-samsung-950-pro-m2-nvme-on-superserver)). The adapter converts the M.2 interface to a PCIe interface slot.
 
-[![IMG_8197](images/IMG_8197-225x300.jpg)](images/IMG_8197.jpg) [![IMG_8075](images/IMG_8075-e1449752582302-300x225.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2015/12/IMG_8075-e1449752582302.jpg)
+[![IMG_8197](images/IMG_8197-225x300.jpg)](images/IMG_8197.jpg) [![IMG_8075](images/IMG_8075-e1449752582302-300x225.jpg)](images/IMG_8075-e1449752582302.jpg)
 
 The Lycom DT-120 adapter has the following specifications:
 
@@ -56,9 +59,6 @@ A VM with a 10 GB Thick Provisioned Eager Zeroed VMDK disk is attached. The di
 
 The Left picture is the Samsung EVO 840 and the right picture is the Samsung 950 Pro.
 
-[![samsung840-evo-512gb](images/samsung840-evo-512gb-1-196x300.png)](images/samsung840-evo-512gb-1.png) [![atto Z870D3HP](images/atto-Z870D3HP-196x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/12/atto-Z870D3HP.png)
+[![samsung840-evo-512gb](images/samsung840-evo-512gb-1-196x300.png)](images/samsung840-evo-512gb-1.png) [![atto Z870D3HP](images/atto-Z870D3HP-196x300.png)](images/atto-Z870D3HP.png)
 
 As you can see the read and write performance is multiplied by 3 on the Samsung 950 Pro with the M.2 interface converter . These are pretty impressive numbers for a consumer SSD.
-
-
-

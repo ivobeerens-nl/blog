@@ -9,17 +9,19 @@ tags:
   - "home-lab"
   - "pi"
 coverImage: "h8-scaled.jpg"
+url: /2020/10/21/how-to-build-an-esxi-on-arm-pi-cluster/
 author: Ivo Beerens
 ---
 
-- - Avantek Workstation and server (Ampere eMAG)
-    - Lenovo ThinkSystem HR330A and HR350A (Ampere eMAG)
-    - SolidRun Honeycomb LX2
-    - Raspberry Pi (rPi) 4b model (4GB and 8GB only).
+Shortly after VMworld 2020, VMware released (after years of announcing and demoing) the ESXi On ARM fling (*1). On Social media and the community ESXi on ARM is a very hot topic. The ESXi ARM fling makes it possible to run the VMware ESXi hypervisor on ARM platforms such as:
+- Avantek Workstation and server (Ampere eMAG)
+- Lenovo ThinkSystem HR330A and HR350A (Ampere eMAG)
+- SolidRun Honeycomb LX2
+- Raspberry Pi (rPi) 4b model (4GB and 8GB only).
 
 Because it supports the Raspberry Pi 4b model is very interesting for the home labbers.
 
-**(\*1)** A fling shows an early stage of software to the VMware community. There is no official (only community) support available. The ESXi on ARM fling can be download for the following location: [link](https://flings.VMware.com/esxi-arm-edition).
+**(*1)** A fling shows an early stage of software to the VMware community. There is no official (only community) support available. The ESXi on ARM fling can be download for the following location: [link](https://flings.VMware.com/esxi-arm-edition).
 
 ## Use cases
 
@@ -28,7 +30,7 @@ Some use cases for ESXi On ARM are:
 - vSAN Witness node, [link](https://www.virtuallyghetto.com/2020/10/vsan-witness-using-raspberry-pi-4-esxi-arm-fling.html)
 - Automation environment for PowerCLI and Terraform and packer, [link](https://www.virtuallyghetto.com/2020/10/using-esxi-arm-fling-as-a-lightweight-vSphere-automation-environment-for-powercli-and-terraform.html).
 - Security at the edge
-- Other home lab projects such as running Home Assistant (blog post is coming).
+- Other home lab projects such as running Home Assistant (See the next blog post).
 
 [![](images/HA-300x149.png)](images/HA.png)
 
@@ -42,15 +44,13 @@ Here is a simple diagram of how my setup looks like:
 
 [![](images/Diagram-zonder-titel-300x275.png)](images/Diagram-zonder-titel.png)
 
- 
-
 ## build of materials (BOM)
 
 In this blog article, I will mention the build of materials (BOM). The following components I use:
-
+s
 <table style="border-collapse: collapse; width: 100%; height: 224px;"><tbody><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>Number</strong></td><td style="width: 35.0288%; height: 24px;"><strong>Component</strong></td><td style="width: 23.8505%; height: 24px;"><strong>~Cost €&nbsp;</strong></td><td style="width: 33.3333%; height: 24px;"><strong>Link (cheapest Pi shop in the Netherlands)</strong></td></tr><tr style="height: 56px;"><td style="width: 7.78739%;"><strong>1</strong></td><td style="width: 35.0288%; height: 56px;">Raspberry Pi 4 Model B with 8GB memory.</td><td style="width: 23.8505%; height: 56px;">87,50 (per Pi)</td><td style="width: 33.3333%; height: 56px;"><a href="https://www.raspberrystore.nl/PrestaShop/raspberry-pi-v4/279-raspberry-pi-4b-8gb-765756931199.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>2</strong></td><td style="width: 35.0288%; height: 24px;">Raspberry Pi 15W USB-C Power Supply</td><td style="width: 23.8505%; height: 24px;">&nbsp;9,95 (per Pi)</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.raspberrystore.nl/PrestaShop/raspberry-pi-v4/230-raspberry-pi-15w-usb-c-power-supply-eu-zwart.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>3</strong></td><td style="width: 35.0288%; height: 24px;">Argon One Pi 4 case</td><td style="width: 23.8505%; height: 24px;">28,95 (per Pi)</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.raspberrystore.nl/PrestaShop/behuizingen/292-argon-one-voor-raspberry-pi-4.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>4</strong></td><td style="width: 35.0288%; height: 24px;">Official Raspberry Pi USB keyboard</td><td style="width: 23.8505%; height: 24px;">17,95</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.raspberrystore.nl/PrestaShop/home/224-toetsenbord-zwartgrijs-0652508442150.html?search_query=keyboard&results=4" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>5</strong></td><td style="width: 35.0288%; height: 24px;">Micro SD card, 32 GB</td><td style="width: 23.8505%; height: 24px;">13,95 (per Pi)</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.raspberrystore.nl/PrestaShop/storage-usb-sticks-sd-kaarten/132-micro-sd-kaart-32gb.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>6</strong></td><td style="width: 35.0288%; height: 24px;">Delock USB 3.2 16 GB flash drive</td><td style="width: 23.8505%; height: 24px;">&nbsp;8,99 (per Pi)</td><td style="width: 33.3333%; height: 24px;">I reused the USB drives</td></tr><tr style="height: 24px;"><td style="width: 7.78739%;"><strong>7</strong></td><td style="width: 35.0288%; height: 24px;">Micro-HDMI to HDMI cable 1,5m.</td><td style="width: 23.8505%; height: 24px;">&nbsp;7,95</td><td style="width: 33.3333%; height: 24px;"><a href="https://www.raspberrystore.nl/PrestaShop/raspberry-pi-v4/235-hdmi-micro-hdmi-zwart-1m-5412810180363.html" target="_blank" rel="noopener noreferrer">Link</a></td></tr></tbody></table>
 
-**1\. Raspberry Pi 4 Model B with 8GB memory**.
+**1. Raspberry Pi 4 Model B with 8GB memory**.
 
 This Pi model has the following specifications:
 
@@ -117,13 +117,9 @@ In the next ESXi on ARM blog, I will highlight the ESXi on ARM installation proc
 Here are some great links to follow:
 
 - [ESXi ARM Fling](https://flings.VMware.com/esxi-arm-edition)
-- [ESXi-ARM VMTN forum](https://communities.VMware.com/community/vmtn/vSphere/esxi/esxi-arm-fling)
 - [VMware ESXI-ARM blog](https://blogs.VMware.com/arm)
 - [William Lam ESXi-ARM](https://www.virtuallyghetto.com/category/esxi-arm)
 - [The slack channel #esxi-arm on VMware{code}](https://code.VMware.com/web/code/join)
-- [ESXi-ARM Twiiter](https://twitter.com/esxi_arm)
+- [ESXi-ARM Twitter](https://twitter.com/esxi_arm)
 
 Thanks to the [Raspberry Store](https://www.raspberrystore.nl/PrestaShop/) for the quick delivery.
-
-
-

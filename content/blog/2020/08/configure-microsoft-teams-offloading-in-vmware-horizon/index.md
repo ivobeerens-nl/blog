@@ -8,7 +8,10 @@ tags:
   - "teams"
   - "VMware"
 author: Ivo Beerens
+url: /2020/08/25/configure-microsoft-teams-offloading-in-vmware-horizon/
 ---
+
+With VMware Horizon 8 or the new naming format, Horizon 2006 (YYMM) Microsoft Teams offloading / media optimization is supported. Media Optimization for Microsoft Teams redirects audio calls, video calls, and viewing desktop shares for a seamless experience between the client system and the remote session without negatively affecting the virtual infrastructure and overloading the network.
 
 ## What is supported
 
@@ -30,7 +33,6 @@ Media Optimization for Microsoft Teams has the following limitations:
 [![](images/Limitations-300x148.png)](images/Limitations.png)
 
 To enable this feature you need  to configure the following settings:
-
 - Install Horizon 2006 client and enable media optimization.
 - Import the Horizon 2006 GPOs and enable the Group Policy setting for Microsoft Teams
 - Perform a machine-wide installation of Microsoft Teams on the golden image
@@ -73,10 +75,6 @@ Install a custom installation of the Horizon client.
 
 [![](images/Settings-300x55.png)](images/Settings.png)
 
- 
-
- 
-
 ## VDI - Golden Image
 
 Install the Microsoft Teams client on a Windows 10 32 or 64 bits OS.
@@ -84,7 +82,9 @@ Install the Microsoft Teams client on a Windows 10 32 or 64 bits OS.
 - Download the 32 or 64 bits Teams client, here is a link to the 64-bits version, [link](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
 - Perform a machine-wide installation because Teams won't work properly with a per-user installation on a non-persistent setup.
 
-\[code language="text"\] msiexec /i <path\_to\_msi> /l\*v <install\_logfile\_name> ALLUSER=1 ALLUSERS=1 \[/code\]
+```
+msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
+```
 
 More information on installing Microsoft Teams can be found here, [link.](https://docs.microsoft.com/en-us/microsoftteams/teams-for-vdi) More information on installing VMware Teams can be found here, [link](https://docs.VMware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
@@ -97,6 +97,3 @@ To check if the Teams session is running in optimized, failback, or natively (wi
 ## Conclusion
 
 After configuring these settings Microsoft Teams offloading is configured. For Microsoft Teams offloading you need at least an advanced Horizon license. Microsoft Teams offloading is now available in the Horizon standard subscription license, see [link](https://www.VMware.com/content/dam/digitalmarketing/VMware/en/pdf/products/horizon/vmw-horizon-subscription-feature-comparison.pdf).
-
-
-

@@ -9,13 +9,14 @@ tags:
   - "esxi-2"
   - "home-assistant"
 author: Ivo Beerens
+url: /2019/04/03/installing-home-assistant-hass-io-as-virtual-machine-vm-on-vmware-esxi/
 ---
+
+I started exploring Home Assistant Hass.io on a Raspberry Pi. After several SD card crashes I decided to installed Hass.io as Virtual Machine (VM) on VMware ESXi. There is a VMDK version available ([link](http://www.ivobeerens.nl/2019/01/15/install-home-assistant-hass-io-in-vmware-workstation/)) that can attached (this involves manual steps) but I prefer a clean installation. VMware ESXi is installed on my Shuttle SH370R6 plus home lab server ([link](http://www.ivobeerens.nl/2019/01/30/home-lab-extension-with-a-shuttle-sh370r6-plus/)).
 
 **Update: June 2021:** Ubuntu is not supported anymore as Operating System for Home Assistant. See my blog post about installing the Debian for Home Assistant for more information.
 
 https://www.ivobeerens.nl/2021/06/21/run-home-assistant-supervised-as-virtual-machine-vm-on-VMware-esxi/
-
- 
 
 Other advantages of running Hass.io as VM on VMware ESXi are for example:
 
@@ -137,6 +138,3 @@ root@ha-01:~#
 [![](images/HAini-300x161.png)](images/HAini.png)
 
 Home Assistant Hass.io is now running as VM on VMware ESXi.
-
-
-

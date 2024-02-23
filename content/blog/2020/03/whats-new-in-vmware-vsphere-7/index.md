@@ -7,7 +7,10 @@ tags:
   - "vSphere"
 coverImage: "vSphere-Icon-Color-2020.png"
 author: Ivo Beerens
+url: /2020/03/10/whats-new-in-vmware-vsphere-7/
 ---
+
+vSphere 7 is built for supporting modern applications and the hybrid cloud. In the coming years, enterprises will build more and more applications using cloud-native tools and methods. There is a lot more complexity in deploying and managing modern applications. vSphere 7 with Kubernetes (formerly known as Project Pacific) is based on VMware Cloud Foundation 4 (VCF) and will help with this complexity. The developer doesn’t need to deal with infrastructure anymore and the VI Admin can provision and manage the infrastructure workloads with the same tools they already known.
 
 [![](images/kub2-300x163.png)](images/kub2.png)
 
@@ -43,16 +46,6 @@ Here an overview of the new improvements in these three key areas:
 - **vCenter Server Update Planner**. vCenter Server Update Planner is a new tool that helps with discovering, planning and upgrading a vCenter Server. In the vSphere client you receive notifications when an upgrade or update is available. The cool thing is that it detects installed VMware products and if they are compatible or not.
 
 [![](images/12-300x150.jpg)](images/12.jpg) [![](images/14-300x130.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2020/02/14.jpg)
-
- 
-
- 
-
- 
-
- 
-
- 
 
 ### **vSphere Lifecycle Manager (vLCM)**
 
@@ -91,8 +84,6 @@ Here an overview of the new improvements in these three key areas:
 
 [![](images/s3-300x214.png)](images/s3.png)
 
- 
-
 ### **vSAN 7.0** 
 
 - **Simpler Lifecycle Management**. See the **vSphere Lifecycle Manager (vLCM)** paragraph above for more details on this.
@@ -107,6 +98,3 @@ Here an overview of the new improvements in these three key areas:
  
 
 Besides these main improvements, there are dozens of other great enhancements on operations, efficiency, and management level. My favorite vSphere 7 improvement is the **vSphere Lifecycle Manager (vLCM)** enhancement because it makes updating and maintaining vSphere clusters (with vSAN) a lot easier using the desired state model.
-
-
-

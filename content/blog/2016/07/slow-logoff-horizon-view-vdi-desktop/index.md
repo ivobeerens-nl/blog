@@ -4,7 +4,10 @@ date: "2016-07-26T19:16:15.000Z"
 tags: 
   - "VMware-horizon"
 author: Ivo Beerens
+url: /2016/07/26/slow-logoff-horizon-view-vdi-desktop/
 ---
+
+When building a new Horizon Environment, the logoff and refresh maintenance window takes a couple of minutes.
 
 When a user is logging off from a Horizon VDI session the desktop refreshed in a floating pool. (A refresh action can be configured per pool). During the logoff and refresh window the desktop is in "maintenance mode" and the user is unable log in.
 
@@ -28,8 +31,3 @@ The new installed Horizon environment has the following products and versions in
 After some troubleshooting, I disabled the "Sophos Antivirus for vShield" appliance per ESXi server. After disabling the appliance the VDI desktop logoff and refresh window was finished in a couple of seconds instead of a couple of minutes. So the problem has something to do with the virusscanner or vShield Endpoint. After digging deeper it was VMware Tools related. In April 2016 VMware Tools 10.0.8 was released that fixes performance problems with NSX and VMware vCloud Networking and Security 5.5.x.
 
 After upgrading the VMware Tools version to 10.0.8 in the golden image the slow logoff and refresh was solved. Within a couple of seconds the user is now able to log off again to a fresh new VDI desktop.
-
-More information on VMware Tools 10.0.8: [Link](https://pubs.VMware.com/Release_Notes/en/VMwaretools/1008/VMware-tools-1008-release-notes.html).
-
-
-

@@ -5,11 +5,13 @@ tags:
   - "VMware"
   - "vSphere"
 author: Ivo Beerens
+url: /2017/07/31/know-vsphere-6-5-update-1-upgrading/
 ---
 
+vSphere 6.5 Update 1 is the first major update after the GA release of vSphere 6.5. Besides great new improvements such as vSAN 6.6.1 some nasty bugs are fixed. Here’s a short list you want to know before upgrading to vSphere 6.5 Update 1:
 - Upgrade from vSphere 6.0 Update 3 is now a supported upgrade path to vSphere 6.5.
 - Customers who are still on vSphere 5.5 will need to be on at least vSphere 5.5 Update 3b, build 3252642 in order to upgrade to vSphere 6.5 Update 1.
-- Discontinuation of third party vSwitch. Customers using 3rd patry switches such as Cisco Nexus 1000V, Cisco VM-FEX, , HPE 5900v and IBM DVS 5000v will need to migrate off those switches after vSphere 6.5 Update 1. So  vSphere 6.5 Update 1 is the final release that support these 3rd party switches!
+- Discontinuation of third party vSwitch. Customers using 3rd party switches such as Cisco Nexus 1000V, Cisco VM-FEX, , HPE 5900v and IBM DVS 5000v will need to migrate off those switches after vSphere 6.5 Update 1. So  vSphere 6.5 Update 1 is the final release that support these 3rd party switches!
 - General Support has been extended. This means that support for vSphere 6.5 will now end November 15, 2021.
 - vCenter Server Foundation will support from 3 host to 4.
 - With the vSphere 6.5 Update 1 you are prepared for the VMware Cloud on AWS (hybrid cloud) solution.
@@ -33,9 +35,5 @@ author: Ivo Beerens
     - Intel Xeon 72xx/73xx series
 
 More information:
-
 - VMware ESXi 6.5 Update 1 Release Notes, [link](https://docs.VMware.com/en/VMware-vSphere/6.5/rn/vSphere-esxi-651-release-notes.html)
 - VMware vCenter Server 6.5 Update 1 Release Notes, [link](https://docs.VMware.com/en/VMware-vSphere/6.5/rn/vSphere-vcenter-server-651-release-notes.html)
-
-
-

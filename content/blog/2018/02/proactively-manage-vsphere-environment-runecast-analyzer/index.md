@@ -7,7 +7,10 @@ categories:
 tags: 
   - "VMware"
 author: Ivo Beerens
+url: /2018/02/27/proactively-manage-vsphere-environment-runecast-analyzer/
 ---
+
+I’ve got the opportunity to test Runecast Analyzer. Runecast Analyzer **Proactively** use VMware KBs, best practices and security hardening guidelines to identify problems in your VMware environment. In this review you find my own experiences of testing Runecast Analyzer.
 
 [![](images/runecast-1-300x85.png)](images/runecast-1.png)
 
@@ -17,7 +20,11 @@ The deployment of Runecast Analyzer is easy. It's an on-premises deployment on y
 
 <table><tbody><tr><td><strong>Deployment</strong></td><td><strong>vCPU</strong></td><td><strong>Memory (GB)</strong></td><td><strong>Storage (GB)</strong></td><td><strong>Network</strong></td></tr><tr><td>Small</td><td>2</td><td>4</td><td>90</td><td>100Mbit=&gt;</td></tr><tr><td>Medium</td><td>4</td><td>8</td><td>90</td><td>100Mbit=&gt;</td></tr><tr><td>Large</td><td>8</td><td>32</td><td>90</td><td>100Mbit=&gt;</td></tr></tbody></table>
 
-Choosing the appliance size, set the IP address and you're ready to access the appliance using a web browser After the appliance is deployed, the updating of the KB definitions, updates, application and OS updates can be configured in the VA admin interface of the appliance. When using the automatic updating feature you're always up-to-date. [![](images/Update1-300x255.png)](images/Update1.png)[![](images/Update-1-300x172.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/02/Update-1.png) When the appliance has no internet connection, offlines updates are available on the RuneCast website.
+Choosing the appliance size, set the IP address and you're ready to access the appliance using a web browser After the appliance is deployed, the updating of the KB definitions, updates, application and OS updates can be configured in the VA admin interface of the appliance. When using the automatic updating feature you're always up-to-date. 
+
+[![](images/Update1-300x255.png)](images/Update1.png)[![](images/Update-1-300x172.png)](images/Update-1.png)
+
+When the appliance has no internet connection, offline updates are available on the RuneCast website.
 
 **Scan the vSphere environment**
 
@@ -82,6 +89,3 @@ In my opinion Runecast Analyzer is a must have tool for every VMware vSphere adm
 **Wanna try?**
 
 There is a 14-day free trial available from this [link](https://runecast.biz/).
-
-
-

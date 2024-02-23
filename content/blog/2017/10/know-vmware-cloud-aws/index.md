@@ -6,7 +6,10 @@ tags:
   - "cloud"
   - "VMware"
 author: Ivo Beerens
+url: /2017/10/02/know-vmware-cloud-aws/
 ---
+
+At VMworld 2017 in Las Vegas VMware Cloud on AWS (VMConAWS) is announced. This partnership between VMware and AWS makes it possible to create a VMware Software Defined Datacenter (SDDC) in Amazon Web Services (AWS). In this blogpost I highlight some information on “What is the VMware Cloud on AWS”.
 
 - VMware Cloud on AWS is a cloud service that is fully configured and will be provisioned, operated and maintained directly by VMware. VMware handles all patching and updates. As customer you manage the VMs, not the platform.
 
@@ -62,6 +65,3 @@ More information:
 - VMware Cloud on AWS: Live End to End Demo, [link](https://www.youtube.com/watch?v=JI_BUvgfXRg&feature=youtu.be)
 - VMware on AWS from a Veeam perspective, [link](https://vzilla.co.uk/vzilla-blog/VMware-aws-will-look-veeam-perspective)
 - VMware Cloud on AWS pricing versus on-premises vSphere, [link](http://searchservervirtualization.techtarget.com/tip/VMware-Cloud-on-AWS-pricing-versus-on-premises-vSphere)
-
-
-

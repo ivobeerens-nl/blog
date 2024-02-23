@@ -5,7 +5,10 @@ tags:
   - "horizon-view"
   - "VMware"
 author: Ivo Beerens
+url: /2016/08/04/define-devices-allowed-horizon-view-desktop-uem-smart-policies/
 ---
+
+When designing a new Horizon View environment, one of the design phases is to identify what requirements there are when accessing (redirecting) devices in a Horizon View desktop of published app. In other words what redirection and devices are available and permitted in the VDI desktop or published app such as:
 
 - USB devices
 - Clipboard (copy/paste) redirection
@@ -27,7 +30,7 @@ In User Environment Manager (UEM) 9 there is a new functionality called "Smart P
 
 With the endpoint "Client location" condition it is possible to determine when accessing from inside or outside the company. When connecting through the internal Horizon View Connection server the "Client Location" gets the value _Internal_. When connecting through the Horizon View Security Server or Access Point the "Client location" condition get the value _External_. For the different requirements, 2 policies are needed, 1 for internal and 1 for external.
 
-[![Exterbal](images/Exterbal-247x300.png)](images/Exterbal.png) [![Internal](images/Internal-249x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/Internal.png)
+[![Exterbal](images/Exterbal-247x300.png)](images/Exterbal.png) [![Internal](images/Internal-249x300.png)](images/Internal.png)
 
 After defining the policy a condition needs to be set.
 
@@ -36,11 +39,6 @@ After defining the policy a condition needs to be set.
 
 **Example:**
 
- 
+[![4](images/4-300x71.png)](images/4.png)[![3](images/3-221x300.png)](images/3.png)
 
-[![4](images/4-300x71.png)](images/4.png)[![3](images/3-221x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/07/3.png)
-
-After defining the conditions both policies are ready to use. In this blog post I showed the strength of using the new Smart Policies option in UEM9. Smart Policies requires UEM9 and Horizon 7 to function.
-
-
-
+After defining the conditions both policies are ready to use. In this blog post I showed the strength of using the new Smart Policies option in UEM9. Smart Policies requires UEM9 and Horizon 7 to function. 

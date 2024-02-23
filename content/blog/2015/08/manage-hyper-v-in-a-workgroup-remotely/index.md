@@ -10,7 +10,10 @@ tags:
   - "windows-server-2016"
   - "workgroup"
 author: Ivo Beerens
+url: /2015/08/28/manage-hyper-v-in-a-workgroup-remotely/
 ---
+
+Managing Hyper-V remotely in a workgroup can be challenging to configure. This is still the case for Windows Server 2016. For a testing environment I needed to remotely manage Windows Server 2016 core server with the Hyper-V role enabled from Windows 10 with the Hyper-V manager. I used the following manual configuration:
 
 - Client with Hyper-V Manager (Windows 10). This client is called **win10-01**
 - Server with Windows Server 2016 core version with the Hyper-V role enabled. The server is called **hv-02**
@@ -21,25 +24,34 @@ author: Ivo Beerens
 
 - Enable Remote Management
 
-\[code language="PowerShell"\] Configure-SMRemoting.exe -Enable \[/code\]
+```
+Configure-SMRemoting.exe -Enable
+```
 
 - Open firewall for  Remote Computer Management
 
-\[code language="PowerShell"\] Set-NetFirewallRule -DisplayGroup 'Windows Management Instrumentation (WMI)' -Enabled true -PassThru Set-NetFirewallRule -DisplayGroup 'Remote Event Log Management' -Enabled true -PassThru \[/code\]
+```
+Set-NetFirewallRule -DisplayGroup 'Windows Management Instrumentation (WMI)' -Enabled true -PassThru
+Set-NetFirewallRule -DisplayGroup 'Remote Event Log Management' -Enabled true -PassThru
+```
 
 - Open firewall for ping (ICMPv4)
 
-\[code language="PowerShell"\] Set-NetFirewallRule -DisplayName “File and Printer Sharing (Echo Request – ICMPv4-In)” -Enabled True -PassThru \[/code\]
+```
+Set-NetFirewallRule -DisplayName “File and Printer Sharing (Echo Request – ICMPv4-In)” -Enabled True -PassThru
+```
 
 - Enable Remote Desktop and allow remote connections
 
-\[code language="PowerShell"\] cscript.exe c:\\Windows\\System32\\SCregEdit.wsf /AR 0 \[/code\]
+```
+cscript.exe c:\Windows\System32\SCregEdit.wsf /AR 0
+```
 
 - Enable Remote disk management
 
-\[code language="PowerShell"\] Set-NetFirewallRule -DisplayGroup 'Remote Volume Management' -Enabled true -PassThru \[/code\]
-
- 
+```
+Set-NetFirewallRule -DisplayGroup 'Remote Volume Management' -Enabled true -PassThru
+```
 
 **Configuration on the Windows 10 client:**
 
@@ -53,17 +65,23 @@ author: Ivo Beerens
 
 - Enable Remote Management
 
-\[code language="PowerShell"\] winrm quickconfig \[/code\]
+```
+winrm quickconfig
+```
 
 - For Managing remote systems
 
-\[code language="PowerShell"\] winrm set winrm/config/client @{TrustedHosts="Name of the Server"} \[/code\]
+```
+winrm set winrm/config/client @{TrustedHosts="Name of the Server"}
+```
 
 - Enable remote disk Management (add this command on both systems) firewall rule
 
-\[code language="PowerShell"\] Set-NetFirewallRule -DisplayGroup 'Remote Volume Management' -Enabled true -PassThru \[/code\]
+```
+Set-NetFirewallRule -DisplayGroup 'Remote Volume Management' -Enabled true -PassThru
+```
 
-- Open c:\\windows\\system32\\dcomcnfg.exe and allow 'anonymous logon' for local and remote access.
+- Open `c:\windows\system32\dcomcnfg.exe` and allow 'anonymous logon' for local and remote access.
 
 [![5](images/51-300x211.png)](images/51.png)
 
@@ -73,9 +91,4 @@ After making this settings I was able to manage the Windows Server 2016 server 
 - Computer Management
 - Disk Management
 
- 
-
 [![3](images/31-300x112.png)](images/31.png) [![4](images/41-300x204.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/08/41.png)
-
-
-

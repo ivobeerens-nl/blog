@@ -8,8 +8,10 @@ tags:
   - "sddc"
   - "vsan"
 author: Ivo Beerens
+url: /2016/06/09/vsan-hp/
 ---
 
+For a new End User Computing (EUC) project I installed a Hybrid Virtual SAN (VSAN) configuration on HP Proliant server hardware. VSAN will be used as storage layer for VDIs. Each HP Proliant DL360 Gen9 server has the following components:
 - HP Workload Accelerator as caching device
 - HP Smart Array P440 controller with several 10k SAS disks as capacity tier
 
@@ -34,7 +36,9 @@ After enabling the HBA mode the hosts needs a reboot.
 
 The next step it to install the server with the HP Custom ESXi image . After the installation the ESXi, the HP Smart Array Controller is not recognized because the driver is not included. This same is for the HP Workload Accelerator that will serve for the caching tier. Download both drivers and add them to vSphere Update Manager. After both drivers are installed check the HP Smart Array Controller by using the following command (included in the HP Customed ESXi image):
 
-\[code language="PowerShell"\] esxcli hpssacli cmd -q "controller "slot=1" show config detail" \[/code\]
+```powershell  
+esxcli hpssacli cmd -q "controller "slot=1" show config detail"  
+```
 
 [![esxi command](images/esxi-command-300x170.png)](images/esxi-command.png)
 
@@ -42,13 +46,14 @@ _The "slot=" option depends on the slot number the HP Smart Array P440 controll
 
 To list the drives attached to the controller with the following command:
 
-\[code language="PowerShell"\] esxcli hpssacli cmd -q "controller slot=1 physicaldrive all show" \[/code\]
+```powershell  
+esxcli hpssacli cmd -q "controller slot=1 physicaldrive all show"  
+```
 
 The Workload Acccelerator status can be displayed with the following command:
 
-\[code language="PowerShell"\] fio-status \[/code\]
+```powershell  
+esxcli hpssacli cmd -q "controller slot=1 physicaldrive all show"  
+```
 
 The last step is to  open the vSphere Web Client, start enabling VSAN and claiming the disks.
-
-
-

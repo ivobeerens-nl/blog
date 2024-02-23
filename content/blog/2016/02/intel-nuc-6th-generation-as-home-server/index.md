@@ -2,14 +2,16 @@
 title: "Home lab extension with an Intel NUC 6th generation"
 date: "2016-02-24T19:37:32.000Z"
 categories: 
-  - "hardware"
-  - "home-lab"
+  - "Intel NUC"
+  - "homelab"
 tags: 
-  - "home-lab"
-  - "intel-nuc"
+  - "homelab"
+  - "Intel NUC"
 author: Ivo Beerens
+url: /2016/02/24/intel-nuc-6th-generation-as-home-server/
 ---
 
+For my home lab I bought a 6th generation Intel NUC. The Intel NUC has following specifications:
 - Intel NUC6i3SYH
 - Intel i3-6100u (Skylake) 2.3 GHz Dual Core, 3 MB cache, 15W TDP
 - 2 memory slots for DDR4-2133 SODIMM memory, maximum is 32 GB memory
@@ -114,6 +116,3 @@ Cons:
 - Only 2 cores available
 - No expansion possibilities such as adding an extra netwerk card
 - No remote management
-
-
-

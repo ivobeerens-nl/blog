@@ -11,7 +11,10 @@ tags:
   - "lab"
   - "sddc"
 author: Ivo Beerens
+url: /2016/06/23/sddc-mobile-lab-environment/
 ---
+
+With my company I work for ([Ictivity](http://www.ictivity.nl/)), we decided to develop a mobile Software Defined Data Center (SDDC) and End User Computing (EUC) lab environment. This mobile lab environment will be used to demo the VMware SDDC and End User Computing (EUC) stack with integration of third party solutions. One of the reasons to use a physical lab environment instead of cloud services was flexibility and having no dependencies.
 
 The past moths I've got asked what components we used to build this lab environment. So here is an quick overview. The environment logically looks like the picture below:
 
@@ -52,7 +55,7 @@ Some highlights of this lab are:
 
 The case is a robust custom made 19" 4U rackmount flightcase with a removable front and back. It has two wheels so you can carry it easily around. This case contains 3 servers and one switch.Here is a picture of the case including alle the hosts and the switch.
 
-[![IMG_0622](images/IMG_0622-300x225.jpg)](images/IMG_0622.jpg)[![Indeling Flightcase](images/Indeling-Flightcase-1-300x265.jpg)](https://www.ivobeerens.nl/wp-content/uploads/2016/05/Indeling-Flightcase-1.jpg)
+[![IMG_0622](images/IMG_0622-300x225.jpg)](images/IMG_0622.jpg)[![Indeling Flightcase](images/Indeling-Flightcase-1-300x265.jpg)](images/Indeling-Flightcase-1.jpg)
 
 **Hosts**
 

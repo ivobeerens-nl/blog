@@ -9,7 +9,10 @@ tags:
   - "mac"
 coverImage: "0A1868CA-4AA9-4C85-A23F-F10FB515DEE0-e1542027369403.jpeg"
 author: Ivo Beerens
+url: /2018/11/12/using-the-apple-mac-mini-2018-as-vmware-esxi-homelab-host/
 ---
+
+Begin November Apple released there new Apple Mini 2018 models. The last Mac Mini was from 2014. My first question: Is it possible to use the new Mac Mini 2018 as VMware ESXi host? So I’ve borrowed a Mac Mini 2018 model with the following specifications:
 
 - Mac Mini 2018,
 - CPU: Intel Core i3 3.6 GHz 4-core 6MB shared L3 cache
@@ -17,7 +20,7 @@ author: Ivo Beerens
 - Disk: 128 GB SSD storage
 - 1 Gb Ethernet adapter
 
-[![](images/2D86F49B-948E-4B2C-A807-037CA46A0069-300x225.jpeg)](https://www.ivobeerens.nl/wp-content/uploads/2018/11/2D86F49B-948E-4B2C-A807-037CA46A0069.jpeg) [![](images/3442A112-7EBB-44FA-8DB6-EF9555AB602D-300x225.jpeg)](https://www.ivobeerens.nl/wp-content/uploads/2018/11/3442A112-7EBB-44FA-8DB6-EF9555AB602D.jpeg)
+[![](images/2D86F49B-948E-4B2C-A807-037CA46A0069-300x225.jpeg)](images/2D86F49B-948E-4B2C-A807-037CA46A0069.jpeg) [![](images/3442A112-7EBB-44FA-8DB6-EF9555AB602D-300x225.jpeg)](images/3442A112-7EBB-44FA-8DB6-EF9555AB602D.jpeg)
 
 The new Apple Mini 2018 comes in two basic configurations. The basic configurations can be changed (CPU, memory, disk and Ethernet adapter) during the ordering process.
 
@@ -59,7 +62,7 @@ Configuration steps:
 
 Here is a quick overview of screenshots from ESXi 6.7 U1 on the Mac Mini 2018:
 
-[![](images/esxi-300x140.png)](images/esxi.png) [![](images/esxiputty-300x163.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/11/esxiputty.png) [![](images/nic-300x46.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/11/nic.png) [![](images/VM-300x149.png)](https://www.ivobeerens.nl/wp-content/uploads/2018/11/VM.png)
+[![](images/esxi-300x140.png)](images/esxi.png) [![](images/esxiputty-300x163.png)](images/esxiputty.png) [![](images/nic-300x46.png)](images/nic.png) [![](images/VM-300x149.png)](images/VM.png)
 
 ### Some considerations
 

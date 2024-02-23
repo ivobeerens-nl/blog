@@ -2,12 +2,15 @@
 title: "Using the new Shuttle SH370R8 as home lab server with VMware ESXi"
 date: "2019-06-04T11:04:42.000Z"
 categories: 
-  - "home-lab"
+  - "homelab"
 tags: 
-  - "home-lab"
+  - "homelab"
   - "VMware"
 author: Ivo Beerens
+url: /2019/06/04/using-the-shuttle-sh370r8-as-home-lab-server-with-vmware-esxi/
 ---
+
+In January 2019 I did a review of the Shuttle SH370R6 ([link](http://www.ivobeerens.nl/2019/01/30/home-lab-extension-with-a-shuttle-sh370r6-plus/)) using VMware ESXi. A couple of weeks ago the new Shuttle SH370R8 is released. The main differences between the Shuttle SH370R6 and SH370R8 are:
 
 - **Update October 19, 2020**: Supports up to 128 GB of RAM!
     - Memory compatibility list: [link](http://global.shuttle.com/products/productsSupportList?productId=2344)

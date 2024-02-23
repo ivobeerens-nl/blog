@@ -2,8 +2,11 @@
 title: "VMware vShield drivers renamed in Guest Introspection drivers"
 date: "2015-09-22T19:27:09.000Z"
 author: Ivo Beerens
+tags: VMware NSX
+url: /2015/09/22/vmware-vshield-drivers-renamed-in-guest-introspection-drivers/
 ---
 
+The vShield Endpoint drivers are renamed as Guest Introspection Drivers. In VMware Tools there are two drivers available:
 - NSX File Introspection Driver (**vsepflt.sys**)
 - NSX Network Introspection Driver (**vnetflt.sys**)
 
@@ -19,6 +22,3 @@ For existing installations check if the vShield Endpoint Thin Agent driver is in
 - Search for the vsepflt driver (3) and check if the driver is running
 
 [![vsepflt](images/vsepflt-300x132.png)](images/vsepflt.png)
-
-
-

@@ -8,7 +8,10 @@ tags:
   - "vmworld"
 coverImage: "vmworld.jpg"
 author: Ivo Beerens
+url: /2018/08/27/whats-announced-at-vmworld-2018-us/
 ---
+
+This blog post will be updated with the latest and greatest VMworld 2018 US announcements. At VMworld, VMware is celebrating there **20th** anniversary! Congrats for this awesome journey! VMworld 2018 US (Las Vegas) is the biggest (over 21000 attendees) event of the year for VMware. In November there is a VMworld in Barcelona (Europe). But for now we focuses on the announcements made at VMworld 2018 US.
 
 Besides announcements, links to the general and breakout sessions are listed below and some vendor updates.
 
@@ -97,6 +100,3 @@ More information can be found here [link](https://blogs.VMware.com/vSphere/2018/
 - **NAKIVO Backup & Replication version 8**.  Today version 8 of NAKIVO Backup & Replication is Generally Available (GA). This version includes the Business Continuity and Site Recovery Orchestration Solution.  With v8 can automate and orchestrate the entire site recovery process. Perform scheduled non-disruptive disaster recovery testing, planned failover, emergency failover, failback, and datacenter migration.  More information can be found here [link](https://www.ivobeerens.nl/2018/08/01/nakivo-backup-replication-v7-5-released/).
 - **RuneCast Analyzer 2.0**. I will dedicate a blog about version 2.0 soon. More information can be found here [link](https://www.runecast.com/blog/announcements/introducing-runecast-analyzer-20).
 - **Veeam Hyper-Availability Platform on Cisco HyperFlex**. More information can be found here [link](https://www.veeam.com/news/availability-solution-cisco-hyperflex.html).
-
-
-

@@ -10,7 +10,10 @@ tags:
   - "VMware"
 coverImage: "1-2.png"
 author: Ivo Beerens
+url: /2018/09/05/new-enhancements-in-runecast-analyzer-2-0/
 ---
+
+Runecast Analyzer provides proactive management for VMware environments. It discovers potential risks in the VMware environment before they can cause a major outage. In 90% of the outages with VMware environments, the root cause is based on a known issue that is already available in the VMware knowledge base. Runecast Analyzer uses information from the VMware knowledge base, security hardening guides (VMware, DISA STG and PCI-DSS), and best practices to proactively identify problems or outages before they occur.
 
 In my last review of Runecast Analyzer I tested version 1.7 ([link](https://www.ivobeerens.nl/2018/02/27/proactively-manage-vSphere-environment-runecast-analyzer/)) with vSphere and vSAN support. The next version (1.8) included NSX-V support and a couple of weeks ago version 2.0 is of Runecast Analyzer is released. This version includes the following new enhancements.
 
@@ -93,6 +96,3 @@ In version 2.0 of Runecast Analyzer the internal components of the appliance are
 For new users deploying a new appliance (OVF) is a piece of cake. Runecast Analyzer is installed en operational within a couple of minutes. A free Runecast Analyzer trail or demo can be requested by using the following [link](https://www.runecast.com/).
 
 Version 2.0 of Runecast Analyzer adds great new enhancements that helps better to proactively identify problems or outages before they occur and easily check the compliance of the VMware vSphere, vSAN en NSX-V environment.
-
-
-

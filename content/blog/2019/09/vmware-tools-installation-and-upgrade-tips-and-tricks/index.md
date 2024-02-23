@@ -8,15 +8,19 @@ tags:
   - "powercli"
   - "VMware-tools"
 author: Ivo Beerens
+url: /2019/09/09/vmware-tools-installation-and-upgrade-tips-and-tricks/
 ---
 
+The VMware Tools package provides drivers (such as VMXNET3, PVSCSI, SVGA etc.) and services that enhance the performance of virtual machines and make several vSphere features easy to use. Here are some tips and tricks when working with VMware Tools:
 - An overview of the VMware Tools versions mapping can be found here, [link](https://packages.VMware.com/tools/versions)
 - The latest VMware Tools versions can be downloaded from the following links: [link](https://www.VMware.com/go/tools) and [link](https://packages.VMware.com/tools/esx/index.html)
 - Within VMware ESXi, the VMware Tools are located under: /vmimages/tools-isoimages
 - The latest VMware Tools version 10.3.10 is compatible with ESXi 6.0.0 to 6.7 U3
 - To view what VMware Tools components are installed on a Windows operating system: open Regedit and browse to the following location.
 
-\[code language="text"\] HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Installer\\Features\\10176710886A59A4C938D6DEE96B37D5 \[/code\]
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Features\10176710886A59A4C938D6DEE96B37D5
+```
 
 [![](images/Tools_3-300x162.png)](images/Tools_3.png)
 
@@ -24,13 +28,17 @@ Names with a squire or minus are not installed. Another method in Windows 10 for
 
 - A silent or unattended default installation can be done using the following command. This command does not installed the NSX components:
 
-\[code language="text"\] Setup64.exe /s /v "/qb REBOOT=R" /l c:\\windows\\temp\\VMware\_tools\_install.log\[/code\]
+```
+Setup64.exe /s /v "/qb REBOOT=R" /l c:\windows\temp\vmware_tools_install.log
+```
 
 [![](images/Tools_1-300x235.png)](images/Tools_1.png)
 
 - Use the ADDLOCAL and REMOVE option to define what components to install. The following command installs all the components expect the Hgfs, SVGA,VSS, AppDefense and the NetworkIntrospection component. This VMware Tools configuration can be used for example for a Horizon View Golden image.
 
-\[code language="text"\]setup64.exe /s /v" /qb REBOOT=R ADDLOCAL=All REMOVE=Hgfs,SVGA,VSS,AppDefense,NetworkIntrospection"" /l c:\\windows\\temp\\VMware\_tools\_install.log\[/code\]
+```
+setup64.exe /s /v" /qb REBOOT=R ADDLOCAL=All REMOVE=Hgfs,SVGA,VSS,AppDefense,NetworkIntrospection"" /l c:\windows\temp\vmware_tools_install.log
+```
 
 [![](images/Tools_2-300x235.png)](images/Tools_2.png)
 
@@ -51,25 +59,32 @@ Sometimes is handy to extract the VMware ISO to get the VMXnet3 and PVSCSI drive
 
 To identify and upgrade the VMware Tools versions PowerCLI is your friend. First install the PowerCLI module, [link](https://www.ivobeerens.nl/2019/07/16/powercli-installation-updating-and-troubleshooting-tips/). After the module is installed, connect to the vCenter Server.
 
-\[code language="PowerShell"\]
-
+```powershell
 $vcsa = "vcsa03.lab.local"
-
-Import-Module VMware.PowerCLI Connect-VIServer -Server $vcsa \[/code\]
+ 
+Import-Module VMware.PowerCLI
+Connect-VIServer -Server $vcsa
+```
 
 **Identify VMware Tools versions**
 
 To get the VMware Tools versions of the running VMs use the following PowerCLI command:
 
-\[code language="PowerShell"\]Get-VM | Get-VMguest | Where {$\_.State -eq 'Running'} | Select VmName, ToolsVersion\[/code\]
+```powershell
+Get-VM | Get-VMguest | Where {$_.State -eq 'Running'} | Select VmName, ToolsVersion
+```
 
 - Get all the running VMs that don't have VMware Tools version 10.3.10 installed:
 
-\[code language="PowerShell"\]Get-VM | Get-VMguest | Where-Object {$\_.State -eq 'Running' -and $\_.ToolsVersion -notlike '10.3.10'} | Select VmName, ToolsVersion\[/code\]
+```powershell
+Get-VM | Get-VMguest | Where-Object {$_.State -eq 'Running' -and $_.ToolsVersion -notlike '10.3.10'} | Select VmName, ToolsVersion
+```
 
 - Get all the running VMs that have an outdated version of VMware Tools:
 
-\[code language="PowerShell"\] Get-VM | Get-VMguest | where-object {$\_.State -eq 'Running' -and $\_.ExtensionData.ToolsversionStatus -eq 'GuestToolsNeedUpgrade'} | Select VmName \[/code\]
+```powershell
+Get-VM | Get-VMguest | where-object {$_.State -eq 'Running' -and $_.ExtensionData.ToolsversionStatus -eq 'GuestToolsNeedUpgrade'} | Select VmName
+```
 
 **Update VMware Tools**
 
@@ -77,11 +92,13 @@ Once you have an overview of all the VMware Tools versions that are outdated is 
 
 First export all the VMs to a CSV file that will be saved under c:\\temp\\vms.csv
 
-\[code language="PowerShell"\] Get-VM | Get-VMguest | where-object {$\_.State -eq 'Running' -and $\_.ExtensionData.ToolsversionStatus -eq 'GuestToolsNeedUpgrade'} | Select VmName | export-csv c:\\temp\\vms.csv -NoTypeInformation \[/code\]
+```powershell
+Get-VM | Get-VMguest | where-object {$_.State -eq 'Running' -and $_.ExtensionData.ToolsversionStatus -eq 'GuestToolsNeedUpgrade'} | Select VmName | export-csv c:\temp\vms.csv -NoTypeInformation
+```
 
 Verify the CSV file and make sure only the VMs are listed that need to be upgraded. After that import the CSV and update the VMware Tools using the following commands:
 
-\[code language="PowerShell"\] $vms = Import-Csv c:\\temp\\vms.csv $vms | % { get-vm -name $\_.VmName | Update-Tools -NoReboot} \[/code\]
-
-
-
+```powershell
+$vms = Import-Csv c:\temp\vms.csv
+$vms | % { get-vm -name $_.VmName | Update-Tools -NoReboot}
+```

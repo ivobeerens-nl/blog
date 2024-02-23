@@ -9,11 +9,12 @@ tags:
   - "vcsa"
   - "VMware"
 author: Ivo Beerens
+url: /2019/04/24/blue-circle-in-the-vsphere-client-after-upgrading-to-vcenter-server-6-7-update-2/
 ---
 
-[![](images/vcsaup2-300x161.png)](images/vcsaup2.png)
+After upgrading the vCenter Server Appliance (VCSA) to version 6.7 Update 2, I tried to log in using the vSphere Client. After entering the credentials an endless blue running circle appears.
 
-\[video width="1688" height="904" mp4="https://www.ivobeerens.nl/wp-content/uploads/2019/04/vcsaup2.mp4"\]\[/video\]
+[![](images/vcsaup2-300x161.png)](images/vcsaup2.png)
 
 In the VAMI interface (https://vcsa-fqdn:5480) of the VCSA, the health statistics of all the components are green (okay) so I decided to reboot the VCSA.
 
@@ -38,6 +39,3 @@ Clear cache and cookies of Firefox browser:
 - Click Clear and select Clear Now
 
 After clearing the cache I was able to log in using the vSphere Client without the endless blue circle. So make sure to clear the cache of the browser(s) when experiencing the circle problem.
-
-
-

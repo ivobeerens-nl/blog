@@ -7,7 +7,10 @@ tags:
   - "hyper-v-2"
   - "windows-server-2016"
 author: Ivo Beerens
+url: /2015/08/25/easy-way-to-test-windows-server-2016-hyper-v/
 ---
+
+Windows Server 2016 Technical Preview 3 (TP3) is released with some cool new features. An easy way to test Windows Server 2016 TP3 is to use VMware Workstation. Windows Server 2016 can be installed with the Hyper-V role and have some VMs nested with minimal configuration.
 
 For this test i used the following hard-and software:
 
@@ -32,7 +35,7 @@ To install Windows Server 2016 and enable the Hyper-V role and nest VMs use the 
 
 You're ready to install Windows Server 2016 you have two options: Windows Server with or without GUI.
 
-[![3](images/3-300x226.png)](images/3.png)   [![6](images/6-300x228.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/08/6.png)
+[![3](images/3-300x226.png)](images/3.png)   [![6](images/6-300x228.png)](images/6.png)
 
 - After the installation add the Hyper-V role and reboot the server.
 
@@ -40,13 +43,10 @@ You're ready to install Windows Server 2016 you have two options: Windows Server
 
 - When choosing for the core version install the hyper-v with the following PowerShell command:
 
-\[code language="PowerShell"\] PowerShell Install–WindowsFeature Hyper-V \[/code\]
+```PowerShell Install–WindowsFeature Hyper-V```
 
 - Open Hyper-V Manager and create one or more VMs
 
 [![Hyper-V Manager](images/Hyper-V-Manager-300x169.png)](images/Hyper-V-Manager.png)
 
 When having limited hardware resources and want to test Hyper-V in Windows Server 2016, VMware Workstation is a great choice. Without minimal effort it is possible to install Windows Server 2016, add the Hyper-V role and nest some VMs.
-
-
-

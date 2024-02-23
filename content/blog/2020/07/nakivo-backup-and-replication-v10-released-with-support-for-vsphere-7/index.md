@@ -6,7 +6,10 @@ categories:
 tags: 
   - "backup"
 author: Ivo Beerens
+url: /2020/07/30/nakivo-backup-and-replication-v10-released-with-support-for-vsphere-7/
 ---
+
+Nakivo Backup and Replication released last week version 10. I personally use Nakivo Backup and Replication in my lab environment because it can be installed on my NAS device. This saves me hardware resources of the backup VM (appliance or Windows/Linux) and the deployment is super fast.
 
 In version 10 of Nakivo Backup and Replication the following new improvements are added:
 

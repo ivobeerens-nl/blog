@@ -9,8 +9,10 @@ tags:
   - "backup"
   - "VMware"
 author: Ivo Beerens
+url: /2018/08/01/nakivo-backup-replication-v7-5-released/
 ---
 
+NAKIVO announced today that NAKIVO Backup & Replication v7.5 is out of beta and available. This new version includes the following new features:
 - **Support for VMware vSphere 6.7**: It's now officially compatible with the latest version of VMware vSphere.
 - **Cross-Platform Recovery**: With the Cross-Platform Recovery feature, users can export VM data from VMware and Hyper-V backups into VMDK, VHD, or VHDX format. The exported files can then be used for recovery across different hypervisors, cross-platform VM data migration, long-term archival, or sandbox testing.
 - **Advanced Bandwidth Throttling**: Allow you to set speed limits during data protection jobs to avoid network overload for example during business hours.
@@ -34,6 +36,3 @@ More information can be found here:
 - NAKIVO Backup & Replication v7.5 full-featured trial download, [link](https://www.nakivo.com/resources/download/trial-download/)
 - NAKIVO Backup & Replication v7.5 release notes, [link](https://helpcenter.nakivo.com/display/RN/v7.5+Release+Notes)
 - NAKIVO Backup & Replication v8 release notes,[link](https://helpcenter.nakivo.com/display/RN/v8.0+Release+Notes)
-
-
-

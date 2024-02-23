@@ -6,11 +6,12 @@ categories:
 tags: 
   - "VMware"
 author: Ivo Beerens
+url: /2018/01/10/know-spectre-meltdown-vmware-environments/
 ---
 
-![](images/meltdown-184x300.png) ![](images/spectre-300x237.png)
+You probably heard about the two massive security flaws: Spectre and Meltdown ([link](https://meltdownattack.com/)). These security flaws allow attackers to access “secure” data by compromising privileged processor memory from major manufacturers, including Intel, AMD, and ARM. So the most CPUs are affected by Spectre and Meltdown security flaws! In this blogpost I highlight what to do in VMware environments.
 
- 
+![](images/meltdown-184x300.png) ![](images/spectre-300x237.png)
 
 Last Updated:
 
@@ -93,7 +94,6 @@ For each Virtual Machine (VM), enable Hypervisor-Assisted Guest mitigation via t
 6. Test the VM if everything works as excepted. If not roll back to the snapshot
 7. Remove the snapshot
 
- 
 
 **vMotion and EVC information**
 
@@ -149,6 +149,3 @@ It looks like HPE G6 and G7 models will **not** been updated anymore!
 **Synology**
 
 <table style="width: 993px;"><tbody><tr><td style="width: 831.6px;">Synology-SA-18:01 Meltdown and Spectre Attacks</td><td style="width: 124.4px;"><a href="https://www.synology.com/en-us/support/security/Synology_SA_18_01" target="_blank" rel="noopener">Link</a></td></tr></tbody></table>
-
-
-

@@ -4,19 +4,11 @@ categories:
 - PowerCLI
 - Automation
 date: "2019-07-16T11:54:33Z"
-guid: https://www.ivobeerens.nl/?p=6964
-id: 6964
-ssb_old_counts:
-- a:7:{s:10:"googleplus";i:0;s:7:"twitter";i:0;s:9:"pinterest";i:0;s:7:"fbshare";i:0;s:8:"linkedin";i:0;s:6:"reddit";i:0;s:6:"tumblr";i:0;}
-ssb_total_counts:
-- "0"
 tags:
 - PowerCLI
 - Automation
 title: PowerCLI help install, update and troubleshooting tips
 url: /2019/07/16/powercli-installation-updating-and-troubleshooting-tips/
-yarpp_meta:
-- a:1:{s:27:"yarpp_display_for_this_post";i:1;}
 ---
 
 PowerCLI is a must-have tool for every VMware Administrator when you want to automate something in your VMware environment. In this blog, I highlight the installation, updating, and some troubleshooting tips for deploying and running PowerCLI on Windows OSes.
@@ -27,11 +19,11 @@ PowerCLI is a must-have tool for every VMware Administrator when you want to aut
 - Make sure you have an internet connection.
 - Check if Windows Management Framework 5.1 is installed for Windows 7,8 and Windows Server 2012 R2 and earlier OSes. Open PowerShell en enter:
 
-```PowerShell  
+```PowerShell
 $PSVersionTable  
 ```
 
-```
+```PowerShell
 PS C:\$PSVersionTable
 
 Name Value

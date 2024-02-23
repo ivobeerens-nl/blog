@@ -7,7 +7,10 @@ tags:
   - "controlup"
   - "VMware-horizon"
 author: Ivo Beerens
+url: /2020/01/16/controlup-8-1-native-vmware-horizon-integration/
 ---
+
+In part 2 we highlight the native support for VMware Horizon 7 and higher environments in ControlUp 8.1. The integration is based on the SOAP API. Adding a VMware Horizon environment is easy, click on the Add EUC environment and enter the name a Horizon Connection Server and click ‘OK’. ControlUp discovers Horizon components such as Connection Servers, Cloud Pod Architecture (CPA), desktop pools and sessions automatically.
 
 [![](images/Hor1-300x233.png)](images/Hor1.png) [![](images/Hor2-300x159.png)](https://www.ivobeerens.nl/wp-content/uploads/2019/12/Hor2.png)
 

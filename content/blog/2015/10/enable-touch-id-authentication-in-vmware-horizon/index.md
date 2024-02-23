@@ -8,8 +8,10 @@ categories:
 tags: 
   - "VMware-horizon-view"
 author: Ivo Beerens
+url: /2015/10/05/enable-touch-id-authentication-in-vmware-horizon/
 ---
 
+In Horizon 6.2 it is possible to authenticate with Apples Touch ID. Touch ID is not enabled by default and has the following minimal requirements:
 - iPhone 5S, 6, and 6 Plus
 - iPad Air 2 and iPad mini 3
 - IOS 8
@@ -35,18 +37,12 @@ Enable BioMetrics authentication in the View Connection Server.
 
 [![1](images/1-300x199.png)](images/1.png) [![1a](images/1a-289x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/10/1a.png)
 
- 
-
 - The new setting takes effect immediately
 
 Horizon Client
-
 - Check the certificate settings on the iPad or iPhone.
 - Enable Touch ID in the Horizon Client and login the first time with your password.
 
-[![IMG_7029](images/IMG_7029-169x300.png)](images/IMG_7029.png) [![IMG_7030](images/IMG_7030-169x300.png)](https://www.ivobeerens.nl/wp-content/uploads/2015/10/IMG_7030.png)
+[![IMG_7029](images/IMG_7029-169x300.png)](images/IMG_7029.png) [![IMG_7030](images/IMG_7030-169x300.png)](images/IMG_7030.png)
 
 After that you're been able to use the Touch ID to authenticate to the Horizon View environment. Pretty cool stuff!
-
-
-

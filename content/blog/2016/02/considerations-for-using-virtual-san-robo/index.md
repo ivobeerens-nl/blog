@@ -7,7 +7,10 @@ tags:
   - "virtual-san"
   - "vsan"
 author: Ivo Beerens
+url: /2016/02/03/considerations-for-using-virtual-san-robo/
 ---
+
+Virtual SAN requires minimal 3 ESXi hosts. With version 6.1 of Virtual SAN, Remote Office/Branch Office (ROBO) and small SMB customer environments are supported with Virtual SAN on 2 ESXi nodes. With a 2 node Virtual SAN cluster options such as HA, DRS and vMotion are fully supported.
 
 In a ROBO configuration you have two Virtual SAN data nodes and one witness node. The Virtual SAN data nodes can be in one location. The witness node can reside in the same or another location (not on the Virtual SAN).
 
@@ -69,6 +72,3 @@ Here are some considerations for using Virtual SAN ROBO:
 **vCenter Server**
 
 - When running the vCenter Server on top of Virtual SAN, powering down the Virtual SAN cluster involves a special procedure ([link](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2142676)). Consider placing the vCenter Server on the witness host for simplicity.
-
-
-

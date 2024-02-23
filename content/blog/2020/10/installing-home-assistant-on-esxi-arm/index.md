@@ -8,10 +8,12 @@ tags:
   - "esxi-arm"
   - "pi"
 author: Ivo Beerens
+url: /2020/10/26/installing-home-assistant-on-esxi-arm/
 ---
 
-In this example, I install the following components:
+One of the use cases for running ESXi-ARM in my home lab environment is running Home Assistant. Home Assistant is a great open-source platform for home automation. After assembling the Pi cluster ([see my previous blog post](https://www.ivobeerens.nl/2020/10/21/how-to-build-an-esxi-on-arm-pi-cluster/)) and installing ESXi on ARM (ESXi-ARM) using the “[Fling on Raspberry Pi](https://flings.vmware.com/esxi-arm-edition)” documentation, it’s time to install Home Assistant.
 
+In this example, I install the following components:
 - Ubuntu for ARM
 - VMware Tools
 - Docker
@@ -19,7 +21,7 @@ In this example, I install the following components:
 
 ## Pre-requisites
 
-1. Download `Ubuntu 20.04.1-live-server-arm64.iso`, [Link](http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04.1-live-server-arm64.iso)
+1. Download `Ubuntu 20.04.1-live-server-arm64.iso` or higher
 2. Make a connection to the vCenter Server : `https://<vcenter server>/ui` or the local ESXi server https://<esx-server>
 3. Upload the Ubuntu ISO to a datastore
 
@@ -33,7 +35,7 @@ Create a new virtual machine with the following specifications:
 
 - **Virtual Machine name**: HomeAssstant-001
 - **Select a compute resource**: select an ESXi server
-- **Select storage**: <Select the datastore>
+- **Select storage**: Select the datastore
 - **Select compatibility**: ESXi 7.0 and later
 - **Select a guest OS**:
     - **Guest OS Family**: Linux

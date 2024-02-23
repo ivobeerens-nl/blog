@@ -7,7 +7,10 @@ tags:
   - "esxi-2"
   - "VMware"
 author: Ivo Beerens
+url: /2019/09/18/upgrading-to-esxi-6-7-update-3-results-in-shutting-down-firmware-services-error/
 ---
+
+After upgrading one of my home lab servers to VMware ESXi 6.7 Update 3, I’ve got the following error when trying to boot:
 
 [![](images/error-300x177.jpg)](images/error.jpg)
 

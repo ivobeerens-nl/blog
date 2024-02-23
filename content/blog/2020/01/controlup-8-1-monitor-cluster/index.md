@@ -6,8 +6,10 @@ categories:
 tags: 
   - "controlup"
 author: Ivo Beerens
+url: /2020/01/14/controlup-8-1-monitor-cluster/
 ---
 
+Today ControlUp version 8.1 is released with two new major features:
 - **Monitor Cluster**. This new cluster model adds support for monitoring more VDI endpoints per site.
 - **VMware Horizon integration**.  ControlUp has now native integration with VMware Horizon environments.
 
@@ -58,6 +60,3 @@ More information on the data collector can be found here, [link](https://support
 ## Conclusion
 
 With ControlUp 8.1 it is now possible to add more VDI endpoints with the new Monitor Cluster model. Because of this, it's now possible to monitor large VMware Horizon environments with ControlUp. In part 2 of this blog post, I will highlight the new VMware Horizon integration.
-
-
-

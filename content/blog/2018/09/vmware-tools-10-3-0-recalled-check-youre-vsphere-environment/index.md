@@ -9,7 +9,10 @@ tags:
   - "VMware-tools"
 coverImage: "1-3.png"
 author: Ivo Beerens
+url: /2018/09/07/vmware-tools-10-3-0-recalled-check-youre-vsphere-environment/
 ---
+
+Yesterday VMware released a Knowledge Base article that VMware Tools version 10.3.0 is recalled because issues with the VMXNET3 network driver for Windows on ESXi 6.5. The issues can cause a Purple Diagnostic Screen (PSOD) or guest network connectivity loss. Because of these issues, VMware Tools 10.3.0 is recalled and no longer available.
 
 **Update: September 12, 2018**: VMware Tools 10.3.2. is released that fixes the VMXNET3 issue. More information can be found here, [link](https://t.co/QsI8XZuuRa).
 
@@ -26,6 +29,3 @@ I created a simple PowerCLI script to identify VMware Tools version 10.3.0 and d
 [![](images/1-3-300x55.png)](images/1-3.png)
 
 The script '"identVMwaretools.ps1" can be found on my GitHub repository, [link](https://github.com/ibeerens/PowerCLI). The KB can be found here, [link](https://kb.VMware.com/s/article/57796).
-
-
-

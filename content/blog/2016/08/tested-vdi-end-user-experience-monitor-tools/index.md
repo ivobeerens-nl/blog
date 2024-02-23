@@ -12,7 +12,10 @@ tags:
   - "monitoring"
   - "vrops"
 author: Ivo Beerens
+url: /2016/08/26/tested-vdi-end-user-experience-monitor-tools/
 ---
+
+The success and effectiveness of a VDI environment depends on the End User Experience (UX). When the End User Experience isn’t good, users will complain and the VDI project will fail. So the ability to analyze, report and troubleshoot when a problem occurs is critical in a VDI environment. To get this insight I tested **ControlUp v6** and **VMware vRealize Operations for Horizon v6.3.** Both tools are tested against the following subjects:
 
 - **Architecture**
 - **Troubleshoot performance problems**
@@ -40,7 +43,7 @@ On the left is the Enterprise Network displayed. This is the on-premises datacen
 
 It's possible to have the backend  components installed on-premises with a special version of ControlUp if you have special compliance requirements. With this version everything runs on-premises.
 
-_VMware vRealize Operations for Horizon_
+VMware vRealize Operations for Horizon_
 
 VMware vRealize Operations for Horizon is a monitoring solution that extends the capability of VMware vRealize Operations Manager to troubleshoot, monitor, and manage the health, capacity, and performance of VMware Horizon View environments. The architecture of vROps looks like:
 
@@ -83,7 +86,7 @@ _vROPS for Horizon_
 
 The User Interface (UI) for vROps is accessible from the internet browser.
 
-[![webportal](images/webportal-300x157.png)](images/webportal.png) [![webportal1](images/webportal1-1-300x146.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/webportal1-1.png)
+[![webportal](images/webportal-300x157.png)](images/webportal.png) [![webportal1](images/webportal1-1-300x146.png)](images/webportal1-1.png)
 
 After logging-in there are Horizon specific dashboards available such as:
 
@@ -107,17 +110,17 @@ To demonstrate performance troubleshooting with both products we use a Windows
 
 [![heavy](images/heavy-300x143.png)](images/heavy.png)
 
-_ControlUp_
+ControlUp
 
 With ControlUp Management Console we can troubleshoot performance problems on hosts, computers and,-sessions in real-time and  identify the process that is causing the 100% CPU utilization.
 
-[![1](images/1-300x89.png)](images/1.png) [![2a](images/2a-300x113.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/2a.png)
+[![1](images/1-300x89.png)](images/1.png) [![2a](images/2a-300x113.png)](images/2016/08/2a.png)
 
-_vROPS for Horizon_
+vROPS for Horizon
 
 With vROps we filter on "Percent Processor Time%", select the session and perform a manual "Get Desktop Processes".
 
-[![3](images/3-300x275.png)](images/3.png)[![High CPU 1](images/High-CPU-1-300x134.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/High-CPU-1.png)
+[![3](images/3-300x275.png)](images/3.png)[![High CPU 1](images/High-CPU-1-300x134.png)](images/High-CPU-1.png)
 
 The "Get Desktop Processes" task takes between 10-30 seconds to generate a list of process information per desktop. In ControlUp getting the processes list is in real-time. Besides identifying high CPU utilization other performance counters can be identified with both products.
 
@@ -136,7 +139,7 @@ When logging-in there are three main sections with a couple of sub-sections:
     - Session Activity
     - Session Details
     - Session Resources
-    - Logon Duration[![reports](images/reports-300x133.png)](images/reports.png)
+    - Logon Duration
     - Protocol Latency
 - **System Health**
     - Computer Trends
@@ -147,11 +150,13 @@ When logging-in there are three main sections with a couple of sub-sections:
     - App Usage Details
     - Citrix License Usage
 
+[![reports](images/reports-300x133.png)](images/reports.png)
+
 Each section has a several reports with information about user activity, user experience, resource consumption, application activity, system health and license information. The reports are simple, interactive and good-looking.  In addition, where applicable, ControlUp Insights presents global benchmark values for performance and user experience metrics. These metrics are calculated based on anonymize metadata sent to ControlUp Insights from the customers that use this platform
 
 Here are 4 examples reports of Insights:
 
-[![Computer Trends](images/Computer-Trends-300x125.png)](images/Computer-Trends.png) [![Host Trends](images/Host-Trends-300x128.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/Host-Trends.png) [![Resource usage](images/Resource-usage-300x88.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/Resource-usage.png) [![Toperrors](images/Toperrors-300x109.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/Toperrors.png)
+[![Computer Trends](images/Computer-Trends-300x125.png)](images/Computer-Trends.png) [![Host Trends](images/Host-Trends-300x128.png)](images/Host-Trends.png) [![Resource usage](images/Resource-usage-300x88.png)](images/Resource-usage.png) [![Toperrors](images/Toperrors-300x109.png)](images/2016/08/Toperrors.png)
 
 The report data can be exported as CSV files.
 
@@ -161,7 +166,7 @@ _vROPS for Horizon_
 
 There are several predefined Horizon reports that can be run or scheduled on regular basis. These reports provide information about remote desktop and application usage, desktop and application pool configuration details, and license compliance. Here are some examples:
 
-[![2016-08-15_15h39_39](images/2016-08-15_15h39_39-300x139.png)](images/2016-08-15_15h39_39.png) [![2016-08-15_15h50_12](images/2016-08-15_15h50_12-300x170.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/2016-08-15_15h50_12.png) [![2016-08-15_15h50_30](images/2016-08-15_15h50_30-300x162.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/2016-08-15_15h50_30.png) [![2016-08-15_15h50_50](images/2016-08-15_15h50_50-300x191.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/2016-08-15_15h50_50.png)
+[![2016-08-15_15h39_39](images/2016-08-15_15h39_39-300x139.png)](images/2016-08-15_15h39_39.png) [![2016-08-15_15h50_12](images/2016-08-15_15h50_12-300x170.png)](images/2016/08/2016-08-15_15h50_12.png) [![2016-08-15_15h50_30](images/2016-08-15_15h50_30-300x162.png)](images/2016/08/2016-08-15_15h50_30.png) [![2016-08-15_15h50_50](images/2016-08-15_15h50_50-300x191.png)](images/2016-08-15_15h50_50.png)
 
 The reports aren't as fancy and interactive as in ControlUp. The reports can be exported as CSV or PDF files.
 
@@ -175,7 +180,7 @@ _ControlUp UX metrics_
 - **Desktop Load Time**.
 - **Group Policy Load Time**.
 
-[![Protocol Latency](images/Protocol-Latency-300x84.png)](images/Protocol-Latency.png)[![UX metrics](images/UX-metrics-300x58.png)](https://www.ivobeerens.nl/wp-content/uploads/2016/08/UX-metrics.png)
+[![Protocol Latency](images/Protocol-Latency-300x84.png)](images/Protocol-Latency.png)[![UX metrics](images/UX-metrics-300x58.png)](images/2016/08/UX-metrics.png)
 
 - **Application Load Time**.
 
@@ -259,6 +264,3 @@ In this blogpost I tried to give a impression of both products. ControlUp and V
 - vSphere and Horizon Infrastructure related counters such as VDI and Horizon applications pool information.
 
 What product do I need for Horizon environment? This depends on your requirements, use case and what licenses you already have. For example when having a Horizon Enterprise license, vROps for Horizon is included. Even when having a vROps environment, ControlUp adds great value by it's unique features such as the interactive ControlUp Insights reports and complement vROps.
-
-
-

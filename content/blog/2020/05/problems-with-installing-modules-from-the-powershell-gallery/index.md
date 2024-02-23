@@ -2,7 +2,10 @@
 title: "Problems with installing modules from the PowerShell Gallery"
 date: "2020-05-19T06:34:15.000Z"
 author: Ivo Beerens
+url: /2020/05/19/problems-with-installing-modules-from-the-powershell-gallery/
 ---
+
+Lately, on several Windows Server 2016 servers, I wanted to install a PowerShell module such as VMware PowerCLI. When trying to install the module I’ve got the following error:
 
 > NuGet provider is required to continue PowerShellGet requires NuGet provider version '2.8.5.201' or newer to interact with NuGet-based repositories. The NuGet provider must be available in 'C:\\Program Files\\PackageManagement\\ProviderAssemblies' or 'C:\\Users\\Administrator\\AppData\\Local\\PackageManagement\\ProviderAssemblies'. You can also install the NuGet provider by running 'Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force'. Do you want PowerShellGet to install and import the NuGet provider now? \[Y\] Yes \[N\] No \[S\] Suspend \[?\] Help (default is "Y"): Y WARNING: Unable to download from URI 'https://go.microsoft.com/fwlink/?LinkID=627338&clcid=0x409' to ''. WARNING: Unable to download the list of available providers. Check your internet connection.
 > 
@@ -14,9 +17,8 @@ The required modules come from the PowerShell Gallery. Windows Server 2016 has P
 
 A temporary fix (that won't persist) is to add the following line before installing the PowerCLI module:
 
-\[code language="PowerShell"\]\[Net.ServicePointManager\]::SecurityProtocol = \[Net.SecurityProtocolType\]::Tls12\[/code\]
+```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+```
 
 Another way is to add this line to your PowerShell profile. More information about the PowerShell TLS change can be found here, [link](https://devblogs.microsoft.com/PowerShell/PowerShell-gallery-tls-support/).
-
-
-
