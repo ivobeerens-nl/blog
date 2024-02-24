@@ -8,7 +8,10 @@ tags:
   - "vcenter"
   - "vcsa"
 author: Ivo Beerens
+url: /2012/10/22/what-about-vmware-vcenter-server-appliance-vcsa-version-5-1/
 ---
+
+I get a lot of questions from customers if the could use the VMware vCenter Server Appliance (VCSA) in there production environments as replacement for the standard vCenter Server. With the standard vCenter Server is based on Microsoft Windows. you know for sure that all the other vSphere products are supported and integrate. But what about vCenter Server Appliance (VCSA) 5.1?
 
 The vCenter Server Appliance (VCSA) 5.1 is a 64-bit SUSE Linux Enterprise Server 11 OVF appliance.  The appliance is installed default with 2 vCPUs, 8 GB memory and consumes between approximate 5 GB and 80 GB of disk space.  This is the configuration for a small inventory (up to 100 hosts and 1000 VMs). If the environment is larger you need to scale up the appliance hardware configuration.
 
@@ -58,6 +61,3 @@ The installation and configuration is very easily. Within a couple minutes the V
 **Conclusion:**
 
 The embedded database has limited support so it only usable in small SMB and test environments on the moment. For the external database only Oracle is supported. VMware Update Manager is not preinstalled, so you need an extra Windows Server for installing VMware Update Manager.  When these and above issues are fixed in further versions, it’s a great and easy way to set up an vCenter Server environment without using Windows!
-
-
-

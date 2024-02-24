@@ -8,13 +8,16 @@ tags:
   - "backup"
   - "vdp"
 author: Ivo Beerens
+url: /2012/12/07/upgrading-the-vsphere-data-protection-vdp-appliance/
 ---
+
+Here are the steps outlined for upgrading the vSphere Data Protection (VDP) appliance.
 
 1\. Check the version of the VDP.  SSH to the VDP appliance and use the following command:
 
-rpm –qa | grep vdr
+`rpm –qa | grep vdr`
 
-The current version of the VDP appliance is  vdr-1.1.53-53
+The current version of the VDP appliance is: `vdr-1.1.53-53`
 
 [![image](images/image_thumb.png "image")](images/image.png)
 
@@ -24,7 +27,9 @@ The current version of the VDP appliance is  vdr-1.1.53-53
 
 3\. Shutdown the VDP appliance.
 
-4\. The virtual disks used by the vSphere Data Protection appliance are set to be “Independent - Persistent.” However, in order to take a snapshot, the disks will have to be temporarily changed to “Dependent.” Starting with Hard disk 2 till disk 7[![image](images/image22_thumb1.png "image")](images/image221.png).
+4\. The virtual disks used by the vSphere Data Protection appliance are set to be “Independent - Persistent.” However, in order to take a snapshot, the disks will have to be temporarily changed to “Dependent.” Starting with Hard disk 2 till disk 7
+
+[![image](images/image22_thumb1.png "image")](images/image221.png).
 
 5\. Take a snapshot.  This must be done else you wont be able to upgrade the VDP appliance
 
@@ -89,6 +94,3 @@ rpm –qa | grep vdr
 The new version of the VDP appliance is: vdr-1.1.56-56.  The vSphere (web) client displays still version 5.1.0.0 (5.1.0.0).
 
 [![image](images/image48_thumb1.png "image")](images/image481.png)
-
-
-

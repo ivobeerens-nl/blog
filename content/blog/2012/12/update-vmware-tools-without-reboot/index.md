@@ -7,7 +7,10 @@ categories:
 tags: 
   - "vSphere51"
 author: Ivo Beerens
+url: /2012/12/24/update-vmware-tools-without-reboot/
 ---
+
+**Update February 22, 2013**: William Lam created a clarification on the Zero-Down Time) VMware Tools Upgrade. Here is a quote from the post:
 
 > Is there downtime when upgrading to future versions of VMware Tools?
 > 
@@ -40,6 +43,3 @@ Choose Automatic Tools Upgrade for an unattended upgrade.
 [![image](images/image_thumb3.png "image")](images/image3.png)
 
 After some time the VMware tools are updated the latest version **without a reboot!** This example can be a good business case for upgrading  to vSphere 5.1!
-
-
-

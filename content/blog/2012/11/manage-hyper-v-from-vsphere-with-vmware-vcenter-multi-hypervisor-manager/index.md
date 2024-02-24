@@ -10,7 +10,10 @@ tags:
   - "manage"
   - "vSphere51"
 author: Ivo Beerens
+url: /2012/11/22/manage-hyper-v-from-vsphere-with-vmware-vcenter-multi-hypervisor-manager/
 ---
+
+VMware released the first version (1.0) of the vCenter Multi-Hypervisor Manager (MHM). MHM makes it possible to manage multiple heterogeneous hypervisors in VMware vCenter server.
 
 [![image](images/image_thumb1.png "image")](images/image1.png)
 
@@ -37,7 +40,9 @@ The following tasks can be performed by MHM:
 - Ability to perform power operations with hosts and virtual machines.
 - Ability to connect and disconnect DVD, CD-ROM, and floppy drives and images to install operating systems.
 
-<table border="0" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td valign="top" width="200"><a href="images/image3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb3.png" width="244" height="82"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2012/11/image4.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb4.png" width="244" height="197"></a></td></tr><tr><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2012/11/image5.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb5.png" width="244" height="217"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2012/11/image6.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb6.png" width="244" height="125"></a></td></tr></tbody></table>
+| [![image](images/image_thumb3.png "image")](images/image3.png) | [![image](images/image_thumb4.png "image")](images/image4.png) |
+|---|---|
+| [![image](images/image_thumb5.png "image")](images/image5.png) | [![image](images/image_thumb6.png "image")](images/image6.png) |
 
 ### Conclusion
 
@@ -50,15 +55,3 @@ Some suggestions for the next release:
 - Console access to the VM
 - Hyper-V to VMware migration (V2V)
 - Update integration components
-
-### More information
-
-- VMware vCenter Multi-Hypervisor Manager 1.0  Release Notes. [Link](http://www.VMware.com/support/mhm/doc/vcenter-multi-hypervisor-manager-10-release-notes.html)
-- VMware vCenter Multi-Hypervisor Manager Documentation. [Link](http://www.VMware.com/support/pubs/vcenter-multihypervisor-manager-pubs.html)
-- VMware vCenter Multi-Hypervisor Manager 1.0 Download [Link](http://www.VMware.com/go/download-vSphere)
-- vCenter Multi-Hypervisor Manager FAQ [Link](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2037570)
-- Installing vCenter Multi-Hypervisor Manager plug-in best practices [Link](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2039704)
-- Installing vCenter Multi-Hypervisor Manager best practices [Link](http://kb.VMware.com/selfservice/documentLinkInt.do?micrositeID=&popup=true&languageId=&externalID=2036700)
-
-
-

@@ -8,7 +8,10 @@ tags:
   - "hyper-v-2"
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2013/01/22/why-switch-between-windows-server-2012-core-and-windows-server-2012-gui/
 ---
+
+In Windows Server 2012 you can choose between a Server Core and Server with a GUI (full) during the installation. The Full Server GUI has all the tools and options to configure and troubleshoot. Server core is a minimal Windows installation with less tools and options.
 
 **Server Core has the following advantages over Server Full**:
 
@@ -59,17 +62,14 @@ In Server Manager you can add or remove the Graphical Management Tools and Infra
 
 Here are some PowerShell examples that can be used:
 
-List Server roles beginning with Server\*
+List Server roles beginning with Server*
 
-Get-WindowsFeatures Server\*
+`Get-WindowsFeatures Server*`
 
 Switch from Core Server to the Server Full
 
-Install-WindowsFeature Server-Gui-Mgmt-Infra,Server-Gui-Shell –Restart
+`Install-WindowsFeature Server-Gui-Mgmt-Infra,Server-Gui-Shell –Restart`
 
 Switch from Server full to Core Server
 
-Remove-WindowsFeature Server-Gui-Mgmt-Infra,Server-Gui-Shell –Restart
-
-
-
+`Remove-WindowsFeature Server-Gui-Mgmt-Infra,Server-Gui-Shell –Restart`

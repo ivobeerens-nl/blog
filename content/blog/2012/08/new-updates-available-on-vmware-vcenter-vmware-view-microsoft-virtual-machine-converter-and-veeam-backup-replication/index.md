@@ -12,7 +12,10 @@ tags:
   - "VMware"
   - "vpshere5"
 author: Ivo Beerens
+url: /2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/
 ---
+
+Over the last days the following updates are released:
 
 - **VMware vCenter Server 5.0 Update 1b**
 - **VMware View 5.1.1**
@@ -96,8 +99,3 @@ Veeam Backup & Replication 6.1 Patch 1 brings the following additional changes a
 > • Reduced the amount of logs application-aware processing produces on guest VMs.
 > 
 > • Added support for application-aware processing for VM's that use EFI boot.
-
-More information can be found [here](http://www.veeam.com/KB1671)
-
-
-

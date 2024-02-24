@@ -8,7 +8,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2013/02/07/configure-the-view-5-1-event-database-with-sql-server-express/
 ---
+
+The event database record information about View Manager events. Without configure the event database events are logged in a log file. The log file has very limited information. So configuring the Event Database in the View environment is a best practice.
 
 In Proof of Concept (PoC) environments MS SQL Server Express can be used for the Event database. This procedure describes how-to create a event database by using an MS SQL Server Express database:
 
@@ -18,7 +21,8 @@ In Proof of Concept (PoC) environments MS SQL Server Express can be used for the
 - Create a new user using SQL Server authentication, disable enforce password policy and select as default database the event database.
 - In the User Mapping field, map de the database and add the role **db\_owner** to the new user
 
-<table border="0" width="400" cellspacing="0" cellpadding="2"><tbody><tr><td valign="top" width="200"><a href="images/image.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="images/image_thumb.png" alt="image" width="244" height="217" border="0"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2013/02/image1.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="images/image_thumb1.png" alt="image" width="244" height="218" border="0"></a></td></tr></tbody></table>
+| [![image](images/image_thumb.png "image")](images/image.png) | [![image](images/image_thumb1.png "image")](images/image1.png) |
+|---|---|
 
 - Open the SQL Server Configuration Manager > SQL Server Network Configuration > Protocols for VIM\_SQLEXP,  open the TCP/IP protocol and make sure it is enabled. Scroll down to IPAll and write down the TCP Dynamic Ports number
 
@@ -27,9 +31,7 @@ In Proof of Concept (PoC) environments MS SQL Server Express can be used for the
 - Disable Windows Firewall on the SQL server machine. If you are unable to do this, set a Firewall exception for the dynamic port listed
 - In the View Administrator (https://connectionserver/admin) select View Configuration > Event Configuration. In the Event Database section click Edit and enter the information needed.
 
-<table border="0" width="400" cellspacing="0" cellpadding="2"><tbody><tr><td valign="top" width="200"><a href="images/image3.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="images/image_thumb3.png" alt="image" width="226" height="244" border="0"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2013/02/image4.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="images/image_thumb4.png" alt="image" width="244" height="202" border="0"></a></td></tr></tbody></table>
+| [![image](images/image_thumb3.png "image")](images/image3.png) | [![image](images/image_thumb4.png "image")](images/image4.png) |
+|---|---|
 
 And the Event database is configured with MS SQL Server Express.
-
-
-

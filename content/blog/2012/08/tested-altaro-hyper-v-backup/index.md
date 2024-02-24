@@ -9,7 +9,10 @@ tags:
   - "backup"
   - "hyper-v-2"
 author: Ivo Beerens
+url: /2012/08/02/tested-altaro-hyper-v-backup/
 ---
+
+In my LAB environment I tested Altaro Hyper-V Backup version 3. Altaro Hyper-V Backup is software that makes it possible to backup and restore Windows 2008 (R2) Hyper-V VMs.
 
 ### Editions
 
@@ -146,8 +149,3 @@ Today Altaro released the beta of Hyper-V Backup version 3.5. Version 3.5 has ne
 - Extra verification checks in Reverse Delta algorithm.
 - Improved free-space calculation (Backup no longer checks for full size of VM in free space).
 - Many more improvements and bug fixes under the hood.
-
-To try the beta go to here.
-
-
-

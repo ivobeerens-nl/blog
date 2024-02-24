@@ -12,7 +12,10 @@ tags:
   - "VMware"
   - "vpshere"
 author: Ivo Beerens
+url: /2012/07/30/convert-vmware-to-hyper-v-vms-with-microsoft-virtual-machine-converter/
 ---
+
+Last week Microsoft Virtual Machine Converter RC is released. Microsoft Virtual Machine Converter is a stand-alone tool that makes it possible to convert and deploys VMware based VMs to Hyper-V based VMs. It’s coverts the VMware VM and virtual disks (VMDK) to Hyper-V VMs and Virtual Hard Disks (VHDs). As virtualization consultant I got “sometimes“ involved in migrating VMware to Hyper-V VMs, so I tried Microsoft Virtual Machine Converter.
 
 #### What’s supported
 
@@ -47,8 +50,6 @@ MVMC will successfully perform virtual machine conversions when the following co
 - You have the correct credentials to connect to the required environments.
 - The Windows user account that you are using has write access to the UNC path specified on the destination Hyper-V host for copying the virtual hard disks.
 - The Hyper-V host has the required disk space available for the converted virtual hard disks.
-
- 
 
 #### How it works
 
@@ -111,7 +112,6 @@ I tested a conversion and deployment of a  Windows 2008 R2 VM, hosted on a VMwa
 
 [![image](images/image_thumb17.png "image")](images/image17.png)
 
- 
 
 #### Conclusion
 
@@ -131,9 +131,4 @@ Microsoft Virtual Machine Converter is a very basic VMware to Hyper-V conversion
 - Pre-checks are not
 - No disk alignment of Windows 2003
 
- 
-
 If you like it to do the other way, VMware has a tool called “[VMware vCenter Converter Standalone 5.0](https://my.VMware.com/web/VMware/details/converter5/dHclYnRqZEBiZEAldw==)” which convert Hyper-V based VMs to VMware vSphere VMs with more advanced functions to use such as hot cloning and disk aligning.
-
-
-

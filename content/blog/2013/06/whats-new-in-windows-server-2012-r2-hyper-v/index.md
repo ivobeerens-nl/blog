@@ -8,7 +8,10 @@ tags:
   - "hyper-v-2"
   - "windows-server-2012-r2"
 author: Ivo Beerens
+url: /2013/06/05/whats-new-in-windows-server-2012-r2-hyper-v/
 ---
+
+On TechEd Windows Server 2012 R2 is announced. Here are some highlights of “Hyper-V – What’s New in Windows Serve 2012 R2” session (MDC-B330):
 
 - **Windows Azure IaaS compatibility**—Windows Azure IaaS uses exactly the same virtualization as Windows Server 2012 Hyper-V. So VM’s on-premise can be moved to Azure (Iaas) without problems
 - **Generation 2 Virtual Machines (VMs).** In the  generation 2 VM are many emulated devices removed and it boots from virtual SCSI or synthetic network adapters. In earlier releases the VM booted from an IDE controller or a legacy network adapter. Gen 2 VM’s are only supported from Windows 8 and Windows Server 2012 64-bit and higher Operating Systems. A generation 2 VM knows that it is virtualized!
@@ -28,6 +31,3 @@ author: Ivo Beerens
 [![image](images/image_thumb2.png "image")](images/image2.png)
 
 - **Improvements to Hyper-V replica. Finer grained control of replication** such as 30 seconds, 5 minutes and 15 minutes. With 30 seconds you never more than 1 minute behind the primary VM and useful for WAN connections with enough bandwidth.With **Extended replication** you can use a third location to replicate the VM.
-
-
-

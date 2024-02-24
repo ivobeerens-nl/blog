@@ -10,7 +10,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/
 ---
+
+VMware Horizon View 5.2 adds support for Microsoft Lync 2013 with audio en video. With Microsoft Lync 2010, only VoIP was supported, but required a dedicated IP-based phone. Microsoft and VMware collaborated to bring Lync 2013 support to the View 5.2 desktop.
 
 Here is a list of supported features with Lync 2013 in VMware View:
 
@@ -23,8 +26,3 @@ All the media processing is offloaded from the datacenter to the client endpoint
 The VDI Plug-in is a standalone application that needs the be installed on the local Windows computer and allows the use of local audio and video devices with the Lync 2013 client running in the View Desktop. Audio and Video traffic is sent point-to-point between the endpoints.
 
 On the moment only Windows 7  SP1 is supported as client OS and View desktop.
-
-VMware has released a guide about the installation and configuration of Lync 2013 with VMware View 5.2. The document can be found [here](http://communities.VMware.com/servlet/JiveServlet/downloadBody/22775-102-1-30309/VMwareViewandMicrosoftLync2013InstallationGuidev1.0.doc)
-
-
-

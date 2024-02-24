@@ -12,7 +12,10 @@ tags:
   - "VMware-update-manager"
   - "vum"
 author: Ivo Beerens
+url: /2012/07/17/add-hp-drivers-vib-to-vmware-update-manager-vum/
 ---
+
+HP has created a vSphere Installation Bundle (VIB) depot for all sort of important HP driver bundles for VMware vSphere 5 and higher. The VIP depot contains:
 
 - HP ESXi 5.0 Management Providers bundle - includes the latest HP Common Information Model (CIM) Providers, HP Integrated Lights-Out (iLO) driver, HP Compaq ROM Utility (CRU) driver, and the new HP Agentless Management Service (AMS).
 - HP ESXi 5.0 Utilities bundle - ESXCLI utilities such as HPBOOTCFG (boot order configuration),HPONCFG (remote iLO configuration) and HPACUCLI (Smart Array reporting and configuration)
@@ -80,13 +83,4 @@ When the hosts are rebooted and the remediation is finished, the Host Compliance
 
 [![image](images/image_thumb5.png "image")](images/image5.png)
 
- 
-
 Using the  HP VIB depot is great way of keep your HP server up-to-date with the latest HP bundles.
-
-More information can be found HP VIB bundle site found here.
-
-Update July 20 2012 : Viktor van den Berg tested the above configuration and found out that this only works with new  installations. For existing installation you need to create an additional Host Patch Baseline. Viktor explains this on his cool blog found here [here.](http://www.viktorious.nl/2012/07/17/updating-your-hp-drivers-with-VMware-update-manager/)
-
-
-

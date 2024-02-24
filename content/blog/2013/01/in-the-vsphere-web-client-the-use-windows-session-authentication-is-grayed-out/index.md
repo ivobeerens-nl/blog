@@ -8,7 +8,10 @@ tags:
   - "VMware"
   - "vSphere51"
 author: Ivo Beerens
+url: /2013/01/24/in-the-vsphere-web-client-the-use-windows-session-authentication-is-grayed-out/
 ---
+
+When logging in the vSphere Web Client login page the “Use Windows session Authentication” check box is grayed out. To solve this you need to install the Client Integration Plug-in.
 
 The Client  Integration Plug-in provides:
 
@@ -24,6 +27,3 @@ Without the VMware Client Integration Plug-in, the “Use Windows session Authen
 After installing the VMware Client Integration Plug-in (2) from the vSphere Web Client login page, the Use Windows session Authentication check box option can be checked and the current login setting are used in the vSphere Web Client.
 
 [![image](images/image_thumb7.png "image")](images/image7.png)
-
-
-

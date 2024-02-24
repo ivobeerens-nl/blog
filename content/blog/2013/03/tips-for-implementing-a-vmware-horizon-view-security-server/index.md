@@ -14,7 +14,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2013/03/05/tips-for-implementing-a-vmware-horizon-view-security-server/
 ---
+
+A security server is a special instance of View Connection Server that runs a subset of View Connection Server functions. You can use a security server to provide an additional layer of security between the internet and your internal network. A security server resides within a DMZ and acts as a proxy host for connections inside your trusted network.
 
 Setting up a VMware Horizon View Security server can be a challenging task because you have to deal with firewalls and some ports that’s need to be opened between the servers. Here are some tips for implementing a VMware Horizon View Security server:
 
@@ -37,6 +40,3 @@ Setting up a VMware Horizon View Security server can be a challenging task becau
 **(\*2)** Enable this port for firewalls that use NAT. For non-NAT firewalls use the ESP protocol.
 
 **(\*3)** Enable this port  if you use VMware Horizon View HTML Access, security servers connect to View desktops on HTTPS port 22443 to communicate with the Blast agent.
-
-
-

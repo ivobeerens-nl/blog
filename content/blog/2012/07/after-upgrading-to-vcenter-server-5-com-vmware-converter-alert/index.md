@@ -8,7 +8,10 @@ tags:
   - "converter"
   - "vcenter"
 author: Ivo Beerens
+url: /2012/07/23/after-upgrading-to-vcenter-server-5-com-vmware-converter-alert/
 ---
+
+After upgrading to vCenter 5, the vCenter Service Status page displays the following error:
 
 [![image](images/image_thumb8.png "image")](images/image8.png)
 
@@ -21,6 +24,3 @@ This error occurs because the integrated vCenter Converter plug-in is no longer 
 After following the KB article, the  converter plug-in is removed from the vCenter Service Status page.
 
 [![image](images/image_thumb7.png "image")](images/image7.png)
-
-
-

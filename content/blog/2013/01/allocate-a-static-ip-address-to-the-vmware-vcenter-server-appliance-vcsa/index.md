@@ -8,9 +8,12 @@ tags:
   - "vcenter"
   - "vcsa"
 author: Ivo Beerens
+url: /2013/01/14/allocate-a-static-ip-address-to-the-vmware-vcenter-server-appliance-vcsa/
 ---
 
-NO NETWORKING DETECTED.
+When deploying the VMware vCenter Server Appliance (VCSA) it will default look for a DHCP address. When there is no DHCP server available the following error is displayed:
+
+> O NETWORKING DETECTED.
 
 [![image](images/image_thumb.png "image")](images/image.png)
 
@@ -21,7 +24,7 @@ it is possible to manually configure a static IP address by using the command li
 - Default password is: **VMware**
 - Execute the following command:
 
-/opt/VMware/share/vami/vami\_config\_net
+`/opt/vmware/share/vami/vami_config_net`
 
 - After executing the command, a menu is displayed. Within the menu It is possible to change the IP address, hostname, DNS, Default gateway and proxy server.
 
@@ -29,7 +32,4 @@ it is possible to manually configure a static IP address by using the command li
 
 - After allocate a static IP Address to the VCSA the post configuration can be done by using the following URL: 
 
-https://static-ip-address:5480
-
-
-
+`https://static-ip-address:5480`

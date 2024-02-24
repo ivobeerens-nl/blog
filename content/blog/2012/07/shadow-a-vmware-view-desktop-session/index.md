@@ -8,7 +8,10 @@ tags:
   - "VMware"
   - "VMware-view"
 author: Ivo Beerens
+url: /2012/07/31/shadow-a-vmware-view-desktop-session/
 ---
+
+In VMware View there is no central way shadow a desktop session such as for example in Citrix XenApp. It would be nice if in the future it is possible to shadow a desktop from for example the VMware View Connection server. This is frequently asked question by customers were VMware View is implemented.
 
 Brian Knudtson explain in his blog post  how to access a PCoIP session from the vSphere Console.
 

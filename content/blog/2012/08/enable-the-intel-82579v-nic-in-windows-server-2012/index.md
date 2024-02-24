@@ -8,16 +8,16 @@ tags:
   - "82579v"
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2012/08/08/enable-the-intel-82579v-nic-in-windows-server-2012/
 ---
 
-Here are the steps:
-
+After installing Windows Server 2012 on my homebrew server, the onboard Intel 82579V Gigabit NIC on the Asus P9X79 motherboard was not working. On the Asus site I found Windows 8 Intel drivers for the motherboard. After installing the drivers the NIC was still not working. To get the Intel 82579V NIC working in Windows Server 2012 follow these steps:
 - To be able to modify the drivers you need to run the the following commands:
 
+```
 bcdedit -set loadoptions DISABLE\_INTEGRITY\_CHECKS 
 bcdedit -set TESTSIGNING ON 
-
-  
+```
 
 - Reboot
 
@@ -57,12 +57,11 @@ bcdedit -set TESTSIGNING ON
 
 - Enable the driver integrity checks and disable test signing again by using the following commands:
 
+```
 bcdedit -set loadoptions ENABLE\_INTEGRITY\_CHECKS
 bcdedit -set TESTSIGNING OFF
+```
 
 - Reboot
 
 Now you can use the Intel 82579V Gigabit NIC  in Windows Server 2012.
-
-
-

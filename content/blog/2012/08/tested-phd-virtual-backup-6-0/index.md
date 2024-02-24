@@ -11,7 +11,10 @@ tags:
   - "VMware"
   - "vpshere"
 author: Ivo Beerens
+url: /2012/08/21/tested-phd-virtual-backup-6-0/
 ---
+
+PHD Virtual Backup is a backup and recovery solution for VMware and Citrix environments. PHD Virtual Backup version 6 is released. We tested this new version with VMware vSpher
 
 #### What’s new in PHD Virtual Backup version 6:
 
@@ -266,8 +269,3 @@ PHD Virtual Backup is licensed per hosts. If you purchase a 2 host license you c
 PHD Virtual Backup 6 has great new features. It’s easy to install and configure and it integrates in vCenter. Because it is a small appliance, it involves no operating system license cost.  You can scale up by adding more appliances when needed. The Instant VM Recovery can be very useful when you need the mission critical data immediately and he File Level Restore (FLR) is so easy to use!  When searching for backup and recovery solution, PHD Virtual Backup 6 is certainly worth to try!
 
 **_General Availability for PHD Virtual version 6.0 will occur August 27, 2012!_**
-
-More information on PHD Virtual Backup 6 can be found on [http://phdvirtual.com/](http://phdvirtual.com/)
-
-
-

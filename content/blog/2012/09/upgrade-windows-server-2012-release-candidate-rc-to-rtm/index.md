@@ -8,7 +8,10 @@ tags:
   - "upgrade"
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2012/09/07/upgrade-windows-server-2012-release-candidate-rc-to-rtm/
 ---
+
+Now Windows Server 2012 is release I tried to upgrade my lab environment from Microsoft Windows Server 2012 RC 8400 to Windows 2012 RTM. It is not officially supported to upgrade from Windows Server 2012 RC to Windows Server 2012 RTM by Microsoft.
 
 I did the following steps to upgrade:
 
@@ -44,6 +47,3 @@ I did the following steps to upgrade:
 - Again the setup process must be started and the upgrades completes. After the upgrade the Windows Server 2012 version is Build 9200 (RTM).
 
 [![image](images/image_thumb5.png "image")](images/image6.png)
-
-
-

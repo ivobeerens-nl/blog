@@ -12,7 +12,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/
 ---
+
+With the release of the **VMware Horizon View Feature Pack 1** for VMware Horizon View 5.2 it possible to connect with HTML5 to your View desktop. This without installing additional software. The new HTML5 protocol is called Blast. Connecting by using the Blast HTML protocol can be handy when you are on a device that does not have the VMware View client installed.
 
 The VMware Horizon View Feature Pack 1 contains the following two main components:
 
@@ -67,6 +70,3 @@ Don’t expect: that the Blast protocol offers:
 But the  Blast HTML protocol can be handy when you are on a device that does not have the VMware View client installed.
 
 <table border="0" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td valign="top" width="200"><a href="images/image5.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb5.png" width="293" height="128"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2013/03/image6.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="images/image_thumb6.png" width="300" height="133"></a>&nbsp;</td></tr><tr><td valign="top" width="200">View Portal. Choose&nbsp; between the View Client or HTML access</td><td valign="top" width="200">Logon screen HTML access</td></tr><tr><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2013/03/foto-1.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="foto (1)" border="0" alt="foto (1)" src="images/foto-1_thumb.png" width="164" height="244"></a></td><td valign="top" width="200"><a href="https://www.ivobeerens.nl/wp-content/uploads/2013/03/foto.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="foto" border="0" alt="foto" src="images/foto_thumb.png" width="164" height="244"></a></td></tr><tr><td valign="top" width="200">Unity touch from iPhone</td><td valign="top" width="200">Unity touch from iPhone</td></tr></tbody></table>
-
-
-

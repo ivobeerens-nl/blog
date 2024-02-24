@@ -10,7 +10,10 @@ tags:
   - "office-2013"
   - "VMware"
 author: Ivo Beerens
+url: /2012/09/05/vmware-fusion-5-and-microsoft-office-2013-screen-refresh-problem/
 ---
+
+When using Microsoft Office 2013 on Windows 7 or Windows 8 in VMware Fusion 5 the screen is not properly refreshed and leaving black regions.
 
 [![image](images/image4_thumb.png "image")](images/image4.png)
 
@@ -35,8 +38,3 @@ There are two work arounds available:
 
 - Open the Office application you want to turn disable the hardware acceleration
 - Click on Settings – Advanced – Disable hardware acceleration
-
-More information can be found here.
-
-
-

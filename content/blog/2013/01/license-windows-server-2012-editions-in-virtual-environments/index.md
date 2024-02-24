@@ -6,7 +6,10 @@ categories:
 tags: 
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2013/01/02/license-windows-server-2012-editions-in-virtual-environments/
 ---
+
+As virtualization consultant I got frequently questions about Windows Server 2012 licensing in virtual environments such as VMware and Hyper-V. Here is a short blog about Windows Server 2012 licensing in virtual environments.
 
 What about the Windows Server 2012 license:
 
@@ -41,6 +44,3 @@ It is allowed to reassign a Windows Server 2012 license from one server to anoth
 **What about moving a VM?**
 
 When using a dynamic move a Windows Server VM to another node for example with Windows Server Clustering, VMware vMotion or Live Migration, the other node needs to be have sufficient Microsoft Windows Server 2012 licenses. So in most cases an Windows Server 2012 Datacenter edition license is recommend.
-
-
-

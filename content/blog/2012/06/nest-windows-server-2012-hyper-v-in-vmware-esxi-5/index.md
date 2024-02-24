@@ -10,15 +10,18 @@ tags:
   - "hyper-v-2"
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2012/06/28/nest-windows-server-2012-hyper-v-in-vmware-esxi-5/
 ---
+
+In this blog post I explain how you can install Windows 2012 Server Release Candidate (RC) in VMware ESXi and enable the Hyper-V role. It is possible to build a Hyper-V cluster LAB and live migrate VMs between the virtual Hyper-V nodes on one VMware ESXi 5 host.
 
 Before you begin make sure:
 
 - Windows 2012 Server RC ISO is place on a datastore
 - VMware ESXi 5 Update 1 is installed with the latest updates
-- To be able to boot 64bit guest OSes, make sure that on the VMware ESXi host the line below is added to the **/etc/VMware/config** file on your physical ESXi 5.x host (more information can be found on the blog from [William Lam](http://www.virtuallyghetto.com/2011/07/how-to-enable-support-for-nested-64bit.html))
+- To be able to boot 64bit guest OSes, make sure that on the VMware ESXi host the line below is added to the **/etc/VMware/config** file on your physical ESXi 5.x host:
 
-vhv.allow = TRUE
+`vhv.allow = TRUE`
 
 Create a new VM with the following settings (adjust the settings for your own need):
 

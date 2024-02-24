@@ -10,7 +10,10 @@ tags:
   - "view"
   - "VMware"
 author: Ivo Beerens
+url: /2013/02/21/display-the-protocol-used-on-the-vmware-view-desktop-background/
 ---
+
+Systinternals has a tool called “BgInfo”. With this tool it is possible to display content on a Windows desktop background. For example environment variable Information such as “computer name” and the “IP address” can be displayed. This can be very handy when testing or for people that do they support for the Windows environment.
 
 VMware View 5.1 has the following environment variables available in a desktop session :
 

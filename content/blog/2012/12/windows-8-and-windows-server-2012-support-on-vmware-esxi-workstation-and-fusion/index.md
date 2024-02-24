@@ -10,9 +10,15 @@ tags:
   - "windows-8"
   - "windows-server-2012"
 author: Ivo Beerens
+url: /2012/12/11/windows-8-and-windows-server-2012-support-on-vmware-esxi-workstation-and-fusion/
 ---
 
-<table border="0" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td valign="top" width="200"><strong>OS</strong></td><td valign="top" width="200"><strong>Supported versions</strong></td></tr><tr><td valign="top" width="200">Windows 8 32/64 Bits</td><td valign="top" width="200">Workstation 9<br>Fusion 5.0<br>ESXi 5.0 U1<br>ESXi 5.1</td></tr><tr><td valign="top" width="200">Windows Server 2012 64 Bits</td><td valign="top" width="200">Workstation 9<br>Fusion 5.0<br>ESXi 5.0 U1<br>ESXi 5.1</td></tr></tbody></table>
+The following VMware releases are supported with Windows 8 and Windows Server 2012:
+
+| **OS** | **Supported versions** |
+|---|---|
+| Windows 8 32/64 Bits | Workstation 9    Fusion 5.0    ESXi 5.0 U1    ESXi 5.1 |
+| Windows Server 2012 64 Bits | Workstation 9    Fusion 5.0    ESXi 5.0 U1    ESXi 5.1 |
 
 Windows 8 and Windows Server 2012 are supported on ESX 5.0 U1 and 5.1. Here are some things to watch when implementing Windows 8 or Windows Server 2012 on ESXi environment.
 
@@ -22,7 +28,7 @@ For Windows 8 and Windows Server 2012 the E1000e adapter is the default vNIC. Th
 
 [![image](images/image_thumb7.png "image")](images/image7.png)
 
-VMXNET 3
+`VMXNET 3`
 
 The VMXNET 3 is optimized for performance in a virtual machine. Because operating system vendors do not provide built-in drivers for this card, you must install VMware Tools to have a driver for the VMXNET3 network adapter available. The VMXNET3 is available only on hardware version 7 and newer!
 
@@ -30,7 +36,7 @@ The VMXNET 3 is optimized for performance in a virtual machine. Because operatin
 
 The default SCSI disk controller is the LSI Logic SAS.
 
-PVSCSI
+`PVSCSI`
 
 The Paravirtual SCSI (PVSCSI) adapters are high-performance storage adapters that can result in greater throughput and lower CPU utilization.  When browsing through the FLP images there is no Windows Server  2012 driver available for the PVSCSI adapter.
 
@@ -47,8 +53,3 @@ Using the 2008 PVSCSI FLP image will install the PVSCSI driver in Windows 8 and 
 Guest OS Customization support is only supported on Windows 8 and not on Windows Server 2012!
 
 [![image](images/image_thumb10.png "image")](images/image10.png)
-
-Link
-
-
-

@@ -10,7 +10,10 @@ tags:
   - "VMware-data-protection"
   - "vSphere51"
 author: Ivo Beerens
+url: /2013/01/18/windows-2008-r2-vms-fail-to-backup-with-vmware-data-protection-vdp/
 ---
+
+When using VMware Data Protection (VDP) 5.1 and want to backup Windows 2008 R2 VM’s you should disable application-consistent quiescing. On the moment the VADP API doesn’t support Windows 2008 R2 application-consistent quiescing. So be sure that servers that uses a database such as SQL and Exchange are backuped with other third party backup software else the database will be not consistent when restoring!
 
 If you don’t disable application-consistent quiescing the backup of the Windows 2008 R2 will probably fail. I experienced this problem by customers who are using VDP and wanted to backup Windows 2008 R2 VMs.
 
@@ -30,6 +33,3 @@ To disable application quiescing use the following steps (This example is based 
 - Power On the VM
 
 After changing the **disk.EnableUUId**  parameter to **false** the backup of the Windows 2008 R2 succeeded with VDP. If you have a lot of VMs you can use PowerCLI to automate this process.
-
-
-

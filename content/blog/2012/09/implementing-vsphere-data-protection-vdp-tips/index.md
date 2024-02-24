@@ -8,7 +8,10 @@ tags:
   - "vdp"
   - "vSphere-data-protection"
 author: Ivo Beerens
+url: /2012/09/21/implementing-vsphere-data-protection-vdp-tips/
 ---
+
+vSphere Data Protection (VDP) is replacing VMware Data Recovery (vDR). VDP is a more robust product based on the EMC Avamar product.
 
 Here are some VDP implementing tips:
 
@@ -18,7 +21,11 @@ Here are some VDP implementing tips:
 - It is not possible to use CIFS or NFS shares directly from the VDP appliance.
 - VDP comes in 3 different OVA sizes 0,5TB, 1TB and 2TB.  Amount of disk space needed:
 
-<table border="0" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td valign="top" width="200"><strong>OVA Size (TB)</strong></td><td valign="top" width="200"><strong>Disk Space Required (GB)</strong></td></tr><tr><td valign="top" width="200">0,5</td><td valign="top" width="200">850</td></tr><tr><td valign="top" width="200">1</td><td valign="top" width="200">1600 (1,57 TB)</td></tr><tr><td valign="top" width="200">2</td><td valign="top" width="200">3100 (3,02 TB)</td></tr></tbody></table>
+| **OVA Size (TB)** | **Disk Space Required (GB)** |
+|---|---|
+| 0,5 | 850 |
+| 1 | 1600 (1,57 TB) |
+| 2 | 3100 (3,02 TB) |
 
 - It is not possible to expand the VDP destination datastore
 - VDP is managed by the vSphere Web client
@@ -35,11 +42,3 @@ Here are some VDP implementing tips:
 [![image](images/image_thumb11.png "image")](images/image12.png)
 
 - VDP supports up to 8 simultaneously backups of 8 VMs
-
-More information on VDP can be found here:
-
-- [vSphere Data Protection Administration Guide](http://pubs.VMware.com/vSphere-51/topic/com.VMware.ICbase/PDF/VMware-data-protection-administration-guide-51.pdf)
--  [VMware Data Protection (VDP) FAQ](http://kb.VMware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2016565)
-
-
-

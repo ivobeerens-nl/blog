@@ -8,7 +8,10 @@ tags:
   - "vcenter"
   - "vSphere51"
 author: Ivo Beerens
+url: /2012/09/11/vcenter-5-1-single-sign-on-error-during-installation/
 ---
+
+Today vSphere 5.1 is released. I did an upgrade of my existing vSphere 5 vCenter server. During the installation of the vCenter Single Sign On (SSO) software the following warning occurred:
 
 Error 29115: Cannot authenticate to DB.
 
@@ -19,6 +22,3 @@ After this error the installation stops and the rollback begins. To solve this m
 [![image](images/image_thumb7.png "image")](images/image8.png)
 
 Thanks to [Gabrie van Zanten](http://www.gabesvirtualworld.com/) and [Maish Saidel-Keesing](http://technodrone.blogspot.com/) for helping me out!
-
-
-
