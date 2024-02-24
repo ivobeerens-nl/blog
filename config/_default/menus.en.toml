@@ -3,7 +3,7 @@
 # main menu
 [[main]]
 name = "HOME"
-url = ""
+url = "/"
 weight = 1
 
 [[main]]
@@ -38,65 +38,23 @@ weight = 4
 # url = "contact/"
 # weight = 5
 
-# Dropdown menu
-[[main]]
-weight = 6
-name = "Pages"
-hasChildren = true
 
-[[main]]
-parent = "Pages"
-name = "Author"
-url = "author/john-doe/"
-weight = 1
-
-[[main]]
-parent = "Pages"
-name = "Category"
-url = "categories/photography/"
-weight = 2
-
-[[main]]
-parent = "Pages"
-name = "Tags"
-url = "tags/photo/"
-weight = 3
-
-[[main]]
-parent = "Pages"
-name = "Search"
-url = "https://demo.gethugothemes.com/logbook/site/search/?s=coffee"
-weight = 4
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
-weight = 5
-
-[[main]]
-parent = "Pages"
-name = "Elements"
-url = "elements/"
-weight = 6
-
-# footer menu
 [[footer]]
 name = "About"
 url = "about/"
 weight = 1
 
-[[footer]]
-name = "Contact"
-url = "contact/"
-weight = 2
+# [[footer]]
+# name = "Contact"
+# url = "contact/"
+# weight = 2
 
-[[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
-weight = 3
+# [[footer]]
+# name = "Privacy Policy"
+# url = "privacy-policy/"
+# weight = 3
 
-[[footer]]
-name = "Terms Conditions"
-url = "terms-conditions/"
-weight = 4
+# [[footer]]
+# name = "Terms Conditions"
+# url = "terms-conditions/"
+# weight = 4
