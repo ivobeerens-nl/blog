@@ -2,11 +2,10 @@
 title: "Enable the Intel 82579V NIC in Windows Server 2012"
 date: "2012-08-08T13:59:22.000Z"
 categories: 
-  - "82579v"
-  - "windows-server-2012"
+  - "Windows Server 2012"
 tags: 
-  - "82579v"
-  - "windows-server-2012"
+  - "windows server 2012"
+  - Network
 author: Ivo Beerens
 url: /2012/08/08/enable-the-intel-82579v-nic-in-windows-server-2012/
 ---

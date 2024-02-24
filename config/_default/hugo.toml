@@ -1,18 +1,18 @@
 ######################## default configuration ####################
-#baseURL = "https://demo.gethugothemes.com/logbook/site/"
+# baseURL = "https://demo.gethugothemes.com/logbook/site/"
 baseName = "https://ivobeerens.netlify.app/"
-title = "IvoBeerens.NL"
+title = "IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)"
 theme = "logbook-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Europe/Amsterdam"
 # post pagination
 languageName = "En"
 languageCode = "en-us"
-paginate = 15 # see https://gohugo.io/extras/pagination/
+paginate = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 50 # see https://gohugo.io/content-management/excerpts/
 # google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "G-MVK8GXB3DR" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
@@ -90,7 +90,6 @@ style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
-
 
 ############################ Output Format ###########################
 [outputFormats]

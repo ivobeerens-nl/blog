@@ -2,12 +2,11 @@
 title: "What's New in vSphere 6.5"
 date: "2016-10-18T07:00:03.000Z"
 categories: 
-  - "vSphere"
+  - "vSphere 6.5"
+  - VMworld
 tags: 
-  - "6-5"
-  - "virtual-san"
-  - "vmworld"
-  - "vSphere"
+  - "vSphere 6.5"
+  - VMWorld
 author: Ivo Beerens
 url: /2016/10/18/whats-new-vsphere-6-5/
 ---
