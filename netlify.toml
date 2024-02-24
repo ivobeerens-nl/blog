@@ -1,13 +1,9 @@
-HUGO_VERSION = "0.123.0"
-TZ = "Europe/Amsterdam"
-
 [build]
-  # command = "hugo --minify --gc  --enableGitInfo"
-  command = "hugo"
+  command = "hugo --minify --gc  --enableGitInfo"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.123.1"
+  HUGO_VERSION = "0.122.0"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.

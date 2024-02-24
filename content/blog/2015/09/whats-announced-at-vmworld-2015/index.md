@@ -4,7 +4,6 @@ date: "2015-09-01T08:24:33.000Z"
 categories: 
   - "vmworld"
 tags: 
-  - "sddc"
   - "vmworld"
 author: Ivo Beerens
 url: /2015/09/01/whats-announced-at-vmworld-2015/

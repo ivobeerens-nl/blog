@@ -2,9 +2,9 @@
 title: "Home lab extension with a Samsung 950 PRO M.2 SSD"
 date: "2015-12-14T19:56:08.000Z"
 categories: 
-  - "home-lab"
+  - "homelab"
 tags: 
-  - "home-lab"
+  - "homelab"
 author: Ivo Beerens
 url: /2015/12/14/4131/
 ---

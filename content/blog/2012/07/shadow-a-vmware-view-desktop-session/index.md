@@ -34,6 +34,3 @@ After configuring this, it is possible to shadow a PCoIP session from the vSpher
 [![image](images/image_thumb19.png "image")](images/image19.png)
 
 The keyboard and mouse movements are displayed on the two screens synchronously. I don’t know if it has any performance impact.
-
-
-
