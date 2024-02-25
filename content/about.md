@@ -23,13 +23,13 @@ social:
 
 My name is Ivo Beerens, currently working as Solution Consultant specialized in virtualization technologies such as VMware SDDC, End-User Computing (EUC), Azure, Azure Virtual Desktop (AVD), Infrastructure as Code (IaC), Business Continuity (BC), and Disaster Recovery (DR).
 
-![ivobeerens](assets/images/ivobeerens.jpg)
+I'm awarded with the **VMware vExpert title for 2011 till now, 14 years in a row**.
 
-I'm awarded with the **VMware vExpert title for 2011 till now and for the subprograms vExpert EUC.**
-
-![vexpertbadge](assets/images/vexpertbadge.png)
+{{< image src="images/vexpert2024.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
 My vExpert directory profile can be found here, [link](https://vexpert.vmware.com/directory/571).
+
+---
 
 **Certifications**:
 - Microsoft Certified: Azure Fundamentals AZ-900
@@ -66,6 +66,8 @@ My vExpert directory profile can be found here, [link](https://vexpert.vmware.co
 - Veeam Certified Sales Professional 2020
 - Veeam Certified Technical Sales Professional 2020
 - Veeam VMCE 2020
+
+---
 
 ### Contact
 E-mail:  info**\[at\]**ivobeerens.nl
