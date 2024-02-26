@@ -55,12 +55,13 @@ enable = true
 primary_color = "#118fe7"
 include_sections = ["blog"] # if `include_sections` is empty, then section's will come from `mainSections`
 show_image = true
-show_description = false
+show_description = true
 show_tags = true
 show_categories = true
 
 input_placeholder = "Type something to search.." # i18n is `search_input_placeholder`
 empty_results_placeholder = "Type something to search.." # i18n is `empty_search_results_placeholder`
+
 
 # contact info
 [contact_info]
