@@ -165,6 +165,3 @@ So let’s dive into this month's top tech insights:
 - Join BDRSuite's exclusive webinar, "Unveiling BDRSuite v7.0.0.U1: Elevate Your Data Protection Strategy" on January 10, 2024. Explore new features, witness live demo, and engage in an interactive Q&A to enhance your data protection and disaster recovery goals. Save your spot here! [Learn more](https://www.bdrsuite.com/webinars/)
 - BDRSuite announces it participation in MSP EXPO 2024 in Fort Lauderdale, Florida, from February 13-15, 2024. BDRSuite offers Free EXPO Pass granting exclusive access to MSP Expo breakout sessions, meals, keynotes, workshops, networking receptions, and unlimited Expo Hall exploration. Don't miss out—secure your free pass here. [Learn more](https://www.tmcnet.com/scripts/events/registration.aspx?theplan=ITMSP0224&sc=BDRSuite)
 - In the latest G2 Winter 2024 Report, BDRSuite emerges as a Leader & High Performer in multiple categories, including Server Backup, Database Backup, Small Business Backup Solutions, and Mid-Market. BDRSuite is globally recognized and particularly acclaimed in America, Asia Pacific, and EMEA regions. Read BDRSuite reviews on G2 here.  [Learn more](https://www.g2.com/products/vembu-technologies-bdrsuite/reviews)
-
-
-
