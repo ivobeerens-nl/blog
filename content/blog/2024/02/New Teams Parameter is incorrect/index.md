@@ -1,17 +1,14 @@
 ---
-title: "The New Microsoft Teams Client error - The parameter is incorrect"
+title: "The New Microsoft Teams Client throw an error in AVD - The parameter is incorrect"
 author: Ivo Beerens
 date: 2024-02-28T15:44:42+01:00
 image: 
 draft: false
-# url: "test"
 categories:
-    - troubleshooting
     - Azure Virtual Desktop
     - AVD
-    - VDI
 tags:
-    - troubleshooting
+    - Troubleshooting
     - Azure Virtual Desktop
     - AVD
     - VDI
