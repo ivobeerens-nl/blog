@@ -18,7 +18,7 @@ After deploying new Azure Virtual Desktop (AVD) session hosts with the new Teams
 
 > **C:\Program Files\WindowsApp\MSTeams_24004.1307.2669.7070_x64_8wekyb..\msteams_autostarter.exe**
 >
-> **The parameter is incorrect**"
+> **The parameter is incorrect**
 
 ![newsletter](images/Screenshot%202024-02-28%20101737.png)
 
