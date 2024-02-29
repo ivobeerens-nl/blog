@@ -202,3 +202,7 @@ So let’s dive into this month's top tech insights:
 - What's New in NVIDIA vGPU Software R550 Release 17.0. [**Learn more**](https://docs.nvidia.com/grid/17.0/whats-new-vgpu/index.html)
 - What's New in NVIDIA vGPU Software R550 Release 16.4. [**Learn more**](https://docs.nvidia.com/grid/16.0/whats-new-vgpu/index.html)
 - Security Bulletin: NVIDIA GPU Display Driver - February 2024. [**Learn more**](https://nvidia.custhelp.com/app/answers/detail/a_id/5520)
+
+## **Proxmox**
+
+- Pluralsight course "Proxmox VE Fundamentals". [**Learn more**](https://www.pluralsight.com/courses/proxmox-ve-fundamentals)
