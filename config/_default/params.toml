@@ -52,13 +52,13 @@ preloader = "" # use jpg, png, svg or gif format.
 [search]
 enable = true
 primary_color = "#118fe7"
-include_sections = ["blog","PowerCLI"] # if `include_sections` is empty, then section's will come from `mainSections`
+include_sections = ["blog"] # if `include_sections` is empty, then section's will come from `mainSections`
 show_image = true
 show_description = true
 show_tags = true
 show_categories = true
 
-input_placeholder = "Search Gethugothemes .." # i18n is `search_input_placeholder`
+input_placeholder = "Search." # i18n is `search_input_placeholder`
 empty_results_placeholder = "Type something to search.." # i18n is `empty_search_results_placeholder`
 
 # contact info
@@ -172,7 +172,7 @@ sidebar = [
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://www.linkedin.com/in/ivobeerens/"
+link = "https://nl.linkedin.com/in/ivobeerens"
 
 [[social]]
 title = "twitter"

@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - February 2024"
 author: Ivo Beerens
-date: 2024-03-01T07:44:42+01:00
+date: 2024-03-01T08:02:36+01:00
 image: 
 draft: false
 categories:
