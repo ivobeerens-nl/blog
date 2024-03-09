@@ -46,7 +46,7 @@ copyright = "Copyright by Ivo Beerens"
 
 # Preloader
 [preloader]
-enable = false
+enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
 [search]
@@ -58,7 +58,7 @@ show_description = true
 show_tags = true
 show_categories = true
 
-input_placeholder = "Search." # i18n is `search_input_placeholder`
+input_placeholder = "Search.." # i18n is `search_input_placeholder`
 empty_results_placeholder = "Type something to search.." # i18n is `empty_search_results_placeholder`
 
 # contact info
@@ -69,7 +69,7 @@ email = "info@email.com"
 
 # Subscription
 [subscription]
-enable = false
+enable = true
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -83,9 +83,9 @@ currency = "$"
 
 # promotion
 [promotion]
-#title = "Create Stunning Website!!"
-#content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare."
-image = "images/favicon.png"
+title = "Create Stunning Website!!"
+content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare."
+image = "images/promotion.jpg"
 button_label = "Get Started"
 button_link = "https://themefisher.com/"
 
@@ -135,13 +135,13 @@ domain = ""    # yourdomain.com
 
 # counter analytics: see https://counter.dev/setup.html
 [counter]
-enable = false
+enable = true
 username = "ibeerens"  # your username
 
 # site verifications
 [site_verification]
 google = ""   # Your verification code
-bing = ""     # Your verification code
+bing = "BAFEECFD0207C28DB84D1C56865FB07D"     # Your verification code
 baidu = ""    # Your verification code
 facebook = "" # Your verification code
 mastodon = "" # Your verification code
@@ -157,7 +157,6 @@ button = "I Accept"
 [widgets]
 sidebar = [
   "about-me",
-  "vembu",
  # "promotion",
  # "subscription",
  # "categories",

@@ -1,9 +1,12 @@
 [build]
-  command = "hugo --minify --gc --enableGitInfo"
-  publish = "public"
+publish = "public"
+# command = "yarn project-setup && yarn build"
+command = "hugo --minify --gc --enableGitInfo"
 
 [build.environment]
-  HUGO_VERSION = "0.122.0"
+HUGO_VERSION = "0.123.8"
+GO_VERSION = "1.20.5"
+HUGO_BASEURL = "/"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.

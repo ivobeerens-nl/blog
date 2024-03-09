@@ -395,7 +395,7 @@ a:hover {
     font-weight: 600;
   }
 
-  a {
+  a:not(.btn) {
     color: $text-color;
     border-bottom: 1px dotted $border-color;
 

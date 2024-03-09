@@ -12,16 +12,16 @@ url = "/about/"
 weight = 2
 
 # Dropdown menu
-[[main]]
-weight = 3
-name = "PARTNERS"
-hasChildren = true
+# [[main]]
+# weight = 3
+# name = "PARTNERS"
+# hasChildren = true
 
-[[main]]
-parent = "PARTNERS"
-name = "BDRSuite"
-url = "/bdrsuite/"
-weight = 1
+# [[main]]
+# parent = "PARTNERS"
+# name = "BDRSuite"
+# url = "/bdrsuite/"
+# weight = 1
 
 [[main]]
 name = "POWERCLI"
