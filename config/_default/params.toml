@@ -160,7 +160,7 @@ sidebar = [
  # "promotion",
  # "subscription",
  # "categories",
-  "search",
+ # "search",
   "recent-post",
   "tags",
   "social",
