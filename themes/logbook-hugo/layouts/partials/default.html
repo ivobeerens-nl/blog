@@ -95,7 +95,7 @@
                       {{ if ne $i 0 }},{{ end }}<a
                         href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
                         class="ms-1"
-                        >{{ . | humanize }}
+                        >{{ . }}
                       </a>
                     {{ end }}
                   </li>
@@ -105,7 +105,7 @@
                       {{ if ne $i 0 }},{{ end }}<a
                         href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
                         class="ms-1"
-                        >{{ . | humanize }}
+                        >{{ . }}
                       </a>
                     {{ end }}
                   </li>

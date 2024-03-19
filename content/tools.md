@@ -11,7 +11,7 @@ This page is dedicated to tools, eBooks, and other interesting links.
 
 | **Name** | **Description** | **Link** |
 |--- |:---:|---|
-| VMware Resources | Page with an overview of VMware resources I frequently use | [Link](http://localhost/2023/09/14/vmware-resources-list/) |
+| VMware Resources | Page with an overview of VMware resources I frequently use | [Link](https://www.ivobeerens.nl/2023/09/14/vmware-resources-list/) |
 | NVIDIA Virtual GPU releases | Overview of the NVIDIA vGPU releases | [Link](https://docs.nvidia.com/grid/) |
 | NVIDIA GPU models | COMPARE GPUs RECOMMENDED FOR VIRTUALIZATION | [Link](https://www.nvidia.com/en-us/data-center/graphics-cards-for-virtualization/) |
 | VMware Product Resources | List of handy VMware resources | [Link](https://core.vmware.com/resource/list-vmware-product-resources?utm_source=pocket_mylist#section1) |

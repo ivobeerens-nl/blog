@@ -19,6 +19,9 @@ social:
   - icon: "fab fa-facebook"
     title: "facebook"
     link: "https://www.facebook.com/profile.php?id=100049264302886&ref=hl"
+  - icon: "fa-solid fa-rss"
+    title: "rss"
+    link: "https://ivobeerens.nl/index.xml"
 ---
 
 My name is Ivo Beerens, currently working as Solution Consultant specialized in virtualization technologies such as VMware SDDC, End-User Computing (EUC), Azure, Azure Virtual Desktop (AVD), Infrastructure as Code (IaC), Business Continuity (BC), and Disaster Recovery (DR).

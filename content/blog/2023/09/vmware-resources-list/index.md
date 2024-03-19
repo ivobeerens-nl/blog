@@ -4,7 +4,8 @@ date: "2023-09-14T10:29:46.000Z"
 categories: 
   - "VMware"
 tags: 
-  - "VMware"
+  - "vmware"
+  - "resources"
 author: Ivo Beerens
 url: /2023/09/14/vmware-resources-list/
 ---

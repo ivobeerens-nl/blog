@@ -5,9 +5,9 @@ date: "2024-02-02T06:46:24.000Z"
 categories: 
   - news
 tags: 
-  - VMware
-  - News
-  - Azure
+  - vmware
+  - news
+  - azure
 url: /2024/02/02/the-latest-technology-news-january-2024/
 type: "regular" # available type (regular or featured)
 ---

@@ -5,13 +5,13 @@ date: 2024-02-28T15:44:42+01:00
 image: 
 draft: false
 categories:
-    - Azure Virtual Desktop
-    - AVD
+    - azure virtual desktop
+    - avd
 tags:
-    - Troubleshooting
-    - Azure Virtual Desktop
-    - AVD
-    - VDI
+    - troubleshooting
+    - azure virtual desktop
+    - avd
+    - vdi
 ---
 
 After deploying new Azure Virtual Desktop (AVD) session hosts with the new Teams Client installed, users getting the following error after the login:
