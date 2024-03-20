@@ -48,7 +48,7 @@ Function Download-Hashicorp {
      )
      try {
         Write-Host "............ Download $product from Hashicorp ............" -ForegroundColor Green
-        $urls = Invoke-WebRequest -Uri $url| Select-Object -Expand links | Where-Object href -match "//releases\.hashicorp\.com/$product/\d.*/$product_.*_windows_amd64\.zip$" | Select-Object -Expand href
+        $urls = Invoke-WebRequest -Uri $url | Select-Object -Expand links | Where-Object href -match "//releases\.hashicorp\.com/$product/\d.*/$product_.*_windows_amd64\.zip$" | Select-Object -Expand href
         $filename = $urls | Split-Path -Leaf
         $download = $temp_folder + $filename
         #Download Hashicorp bits

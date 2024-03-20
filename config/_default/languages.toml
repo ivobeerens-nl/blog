@@ -6,4 +6,4 @@ contentDir = "content"
 weight = 1
 # footer content
 [en.params]
-footer_content = "All post are written by Ivo Beerens"
+footer_content = "All posts are written by Ivo Beerens"
