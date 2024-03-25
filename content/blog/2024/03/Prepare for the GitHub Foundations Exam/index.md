@@ -20,10 +20,13 @@ In january 2024 GitHub launched his certification program. There are 4 certifica
 - **GitHub Advanced Security (GHAS)**. Designed to teach you how to secure your code with advanced security features at every stage of your development lifecycle. GHAS is specific to GitHub Enterprise!
 - **GitHub Administration**. Designed to teach you everything you need to maintain a healthy, robust, and secure GitHub environment that supports the needs of your organization. 
 
-The first exam I prepare for is the **GitHub Foundations** exam.
-![ghfoundations](images/ghfoundations.png)
+The first exam I prepared for is the **GitHub Foundations** exam.
 
-Here is a collection of resources to prepare for the GitHub Foundations exam.
+![ghfoundations](images/ghfoundations.jpeg)
+
+I passed the exam on march 23, 2024.
+
+Here is a collection o# f resources I used to prepare for the GitHub Foundations exam.
 
 |**Name** | **Description** | **Link** | 
 | --- | :---: | --- | 

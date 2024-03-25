@@ -2,11 +2,13 @@
 title: "How to install Windows 11 on VMware Workstation"
 date: "2022-10-17T07:26:48.000Z"
 categories: 
-  - "VMware-workstation"
-  - "windows-11"
+  - VMware-workstation
+  - windows 11
+  - packer
 tags: 
-  - "VMware-workstation"
-  - "windows-11"
+  - VMware Workstation
+  - windows-11
+  - packer
 author: Ivo Beerens
 url: /2022/10/17/how-to-install-windows-11-on-vmware-workstation/
 ---

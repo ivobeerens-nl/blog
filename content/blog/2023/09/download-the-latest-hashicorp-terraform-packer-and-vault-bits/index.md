@@ -23,24 +23,24 @@ I created a PowerShell Script that downloads the latest version of Terraform, Pa
     .NOTES Changed: September 10, 2023 
     .NOTES Reason:  Creation
 #>
- 
+
 #Enable TLS 1.2
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 #Speed up the Invoke-Webrequest command
 $ProgressPreference = 'SilentlyContinue'
- 
+
 #Variables
-$temp_folder = "c:\install\" #Temp download location 
-$hashicorp_destination = "c:\install\hashicorp\" #Path for storing the Hashicorp binaries
- 
+$temp_folder = "c:\progs\" #Temp download location 
+$hashicorp_destination = "c:\progs\hashicorp\" #Path for storing the Hashicorp binaries
+
 #Check if the temp folder exists
 If(!(test-path -PathType container $hashicorp_destination )) {
-    New-Item -ItemType Directory -Path $hashicorp_destination
+    New-Item -ItemType Directory -Path $hashicorp_destination 
 }
- 
+
 #Jump to the download folder
-Set-Location $hashicorp_destination
- 
+Set-Location $hashicorp_destination 
+
 Function Download-Hashicorp {
     param (
       [string]$product,
@@ -65,18 +65,18 @@ Function Download-Hashicorp {
         throw $_.Exception.Message
      } 
   }
- 
+
 #Download Packer, Vault, and Terraform 
 $products = @{
-    'packer' = 'https://developer.hashicorp.com/packer/downloads'
-    'vault' = 'https://developer.hashicorp.com/vault/downloads'
-    'terraform' = 'https://developer.hashicorp.com/terraform/downloads'
+    'packer' = 'https://developer.hashicorp.com/packer/install'
+    'vault' = 'https://developer.hashicorp.com/vault/install'
+    'terraform' = 'https://developer.hashicorp.com/terraform/install'
 }
- 
+
 foreach ($product in $products.GetEnumerator()) {
     Download-Hashicorp -product $product.Name -url $product.Value
 }
- 
+
 ##Add the Hashicorp binary folder to the system environment variable path
 Write-Host "............ Add folder to path ............" -ForegroundColor Green
 [Environment]::SetEnvironmentVariable("PATH", $Env:PATH + ";" + $hashicorp_destination, [EnvironmentVariableTarget]::User)
