@@ -28,7 +28,7 @@ We understand that in today’s fast-paced tech landscape, staying informed is k
 So let’s dive into this month's top tech insights:
 
 ## DAAS / VDI / EUC / ENDPOINT / APPS MANAGEMENT
-
+---
 ### **Azure Virtual Desktop (AVD)**
 - AVD Community NewsLetters. [**Learn more**](https://avdcommunity.com/)
 - Azure Virtual Desktop (AVD) Session Host Replacer. [**Learn more**](https://github.com/Azure/AVDSessionHostReplacer)
@@ -86,7 +86,7 @@ So let’s dive into this month's top tech insights:
 - PSAppDeployToolkit 3.10.0 released. [**Learn more**](https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/releases)
 
 ## Azure
-
+---
 ### **Microsoft 365 / AD**
 - Important update: Azure AD Graph API retirement. [**Learn more**](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/important-update-azure-ad-graph-api-retirement/ba-p/4090534)
 - Users Can No Longer Create a Free Microsoft E5 Developer Tenant. [**Learn more**](https://o365reports.com/2024/03/14/creating-a-free-microsoft-365-e5-developer-tenant-is-no-longer-possible/)
@@ -116,6 +116,7 @@ So let’s dive into this month's top tech insights:
 - Common mistakes during Microsoft Defender for Endpoint (MDE) deployments. [**Learn more**](https://jeffreyappel.nl/common-mistakes-during-microsoft-defender-for-endpoint-deployments/)
 
 ## **VMware by Broadcom**
+---
 - Announcing General Availability of VMware Cloud Foundation 5.1.1. [**Learn more**](https://blogs.vmware.com/cloud-foundation/2024/03/26/announcing-ga-of-vcf5-1-1/)
 - What’s New for VMware Validated Solutions – Edition #23 (March 2024). [**Learn more**](https://my-cloudy-world.com/2024/03/26/whats-new-for-vmware-validated-solutions-edition-23-march-2024/)
 - VMware ESXi 8.0 Update 1d Release Notes. [**Learn more**](https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-80u1d-release-notes/index.html)
@@ -123,6 +124,7 @@ So let’s dive into this month's top tech insights:
 - VMware Tools 12.4.0. released. [**Learn more**](https://customerconnect.vmware.com/downloads/details?downloadGroup=VMTOOLS1240&productId=742&rPId=117940)
 
 ## **Infrastructure as Code (IaC) / DevOps**
+---
 - Draw.io Azure infrastructure diagrams through code like an artist. [**Learn more**](https://techcommunity.microsoft.com/t5/microsoft-developer-community/draw-io-azure-infrastructure-diagrams-through-code-like-an/ba-p/4071316)
 
 ### **Azure DevOps**
@@ -149,7 +151,7 @@ So let’s dive into this month's top tech insights:
 - HashiCorp Live: Getting into Vault. [**Learn more**](https://www.youtube.com/playlist?list=PL81sUbsFNc5YPS-jcIUyJQoJJtg1IIvzc)
 
 
-### **Terraform**
+### **Hashicorp Terraform**
 - Terraform Weekly. [**Learn more**](https://www.weekly.tf/)
 - How to generate Terraform configurations with Microsoft Azure. [**Learn more**](https://youtu.be/aFQwiMS4tQ8?si=8HZngSdSd7rcEpEl)
 - Mastering Terraform State Security on Azure: A Live Q&A Breakdown. [**Learn more**](https://youtu.be/H2sFiZ2HL_s?si=Z2v4ozBgVL2G_atE)
@@ -160,7 +162,9 @@ So let’s dive into this month's top tech insights:
 - Azure PowerShell Tips and Tricks. [**Learn more**](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-powershell-tips-and-tricks/ba-p/4066848)
 
 ## **NVIDIA**
+---
 - NVIDIA License System v3.3.0. [**Learn more**](https://docs.nvidia.com/license-system/latest/nvidia-license-system-release-notes/) 
 
 ## **Proxmox**
+---
 - New Import Wizard Available for Migrating VMware ESXi Based Virtual Machines. [**Learn more**](https://forum.proxmox.com/threads/new-import-wizard-available-for-migrating-vmware-esxi-based-virtual-machines.144023/)
