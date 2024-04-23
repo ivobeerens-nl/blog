@@ -91,6 +91,8 @@ When the script has finished, reboot the VM.
     .NOTES
         Run as Administrator
         Find WinGet packages: https://winget.run/
+    .LINK
+        https://www.ivobeerens.nl/blog/2024/04/create-a-windows-developer-environment/
     .VERSIONS
         1.0 19-04-2024 Creation
 #>
@@ -111,27 +113,32 @@ if ($checkdir -eq $false){
 }
 
 # Install the latest Windows Package Manager (WinGet) version
-Write-Host "Install WinGet"
+$winget = Get-AppPackage -name 'Microsoft.DesktopAppInstaller'
+if(!$winget) {
+    Write-Host "Install WinGet"
+    Invoke-WebRequest -Uri https://www.nuget.org/api/v2/package/Microsoft.UI.Xaml/2.8.6 -OutFile $downloadfolder"microsoft.ui.xaml.2.8.6.nupkg"
+    Rename-Item -Path $downloadfolder"microsoft.ui.xaml.2.8.6.nupkg" -NewName $downloadfolder"microsoft.ui.xaml.2.8.6.zip" -Force
+    Expand-Archive -path $downloadfolder"microsoft.ui.xaml.2.8.6.zip" -DestinationPath $downloadfolder
+    Add-AppxPackage -Path $downloadfolder"tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx"
+    Add-AppxPackage -Path $downloadfolder"tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx"
 
-Invoke-WebRequest -Uri https://www.nuget.org/api/v2/package/Microsoft.UI.Xaml/2.8.6 -OutFile $downloadfolder"microsoft.ui.xaml.2.8.6.nupkg"
-Rename-Item -Path $downloadfolder"microsoft.ui.xaml.2.8.6.nupkg" -NewName $downloadfolder"microsoft.ui.xaml.2.8.6.zip" -Force
-Expand-Archive -path $downloadfolder"microsoft.ui.xaml.2.8.6.zip" -DestinationPath $downloadfolder
-Add-AppxPackage -Path $downloadfolder"tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx"
-Add-AppxPackage -Path $downloadfolder"tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx"
+    # List the Xaml versions
+    # Get-Appxpackage Microsoft.UI.Xaml.2.8 -allusers | Select-Object Name, Architecture
 
-# List the Xaml versions
-# Get-Appxpackage Microsoft.UI.Xaml.2.8 -allusers | Select-Object Name, Architecture
+    Invoke-WebRequest -Uri https://aka.ms/getwinget -OutFile $downloadfolder"Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+    Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile $downloadfolder"Microsoft.VCLibs.x64.14.00.Desktop.appx"
 
-Invoke-WebRequest -Uri https://aka.ms/getwinget -OutFile $downloadfolder"Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
-Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile $downloadfolder"Microsoft.VCLibs.x64.14.00.Desktop.appx"
+    Add-AppxPackage $downloadfolder"Microsoft.VCLibs.x64.14.00.Desktop.appx"
+    Add-AppxPackage $downloadfolder"Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
 
-Add-AppxPackage $downloadfolder"Microsoft.VCLibs.x64.14.00.Desktop.appx"
-Add-AppxPackage $downloadfolder"Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+    # Get-AppxPackage Microsoft.VCLibs.140.00 -allusers
 
-# Get-AppxPackage Microsoft.VCLibs.140.00 -allusers
-
-Write-Host "Winget Installed"
-winget -v
+    Write-Host "Winget Installed"
+    winget -v
+}
+else {
+    Write-Host "Winget already installed"
+}
 
 # Install Azure CLI
 Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile $downloadfolder\AzureCLI.msi
@@ -204,17 +211,19 @@ The following Visual Studio Code Extensions are installed: </br>
 ```powershell
 <#
     .TITLE
-        Install Visual Studio Code extensions
+        Install Visual Studio Code Extensions
         Set the Git username and email address
     .AUTHOR
         Ivo Beerens
         www.ivobeerens.nl
     .DESCRIPTION
-        Install Visual Studio Code extensions
+        Install Visual Studio Code Extensions
     .NOTES
         Install VS Code extensions
         List existing extensions: code --list-extensions
         Extensions are stored in:  %USERPROFILE%\.vscode\extensions
+    .LINK
+        https://www.ivobeerens.nl/blog/2024/04/create-a-windows-developer-environment/
     .VERSIONS
         1.0 19-04-2024 Creation
 #>
@@ -250,7 +259,7 @@ git config --global user.email $git_password
 
 ## Testing the Azure login
 
-With the **`az`** command you can test the Azure login and set the subscription to use. Here are the commands.
+With the **`az`** command you can login to Azure and set the active subscription. Here are the commands.
 
 ### Login to Azure
 ```
@@ -258,6 +267,7 @@ az config set core.allow_broker=true
 az account clear
 az login
 ```
+
 ### List the active Subscription </br>
 `az account list -o table`
 
@@ -266,6 +276,6 @@ az login
 
 ## Conclusion
 
-These scripts can customized to deploy the software you need in your local development environment. You can automated the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.
+These scripts can be customized to deploy the software you need in your local development environment. You can automated the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.
 
 These scripts can be found on my [GitHub](https://github.com/ibeerens/dev-environment) repo.

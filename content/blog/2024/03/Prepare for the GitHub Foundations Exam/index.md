@@ -35,7 +35,7 @@ Here is a collection o# f resources I used to prepare for the GitHub Foundations
 | Study guide | GitHub Foundations study guide | [link](https://assets.ctfassets.net/wfutmusr1t3h/1kmMx7AwI4qH8yIZgOmQlP/79e6ff1dfdee589d84a24dd763b1eef7/github-foundations-exam-study-guide__1_.pdf) |
 | GitHub Foundations Learning Path | GitHub learning modules |  [link](https://aka.ms/learn/github-foundations) | 
 | GitHub Skills | Learn to use GitHub with interactive <br/> courses | [link](https://skills.github.com/)
-| GitHub Certification Fundamentals event | Join Microsoft Reactor and engage with <br/> startups and developers live on <br/> March 26, April 2, 9 and 16.| [link](https://developer.microsoft.com/en-us/reactor/series/S-1298/) |
+| GitHub Certification Fundamentals events | 4 sessions available on Microsoft Reactor<br/> | [link](https://www.youtube.com/@MicrosoftReactor/search?query=github) |
 | GitHub Certified tests | Free GitHub practice tests | [link](https://ghcertified.com/) |
 | Exam Pro GitHub Foundations training | Exam Pro GitHub Foundations training <br/> Created by Andrew Brown | [link](https://www.exampro.co/github-foundations) 
 | GitHub Foundations Certification Course <br/> Pass the exam in 10 hours! | GitHub Foundations Certification Course <br/> Pass the exam in 10 hours! <br/> Created by Andrew Brown | [link](https://youtu.be/Jdc0i7RcBv8?si=qLh345Hjupre41qk)
