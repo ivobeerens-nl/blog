@@ -17,9 +17,9 @@ tags:
 As development environment I use frequently a Windows Virtual Machine (VM). This VM can be hosted on a VMware (ESXi/Workstation or Fusion), Hyper-V or Azure platform for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep and PowerShell scripts. 
 
 To install a local developer environment I have defined 3 steps:</br>
-**1.Install the Windows Subsystem for Linux (WSL). WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with WSL.**</br>
-**2.Install the software packages.**</br>
-**3.Install the Visual Studio Code Extensions.**</br>
+**1. Install the Windows Subsystem for Linux (WSL).** WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with the WSL.</br>
+**2. Install the software packages.**</br>
+**3. Install the Visual Studio Code Extensions.**</br>
 
 Each step is explained below:
 
