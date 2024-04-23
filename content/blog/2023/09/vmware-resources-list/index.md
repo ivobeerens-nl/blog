@@ -18,7 +18,7 @@ Here’s an overview of VMware (Broadcom) resources I frequently use.
 |---|---|---|
 | VMware Product Downloads | All VMware product downloads. | [https://customerconnect.vmware.com/en/downloads/#all\_products](https://customerconnect.vmware.com/en/downloads/#all_products) |
 | VMware Patches | VMware patches | <https://customerconnect.vmware.com/patch/> |
-| VMware Trials | VMware Trials product downloads such as the | <https://www.vmware.com/trials-test-drives.html> |
+| VMware Trials | VMware Trials product downloads  | <https://www.vmware.com/trials-test-drives.html> |
 | VMware Tools releases | All VMware tools release | <https://packages.vmware.com/tools/releases/> |
 | VMware Flings | Unofficial apps built by VMware employees to enhance VMware products | <https://flings.vmware.com/> |
 

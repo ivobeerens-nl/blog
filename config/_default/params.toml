@@ -157,6 +157,8 @@ button = "I Accept"
 [widgets]
 sidebar = [
   "about-me",
+  "vexpert",
+  "hashicorp",
  # "promotion",
  # "subscription",
  # "categories",

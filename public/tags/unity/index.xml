@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>unity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/unity/</link><description>Recent content in unity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/unity/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware Horizon View and HTML access (Blast protocol)</title><link>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</link><pubDate>Wed, 20 Mar 2013 14:06:49 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</guid><description>With the release of the VMware Horizon View Feature Pack 1 for VMware Horizon View 5.2 it possible to connect with HTML5 to your View desktop. This without installing additional software. The new HTML5 protocol is called Blast. Connecting by using the Blast HTML protocol can be handy when you are on a device that does not have the VMware View client installed.
-The VMware Horizon View Feature Pack 1 contains the following two main components:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/unity/</link>
+    <description>Recent content in unity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware Horizon View and HTML access (Blast protocol)</title>
+      <link>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</link>
+      <pubDate>Wed, 20 Mar 2013 14:06:49 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</guid>
+      <description>With the release of the VMware Horizon View Feature Pack 1 for VMware Horizon View 5.2 it possible to connect with HTML5 to your View desktop. This without installing additional software. The new HTML5 protocol is called Blast. Connecting by using the Blast HTML protocol can be handy when you are on a device that does not have the VMware View client installed.&#xA;The VMware Horizon View Feature Pack 1 contains the following two main components:</description>
+    </item>
+  </channel>
+</rss>

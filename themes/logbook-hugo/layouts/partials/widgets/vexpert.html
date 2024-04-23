@@ -1,0 +1,10 @@
+<!-- author -->
+{{ $bgImage:= resources.Get "images/stars.png" }}
+{{ $bgImage:= $bgImage.Fill "530x358 webp" }}
+<div class="widget">
+  <h5 class="widget-title"><span>{{ i18n "awards" }}</span></h5>
+    <a href="https://vexpert.vmware.com/directory/571">
+        <img class="img-fluid w-100 rounded-4" loading="lazy" decoding="async" src="{{ $bgImage.RelPermalink }}"
+            alt="vExpert Ivo Beerens" target="_blank" rel="noopener noreferrer">
+    </a>
+</div>

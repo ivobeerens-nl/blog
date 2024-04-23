@@ -1,10 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>usb on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/usb/</link><description>Recent content in usb on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/usb/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick tip: Create a bootable VMware ESXi stick</title><link>http://localhost:1313/logbook/site/2018/09/16/quick-tip-create-a-bootable-vmware-esxi-key/</link><pubDate>Sun, 16 Sep 2018 07:19:57 +0000</pubDate><guid>http://localhost:1313/logbook/site/2018/09/16/quick-tip-create-a-bootable-vmware-esxi-key/</guid><description>There are multiple tools available to create a bootable VMware ESXi USB stick/drive/key such as:
-UNetbootin, link Rufus, link My favorite tool to create a VMware ESXi USB stick/key is Rufus. I use Rufus because it&amp;rsquo;s small, fast, Windows-based, open-sourced and the tool is updated frequently.
-Requirements Requirements for creating a VMware ESXi key:
-Windows Operating System (Windows 7 or later) Rufus download VMware ESXi ISO download. Create a USB Stick To create a VMware ESXi stick is easy.</description></item><item><title>Create a bootable VMware ESXi 5 USB stick in Windows and perform a scripted installation</title><link>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</link><pubDate>Sat, 17 Sep 2011 16:42:10 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</guid><description>Here is a simple procedure to make a bootable VMware ESXi 5 or ESXi 6 USB stick in Windows and perform a scripted unattended VMware ESXi installation. The 5 steps are:
-Step 1 Be sure removing all partitions and format a FAT32 partition on the USB stick by using the following command:
-Open the command prompt and enter the following commands:
-diskpart (make sure you run diskpart as administrator) list disk (list the disk in your system including the USB) select disk USB number clean create partition primary active format fs=fat32 quickassignexit Step 2 Download the Windows LinuxLive USB creator utility here .</description></item><item><title>Install VMware ESXi 4.1 from bootable USB stick</title><link>http://localhost:1313/logbook/site/2010/10/25/install-vmware-esxi-4-1-from-bootable-usb-stick/</link><pubDate>Mon, 25 Oct 2010 08:00:00 +0000</pubDate><guid>http://localhost:1313/logbook/site/2010/10/25/install-vmware-esxi-4-1-from-bootable-usb-stick/</guid><description>Not all servers nowadays have a DVD player installed. Sometimes it is handy to boot from USB and installing a single VMware ESXi server. Here’s a example how to make the USB stick bootable and install VMware ESXi 4.1 from it by using Windows.
-Preparation:
-Need 1GB USB memory stick or more. Download the VMware ESXi 4.1 ISO named VMware-VMvisor-Installer-4.1.0-260247.x86_64.iso (In this example I used the VMware vSphere Hypervisor version). Update: The latest version of VMware ESXi is 4.</description></item><item><title>Create a bootable USB to install Windows 8 Server or Hyper-V Server 8</title><link>http://localhost:1313/logbook/site/2010/10/21/install-microsoft-hyper-v-server-r2-from-usb/</link><pubDate>Thu, 21 Oct 2010 12:11:45 +0000</pubDate><guid>http://localhost:1313/logbook/site/2010/10/21/install-microsoft-hyper-v-server-r2-from-usb/</guid><description>Not all servers nowadays have DVD player installed. Sometimes it is handy to boot from USB and install for example Windows Server 8. Here’s a example how to make the USB stick bootable for the following OS versions:
-Windows Server 8 Hyper-V Server 8 Server 2008 R2 Hyper-V Server R2 Preparation: Need a 4 GB USB memory stick or more Download the desired ISO and save it Stick the USB stick on a free USB port on your computer equipped with a Windows OS.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usb on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/usb/</link>
+    <description>Recent content in usb on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick tip: Create a bootable VMware ESXi stick</title>
+      <link>http://localhost:1313/logbook/site/2018/09/16/quick-tip-create-a-bootable-vmware-esxi-key/</link>
+      <pubDate>Sun, 16 Sep 2018 07:19:57 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2018/09/16/quick-tip-create-a-bootable-vmware-esxi-key/</guid>
+      <description>There are multiple tools available to create a bootable VMware ESXi USB stick/drive/key such as:&#xA;UNetbootin, link Rufus, link My favorite tool to create a VMware ESXi USB stick/key is Rufus. I use Rufus because it&amp;rsquo;s small, fast, Windows-based, open-sourced and the tool is updated frequently.&#xA;Requirements Requirements for creating a VMware ESXi key:&#xA;Windows Operating System (Windows 7 or later) Rufus download VMware ESXi ISO download. Create a USB Stick To create a VMware ESXi stick is easy.</description>
+    </item>
+    <item>
+      <title>Create a bootable VMware ESXi 5 USB stick in Windows and perform a scripted installation</title>
+      <link>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</link>
+      <pubDate>Sat, 17 Sep 2011 16:42:10 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</guid>
+      <description>Here is a simple procedure to make a bootable VMware ESXi 5 or ESXi 6 USB stick in Windows and perform a scripted unattended VMware ESXi installation. The 5 steps are:&#xA;Step 1 Be sure removing all partitions and format a FAT32 partition on the USB stick by using the following command:&#xA;Open the command prompt and enter the following commands:&#xA;diskpart (make sure you run diskpart as administrator) list disk (list the disk in your system including the USB) select disk USB number clean create partition primary active format fs=fat32 quick&#xD;assign&#xD;exit Step 2 Download the Windows LinuxLive USB creator utility here .</description>
+    </item>
+    <item>
+      <title>Install VMware ESXi 4.1 from bootable USB stick</title>
+      <link>http://localhost:1313/logbook/site/2010/10/25/install-vmware-esxi-4-1-from-bootable-usb-stick/</link>
+      <pubDate>Mon, 25 Oct 2010 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2010/10/25/install-vmware-esxi-4-1-from-bootable-usb-stick/</guid>
+      <description>Not all servers nowadays have a DVD player installed. Sometimes it is handy to boot from USB and installing a single VMware ESXi server. Here’s a example how to make the USB stick bootable and install VMware ESXi 4.1 from it by using Windows.&#xA;Preparation:&#xA;Need 1GB USB memory stick or more. Download the VMware ESXi 4.1 ISO named VMware-VMvisor-Installer-4.1.0-260247.x86_64.iso (In this example I used the VMware vSphere Hypervisor version). Update: The latest version of VMware ESXi is 4.</description>
+    </item>
+    <item>
+      <title>Create a bootable USB to install Windows 8 Server or  Hyper-V Server 8</title>
+      <link>http://localhost:1313/logbook/site/2010/10/21/install-microsoft-hyper-v-server-r2-from-usb/</link>
+      <pubDate>Thu, 21 Oct 2010 12:11:45 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2010/10/21/install-microsoft-hyper-v-server-r2-from-usb/</guid>
+      <description>Not all servers nowadays have DVD player installed. Sometimes it is handy to boot from USB and install for example Windows Server 8. Here’s a example how to make the USB stick bootable for the following OS versions:&#xA;Windows Server 8 Hyper-V Server 8 Server 2008 R2 Hyper-V Server R2 Preparation: Need a 4 GB USB memory stick or more Download the desired ISO and save it Stick the USB stick on a free USB port on your computer equipped with a Windows OS.</description>
+    </item>
+  </channel>
+</rss>

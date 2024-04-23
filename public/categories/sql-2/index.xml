@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sql-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/sql-2/</link><description>Recent content in sql-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/sql-2/index.xml" rel="self" type="application/rss+xml"/><item><title>Configure SQL Server Express 2008 R2 instance to host the vCloud Director database</title><link>http://localhost:1313/logbook/site/2012/05/02/configure-sql-server-express-2008-r2-instance-to-host-the-vcloud-director-database/</link><pubDate>Wed, 02 May 2012 07:40:44 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/05/02/configure-sql-server-express-2008-r2-instance-to-host-the-vcloud-director-database/</guid><description>This blog will explain how to configure the vCenter Server SQL Express 2008 R2 instance to host the vCloud Director database. This can be handy when you have limited resources in your test environment. SQL Server Express 2008 R2 is not a supported database for vCloud Director. For production environments check always first the VMware interoperability Matrix to know what’s supported .
-Steps: Make sure SQL Server Management Studio is installed on the vCenter server.</description></item><item><title>Add SQL Server Management Studio to Microsoft SQL Server Express 2008 R2</title><link>http://localhost:1313/logbook/site/2011/12/08/add-sql-server-management-studio-to-microsoft-sql-server-express-2008-r2/</link><pubDate>Thu, 08 Dec 2011 12:22:21 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/12/08/add-sql-server-management-studio-to-microsoft-sql-server-express-2008-r2/</guid><description>When installing VMware vCenter 5 with the default database engine (Microsoft SQL Server Express 2008 R2) the SQL Management Studio is not installed by default. It can be confusing to add SQL Management studio at a later time. Here are the steps explained:
-Download Microsoft SQL Express 2008 R2 or browse the vCenter installation ZIP or ISO. The installation package can be found in the “\redist\SQLEXPR” folder.
-Select “New Installation or add features to an existing installation”.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/sql-2/</link>
+    <description>Recent content in sql-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/sql-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure SQL Server Express 2008 R2 instance to host the vCloud Director database</title>
+      <link>http://localhost:1313/logbook/site/2012/05/02/configure-sql-server-express-2008-r2-instance-to-host-the-vcloud-director-database/</link>
+      <pubDate>Wed, 02 May 2012 07:40:44 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/05/02/configure-sql-server-express-2008-r2-instance-to-host-the-vcloud-director-database/</guid>
+      <description>This blog will explain how to configure the vCenter Server SQL Express 2008 R2 instance to host the vCloud Director database. This can be handy when you have limited resources in your test environment. SQL Server Express 2008 R2 is not a supported database for vCloud Director. For production environments check always first the VMware interoperability Matrix to know what’s supported .&#xA;Steps: Make sure SQL Server Management Studio is installed on the vCenter server.</description>
+    </item>
+    <item>
+      <title>Add SQL Server Management Studio to Microsoft SQL Server Express 2008 R2</title>
+      <link>http://localhost:1313/logbook/site/2011/12/08/add-sql-server-management-studio-to-microsoft-sql-server-express-2008-r2/</link>
+      <pubDate>Thu, 08 Dec 2011 12:22:21 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/12/08/add-sql-server-management-studio-to-microsoft-sql-server-express-2008-r2/</guid>
+      <description>When installing VMware vCenter 5 with the default database engine (Microsoft SQL Server Express 2008 R2) the SQL Management Studio is not installed by default. It can be confusing to add SQL Management studio at a later time. Here are the steps explained:&#xA;Download Microsoft SQL Express 2008 R2 or browse the vCenter installation ZIP or ISO. The installation package can be found in the “\redist\SQLEXPR” folder.&#xA;Select “New Installation or add features to an existing installation”.</description>
+    </item>
+  </channel>
+</rss>

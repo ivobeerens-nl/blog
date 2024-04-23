@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>power on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/power/</link><description>Recent content in power on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/power/index.xml" rel="self" type="application/rss+xml"/><item><title>Display VMware Horizon View Pool information using PowerCLI</title><link>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</link><pubDate>Wed, 22 Jan 2014 21:32:53 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</guid><description>For a VMware View Horizon Healthcheck I needed to display all VMware View Pools created and export some settings for documentation. The easiest way to do this is using View PowerCLI on a VMware View Connection server.
-Here are some examples to use:
-Display all the pools and settings: get-pool
-Display the pools with selected fields in table form:
-Get-pool | select DisplayName,Pool_ID,Enabled,MinimumCount,MaximumCount,HeadroomCount,Persistence,Pooltype,Protocol | FT -AutoSize
-Display the some fields in table form and export the pool information to a a text file:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>power on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/power/</link>
+    <description>Recent content in power on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/power/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Display VMware Horizon View Pool information using PowerCLI</title>
+      <link>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</link>
+      <pubDate>Wed, 22 Jan 2014 21:32:53 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</guid>
+      <description>For a VMware View Horizon Healthcheck I needed to display all VMware View Pools created and export some settings for documentation. The easiest way to do this is using View PowerCLI on a VMware View Connection server.&#xA;Here are some examples to use:&#xA;Display all the pools and settings: get-pool&#xA;Display the pools with selected fields in table form:&#xA;Get-pool | select DisplayName,Pool_ID,Enabled,MinimumCount,MaximumCount,HeadroomCount,Persistence,Pooltype,Protocol | FT -AutoSize&#xA;Display the some fields in table form and export the pool information to a a text file:</description>
+    </item>
+  </channel>
+</rss>

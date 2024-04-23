@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hcl on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/hcl/</link><description>Recent content in hcl on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/hcl/index.xml" rel="self" type="application/rss+xml"/><item><title>Check your Hardware Compatibility online</title><link>http://localhost:1313/logbook/site/2008/12/11/check-your-hardware-compatibility-online/</link><pubDate>Thu, 11 Dec 2008 13:23:43 +0000</pubDate><guid>http://localhost:1313/logbook/site/2008/12/11/check-your-hardware-compatibility-online/</guid><description>VMware has a online version of the Hardware Compatibility guides available which replaces the PDF guides. Very handy. Check your Compatibility online now at the following location .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hcl on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/hcl/</link>
+    <description>Recent content in hcl on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/hcl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check your Hardware Compatibility online</title>
+      <link>http://localhost:1313/logbook/site/2008/12/11/check-your-hardware-compatibility-online/</link>
+      <pubDate>Thu, 11 Dec 2008 13:23:43 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2008/12/11/check-your-hardware-compatibility-online/</guid>
+      <description>VMware has a online version of the Hardware Compatibility guides available which replaces the PDF guides. Very handy. Check your Compatibility online now at the following location .</description>
+    </item>
+  </channel>
+</rss>

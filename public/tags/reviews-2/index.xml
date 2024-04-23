@@ -1,7 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>reviews-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/reviews-2/</link><description>Recent content in reviews-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/reviews-2/index.xml" rel="self" type="application/rss+xml"/><item><title>Monitor vSAN with ControlUp</title><link>http://localhost:1313/logbook/site/2019/03/11/easily-monitor-vsan-with-controlup/</link><pubDate>Mon, 11 Mar 2019 10:48:04 +0000</pubDate><guid>http://localhost:1313/logbook/site/2019/03/11/easily-monitor-vsan-with-controlup/</guid><description>One of the new enhancements of ControlUp 7.3 is vSAN monitoring support. ControlUp will detect the vSAN cluster(s), objects and displays real-time vSAN specific metrics and metadata. In this blog post I highlight the features of the new vSAN integration in ControlUp 7.3.
-Installation The vSAN cluster is automatically recognized by ControlUp when the following requirements are met:
-PowerShell minimum Version 5.0 VMware PowerCLI 10.1.1.x .NET framework version 4.5 vSAN Performance service should be turned on on the cluster The user account configured for the hypervisor connection requires the “storage.</description></item><item><title>Tested SMS PASSCODE multi-factor authentication with VMware Horizon View</title><link>http://localhost:1313/logbook/site/blog/2015/04/tested-sms-passcode-multi-factor-authentication-with-vmware-horizon-view/</link><pubDate>Tue, 14 Apr 2015 06:42:11 +0000</pubDate><guid>http://localhost:1313/logbook/site/blog/2015/04/tested-sms-passcode-multi-factor-authentication-with-vmware-horizon-view/</guid><description>Citrix Web Interface Protection RADIUS Protection Cloud Application Protection IIS Web Site Protection ISA/TMG Web Site Protection Windows Logon Protection Secure Device Provisioning (for ActiveSync devices) In this review we test how-to integrate SMS PASSCODE with the latest version of VMware Horizon View using RADIUS authentication.
-What is SMS PASSCODE Unlike traditional hardware-token based solutions, SMS PASSCODE works without distribution of any hardware-tokens. As a result, the logistic overhead involved is minimal and roll-out is much faster.</description></item><item><title>Monitor VMware Horizon View environments with ControlUp</title><link>http://localhost:1313/logbook/site/2014/10/09/controlup/</link><pubDate>Thu, 09 Oct 2014 07:47:57 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/10/09/controlup/</guid><description>A couple of weeks ago ControlUp released version 4.0 with support for VMware Horizon View. In this blog post I share my experience with ControlUp 4.0 monitoring VMware vSphere and VMware Horizon View.
-What is ControlUp
-ControlUp is a real-time performance monitor for Microsoft Remote Desktop Services (RDS), Citrix, and physical- and virtual server environments. ControlUp can be used to:
-Troubleshoot performance issues in real time Analyze performance trends and usage patterns Compare and manage multiple computers Investigate incidents and receive email alerts The new 4.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reviews-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/reviews-2/</link>
+    <description>Recent content in reviews-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/reviews-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitor vSAN with ControlUp</title>
+      <link>http://localhost:1313/logbook/site/2019/03/11/easily-monitor-vsan-with-controlup/</link>
+      <pubDate>Mon, 11 Mar 2019 10:48:04 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2019/03/11/easily-monitor-vsan-with-controlup/</guid>
+      <description>One of the new enhancements of ControlUp 7.3 is vSAN monitoring support. ControlUp will detect the vSAN cluster(s), objects and displays real-time vSAN specific metrics and metadata. In this blog post I highlight the features of the new vSAN integration in ControlUp 7.3.&#xA;Installation The vSAN cluster is automatically recognized by ControlUp when the following requirements are met:&#xA;PowerShell minimum Version 5.0 VMware PowerCLI 10.1.1.x .NET framework version 4.5 vSAN Performance service should be turned on on the cluster The user account configured for the hypervisor connection requires the “storage.</description>
+    </item>
+    <item>
+      <title>Tested SMS PASSCODE multi-factor authentication with VMware Horizon View</title>
+      <link>http://localhost:1313/logbook/site/blog/2015/04/tested-sms-passcode-multi-factor-authentication-with-vmware-horizon-view/</link>
+      <pubDate>Tue, 14 Apr 2015 06:42:11 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/blog/2015/04/tested-sms-passcode-multi-factor-authentication-with-vmware-horizon-view/</guid>
+      <description>Citrix Web Interface Protection RADIUS Protection Cloud Application Protection IIS Web Site Protection ISA/TMG Web Site Protection Windows Logon Protection Secure Device Provisioning (for ActiveSync devices) In this review we test how-to integrate SMS PASSCODE with the latest version of VMware Horizon View using RADIUS authentication.&#xA;What is SMS PASSCODE Unlike traditional hardware-token based solutions, SMS PASSCODE works without distribution of any hardware-tokens. As a result, the logistic overhead involved is minimal and roll-out is much faster.</description>
+    </item>
+    <item>
+      <title>Monitor VMware Horizon View environments with ControlUp</title>
+      <link>http://localhost:1313/logbook/site/2014/10/09/controlup/</link>
+      <pubDate>Thu, 09 Oct 2014 07:47:57 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/10/09/controlup/</guid>
+      <description>A couple of weeks ago ControlUp released version 4.0 with support for VMware Horizon View. In this blog post I share my experience with ControlUp 4.0 monitoring VMware vSphere and VMware Horizon View.&#xA;What is ControlUp&#xA;ControlUp is a real-time performance monitor for Microsoft Remote Desktop Services (RDS), Citrix, and physical- and virtual server environments. ControlUp can be used to:&#xA;Troubleshoot performance issues in real time Analyze performance trends and usage patterns Compare and manage multiple computers Investigate incidents and receive email alerts The new 4.</description>
+    </item>
+  </channel>
+</rss>

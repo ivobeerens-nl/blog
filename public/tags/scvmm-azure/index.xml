@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>scvmm-azure on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/scvmm-azure/</link><description>Recent content in scvmm-azure on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/scvmm-azure/index.xml" rel="self" type="application/rss+xml"/><item><title>Manage Azure VMs with System Center Virtual Machine Manager (SCVMM)</title><link>http://localhost:1313/logbook/site/2015/07/15/manage-azure-vms-with-system-center-virtual-machine-manager-scvmm/</link><pubDate>Wed, 15 Jul 2015 09:03:59 +0000</pubDate><guid>http://localhost:1313/logbook/site/2015/07/15/manage-azure-vms-with-system-center-virtual-machine-manager-scvmm/</guid><description>With Update Rollup 6 it is possible to add one or more Azure subscriptions to SCVMM 2012 R2. When the Azure subscription is added in SCVMM, it is possible to perform some basic actions such as:
-Add and Remove one or more Azure subscriptions by using the VMM console. See a list view with details and status of all role instances in all deployments in that subscription. Manually refresh the list of instances.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scvmm-azure on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/scvmm-azure/</link>
+    <description>Recent content in scvmm-azure on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/scvmm-azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage Azure VMs with System Center Virtual Machine Manager (SCVMM)</title>
+      <link>http://localhost:1313/logbook/site/2015/07/15/manage-azure-vms-with-system-center-virtual-machine-manager-scvmm/</link>
+      <pubDate>Wed, 15 Jul 2015 09:03:59 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2015/07/15/manage-azure-vms-with-system-center-virtual-machine-manager-scvmm/</guid>
+      <description>With Update Rollup 6 it is possible to add one or more Azure subscriptions to SCVMM 2012 R2. When the Azure subscription is added in SCVMM, it is possible to perform some basic actions such as:&#xA;Add and Remove one or more Azure subscriptions by using the VMM console. See a list view with details and status of all role instances in all deployments in that subscription. Manually refresh the list of instances.</description>
+    </item>
+  </channel>
+</rss>

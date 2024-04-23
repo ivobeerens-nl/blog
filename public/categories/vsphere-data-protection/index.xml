@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vSphere-data-protection on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/vsphere-data-protection/</link><description>Recent content in vSphere-data-protection on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/vsphere-data-protection/index.xml" rel="self" type="application/rss+xml"/><item><title>Implementing vSphere Data Protection (VDP) tips</title><link>http://localhost:1313/logbook/site/2012/09/21/implementing-vsphere-data-protection-vdp-tips/</link><pubDate>Fri, 21 Sep 2012 09:01:05 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/09/21/implementing-vsphere-data-protection-vdp-tips/</guid><description>vSphere Data Protection (VDP) is replacing VMware Data Recovery (vDR). VDP is a more robust product based on the EMC Avamar product.
-Here are some VDP implementing tips:
-Each vCenter server can support up to 10 VDP appiances Each VDP appliance supports up to 100 VMs VDP stores deduplicated data on the 0.5,1 or 2 TB datastores. It is not possible to use CIFS or NFS shares directly from the VDP appliance.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vSphere-data-protection on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/vsphere-data-protection/</link>
+    <description>Recent content in vSphere-data-protection on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/vsphere-data-protection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing vSphere Data Protection (VDP)  tips</title>
+      <link>http://localhost:1313/logbook/site/2012/09/21/implementing-vsphere-data-protection-vdp-tips/</link>
+      <pubDate>Fri, 21 Sep 2012 09:01:05 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/09/21/implementing-vsphere-data-protection-vdp-tips/</guid>
+      <description>vSphere Data Protection (VDP) is replacing VMware Data Recovery (vDR). VDP is a more robust product based on the EMC Avamar product.&#xA;Here are some VDP implementing tips:&#xA;Each vCenter server can support up to 10 VDP appiances Each VDP appliance supports up to 100 VMs VDP stores deduplicated data on the 0.5,1 or 2 TB datastores. It is not possible to use CIFS or NFS shares directly from the VDP appliance.</description>
+    </item>
+  </channel>
+</rss>

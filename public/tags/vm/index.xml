@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vm/</link><description>Recent content in vm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vm/index.xml" rel="self" type="application/rss+xml"/><item><title>Watch out with Hardware Version 10 in VMware ESXi 5.5!</title><link>http://localhost:1313/logbook/site/2013/10/01/watch-out-with-hardware-version-10-in-vmware-esxi-5-5/</link><pubDate>Tue, 01 Oct 2013 13:33:08 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/10/01/watch-out-with-hardware-version-10-in-vmware-esxi-5-5/</guid><description>Update: 09-09-2014: Today VMware released a new vSphere Client (vSphere Windows client). With vSphere Client 5.5.0 Build 1993072 (available with ESXi 5.5 Update 2) it is possible to edit hardware version 10 VMs settings. When editing a hardware version 10 VM it is only possible to edit hardware version 8 features. If you want to edit the advanced VM settings available in higher hardware versions you need to use the vSphere Web Client.</description></item><item><title>How-to extend the VMDK and the Windows disk</title><link>http://localhost:1313/logbook/site/2008/08/08/extend-vmdk-disk-and-the-windows-disk/</link><pubDate>Fri, 08 Aug 2008 13:36:29 +0000</pubDate><guid>http://localhost:1313/logbook/site/2008/08/08/extend-vmdk-disk-and-the-windows-disk/</guid><description>I see a lot of environments where the Virtual Machine (VM) disk space must be extended.
-Prior ESX 3.5 the way to extend a VDMK was to use the vmkfstools command with the -X parameter from the VMware ESX server console. With the coming of ESX 3.5 it is possible to extend the VMDK file when the VM was shutdown. Now with VMware ESX 3.5 Update 2 it is possible to online (hot) extend the VMDK file.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vm/</link>
+    <description>Recent content in vm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Watch out with Hardware Version 10 in VMware ESXi 5.5!</title>
+      <link>http://localhost:1313/logbook/site/2013/10/01/watch-out-with-hardware-version-10-in-vmware-esxi-5-5/</link>
+      <pubDate>Tue, 01 Oct 2013 13:33:08 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/10/01/watch-out-with-hardware-version-10-in-vmware-esxi-5-5/</guid>
+      <description>Update: 09-09-2014: Today VMware released a new vSphere Client (vSphere Windows client). With vSphere Client 5.5.0 Build 1993072 (available with ESXi 5.5 Update 2) it is possible to edit hardware version 10 VMs settings. When editing a hardware version 10 VM it is only possible to edit hardware version 8 features. If you want to edit the advanced VM settings available in higher hardware versions you need to use the vSphere Web Client.</description>
+    </item>
+    <item>
+      <title>How-to extend the VMDK and the Windows disk</title>
+      <link>http://localhost:1313/logbook/site/2008/08/08/extend-vmdk-disk-and-the-windows-disk/</link>
+      <pubDate>Fri, 08 Aug 2008 13:36:29 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2008/08/08/extend-vmdk-disk-and-the-windows-disk/</guid>
+      <description>I see a lot of environments where the Virtual Machine (VM) disk space must be extended.&#xA;Prior ESX 3.5 the way to extend a VDMK was to use the vmkfstools command with the -X parameter from the VMware ESX server console. With the coming of ESX 3.5 it is possible to extend the VMDK file when the VM was shutdown. Now with VMware ESX 3.5 Update 2 it is possible to online (hot) extend the VMDK file.</description>
+    </item>
+  </channel>
+</rss>

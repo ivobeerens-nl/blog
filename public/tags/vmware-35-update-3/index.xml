@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMware-35-update-3 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vmware-35-update-3/</link><description>Recent content in VMware-35-update-3 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vmware-35-update-3/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware patch alert</title><link>http://localhost:1313/logbook/site/2008/12/03/VMware-patch-alert/</link><pubDate>Wed, 03 Dec 2008 08:28:20 +0000</pubDate><guid>http://localhost:1313/logbook/site/2008/12/03/VMware-patch-alert/</guid><description>VMware released the following six new pathes:
-Patch nameDescriptionTypeESX350-200811401-SG</description></item><item><title>VMware ESX 3.5 Update 3 VM's spontaneously reboot.</title><link>http://localhost:1313/logbook/site/2008/11/19/VMware-esx-35-update-3-vms-spontaneously-reboot/</link><pubDate>Wed, 19 Nov 2008 09:51:12 +0000</pubDate><guid>http://localhost:1313/logbook/site/2008/11/19/VMware-esx-35-update-3-vms-spontaneously-reboot/</guid><description>A week ago i upgraded a customers environment to VMware ESX 3.5 Update 3 and VC 2.5 Update 3. After the upgrade some Virtual Machines (VM) spontaneously rebooted. After investing the problem we saw that after a VMotion action the spontaneously reboot occurred.
-We disabled in HA the option &amp;ldquo;Virtual Machine Monitoring&amp;rdquo; and set DRS to manual. The problem with Virtual Machine monitoring is:
-The Virtual Machine heartbeats are being dropped which is triggered by vMotion and the VM gets reset by the HA feature as it thinks it has gone offline.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware-35-update-3 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vmware-35-update-3/</link>
+    <description>Recent content in VMware-35-update-3 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vmware-35-update-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware patch alert</title>
+      <link>http://localhost:1313/logbook/site/2008/12/03/VMware-patch-alert/</link>
+      <pubDate>Wed, 03 Dec 2008 08:28:20 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2008/12/03/VMware-patch-alert/</guid>
+      <description>VMware released the following six new pathes:&#xA;Patch nameDescriptionTypeESX350-200811401-SG</description>
+    </item>
+    <item>
+      <title>VMware ESX 3.5 Update 3 VM&#39;s spontaneously reboot.</title>
+      <link>http://localhost:1313/logbook/site/2008/11/19/VMware-esx-35-update-3-vms-spontaneously-reboot/</link>
+      <pubDate>Wed, 19 Nov 2008 09:51:12 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2008/11/19/VMware-esx-35-update-3-vms-spontaneously-reboot/</guid>
+      <description>A week ago i upgraded a customers environment to VMware ESX 3.5 Update 3 and VC 2.5 Update 3. After the upgrade some Virtual Machines (VM) spontaneously rebooted. After investing the problem we saw that after a VMotion action the spontaneously reboot occurred.&#xA;We disabled in HA the option &amp;ldquo;Virtual Machine Monitoring&amp;rdquo; and set DRS to manual. The problem with Virtual Machine monitoring is:&#xA;The Virtual Machine heartbeats are being dropped which is triggered by vMotion and the VM gets reset by the HA feature as it thinks it has gone offline.</description>
+    </item>
+  </channel>
+</rss>

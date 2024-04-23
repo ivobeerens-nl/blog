@@ -1,14 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vSphere51 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/vsphere51/</link><description>Recent content in vSphere51 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/vsphere51/index.xml" rel="self" type="application/rss+xml"/><item><title>In the vSphere Web Client the &amp;ldquo;Use Windows session authentication&amp;rdquo; is grayed out</title><link>http://localhost:1313/logbook/site/2013/01/24/in-the-vsphere-web-client-the-use-windows-session-authentication-is-grayed-out/</link><pubDate>Thu, 24 Jan 2013 09:44:15 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/01/24/in-the-vsphere-web-client-the-use-windows-session-authentication-is-grayed-out/</guid><description>When logging in the vSphere Web Client login page the “Use Windows session Authentication” check box is grayed out. To solve this you need to install the Client Integration Plug-in.
-The Client Integration Plug-in provides:
-Access to the VM console Deploy OVF or OVA templates Transfer files with the datastore browser Use Windows Session authentication Without the VMware Client Integration Plug-in, the “Use Windows session Authentication” check box is grayed out (1) in the vSphere Web Client login page.</description></item><item><title>Windows 2008 R2 VMs fail to backup with VMware Data Protection (VDP)</title><link>http://localhost:1313/logbook/site/2013/01/18/windows-2008-r2-vms-fail-to-backup-with-vmware-data-protection-vdp/</link><pubDate>Fri, 18 Jan 2013 11:04:45 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/01/18/windows-2008-r2-vms-fail-to-backup-with-vmware-data-protection-vdp/</guid><description>When using VMware Data Protection (VDP) 5.1 and want to backup Windows 2008 R2 VM’s you should disable application-consistent quiescing. On the moment the VADP API doesn’t support Windows 2008 R2 application-consistent quiescing. So be sure that servers that uses a database such as SQL and Exchange are backuped with other third party backup software else the database will be not consistent when restoring!
-If you don’t disable application-consistent quiescing the backup of the Windows 2008 R2 will probably fail.</description></item><item><title>Update VMware tools without reboot</title><link>http://localhost:1313/logbook/site/2012/12/24/update-vmware-tools-without-reboot/</link><pubDate>Mon, 24 Dec 2012 08:00:00 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/12/24/update-vmware-tools-without-reboot/</guid><description>Update February 22, 2013: William Lam created a clarification on the Zero-Down Time) VMware Tools Upgrade. Here is a quote from the post:
-Is there downtime when upgrading to future versions of VMware Tools?
-It depends. If one or more components have been updated since the last VMware Tools upgrade or one of the VMware Tools components requests a system reboot, then a reboot will be required. The following VMware KB http://kb.</description></item><item><title>Upgrading to vSphere 5.1? Check your third party software</title><link>http://localhost:1313/logbook/site/2012/11/28/upgrading-to-vsphere-5-1-check-your-third-party-software/</link><pubDate>Wed, 28 Nov 2012 13:29:27 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/11/28/upgrading-to-vsphere-5-1-check-your-third-party-software/</guid><description>Before upgrading to vSphere 5.1 it is important to check your existing hardware, firmware levels, drivers, vSphere versions, other VMware products that integrates and third party software if it is compatible with vSphere 5.1. Here is a list of third party software and it’s support for vSphere 5.1 .
-Software Version vSphere 5.1 Support Comment Veeam Backup &amp;amp; Replication 6.5 yes CommVault 9 SP8 yes 3 extra SP8 post patches needed PHDVB 6.</description></item><item><title>Manage Hyper-V from vSphere with VMware vCenter Multi-Hypervisor Manager</title><link>http://localhost:1313/logbook/site/2012/11/22/manage-hyper-v-from-vsphere-with-vmware-vcenter-multi-hypervisor-manager/</link><pubDate>Thu, 22 Nov 2012 18:42:22 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/11/22/manage-hyper-v-from-vsphere-with-vmware-vcenter-multi-hypervisor-manager/</guid><description>VMware released the first version (1.0) of the vCenter Multi-Hypervisor Manager (MHM). MHM makes it possible to manage multiple heterogeneous hypervisors in VMware vCenter server.
-MHM supports only Microsoft Hyper-V Server 2008 and Microsoft Hyper-V Server 2008 R2 as hypervisor! MHM requires vCenter Server 5.1 and can manage 20 Hyper-V hosts with up to 500 VMs running.
-As minimum vCenter Server Standard edition is needed. The vCenter Multi-Hypervisor Manager is not available with the vCenter Server Foundation or Essentials edition!</description></item><item><title>Migrate to a new vCenter server with the vSphere Distributed Switch (VDS) enabled in vSphere 5.1</title><link>http://localhost:1313/logbook/site/2012/10/29/migrate-to-a-new-vcenter-server-with-the-vsphere-distributed-switch-vds-enabled-in-vsphere-5-1/</link><pubDate>Mon, 29 Oct 2012 09:08:30 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/10/29/migrate-to-a-new-vcenter-server-with-the-vsphere-distributed-switch-vds-enabled-in-vsphere-5-1/</guid><description>Migrating to a new fresh vCenter server using the vSphere Distributed Switch (VDS) prior vSphere 5.1 is not a easy task. The VDS is part of the vCenter configuration. If you try to import hosts that have a VDS configuration to a new vCenter server the following warning will appear:
-The distributed Virtual Switch corresponding to the proxy switches d5 6e 22 50 dd f2 94 7b-a6 1f b2 c2 e6 aa 0f bf on the host does not exist in vCenter or does not contain the host.</description></item><item><title>Tips for upgrading to VMware vCenter 5.1</title><link>http://localhost:1313/logbook/site/2012/09/13/tips-for-upgrading-to-vmware-vcenter-5-1/</link><pubDate>Thu, 13 Sep 2012 12:53:12 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/09/13/tips-for-upgrading-to-vmware-vcenter-5-1/</guid><description>Before starting the upgrading to version 5.1 of the vCenter Server, the following steps can be taken to be able to successfully upgrade. The first step is reading the upgrade guides. After the RTFM stuff check the following:
-Make sure the SQL Server authentication checkbox is set to SQL Server and Windows Authentication mode on the SQL server. More info found here . The SQL server service is listening to port 1433.</description></item><item><title>vCenter 5.1 Single Sign On error during installation</title><link>http://localhost:1313/logbook/site/2012/09/11/vcenter-5-1-single-sign-on-error-during-installation/</link><pubDate>Tue, 11 Sep 2012 16:24:14 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/09/11/vcenter-5-1-single-sign-on-error-during-installation/</guid><description>Today vSphere 5.1 is released. I did an upgrade of my existing vSphere 5 vCenter server. During the installation of the vCenter Single Sign On (SSO) software the following warning occurred:
-Error 29115: Cannot authenticate to DB.
-After this error the installation stops and the rollback begins. To solve this make sure the server authentication checkbox is set to SQL Server and Windows Authentication mode on the SQL server.
-Thanks to Gabrie van Zanten and Maish Saidel-Keesing for helping me out!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vSphere51 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/vsphere51/</link>
+    <description>Recent content in vSphere51 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/vsphere51/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In the vSphere Web Client the &amp;ldquo;Use Windows session authentication&amp;rdquo; is grayed out</title>
+      <link>http://localhost:1313/logbook/site/2013/01/24/in-the-vsphere-web-client-the-use-windows-session-authentication-is-grayed-out/</link>
+      <pubDate>Thu, 24 Jan 2013 09:44:15 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/01/24/in-the-vsphere-web-client-the-use-windows-session-authentication-is-grayed-out/</guid>
+      <description>When logging in the vSphere Web Client login page the “Use Windows session Authentication” check box is grayed out. To solve this you need to install the Client Integration Plug-in.&#xA;The Client Integration Plug-in provides:&#xA;Access to the VM console Deploy OVF or OVA templates Transfer files with the datastore browser Use Windows Session authentication Without the VMware Client Integration Plug-in, the “Use Windows session Authentication” check box is grayed out (1) in the vSphere Web Client login page.</description>
+    </item>
+    <item>
+      <title>Windows 2008 R2 VMs fail to backup with VMware Data Protection (VDP)</title>
+      <link>http://localhost:1313/logbook/site/2013/01/18/windows-2008-r2-vms-fail-to-backup-with-vmware-data-protection-vdp/</link>
+      <pubDate>Fri, 18 Jan 2013 11:04:45 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/01/18/windows-2008-r2-vms-fail-to-backup-with-vmware-data-protection-vdp/</guid>
+      <description>When using VMware Data Protection (VDP) 5.1 and want to backup Windows 2008 R2 VM’s you should disable application-consistent quiescing. On the moment the VADP API doesn’t support Windows 2008 R2 application-consistent quiescing. So be sure that servers that uses a database such as SQL and Exchange are backuped with other third party backup software else the database will be not consistent when restoring!&#xA;If you don’t disable application-consistent quiescing the backup of the Windows 2008 R2 will probably fail.</description>
+    </item>
+    <item>
+      <title>Update VMware tools without reboot</title>
+      <link>http://localhost:1313/logbook/site/2012/12/24/update-vmware-tools-without-reboot/</link>
+      <pubDate>Mon, 24 Dec 2012 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/12/24/update-vmware-tools-without-reboot/</guid>
+      <description>Update February 22, 2013: William Lam created a clarification on the Zero-Down Time) VMware Tools Upgrade. Here is a quote from the post:&#xA;Is there downtime when upgrading to future versions of VMware Tools?&#xA;It depends. If one or more components have been updated since the last VMware Tools upgrade or one of the VMware Tools components requests a system reboot, then a reboot will be required. The following VMware KB http://kb.</description>
+    </item>
+    <item>
+      <title>Upgrading to vSphere 5.1? Check your third party software</title>
+      <link>http://localhost:1313/logbook/site/2012/11/28/upgrading-to-vsphere-5-1-check-your-third-party-software/</link>
+      <pubDate>Wed, 28 Nov 2012 13:29:27 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/11/28/upgrading-to-vsphere-5-1-check-your-third-party-software/</guid>
+      <description>Before upgrading to vSphere 5.1 it is important to check your existing hardware, firmware levels, drivers, vSphere versions, other VMware products that integrates and third party software if it is compatible with vSphere 5.1. Here is a list of third party software and it’s support for vSphere 5.1 .&#xA;Software Version vSphere 5.1 Support Comment Veeam Backup &amp;amp; Replication 6.5 yes CommVault 9 SP8 yes 3 extra SP8 post patches needed PHDVB 6.</description>
+    </item>
+    <item>
+      <title>Manage Hyper-V from vSphere with VMware vCenter Multi-Hypervisor Manager</title>
+      <link>http://localhost:1313/logbook/site/2012/11/22/manage-hyper-v-from-vsphere-with-vmware-vcenter-multi-hypervisor-manager/</link>
+      <pubDate>Thu, 22 Nov 2012 18:42:22 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/11/22/manage-hyper-v-from-vsphere-with-vmware-vcenter-multi-hypervisor-manager/</guid>
+      <description>VMware released the first version (1.0) of the vCenter Multi-Hypervisor Manager (MHM). MHM makes it possible to manage multiple heterogeneous hypervisors in VMware vCenter server.&#xA;MHM supports only Microsoft Hyper-V Server 2008 and Microsoft Hyper-V Server 2008 R2 as hypervisor! MHM requires vCenter Server 5.1 and can manage 20 Hyper-V hosts with up to 500 VMs running.&#xA;As minimum vCenter Server Standard edition is needed. The vCenter Multi-Hypervisor Manager is not available with the vCenter Server Foundation or Essentials edition!</description>
+    </item>
+    <item>
+      <title>Migrate to a new vCenter server with the vSphere Distributed Switch (VDS) enabled in vSphere 5.1</title>
+      <link>http://localhost:1313/logbook/site/2012/10/29/migrate-to-a-new-vcenter-server-with-the-vsphere-distributed-switch-vds-enabled-in-vsphere-5-1/</link>
+      <pubDate>Mon, 29 Oct 2012 09:08:30 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/10/29/migrate-to-a-new-vcenter-server-with-the-vsphere-distributed-switch-vds-enabled-in-vsphere-5-1/</guid>
+      <description>Migrating to a new fresh vCenter server using the vSphere Distributed Switch (VDS) prior vSphere 5.1 is not a easy task. The VDS is part of the vCenter configuration. If you try to import hosts that have a VDS configuration to a new vCenter server the following warning will appear:&#xA;The distributed Virtual Switch corresponding to the proxy switches d5 6e 22 50 dd f2 94 7b-a6 1f b2 c2 e6 aa 0f bf on the host does not exist in vCenter or does not contain the host.</description>
+    </item>
+    <item>
+      <title>Tips for upgrading to VMware vCenter 5.1</title>
+      <link>http://localhost:1313/logbook/site/2012/09/13/tips-for-upgrading-to-vmware-vcenter-5-1/</link>
+      <pubDate>Thu, 13 Sep 2012 12:53:12 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/09/13/tips-for-upgrading-to-vmware-vcenter-5-1/</guid>
+      <description>Before starting the upgrading to version 5.1 of the vCenter Server, the following steps can be taken to be able to successfully upgrade. The first step is reading the upgrade guides. After the RTFM stuff check the following:&#xA;Make sure the SQL Server authentication checkbox is set to SQL Server and Windows Authentication mode on the SQL server. More info found here . The SQL server service is listening to port 1433.</description>
+    </item>
+    <item>
+      <title>vCenter 5.1 Single Sign On error during installation</title>
+      <link>http://localhost:1313/logbook/site/2012/09/11/vcenter-5-1-single-sign-on-error-during-installation/</link>
+      <pubDate>Tue, 11 Sep 2012 16:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/09/11/vcenter-5-1-single-sign-on-error-during-installation/</guid>
+      <description>Today vSphere 5.1 is released. I did an upgrade of my existing vSphere 5 vCenter server. During the installation of the vCenter Single Sign On (SSO) software the following warning occurred:&#xA;Error 29115: Cannot authenticate to DB.&#xA;After this error the installation stops and the rollback begins. To solve this make sure the server authentication checkbox is set to SQL Server and Windows Authentication mode on the SQL server.&#xA;Thanks to Gabrie van Zanten and Maish Saidel-Keesing for helping me out!</description>
+    </item>
+  </channel>
+</rss>

@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>event on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/event/</link><description>Recent content in event on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/event/index.xml" rel="self" type="application/rss+xml"/><item><title>Dutch VMware User Group (VMUG) 2009 event</title><link>http://localhost:1313/logbook/site/2009/11/06/dutch-vmware-user-group-vmug-2009-event/</link><pubDate>Fri, 06 Nov 2009 12:03:59 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/11/06/dutch-vmware-user-group-vmug-2009-event/</guid><description>On 11 December 2009 the 5th Dutch VMUG event will be held. It is a technical one day event about virtualization. Last year there were more than 600 visitors. Here’s a list in my opinion of must see presentations:
-Managing VMware vSphere 4 m.b.v. de Virtualization EcoShell by Eric Sloof - VMUG / ntpro.nl Project Virtual Reality Check by Ruben Spruijt - VMUG / PQR Disitributed Virtual Switch Drill Down by Viktor van den Berg – XTG Ontdek de mogelijkheden van vCenter Lab Manager by _Joep Piscaer - VMUG / virtuallifestyle.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>event on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/event/</link>
+    <description>Recent content in event on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dutch VMware User Group (VMUG) 2009 event</title>
+      <link>http://localhost:1313/logbook/site/2009/11/06/dutch-vmware-user-group-vmug-2009-event/</link>
+      <pubDate>Fri, 06 Nov 2009 12:03:59 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/11/06/dutch-vmware-user-group-vmug-2009-event/</guid>
+      <description>On 11 December 2009 the 5th Dutch VMUG event will be held. It is a technical one day event about virtualization. Last year there were more than 600 visitors. Here’s a list in my opinion of must see presentations:&#xA;Managing VMware vSphere 4 m.b.v. de Virtualization EcoShell by Eric Sloof - VMUG / ntpro.nl Project Virtual Reality Check by Ruben Spruijt - VMUG / PQR Disitributed Virtual Switch Drill Down by Viktor van den Berg – XTG Ontdek de mogelijkheden van vCenter Lab Manager by _Joep Piscaer - VMUG / virtuallifestyle.</description>
+    </item>
+  </channel>
+</rss>

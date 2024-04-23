@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMware-view-4 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vmware-view-4/</link><description>Recent content in VMware-view-4 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vmware-view-4/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware VIEW 4 useful information</title><link>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</link><pubDate>Fri, 13 Nov 2009 10:28:12 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</guid><description>After attending the VMware View 4 Talkshoe podcast the following information about the announced VMware View 4 was discussed:
-VM’s per core: VM’s per core, In VMware View 3 the number was 6-9 VM’s per core, now in View 4 with for example the Intel Nehalem processors you can get to 12-16 VM’s per core. This number heavily depends for example on the application load inside the VM’s.
-The PCoIP protocol does NOT support: Security Server; Smart Cards integration; Thinprint support.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware-view-4 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vmware-view-4/</link>
+    <description>Recent content in VMware-view-4 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vmware-view-4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware VIEW 4 useful information</title>
+      <link>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</link>
+      <pubDate>Fri, 13 Nov 2009 10:28:12 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</guid>
+      <description>After attending the VMware View 4 Talkshoe podcast the following information about the announced VMware View 4 was discussed:&#xA;VM’s per core: VM’s per core, In VMware View 3 the number was 6-9 VM’s per core, now in View 4 with for example the Intel Nehalem processors you can get to 12-16 VM’s per core. This number heavily depends for example on the application load inside the VM’s.&#xA;The PCoIP protocol does NOT support: Security Server; Smart Cards integration; Thinprint support.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hass-io on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/hass-io/</link><description>Recent content in hass-io on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/hass-io/index.xml" rel="self" type="application/rss+xml"/><item><title>Install Home Assistant Hass.io as Virtual Machine (VM) on VMware ESXi</title><link>http://localhost:1313/logbook/site/2019/04/03/installing-home-assistant-hass-io-as-virtual-machine-vm-on-vmware-esxi/</link><pubDate>Wed, 03 Apr 2019 11:10:17 +0000</pubDate><guid>http://localhost:1313/logbook/site/2019/04/03/installing-home-assistant-hass-io-as-virtual-machine-vm-on-vmware-esxi/</guid><description>I started exploring Home Assistant Hass.io on a Raspberry Pi. After several SD card crashes I decided to installed Hass.io as Virtual Machine (VM) on VMware ESXi. There is a VMDK version available (link ) that can attached (this involves manual steps) but I prefer a clean installation. VMware ESXi is installed on my Shuttle SH370R6 plus home lab server (link ).
-Update: June 2021: Ubuntu is not supported anymore as Operating System for Home Assistant.</description></item><item><title>Install Home Assistant Hass.io as VM in VMware Workstation</title><link>http://localhost:1313/logbook/site/2019/01/15/install-home-assistant-hass-io-in-vmware-workstation/</link><pubDate>Tue, 15 Jan 2019 13:28:02 +0000</pubDate><guid>http://localhost:1313/logbook/site/2019/01/15/install-home-assistant-hass-io-in-vmware-workstation/</guid><description>There a multiple ways to install Home Assistant Hass.io on different platforms. The instructions for deploying Hass.io as Virtual Machine (VM) are not very clear when using VMware Workstation or VMware ESXi. In this blog post I highlight the steps needed to deploy Hass.io as VM using VMware Workstation 15 Pro.
-Here are the steps:
-Download the VMDK image of Hass.io (link) and save it to a folder were the VMware Workstation Virtual Machine will be stored Unzip the downloaded VMDK file with 7zip Open VMware Workstation Choose a custom (advanced) configuration For the VM hardware comparability select: ESXi 6.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hass-io on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/hass-io/</link>
+    <description>Recent content in hass-io on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/hass-io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Home Assistant Hass.io as Virtual Machine (VM) on VMware ESXi</title>
+      <link>http://localhost:1313/logbook/site/2019/04/03/installing-home-assistant-hass-io-as-virtual-machine-vm-on-vmware-esxi/</link>
+      <pubDate>Wed, 03 Apr 2019 11:10:17 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2019/04/03/installing-home-assistant-hass-io-as-virtual-machine-vm-on-vmware-esxi/</guid>
+      <description>I started exploring Home Assistant Hass.io on a Raspberry Pi. After several SD card crashes I decided to installed Hass.io as Virtual Machine (VM) on VMware ESXi. There is a VMDK version available (link ) that can attached (this involves manual steps) but I prefer a clean installation. VMware ESXi is installed on my Shuttle SH370R6 plus home lab server (link ).&#xA;Update: June 2021: Ubuntu is not supported anymore as Operating System for Home Assistant.</description>
+    </item>
+    <item>
+      <title>Install Home Assistant Hass.io as VM in VMware Workstation</title>
+      <link>http://localhost:1313/logbook/site/2019/01/15/install-home-assistant-hass-io-in-vmware-workstation/</link>
+      <pubDate>Tue, 15 Jan 2019 13:28:02 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2019/01/15/install-home-assistant-hass-io-in-vmware-workstation/</guid>
+      <description>There a multiple ways to install Home Assistant Hass.io on different platforms. The instructions for deploying Hass.io as Virtual Machine (VM) are not very clear when using VMware Workstation or VMware ESXi. In this blog post I highlight the steps needed to deploy Hass.io as VM using VMware Workstation 15 Pro.&#xA;Here are the steps:&#xA;Download the VMDK image of Hass.io (link) and save it to a folder were the VMware Workstation Virtual Machine will be stored Unzip the downloaded VMDK file with 7zip Open VMware Workstation Choose a custom (advanced) configuration For the VM hardware comparability select: ESXi 6.</description>
+    </item>
+  </channel>
+</rss>

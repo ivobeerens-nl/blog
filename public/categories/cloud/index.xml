@@ -1,6 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cloud on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/cloud/</link><description>Recent content in cloud on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware extends the hybrid cloud with Amazon Web Services (AWS)</title><link>http://localhost:1313/logbook/site/2016/10/13/vmware-extends-hybrid-cloud-amazon-web-services-aws/</link><pubDate>Thu, 13 Oct 2016 21:43:50 +0000</pubDate><guid>http://localhost:1313/logbook/site/2016/10/13/vmware-extends-hybrid-cloud-amazon-web-services-aws/</guid><description>VMware and Amazon Web Services (AWS) will partnering together to bring a new a VMware vSphere-based service, running on the AWS Cloud, that will make it easier and faster to run applications, across a hybrid cloud environment.
-It&amp;rsquo;s called the &amp;ldquo;VMware Cloud on AWS&amp;rdquo;. The infrastructure looks like:
-The VMware Cloud on AWS includes the following components:
-vCenter. The environment is managed by a vCenter that is running in the cloud or on-premises.</description></item><item><title>VMworld Europe 2013&amp;ndash; vCloud Hybrid Services (vCHS) and DAAS recap</title><link>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</link><pubDate>Wed, 30 Oct 2013 21:25:51 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</guid><description>To deliver IT as a Service, VMware has for the coming year(s) the following focus areas:
-Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here Link End User Computing (EUC). See the VMworld 2013 EUC recap here Link vCloud Hybrid Services (vCHS) In this last blog post I dig deeper in vCloud Hybrid Services (vCHS) and DAAS announcements.
-Desktop-As-A-Service (DAAS) VMware acquired Desktone to enter the Desktop-As-A-Service (DAAS) market.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/cloud/</link>
+    <description>Recent content in cloud on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware extends the hybrid cloud with Amazon Web Services (AWS)</title>
+      <link>http://localhost:1313/logbook/site/2016/10/13/vmware-extends-hybrid-cloud-amazon-web-services-aws/</link>
+      <pubDate>Thu, 13 Oct 2016 21:43:50 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2016/10/13/vmware-extends-hybrid-cloud-amazon-web-services-aws/</guid>
+      <description>VMware and Amazon Web Services (AWS) will partnering together to bring a new a VMware vSphere-based service, running on the AWS Cloud, that will make it easier and faster to run applications, across a hybrid cloud environment.&#xA;It&amp;rsquo;s called the &amp;ldquo;VMware Cloud on AWS&amp;rdquo;. The infrastructure looks like:&#xA;The VMware Cloud on AWS includes the following components:&#xA;vCenter. The environment is managed by a vCenter that is running in the cloud or on-premises.</description>
+    </item>
+    <item>
+      <title>VMworld Europe 2013&amp;ndash; vCloud Hybrid Services (vCHS) and DAAS recap</title>
+      <link>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</link>
+      <pubDate>Wed, 30 Oct 2013 21:25:51 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</guid>
+      <description>To deliver IT as a Service, VMware has for the coming year(s) the following focus areas:&#xA;Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here Link End User Computing (EUC). See the VMworld 2013 EUC recap here Link vCloud Hybrid Services (vCHS) In this last blog post I dig deeper in vCloud Hybrid Services (vCHS) and DAAS announcements.&#xA;Desktop-As-A-Service (DAAS) VMware acquired Desktone to enter the Desktop-As-A-Service (DAAS) market.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,25 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vmworld on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vmworld/</link><description>Recent content in vmworld on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 16:18:54 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vmworld/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcements made at VMworld 2018 Europe</title><link>http://localhost:1313/logbook/site/2018/11/06/announcements-made-at-vmworld-2018-europe/</link><pubDate>Tue, 06 Nov 2018 11:33:19 +0000</pubDate><guid>http://localhost:1313/logbook/site/2018/11/06/announcements-made-at-vmworld-2018-europe/</guid><description>In Augustus I did a blog post (link ) about the announcements made at VMworld 2018 US. This week it’s time for VMworld Europe in Barcelona with 12000 attendees. The vision of VMware is still the same as the last years: any cloud, any application, any device.
-In this blog post an overview of new announcements made from VMworld Europe 2018:
-vCloud Suite Platinum announced. vCloud Suite platinum is a bundle with vRealize Suite and vSphere Enterprise Plus that includes now VMware AppDefense.</description></item><item><title>What's announced at VMworld 2018</title><link>http://localhost:1313/logbook/site/2018/08/27/whats-announced-at-vmworld-2018-us/</link><pubDate>Mon, 27 Aug 2018 14:11:08 +0000</pubDate><guid>http://localhost:1313/logbook/site/2018/08/27/whats-announced-at-vmworld-2018-us/</guid><description>This blog post will be updated with the latest and greatest VMworld 2018 US announcements. At VMworld, VMware is celebrating there 20th anniversary! Congrats for this awesome journey! VMworld 2018 US (Las Vegas) is the biggest (over 21000 attendees) event of the year for VMware. In November there is a VMworld in Barcelona (Europe). But for now we focuses on the announcements made at VMworld 2018 US.
-Besides announcements, links to the general and breakout sessions are listed below and some vendor updates.</description></item><item><title>VMworld Europe here I come!</title><link>http://localhost:1313/logbook/site/2017/07/18/vmworld-europe-come/</link><pubDate>Tue, 18 Jul 2017 19:51:58 +0000</pubDate><guid>http://localhost:1313/logbook/site/2017/07/18/vmworld-europe-come/</guid><description>In less then 54 days I’m attending VMworld Europe in Barcelona again. My first VMworld visit was in Cannes (France) in 2009. This year I visit VMworld with two other Ictivity (Dutch VMware partner) colleagues.
-Here are a couple of reasons why I&amp;rsquo;m so excited to visit VMworld Europe:
-1. General sessions In the general sessions the vision, future directions and key announcements will be presented.
-Key focus areas for the general sessions are:</description></item><item><title>What's New in vSphere 6.5</title><link>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</link><pubDate>Tue, 18 Oct 2016 07:00:03 +0000</pubDate><guid>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</guid><description>Today at VMworld Europe 2016, vSphere 6.5 is announced.
-Update: November 15, 2016 vSphere 6.5 is GA.
-In this blog we highlight some major feature announcements on the following products and technologies:
-vCenter Server Appliance (VCSA) Virtual SAN (VSAN) Host Profiles Auto Deploy vSphere Security vSphere Fault Tolerance (FT) vSphere DRS Storage IO Control (SIOC): Content Library vSphere Operations Management vRealize Log Insight PowerCLI Here is an overview of the new feature highlights in vSphere 6.</description></item><item><title>VMworld 2015 Europe recap</title><link>http://localhost:1313/logbook/site/2015/10/20/vmworld-2015-europe-recap/</link><pubDate>Tue, 20 Oct 2015 12:47:01 +0000</pubDate><guid>http://localhost:1313/logbook/site/2015/10/20/vmworld-2015-europe-recap/</guid><description>Last week I attended VMworld 2015 Europe conference. I had a great week filled with breakout sessions, Hands-on Labs, Solutions Exchange, parties, chats and great people.
-A few new announcements were made such as:
-vRealize Automation 7 – Introducing unified service blueprint capabilities to enable IT and DevOps teams to simplify and accelerate the delivery of integrated multi-tier applications with application-centric networking and security across multiple clouds. vSphere Integrated Containers and VMware Photon OS – Building on the support for VMware Photon OS on vCloud Air, vSphere Integrated Containers is now also available on the cloud platform, allowing IT teams to truly support any application, including containerized applications, on a common vCloud Air based infrastructure.</description></item><item><title>What's announced at VMworld 2015?</title><link>http://localhost:1313/logbook/site/2015/09/01/whats-announced-at-vmworld-2015/</link><pubDate>Tue, 01 Sep 2015 08:24:33 +0000</pubDate><guid>http://localhost:1313/logbook/site/2015/09/01/whats-announced-at-vmworld-2015/</guid><description>This blog contains the most VMworld 2015 announcements summarized. The VMworld 2015 day 1 announcements were all about the Software Defined Datacenter (SDDC), Hybrid cloud and Cloud Native Apps (containers). This blogpost will be updated with new announcements when available.
-VMworld 2015 day 1
-VMware EVO SDDC (EVO RACK). VMware EVO SDDC is designed to provide a simple to deploy and updated SDDC at rack-scale, and includes software-defined compute, storage, networking security, and management.</description></item><item><title>VMworld Europe 2013&amp;ndash; vCloud Hybrid Services (vCHS) and DAAS recap</title><link>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</link><pubDate>Wed, 30 Oct 2013 21:25:51 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</guid><description>To deliver IT as a Service, VMware has for the coming year(s) the following focus areas:
-Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here Link End User Computing (EUC). See the VMworld 2013 EUC recap here Link vCloud Hybrid Services (vCHS) In this last blog post I dig deeper in vCloud Hybrid Services (vCHS) and DAAS announcements.
-Desktop-As-A-Service (DAAS) VMware acquired Desktone to enter the Desktop-As-A-Service (DAAS) market.</description></item><item><title>VMworld Europe 2013&amp;ndash; End User Computing (EUC) recap</title><link>http://localhost:1313/logbook/site/2013/10/23/vmworld-europe-2013-end-user-computing-euc-recap/</link><pubDate>Wed, 23 Oct 2013 11:10:17 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/10/23/vmworld-europe-2013-end-user-computing-euc-recap/</guid><description>To deliver IT as a Service VMware has for the coming year(s) the following focus areas:
-Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here. Link End User Computing (EUC) vCloud Hybrid Services (vCHS) In this blog post I dig deeper in End User Computing (EUC) announcements . In the next blog post I will cover the vCHS and DAAS announcements.
-End User Computing (EUC) The VMware Horizon Suite has three main components:</description></item><item><title>VMworld Europe 2013&amp;ndash;The Software-Defined Data Center (SDDC) recap</title><link>http://localhost:1313/logbook/site/2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/</link><pubDate>Sun, 20 Oct 2013 20:31:37 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/</guid><description>Last week i attended VMworld Europe in Barcelona. The theme was “Defy Convention”. Here’s an overview of the VMware focus for the coming year(s):
-It’s all about delivering IT as a Service. IT as a Services gives the following answers:
-On-demand access to any device; Cost transparency; Any cloud, any platform; Programmable and automated infrastructure. To deliver IT as a Service VMware has for the coming year(s) the following focus areas:</description></item><item><title>VMworld Europe 2013 &amp;ndash; Partner day impressions</title><link>http://localhost:1313/logbook/site/2013/10/14/vmworld-europe-2013-partner-day-impressions/</link><pubDate>Mon, 14 Oct 2013 18:47:26 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/10/14/vmworld-europe-2013-partner-day-impressions/</guid><description>Here are some impressions of the partner day today.</description></item><item><title>VMword Europe 2010 recap</title><link>http://localhost:1313/logbook/site/2010/10/16/vmword-europe-2010-recap/</link><pubDate>Sat, 16 Oct 2010 19:35:11 +0000</pubDate><guid>http://localhost:1313/logbook/site/2010/10/16/vmword-europe-2010-recap/</guid><description>This week I visited Copenhagen for VMworld Europe 2010. With over 6000 attendees, 1300 more than last year in Cannes (France). On Monday there were partners sessions and in the afternoon is was already possible to do labs. VMware opened the labs earlier because of the overwhelming amount of VMware registrations.
-The labs were hosted by the cloud providers Terremark (Miami) and Verizon (Ashburn). Via the Colt provider in England the access to the both datacenters was possible.</description></item><item><title>Free ticket for VMworld 2010 Copenhagen</title><link>http://localhost:1313/logbook/site/2010/09/24/free-ticket-for-vmworld-2010-copenhagen/</link><pubDate>Fri, 24 Sep 2010 06:52:48 +0000</pubDate><guid>http://localhost:1313/logbook/site/2010/09/24/free-ticket-for-vmworld-2010-copenhagen/</guid><description>The Dutch ICT website Computable _ recently raffled a VMworld 2010 Copenhagen ticket among his followers on Twitter. Last week i was the lucky winner of the free ticket for VMworld Europe 2010. How cool is that!
-Yesterday i had a interview about my expectations on VMworld 2010 in Copenhagen. The interview (Dutch) can be found by clicking on this link .
-During the VMworld 2010 Copenhagen there will be a daily report on the Computable website with highlights, experiences and discoveries from my side on.</description></item><item><title>VMware news VMworld 2010 (San Francisco)</title><link>http://localhost:1313/logbook/site/2010/09/03/vmware-news-vmworld-2010-san-francisco/</link><pubDate>Fri, 03 Sep 2010 14:04:52 +0000</pubDate><guid>http://localhost:1313/logbook/site/2010/09/03/vmware-news-vmworld-2010-san-francisco/</guid><description>This week a lot of “new” announcements made at the VMworld 2010 conference in San Francisco. Here are some highlights:
-VMware View 4.5 VMware 4.5 is released. Here are some improvements in version 4.5:
-Support for VMware vSphere 4.1 Full Windows 7 support Offline support View client for Mac ThinApp entitlement Storage tiering Role Based delegation ThinApp package assignment, Link video. The profile management (RTO software) solution is not included in this release and the security server does still not support the PCoIP protocol!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vmworld on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vmworld/</link>
+    <description>Recent content in vmworld on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 16:18:54 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vmworld/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcements made at VMworld 2018 Europe</title>
+      <link>http://localhost:1313/logbook/site/2018/11/06/announcements-made-at-vmworld-2018-europe/</link>
+      <pubDate>Tue, 06 Nov 2018 11:33:19 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2018/11/06/announcements-made-at-vmworld-2018-europe/</guid>
+      <description>In Augustus I did a blog post (link ) about the announcements made at VMworld 2018 US. This week it’s time for VMworld Europe in Barcelona with 12000 attendees. The vision of VMware is still the same as the last years: any cloud, any application, any device.&#xA;In this blog post an overview of new announcements made from VMworld Europe 2018:&#xA;vCloud Suite Platinum announced. vCloud Suite platinum is a bundle with vRealize Suite and vSphere Enterprise Plus that includes now VMware AppDefense.</description>
+    </item>
+    <item>
+      <title>What&#39;s announced at VMworld 2018</title>
+      <link>http://localhost:1313/logbook/site/2018/08/27/whats-announced-at-vmworld-2018-us/</link>
+      <pubDate>Mon, 27 Aug 2018 14:11:08 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2018/08/27/whats-announced-at-vmworld-2018-us/</guid>
+      <description>This blog post will be updated with the latest and greatest VMworld 2018 US announcements. At VMworld, VMware is celebrating there 20th anniversary! Congrats for this awesome journey! VMworld 2018 US (Las Vegas) is the biggest (over 21000 attendees) event of the year for VMware. In November there is a VMworld in Barcelona (Europe). But for now we focuses on the announcements made at VMworld 2018 US.&#xA;Besides announcements, links to the general and breakout sessions are listed below and some vendor updates.</description>
+    </item>
+    <item>
+      <title>VMworld Europe here I come!</title>
+      <link>http://localhost:1313/logbook/site/2017/07/18/vmworld-europe-come/</link>
+      <pubDate>Tue, 18 Jul 2017 19:51:58 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2017/07/18/vmworld-europe-come/</guid>
+      <description>In less then 54 days I’m attending VMworld Europe in Barcelona again. My first VMworld visit was in Cannes (France) in 2009. This year I visit VMworld with two other Ictivity (Dutch VMware partner) colleagues.&#xA;Here are a couple of reasons why I&amp;rsquo;m so excited to visit VMworld Europe:&#xA;1. General sessions In the general sessions the vision, future directions and key announcements will be presented.&#xA;Key focus areas for the general sessions are:</description>
+    </item>
+    <item>
+      <title>What&#39;s New in vSphere 6.5</title>
+      <link>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</link>
+      <pubDate>Tue, 18 Oct 2016 07:00:03 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</guid>
+      <description>Today at VMworld Europe 2016, vSphere 6.5 is announced.&#xA;Update: November 15, 2016 vSphere 6.5 is GA.&#xA;In this blog we highlight some major feature announcements on the following products and technologies:&#xA;vCenter Server Appliance (VCSA) Virtual SAN (VSAN) Host Profiles Auto Deploy vSphere Security vSphere Fault Tolerance (FT) vSphere DRS Storage IO Control (SIOC): Content Library vSphere Operations Management vRealize Log Insight PowerCLI Here is an overview of the new feature highlights in vSphere 6.</description>
+    </item>
+    <item>
+      <title>VMworld 2015 Europe recap</title>
+      <link>http://localhost:1313/logbook/site/2015/10/20/vmworld-2015-europe-recap/</link>
+      <pubDate>Tue, 20 Oct 2015 12:47:01 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2015/10/20/vmworld-2015-europe-recap/</guid>
+      <description>Last week I attended VMworld 2015 Europe conference. I had a great week filled with breakout sessions, Hands-on Labs, Solutions Exchange, parties, chats and great people.&#xA;A few new announcements were made such as:&#xA;vRealize Automation 7 – Introducing unified service blueprint capabilities to enable IT and DevOps teams to simplify and accelerate the delivery of integrated multi-tier applications with application-centric networking and security across multiple clouds. vSphere Integrated Containers and VMware Photon OS – Building on the support for VMware Photon OS on vCloud Air, vSphere Integrated Containers is now also available on the cloud platform, allowing IT teams to truly support any application, including containerized applications, on a common vCloud Air based infrastructure.</description>
+    </item>
+    <item>
+      <title>What&#39;s announced at VMworld 2015?</title>
+      <link>http://localhost:1313/logbook/site/2015/09/01/whats-announced-at-vmworld-2015/</link>
+      <pubDate>Tue, 01 Sep 2015 08:24:33 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2015/09/01/whats-announced-at-vmworld-2015/</guid>
+      <description>This blog contains the most VMworld 2015 announcements summarized. The VMworld 2015 day 1 announcements were all about the Software Defined Datacenter (SDDC), Hybrid cloud and Cloud Native Apps (containers). This blogpost will be updated with new announcements when available.&#xA;VMworld 2015 day 1&#xA;VMware EVO SDDC (EVO RACK). VMware EVO SDDC is designed to provide a simple to deploy and updated SDDC at rack-scale, and includes software-defined compute, storage, networking security, and management.</description>
+    </item>
+    <item>
+      <title>VMworld Europe 2013&amp;ndash; vCloud Hybrid Services (vCHS) and DAAS recap</title>
+      <link>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</link>
+      <pubDate>Wed, 30 Oct 2013 21:25:51 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/10/30/vmworld-europe-2013-vcloud-hybrid-services-vchs-and-daas-recap/</guid>
+      <description>To deliver IT as a Service, VMware has for the coming year(s) the following focus areas:&#xA;Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here Link End User Computing (EUC). See the VMworld 2013 EUC recap here Link vCloud Hybrid Services (vCHS) In this last blog post I dig deeper in vCloud Hybrid Services (vCHS) and DAAS announcements.&#xA;Desktop-As-A-Service (DAAS) VMware acquired Desktone to enter the Desktop-As-A-Service (DAAS) market.</description>
+    </item>
+    <item>
+      <title>VMworld Europe 2013&amp;ndash; End User Computing (EUC) recap</title>
+      <link>http://localhost:1313/logbook/site/2013/10/23/vmworld-europe-2013-end-user-computing-euc-recap/</link>
+      <pubDate>Wed, 23 Oct 2013 11:10:17 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/10/23/vmworld-europe-2013-end-user-computing-euc-recap/</guid>
+      <description>To deliver IT as a Service VMware has for the coming year(s) the following focus areas:&#xA;Software-Defined Data Center (SDDC). See the VMworld 2013 SDDC recap here. Link End User Computing (EUC) vCloud Hybrid Services (vCHS) In this blog post I dig deeper in End User Computing (EUC) announcements . In the next blog post I will cover the vCHS and DAAS announcements.&#xA;End User Computing (EUC) The VMware Horizon Suite has three main components:</description>
+    </item>
+    <item>
+      <title>VMworld Europe 2013&amp;ndash;The Software-Defined Data Center (SDDC) recap</title>
+      <link>http://localhost:1313/logbook/site/2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/</link>
+      <pubDate>Sun, 20 Oct 2013 20:31:37 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/10/20/vmworld-europe-2013the-software-defined-data-center-sddc-recap/</guid>
+      <description>Last week i attended VMworld Europe in Barcelona. The theme was “Defy Convention”. Here’s an overview of the VMware focus for the coming year(s):&#xA;It’s all about delivering IT as a Service. IT as a Services gives the following answers:&#xA;On-demand access to any device; Cost transparency; Any cloud, any platform; Programmable and automated infrastructure. To deliver IT as a Service VMware has for the coming year(s) the following focus areas:</description>
+    </item>
+    <item>
+      <title>VMworld Europe 2013 &amp;ndash; Partner day impressions</title>
+      <link>http://localhost:1313/logbook/site/2013/10/14/vmworld-europe-2013-partner-day-impressions/</link>
+      <pubDate>Mon, 14 Oct 2013 18:47:26 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/10/14/vmworld-europe-2013-partner-day-impressions/</guid>
+      <description>Here are some impressions of the partner day today.</description>
+    </item>
+    <item>
+      <title>VMword Europe 2010 recap</title>
+      <link>http://localhost:1313/logbook/site/2010/10/16/vmword-europe-2010-recap/</link>
+      <pubDate>Sat, 16 Oct 2010 19:35:11 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2010/10/16/vmword-europe-2010-recap/</guid>
+      <description>This week I visited Copenhagen for VMworld Europe 2010. With over 6000 attendees, 1300 more than last year in Cannes (France). On Monday there were partners sessions and in the afternoon is was already possible to do labs. VMware opened the labs earlier because of the overwhelming amount of VMware registrations.&#xA;The labs were hosted by the cloud providers Terremark (Miami) and Verizon (Ashburn). Via the Colt provider in England the access to the both datacenters was possible.</description>
+    </item>
+    <item>
+      <title>Free ticket for VMworld 2010 Copenhagen</title>
+      <link>http://localhost:1313/logbook/site/2010/09/24/free-ticket-for-vmworld-2010-copenhagen/</link>
+      <pubDate>Fri, 24 Sep 2010 06:52:48 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2010/09/24/free-ticket-for-vmworld-2010-copenhagen/</guid>
+      <description>The Dutch ICT website Computable _ recently raffled a VMworld 2010 Copenhagen ticket among his followers on Twitter. Last week i was the lucky winner of the free ticket for VMworld Europe 2010. How cool is that!&#xA;Yesterday i had a interview about my expectations on VMworld 2010 in Copenhagen. The interview (Dutch) can be found by clicking on this link .&#xA;During the VMworld 2010 Copenhagen there will be a daily report on the Computable website with highlights, experiences and discoveries from my side on.</description>
+    </item>
+    <item>
+      <title>VMware news VMworld 2010 (San Francisco)</title>
+      <link>http://localhost:1313/logbook/site/2010/09/03/vmware-news-vmworld-2010-san-francisco/</link>
+      <pubDate>Fri, 03 Sep 2010 14:04:52 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2010/09/03/vmware-news-vmworld-2010-san-francisco/</guid>
+      <description>This week a lot of “new” announcements made at the VMworld 2010 conference in San Francisco. Here are some highlights:&#xA;VMware View 4.5 VMware 4.5 is released. Here are some improvements in version 4.5:&#xA;Support for VMware vSphere 4.1 Full Windows 7 support Offline support View client for Mac ThinApp entitlement Storage tiering Role Based delegation ThinApp package assignment, Link video. The profile management (RTO software) solution is not included in this release and the security server does still not support the PCoIP protocol!</description>
+    </item>
+  </channel>
+</rss>

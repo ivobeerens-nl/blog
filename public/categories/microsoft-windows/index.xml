@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microsoft Windows on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/microsoft-windows/</link><description>Recent content in Microsoft Windows on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/microsoft-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Disable the little drawing (known as search highlights) in the Windows 10/11 search bar</title><link>http://localhost:1313/logbook/site/2022/06/27/disable-the-little-drawing-known-as-search-highlights-in-the-windows-10-11-search-bar/</link><pubDate>Mon, 27 Jun 2022 14:41:27 +0000</pubDate><guid>http://localhost:1313/logbook/site/2022/06/27/disable-the-little-drawing-known-as-search-highlights-in-the-windows-10-11-search-bar/</guid><description>After deploying new Windows 10/11 images with the latest updates, Microsoft has included Search highlights. You can see if you have search highlights enabled when having a little drawing in the search bar. When clicking on the search bar it extends with graphics and more crap.
-So what are search highlights?
-Designed to help Windows users discover more information and related content, search highlights present noteworthy, informative, and interesting information of what&amp;rsquo;s special about each day—like holidays, anniversaries, and other moments in time both globally and in your region</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Windows on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/microsoft-windows/</link>
+    <description>Recent content in Microsoft Windows on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/microsoft-windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable the little drawing (known as search highlights) in the Windows 10/11 search bar</title>
+      <link>http://localhost:1313/logbook/site/2022/06/27/disable-the-little-drawing-known-as-search-highlights-in-the-windows-10-11-search-bar/</link>
+      <pubDate>Mon, 27 Jun 2022 14:41:27 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2022/06/27/disable-the-little-drawing-known-as-search-highlights-in-the-windows-10-11-search-bar/</guid>
+      <description>After deploying new Windows 10/11 images with the latest updates, Microsoft has included Search highlights. You can see if you have search highlights enabled when having a little drawing in the search bar. When clicking on the search bar it extends with graphics and more crap.&#xA;So what are search highlights?&#xA;Designed to help Windows users discover more information and related content, search highlights present noteworthy, informative, and interesting information of what&amp;rsquo;s special about each day—like holidays, anniversaries, and other moments in time both globally and in your region</description>
+    </item>
+  </channel>
+</rss>

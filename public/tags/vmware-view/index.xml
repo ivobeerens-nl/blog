@@ -1,19 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMware View on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vmware-view/</link><description>Recent content in VMware View on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 13:23:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vmware-view/index.xml" rel="self" type="application/rss+xml"/><item><title>Create a VMware Horizon View self signed certificate with makecert</title><link>http://localhost:1313/logbook/site/2014/06/24/create-a-vmware-horizon-view-self-signed-certificate-with-makecert/</link><pubDate>Tue, 24 Jun 2014 07:03:38 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/06/24/create-a-vmware-horizon-view-self-signed-certificate-with-makecert/</guid><description>With the command line Windows utility makecert.exe it is possible to create quickly a self-signed (private) certificate that can be used with VMware Horizon View. Makecert is part of the Windows Software Deployment Kit (SDK)for Windows 7 and 8. Below are the steps outlined to create a self-signed certificate using makecert.
-The SDK can be downloaded here, link . Install the SDK and choose as feature to install “Windows Software Deployment”.</description></item><item><title>Display VMware Horizon View Pool information using PowerCLI</title><link>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</link><pubDate>Wed, 22 Jan 2014 21:32:53 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</guid><description>For a VMware View Horizon Healthcheck I needed to display all VMware View Pools created and export some settings for documentation. The easiest way to do this is using View PowerCLI on a VMware View Connection server.
-Here are some examples to use:
-Display all the pools and settings: get-pool
-Display the pools with selected fields in table form:
-Get-pool | select DisplayName,Pool_ID,Enabled,MinimumCount,MaximumCount,HeadroomCount,Persistence,Pooltype,Protocol | FT -AutoSize
-Display the some fields in table form and export the pool information to a a text file:</description></item><item><title>Troubleshoot VMware View Security Server PCoIP port problems</title><link>http://localhost:1313/logbook/site/2013/07/26/troubleshoot-vmware-view-security-server-pcoip-port-problems/</link><pubDate>Fri, 26 Jul 2013 11:21:57 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/07/26/troubleshoot-vmware-view-security-server-pcoip-port-problems/</guid><description>Recently I had to troubleshoot a VMware View Client connection problem. In a new VMware View environment the customer has installed a VMware Horizon View Security Server for the external connections. When a external View Client tried to connect through the Security Server using the PCoIP protocol to the View desktop the following appeared:
-The connection to the remote computer ended
-When the users connects to the View Desktop using the LAN (without the Security Server) everything worked fine.</description></item><item><title>Shadow a VMware View desktop session</title><link>http://localhost:1313/logbook/site/2012/07/31/shadow-a-vmware-view-desktop-session/</link><pubDate>Tue, 31 Jul 2012 13:59:46 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/07/31/shadow-a-vmware-view-desktop-session/</guid><description>In VMware View there is no central way shadow a desktop session such as for example in Citrix XenApp. It would be nice if in the future it is possible to shadow a desktop from for example the VMware View Connection server. This is frequently asked question by customers were VMware View is implemented.
-Brian Knudtson explain in his blog post how to access a PCoIP session from the vSphere Console.</description></item><item><title>VMware View Manager 4.0.1 released</title><link>http://localhost:1313/logbook/site/2010/02/19/vmware-view-manager-4-0-1-released/</link><pubDate>Fri, 19 Feb 2010 07:40:59 +0000</pubDate><guid>http://localhost:1313/logbook/site/2010/02/19/vmware-view-manager-4-0-1-released/</guid><description>VMware View Manager 4.0.1 is released. This release includes the following new features:
-Localization of VMware View The View Client and online help for View Client are now available in Japanese, French, German, and simplified Chinese. The View Manager Administration Guide, View Manager Release Notes, Getting Started with VMware View document, View Upgrade Guide, and View Architecture Planning Guide are also available in these languages.
-VirtualCenter 2.5 Update 6 and ESX 3.</description></item><item><title>VMware VIEW 4 useful information</title><link>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</link><pubDate>Fri, 13 Nov 2009 10:28:12 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</guid><description>After attending the VMware View 4 Talkshoe podcast the following information about the announced VMware View 4 was discussed:
-VM’s per core: VM’s per core, In VMware View 3 the number was 6-9 VM’s per core, now in View 4 with for example the Intel Nehalem processors you can get to 12-16 VM’s per core. This number heavily depends for example on the application load inside the VM’s.
-The PCoIP protocol does NOT support: Security Server; Smart Cards integration; Thinprint support.</description></item><item><title>VMware View 4 announced</title><link>http://localhost:1313/logbook/site/2009/11/09/vmware-view-4-announced/</link><pubDate>Mon, 09 Nov 2009 11:27:00 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/11/09/vmware-view-4-announced/</guid><description>Today VMware has View 4 announced. VMware View 4 is supported on VMware vSphere and has a new protocol named PCoIP (View 3 uses RDP).
-Here’s a list of new and/or improved features:
-FEATURE&amp;nbsp;&amp;nbsp;&amp;nbsp;NEW/IMPROVED&amp;nbsp;&amp;nbsp;&amp;nbsp;DESCRIPTION&amp;nbsp;&amp;nbsp;&amp;nbsp;Quad monitor support&amp;nbsp;&amp;nbsp;&amp;nbsp;New
-&amp;nbsp;&amp;nbsp;&amp;nbsp;Support 32-bit color with 1920 x 1200 display resolution and up to 4 monitors simultaneously.Benefit: True multiple displays allow you to "see more and do more" from a full desktop. This provides the ability to reproduce true color images with support for up to 4.</description></item><item><title>VMware View released</title><link>http://localhost:1313/logbook/site/2008/12/02/VMware-view-released/</link><pubDate>Tue, 02 Dec 2008 07:46:27 +0000</pubDate><guid>http://localhost:1313/logbook/site/2008/12/02/VMware-view-released/</guid><description>VMware has VMware View released. The solution consist of:
-VMware Virtual Desktop Infrastructure (VMware Infrastructure 3 + VMware View Manager 3) Storage Optimization with VMware View Composer Application Virtualization with VMware ThinApp Client Virtualization with Offline Desktop – Experimental Use VMware infrastructure 3:
-VMware View 3 is built on VMware Infrastructure 3 and as a result, IT organizations can extend the benefits of industry-leading virtualization to the desktop. Integrating desktop infrastructure with VMware Infrastructure 3 provides unified management and a host of features that improve performance, reliability and business continuity, including:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware View on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vmware-view/</link>
+    <description>Recent content in VMware View on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 13:23:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vmware-view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a VMware Horizon View self signed certificate with makecert</title>
+      <link>http://localhost:1313/logbook/site/2014/06/24/create-a-vmware-horizon-view-self-signed-certificate-with-makecert/</link>
+      <pubDate>Tue, 24 Jun 2014 07:03:38 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/06/24/create-a-vmware-horizon-view-self-signed-certificate-with-makecert/</guid>
+      <description>With the command line Windows utility makecert.exe it is possible to create quickly a self-signed (private) certificate that can be used with VMware Horizon View. Makecert is part of the Windows Software Deployment Kit (SDK)for Windows 7 and 8. Below are the steps outlined to create a self-signed certificate using makecert.&#xA;The SDK can be downloaded here, link . Install the SDK and choose as feature to install “Windows Software Deployment”.</description>
+    </item>
+    <item>
+      <title>Display VMware Horizon View Pool information using PowerCLI</title>
+      <link>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</link>
+      <pubDate>Wed, 22 Jan 2014 21:32:53 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/01/22/display-vmware-horizon-view-pool-information-using-powercli/</guid>
+      <description>For a VMware View Horizon Healthcheck I needed to display all VMware View Pools created and export some settings for documentation. The easiest way to do this is using View PowerCLI on a VMware View Connection server.&#xA;Here are some examples to use:&#xA;Display all the pools and settings: get-pool&#xA;Display the pools with selected fields in table form:&#xA;Get-pool | select DisplayName,Pool_ID,Enabled,MinimumCount,MaximumCount,HeadroomCount,Persistence,Pooltype,Protocol | FT -AutoSize&#xA;Display the some fields in table form and export the pool information to a a text file:</description>
+    </item>
+    <item>
+      <title>Troubleshoot VMware View Security Server PCoIP port problems</title>
+      <link>http://localhost:1313/logbook/site/2013/07/26/troubleshoot-vmware-view-security-server-pcoip-port-problems/</link>
+      <pubDate>Fri, 26 Jul 2013 11:21:57 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/07/26/troubleshoot-vmware-view-security-server-pcoip-port-problems/</guid>
+      <description>Recently I had to troubleshoot a VMware View Client connection problem. In a new VMware View environment the customer has installed a VMware Horizon View Security Server for the external connections. When a external View Client tried to connect through the Security Server using the PCoIP protocol to the View desktop the following appeared:&#xA;The connection to the remote computer ended&#xA;When the users connects to the View Desktop using the LAN (without the Security Server) everything worked fine.</description>
+    </item>
+    <item>
+      <title>Shadow a VMware View desktop session</title>
+      <link>http://localhost:1313/logbook/site/2012/07/31/shadow-a-vmware-view-desktop-session/</link>
+      <pubDate>Tue, 31 Jul 2012 13:59:46 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/07/31/shadow-a-vmware-view-desktop-session/</guid>
+      <description>In VMware View there is no central way shadow a desktop session such as for example in Citrix XenApp. It would be nice if in the future it is possible to shadow a desktop from for example the VMware View Connection server. This is frequently asked question by customers were VMware View is implemented.&#xA;Brian Knudtson explain in his blog post how to access a PCoIP session from the vSphere Console.</description>
+    </item>
+    <item>
+      <title>VMware View Manager 4.0.1 released</title>
+      <link>http://localhost:1313/logbook/site/2010/02/19/vmware-view-manager-4-0-1-released/</link>
+      <pubDate>Fri, 19 Feb 2010 07:40:59 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2010/02/19/vmware-view-manager-4-0-1-released/</guid>
+      <description>VMware View Manager 4.0.1 is released. This release includes the following new features:&#xA;Localization of VMware View The View Client and online help for View Client are now available in Japanese, French, German, and simplified Chinese. The View Manager Administration Guide, View Manager Release Notes, Getting Started with VMware View document, View Upgrade Guide, and View Architecture Planning Guide are also available in these languages.&#xA;VirtualCenter 2.5 Update 6 and ESX 3.</description>
+    </item>
+    <item>
+      <title>VMware VIEW 4 useful information</title>
+      <link>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</link>
+      <pubDate>Fri, 13 Nov 2009 10:28:12 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/11/13/vmware-view-4-useful-information/</guid>
+      <description>After attending the VMware View 4 Talkshoe podcast the following information about the announced VMware View 4 was discussed:&#xA;VM’s per core: VM’s per core, In VMware View 3 the number was 6-9 VM’s per core, now in View 4 with for example the Intel Nehalem processors you can get to 12-16 VM’s per core. This number heavily depends for example on the application load inside the VM’s.&#xA;The PCoIP protocol does NOT support: Security Server; Smart Cards integration; Thinprint support.</description>
+    </item>
+    <item>
+      <title>VMware View 4 announced</title>
+      <link>http://localhost:1313/logbook/site/2009/11/09/vmware-view-4-announced/</link>
+      <pubDate>Mon, 09 Nov 2009 11:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/11/09/vmware-view-4-announced/</guid>
+      <description>Today VMware has View 4 announced. VMware View 4 is supported on VMware vSphere and has a new protocol named PCoIP (View 3 uses RDP).&#xA;Here’s a list of new and/or improved features:&#xA;FEATURE&amp;nbsp;&amp;nbsp;&amp;nbsp;NEW/IMPROVED&amp;nbsp;&amp;nbsp;&amp;nbsp;DESCRIPTION&amp;nbsp;&amp;nbsp;&amp;nbsp;Quad monitor support&amp;nbsp;&amp;nbsp;&amp;nbsp;New&#xA;&amp;nbsp;&amp;nbsp;&amp;nbsp;Support 32-bit color with 1920 x 1200 display resolution and up to 4 monitors simultaneously.Benefit: True multiple displays allow you to &#34;see more and do more&#34; from a full desktop. This provides the ability to reproduce true color images with support for up to 4.</description>
+    </item>
+    <item>
+      <title>VMware View released</title>
+      <link>http://localhost:1313/logbook/site/2008/12/02/VMware-view-released/</link>
+      <pubDate>Tue, 02 Dec 2008 07:46:27 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2008/12/02/VMware-view-released/</guid>
+      <description>VMware has VMware View released. The solution consist of:&#xA;VMware Virtual Desktop Infrastructure (VMware Infrastructure 3 + VMware View Manager 3) Storage Optimization with VMware View Composer Application Virtualization with VMware ThinApp Client Virtualization with Offline Desktop – Experimental Use VMware infrastructure 3:&#xA;VMware View 3 is built on VMware Infrastructure 3 and as a result, IT organizations can extend the benefits of industry-leading virtualization to the desktop. Integrating desktop infrastructure with VMware Infrastructure 3 provides unified management and a host of features that improve performance, reliability and business continuity, including:</description>
+    </item>
+  </channel>
+</rss>

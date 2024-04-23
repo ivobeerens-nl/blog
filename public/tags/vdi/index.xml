@@ -1,13 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vdi on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vdi/</link><description>Recent content in vdi on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Mar 2024 14:30:23 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vdi/index.xml" rel="self" type="application/rss+xml"/><item><title>The New Microsoft Teams Client throw an error in AVD - The parameter is incorrect</title><link>http://localhost:1313/logbook/site/blog/2024/02/new-teams-parameter-is-incorrect/</link><pubDate>Wed, 28 Feb 2024 15:44:42 +0100</pubDate><guid>http://localhost:1313/logbook/site/blog/2024/02/new-teams-parameter-is-incorrect/</guid><description>After deploying new Azure Virtual Desktop (AVD) session hosts with the new Teams Client installed, users getting the following error after the login:
-C:\Program Files\WindowsApp\MSTeams_24004.1307.2669.7070_x64_8wekyb..\msteams_autostarter.exe
-The parameter is incorrect
-In the picture the error The parameter is incorrect is displayed as de parameter is onjuist because the AVD host has a Dutch language pack installed.
-To solve this issue I performed the following steps:
-Install FSLogix 2210 hotfix 3 (2.9.8784.63912). link on the AVD image.</description></item><item><title>What Windows 10 version for my VDI desktop?</title><link>http://localhost:1313/logbook/site/2018/10/24/what-windows-10-version-for-my-vdi-desktop/</link><pubDate>Wed, 24 Oct 2018 18:32:04 +0000</pubDate><guid>http://localhost:1313/logbook/site/2018/10/24/what-windows-10-version-for-my-vdi-desktop/</guid><description>In a VDI project one of the questions in the design phase is always: “What version I use for my Windows 10 VDI desktop?”. Before Windows 10, the Operating System release cycle was approximate 3 to 5 years. With Windows 10 a new release management concept is introduced called “Windows as a Service (WaaS)”. WaaS includes:
-Feature updates: Twice a year new feature updates to Windows 10 will be released Quality updates: Deliver both security and non-security fixes every month on patch Tuesday such as: Security updates Critical updates Servicing stack updates Driver Updates Servicing channels: Allow organizations to choose when to deploy new features.</description></item><item><title>VMware Horizon View Optimization Guide for Windows 7 and Windows 8 white paper update</title><link>http://localhost:1313/logbook/site/2014/07/23/vmware-horizon-view-optimization-guide-windows-7-windows-8-white-paper-update/</link><pubDate>Wed, 23 Jul 2014 12:10:06 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/07/23/vmware-horizon-view-optimization-guide-windows-7-windows-8-white-paper-update/</guid><description>VMware released an updated version of the “VMware Horizon with View Optimization Guide for Windows 7 and Windows 8” whitepaper. This white paper discuss the necessary information for optimizing a Windows 7 or Windows 8 virtual desktop image for VMware Horizon View using the Microsoft Deployment Toolkit (MDT) or use a script-based approach.
-The updated (July 15, 2014) “VMware Horizon with View Optimization Guide for Windows 7 and Windows 8” whitepaper can be found here.</description></item><item><title>Optimize Windows 8 for Virtual Desktop Infrastructure (VDI) environments</title><link>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</link><pubDate>Fri, 12 Apr 2013 07:07:55 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</guid><description>Optimize and tuning a Windows 8 desktop in a VDI environment is important to reduce for example the CPU, IOPS and the memory footprint. During the Microsoft Management Summit (MMS) 2013 a breakout session about optimizing a Windows 8 desktop for Virtual Desktop Infrastructure (VDI) is held. The session has three main subjects:
-Microsoft Guidance for Windows 8 Configuration VDI desktop. What version of Windows 8 do I need, how many CPUs, memory, disk partitioning etc.</description></item><item><title>VMware Desktop Reference Architecture Workload Simulator (RAWC)</title><link>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</link><pubDate>Mon, 28 Dec 2009 11:11:31 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</guid><description>VMware released last week the desktop Reference Architecture Workload Simulator (RAWC).
-When validating VMware View designs it is important to simulate real world usage as closely as possible. The Desktop Reference Architecture Workload SImulator (RAWC) can be used to simulate a user workload in a typical Microsoft Windows® desktop environment.
-Desktop RAWC runs on a Windows XP guest operating system and is executed on each desktop virtual machine (VM) on one or more ESX™ hosts.</description></item><item><title>VMware View 4 released</title><link>http://localhost:1313/logbook/site/2009/11/21/vmware-view-4-released/</link><pubDate>Sat, 21 Nov 2009 08:28:58 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/11/21/vmware-view-4-released/</guid><description>The long awaited VMware View with the PCoIP protocol has landed and is available for download.
-VMware View 4.0 includes the following new features:
-VMware View with PCoIP – PCoIP provides an optimized desktop experience for the delivery of the entire desktop environment including applications, images, audio, and video content for a wide range of users on the LAN or across the WAN. PCoIP can compensate for an increase in latency or a reduction in bandwidth, to ensure that end users can remain productive regardless of network conditions.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vdi on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vdi/</link>
+    <description>Recent content in vdi on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Mar 2024 14:30:23 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vdi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The New Microsoft Teams Client throw an error in AVD - The parameter is incorrect</title>
+      <link>http://localhost:1313/logbook/site/blog/2024/02/new-teams-parameter-is-incorrect/</link>
+      <pubDate>Wed, 28 Feb 2024 15:44:42 +0100</pubDate>
+      <guid>http://localhost:1313/logbook/site/blog/2024/02/new-teams-parameter-is-incorrect/</guid>
+      <description>After deploying new Azure Virtual Desktop (AVD) session hosts with the new Teams Client installed, users getting the following error after the login:&#xA;C:\Program Files\WindowsApp\MSTeams_24004.1307.2669.7070_x64_8wekyb..\msteams_autostarter.exe&#xA;The parameter is incorrect&#xA;In the picture the error The parameter is incorrect is displayed as de parameter is onjuist because the AVD host has a Dutch language pack installed.&#xA;To solve this issue I performed the following steps:&#xA;Install FSLogix 2210 hotfix 3 (2.9.8784.63912). link on the AVD image.</description>
+    </item>
+    <item>
+      <title>What Windows 10 version for my VDI desktop?</title>
+      <link>http://localhost:1313/logbook/site/2018/10/24/what-windows-10-version-for-my-vdi-desktop/</link>
+      <pubDate>Wed, 24 Oct 2018 18:32:04 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2018/10/24/what-windows-10-version-for-my-vdi-desktop/</guid>
+      <description>In a VDI project one of the questions in the design phase is always: “What version I use for my Windows 10 VDI desktop?”. Before Windows 10, the Operating System release cycle was approximate 3 to 5 years. With Windows 10 a new release management concept is introduced called “Windows as a Service (WaaS)”. WaaS includes:&#xA;Feature updates: Twice a year new feature updates to Windows 10 will be released Quality updates: Deliver both security and non-security fixes every month on patch Tuesday such as: Security updates Critical updates Servicing stack updates Driver Updates Servicing channels: Allow organizations to choose when to deploy new features.</description>
+    </item>
+    <item>
+      <title>VMware Horizon View Optimization Guide for Windows 7 and Windows 8 white paper update</title>
+      <link>http://localhost:1313/logbook/site/2014/07/23/vmware-horizon-view-optimization-guide-windows-7-windows-8-white-paper-update/</link>
+      <pubDate>Wed, 23 Jul 2014 12:10:06 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/07/23/vmware-horizon-view-optimization-guide-windows-7-windows-8-white-paper-update/</guid>
+      <description>VMware released an updated version of the “VMware Horizon with View Optimization Guide for Windows 7 and Windows 8” whitepaper. This white paper discuss the necessary information for optimizing a Windows 7 or Windows 8 virtual desktop image for VMware Horizon View using the Microsoft Deployment Toolkit (MDT) or use a script-based approach.&#xA;The updated (July 15, 2014) “VMware Horizon with View Optimization Guide for Windows 7 and Windows 8” whitepaper can be found here.</description>
+    </item>
+    <item>
+      <title>Optimize Windows 8 for Virtual Desktop Infrastructure (VDI) environments</title>
+      <link>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</link>
+      <pubDate>Fri, 12 Apr 2013 07:07:55 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</guid>
+      <description>Optimize and tuning a Windows 8 desktop in a VDI environment is important to reduce for example the CPU, IOPS and the memory footprint. During the Microsoft Management Summit (MMS) 2013 a breakout session about optimizing a Windows 8 desktop for Virtual Desktop Infrastructure (VDI) is held. The session has three main subjects:&#xA;Microsoft Guidance for Windows 8 Configuration VDI desktop. What version of Windows 8 do I need, how many CPUs, memory, disk partitioning etc.</description>
+    </item>
+    <item>
+      <title>VMware Desktop Reference Architecture Workload Simulator (RAWC)</title>
+      <link>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</link>
+      <pubDate>Mon, 28 Dec 2009 11:11:31 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</guid>
+      <description>VMware released last week the desktop Reference Architecture Workload Simulator (RAWC).&#xA;When validating VMware View designs it is important to simulate real world usage as closely as possible. The Desktop Reference Architecture Workload SImulator (RAWC) can be used to simulate a user workload in a typical Microsoft Windows® desktop environment.&#xA;Desktop RAWC runs on a Windows XP guest operating system and is executed on each desktop virtual machine (VM) on one or more ESX™ hosts.</description>
+    </item>
+    <item>
+      <title>VMware View 4 released</title>
+      <link>http://localhost:1313/logbook/site/2009/11/21/vmware-view-4-released/</link>
+      <pubDate>Sat, 21 Nov 2009 08:28:58 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/11/21/vmware-view-4-released/</guid>
+      <description>The long awaited VMware View with the PCoIP protocol has landed and is available for download.&#xA;VMware View 4.0 includes the following new features:&#xA;VMware View with PCoIP – PCoIP provides an optimized desktop experience for the delivery of the entire desktop environment including applications, images, audio, and video content for a wide range of users on the LAN or across the WAN. PCoIP can compensate for an increase in latency or a reduction in bandwidth, to ensure that end users can remain productive regardless of network conditions.</description>
+    </item>
+  </channel>
+</rss>

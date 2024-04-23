@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Partners on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/partners/</link><description>Recent content in Partners on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Feb 2024 21:58:21 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/partners/index.xml" rel="self" type="application/rss+xml"/><item><title>BDRSuite</title><link>http://localhost:1313/logbook/site/BDRSuite/</link><pubDate>Sun, 11 Jun 2023 19:35:04 +0000</pubDate><guid>http://localhost:1313/logbook/site/BDRSuite/</guid><description>BDRSuite is a robust and comprehensive backup solution that addresses various backup, recovery, replication, and DR needs of your diversified IT infrastructure such as Virtual, Physical, Cloud workloads &amp;amp; SaaS Applications, and supports advanced use cases, thereby ensuring business continuity at affordable pricing.
-Have a glimpse of the BDRSuite of Products categorized based on different IT environments.
-For Virtual Environments (VMware &amp;amp; Hyper-V) BDRSuite for VMware Agentless &amp;amp; application-aware backup &amp;amp; replication for VMware VMs with instant recovery at VM, file, and application level.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partners on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/partners/</link>
+    <description>Recent content in Partners on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2024 21:58:21 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/partners/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BDRSuite</title>
+      <link>http://localhost:1313/logbook/site/BDRSuite/</link>
+      <pubDate>Sun, 11 Jun 2023 19:35:04 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/BDRSuite/</guid>
+      <description>BDRSuite is a robust and comprehensive backup solution that addresses various backup, recovery, replication, and DR needs of your diversified IT infrastructure such as Virtual, Physical, Cloud workloads &amp;amp; SaaS Applications, and supports advanced use cases, thereby ensuring business continuity at affordable pricing.&#xA;Have a glimpse of the BDRSuite of Products categorized based on different IT environments.&#xA;For Virtual Environments (VMware &amp;amp; Hyper-V) BDRSuite for VMware Agentless &amp;amp; application-aware backup &amp;amp; replication for VMware VMs with instant recovery at VM, file, and application level.</description>
+    </item>
+  </channel>
+</rss>

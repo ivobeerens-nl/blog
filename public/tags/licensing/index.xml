@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>licensing on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/licensing/</link><description>Recent content in licensing on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/licensing/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware vSphere 5 licensing update explained</title><link>http://localhost:1313/logbook/site/2011/07/15/vmware-vsphere-5-licensing-explained/</link><pubDate>Fri, 15 Jul 2011 12:25:53 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/07/15/vmware-vsphere-5-licensing-explained/</guid><description>With the announcement of VMware vSphere 5 a complete new license model is introduces.
-In VMware vSphere 4 the licensing model was per physical processor based on the number of cores per CPU and the physical memory.
-The VMware vSphere 5 license model is based per physical processor and the allocated memory (vRAM) across the entire vSphere environment for a particular vSphere 5 edition (pool).
-Update August 27, 2012
-Today VMware announced the end of the vRAM entitlement.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>licensing on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/licensing/</link>
+    <description>Recent content in licensing on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/licensing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware vSphere 5 licensing update explained</title>
+      <link>http://localhost:1313/logbook/site/2011/07/15/vmware-vsphere-5-licensing-explained/</link>
+      <pubDate>Fri, 15 Jul 2011 12:25:53 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/07/15/vmware-vsphere-5-licensing-explained/</guid>
+      <description>With the announcement of VMware vSphere 5 a complete new license model is introduces.&#xA;In VMware vSphere 4 the licensing model was per physical processor based on the number of cores per CPU and the physical memory.&#xA;The VMware vSphere 5 license model is based per physical processor and the allocated memory (vRAM) across the entire vSphere environment for a particular vSphere 5 edition (pool).&#xA;Update August 27, 2012&#xA;Today VMware announced the end of the vRAM entitlement.</description>
+    </item>
+  </channel>
+</rss>

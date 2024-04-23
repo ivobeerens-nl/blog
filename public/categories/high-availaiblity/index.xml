@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>high-availaiblity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/high-availaiblity/</link><description>Recent content in high-availaiblity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/high-availaiblity/index.xml" rel="self" type="application/rss+xml"/><item><title>Display or filter VMs that are restarted by VMware HA</title><link>http://localhost:1313/logbook/site/2011/05/18/display-or-filter-vms-that-are-restarted-by-vmware-ha/</link><pubDate>Wed, 18 May 2011 20:30:21 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/05/18/display-or-filter-vms-that-are-restarted-by-vmware-ha/</guid><description>When VMware High Availability(HA) comes in action, the VMs are restarted (depending on the HA settings) on other VMware ESX servers in the cluster. It’s handy to know what VMs are restarted.
-In the vCenter client the Tasks and Events page size can be increased. Default the vCenter client displays 100 tasks and events. In a cluster with a lot of host and a HA action the 100 tasks and events can be to low.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>high-availaiblity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/high-availaiblity/</link>
+    <description>Recent content in high-availaiblity on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/high-availaiblity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Display or filter VMs that are restarted by VMware HA</title>
+      <link>http://localhost:1313/logbook/site/2011/05/18/display-or-filter-vms-that-are-restarted-by-vmware-ha/</link>
+      <pubDate>Wed, 18 May 2011 20:30:21 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/05/18/display-or-filter-vms-that-are-restarted-by-vmware-ha/</guid>
+      <description>When VMware High Availability(HA) comes in action, the VMs are restarted (depending on the HA settings) on other VMware ESX servers in the cluster. It’s handy to know what VMs are restarted.&#xA;In the vCenter client the Tasks and Events page size can be increased. Default the vCenter client displays 100 tasks and events. In a cluster with a lot of host and a HA action the 100 tasks and events can be to low.</description>
+    </item>
+  </channel>
+</rss>

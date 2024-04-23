@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>esx on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/esx/</link><description>Recent content in esx on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/esx/index.xml" rel="self" type="application/rss+xml"/><item><title>Unable to create VMFS partition</title><link>http://localhost:1313/logbook/site/2011/12/19/unable-to-create-vmfs-partition/</link><pubDate>Mon, 19 Dec 2011 14:05:20 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/12/19/unable-to-create-vmfs-partition/</guid><description>On my home lab I tried to create a new VMFS volume on a RAID-0 disk set that was coming from another host. When creating the new VMFS volume from the vSphere client, the following error appeared:
-Call “HostDatastoreSystem.QueryVmfsDatastoreCreateOptions” for object “datastoresystem-9” on vCenter Server “VC01″ failed.
-On the VMware ESXi 5 server I enabled “Local Tech Support Mode”, so I was able to logging in directly on the console and used the fdisk-l command to see the partition information on the disk.</description></item><item><title>Migrate to VMware ESXi? Use the &amp;ldquo;ESX System Analyzer&amp;rdquo; tool</title><link>http://localhost:1313/logbook/site/2011/12/05/tool-esx-system-analyzer/</link><pubDate>Mon, 05 Dec 2011 18:31:53 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/12/05/tool-esx-system-analyzer/</guid><description>VMware Flings did it again. They released another cool tool called “ESX System Analyzer”. This tool helps when you want to migrate from VMware ESX to VMware ESXi. It scans the VMware environment and collects the following information:
-Hardware compatibility with ESXi. It checks if the hardware is compatible with ESXi 4 and ESXi 5. VMs registered on the ESX host, as well as VMs located on the host’s local disk Modifications to the Service Console</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>esx on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/esx/</link>
+    <description>Recent content in esx on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/esx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unable to create VMFS partition</title>
+      <link>http://localhost:1313/logbook/site/2011/12/19/unable-to-create-vmfs-partition/</link>
+      <pubDate>Mon, 19 Dec 2011 14:05:20 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/12/19/unable-to-create-vmfs-partition/</guid>
+      <description>On my home lab I tried to create a new VMFS volume on a RAID-0 disk set that was coming from another host. When creating the new VMFS volume from the vSphere client, the following error appeared:&#xA;Call “HostDatastoreSystem.QueryVmfsDatastoreCreateOptions” for object “datastoresystem-9” on vCenter Server “VC01″ failed.&#xA;On the VMware ESXi 5 server I enabled “Local Tech Support Mode”, so I was able to logging in directly on the console and used the fdisk-l command to see the partition information on the disk.</description>
+    </item>
+    <item>
+      <title>Migrate to VMware ESXi? Use the &amp;ldquo;ESX System Analyzer&amp;rdquo; tool</title>
+      <link>http://localhost:1313/logbook/site/2011/12/05/tool-esx-system-analyzer/</link>
+      <pubDate>Mon, 05 Dec 2011 18:31:53 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/12/05/tool-esx-system-analyzer/</guid>
+      <description>VMware Flings did it again. They released another cool tool called “ESX System Analyzer”. This tool helps when you want to migrate from VMware ESX to VMware ESXi. It scans the VMware environment and collects the following information:&#xA;Hardware compatibility with ESXi. It checks if the hardware is compatible with ESXi 4 and ESXi 5. VMs registered on the ESX host, as well as VMs located on the host’s local disk Modifications to the Service Console</description>
+    </item>
+  </channel>
+</rss>

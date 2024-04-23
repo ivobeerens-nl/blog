@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lync on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/lync/</link><description>Recent content in lync on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/lync/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware Horizon View and Microsoft Lync 2013 support</title><link>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</link><pubDate>Wed, 03 Apr 2013 12:10:29 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</guid><description>VMware Horizon View 5.2 adds support for Microsoft Lync 2013 with audio en video. With Microsoft Lync 2010, only VoIP was supported, but required a dedicated IP-based phone. Microsoft and VMware collaborated to bring Lync 2013 support to the View 5.2 desktop.
-Here is a list of supported features with Lync 2013 in VMware View:
-Features
-Support/Unsupported
-Presence
-Supported
-Instant Message
-Supported
-Desktop Sharing
-Supported
-Application Sharing
-Supported
-PowerPoint Sharing</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lync on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/lync/</link>
+    <description>Recent content in lync on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/lync/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware Horizon View and Microsoft Lync 2013 support</title>
+      <link>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</link>
+      <pubDate>Wed, 03 Apr 2013 12:10:29 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</guid>
+      <description>VMware Horizon View 5.2 adds support for Microsoft Lync 2013 with audio en video. With Microsoft Lync 2010, only VoIP was supported, but required a dedicated IP-based phone. Microsoft and VMware collaborated to bring Lync 2013 support to the View 5.2 desktop.&#xA;Here is a list of supported features with Lync 2013 in VMware View:&#xA;Features&#xA;Support/Unsupported&#xA;Presence&#xA;Supported&#xA;Instant Message&#xA;Supported&#xA;Desktop Sharing&#xA;Supported&#xA;Application Sharing&#xA;Supported&#xA;PowerPoint Sharing</description>
+    </item>
+  </channel>
+</rss>

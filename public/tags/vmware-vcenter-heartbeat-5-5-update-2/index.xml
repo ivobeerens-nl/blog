@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMware-vcenter-heartbeat-5-5-update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/vmware-vcenter-heartbeat-5-5-update-2/</link><description>Recent content in VMware-vcenter-heartbeat-5-5-update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/vmware-vcenter-heartbeat-5-5-update-2/index.xml" rel="self" type="application/rss+xml"/><item><title>Huge amount of VMware updates</title><link>http://localhost:1313/logbook/site/2009/11/20/huge-amount-of-vmware-updates/</link><pubDate>Fri, 20 Nov 2009 17:55:04 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/11/20/huge-amount-of-vmware-updates/</guid><description>Today when i woke up there where a lot of VMware updates available (to much to handle for one day 🙂 ). I did an upgrade of my lab environment, it went smooth with any issues. VMware did a great job with the new improvements! Here’s a list of improvements with some screenshots:
-VMware ESX 4 Update 1 improvements: VMware View 4.0 support – This release adds support for VMware View 4.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware-vcenter-heartbeat-5-5-update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/vmware-vcenter-heartbeat-5-5-update-2/</link>
+    <description>Recent content in VMware-vcenter-heartbeat-5-5-update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/vmware-vcenter-heartbeat-5-5-update-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Huge amount of VMware updates</title>
+      <link>http://localhost:1313/logbook/site/2009/11/20/huge-amount-of-vmware-updates/</link>
+      <pubDate>Fri, 20 Nov 2009 17:55:04 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/11/20/huge-amount-of-vmware-updates/</guid>
+      <description>Today when i woke up there where a lot of VMware updates available (to much to handle for one day 🙂 ). I did an upgrade of my lab environment, it went smooth with any issues. VMware did a great job with the new improvements! Here’s a list of improvements with some screenshots:&#xA;VMware ESX 4 Update 1 improvements: VMware View 4.0 support – This release adds support for VMware View 4.</description>
+    </item>
+  </channel>
+</rss>

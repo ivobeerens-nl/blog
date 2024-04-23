@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rds on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/rds/</link><description>Recent content in rds on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Feb 2024 21:58:21 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/rds/index.xml" rel="self" type="application/rss+xml"/><item><title>Troubleshoot your Azure Virtual Desktop (AVD) or Remote Desktop Environment with the MSRD-Collect tool</title><link>http://localhost:1313/logbook/site/2022/12/22/troubleshoot-your-azure-virtual-desktop-avd-or-remote-desktop-environment-with-msrd-collect/</link><pubDate>Thu, 22 Dec 2022 15:59:53 +0000</pubDate><guid>http://localhost:1313/logbook/site/2022/12/22/troubleshoot-your-azure-virtual-desktop-avd-or-remote-desktop-environment-with-msrd-collect/</guid><description>I recently stumbled on a cool tool called “MSRD-Collect”. MSRD stands for Microsoft CSS Remote Desktop Data Collection and Diagnostic Script. MSRD-Collect is a PowerShell script with separate modules designed to collect information that will help Microsoft Customer Support Services (CSS) to troubleshoot issues in Azure Virtual Desktop or Remote Desktop Services environments.
-MSRD-Collect is not only a handy tool for Microsoft CSS but can be used by AVD or RDS administrators having issues or who want to check the health of their session hosts.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rds on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/rds/</link>
+    <description>Recent content in rds on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2024 21:58:21 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/rds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshoot your Azure Virtual Desktop (AVD) or Remote Desktop Environment with the MSRD-Collect tool</title>
+      <link>http://localhost:1313/logbook/site/2022/12/22/troubleshoot-your-azure-virtual-desktop-avd-or-remote-desktop-environment-with-msrd-collect/</link>
+      <pubDate>Thu, 22 Dec 2022 15:59:53 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2022/12/22/troubleshoot-your-azure-virtual-desktop-avd-or-remote-desktop-environment-with-msrd-collect/</guid>
+      <description>I recently stumbled on a cool tool called “MSRD-Collect”. MSRD stands for Microsoft CSS Remote Desktop Data Collection and Diagnostic Script. MSRD-Collect is a PowerShell script with separate modules designed to collect information that will help Microsoft Customer Support Services (CSS) to troubleshoot issues in Azure Virtual Desktop or Remote Desktop Services environments.&#xA;MSRD-Collect is not only a handy tool for Microsoft CSS but can be used by AVD or RDS administrators having issues or who want to check the health of their session hosts.</description>
+    </item>
+  </channel>
+</rss>

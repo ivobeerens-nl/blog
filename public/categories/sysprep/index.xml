@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sysprep on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/sysprep/</link><description>Recent content in sysprep on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/sysprep/index.xml" rel="self" type="application/rss+xml"/><item><title>Sysprep goes wrong on Microsoft Windows 2008 R2 and Windows 7</title><link>http://localhost:1313/logbook/site/2011/02/11/microsoft-sysprep-goes-wrong-on-microsoft-windows-2008-r2-and-windows-7/</link><pubDate>Fri, 11 Feb 2011 08:05:14 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/02/11/microsoft-sysprep-goes-wrong-on-microsoft-windows-2008-r2-and-windows-7/</guid><description>This week I encountered a problem with Sysprepping a Microsoft Windows 2008 R2 VM after cloning. I cloned an existing VM and used a Customization Specification in vSphere vCenter for the Sysprep. When the Sysprepped Microsoft Windows 2008 R2 VM reboots, the following message appears:
-Windows could not finish configuring the system. To attempt to resume configuration, restart the computer.
-Every time when restarting the VM, the message appears. After some troubleshooting such as disable services and active software before the Sysprep I found Microsoft Knowledgebase article “A Windows 7 or a Windows Server 2008 R2 image deployment process stops when you try to deploy the image on another computer” KB981542 .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sysprep on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/sysprep/</link>
+    <description>Recent content in sysprep on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/sysprep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sysprep goes wrong on Microsoft Windows 2008 R2 and Windows 7</title>
+      <link>http://localhost:1313/logbook/site/2011/02/11/microsoft-sysprep-goes-wrong-on-microsoft-windows-2008-r2-and-windows-7/</link>
+      <pubDate>Fri, 11 Feb 2011 08:05:14 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/02/11/microsoft-sysprep-goes-wrong-on-microsoft-windows-2008-r2-and-windows-7/</guid>
+      <description>This week I encountered a problem with Sysprepping a Microsoft Windows 2008 R2 VM after cloning. I cloned an existing VM and used a Customization Specification in vSphere vCenter for the Sysprep. When the Sysprepped Microsoft Windows 2008 R2 VM reboots, the following message appears:&#xA;Windows could not finish configuring the system. To attempt to resume configuration, restart the computer.&#xA;Every time when restarting the VM, the message appears. After some troubleshooting such as disable services and active software before the Sysprep I found Microsoft Knowledgebase article “A Windows 7 or a Windows Server 2008 R2 image deployment process stops when you try to deploy the image on another computer” KB981542 .</description>
+    </item>
+  </channel>
+</rss>

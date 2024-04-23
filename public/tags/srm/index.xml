@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>srm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/srm/</link><description>Recent content in srm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/srm/index.xml" rel="self" type="application/rss+xml"/><item><title>Identify the Single Sign-On (SSO) deployment method for the vCenter Server</title><link>http://localhost:1313/logbook/site/2014/11/26/identify-single-sign-sso-deployment-method-vcenter-server/</link><pubDate>Wed, 26 Nov 2014 14:20:12 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/11/26/identify-single-sign-sso-deployment-method-vcenter-server/</guid><description>With vSphere 5.5 you have the following deployment methods for Single Sign-On (SSO):
-vCenter Single Sign-On for your first vCenter Server vCenter Single Sign-On for an additional vCenter Server in an existing site (formerly HA Cluster) vCenter Single Sign-On for an additional vCenter Server with a new site (formerly Multisite) Once SSO is installed it can be usefull to identify what deployment options are used for example in a Site Recovery Manager (SRM) deployment.</description></item><item><title>Site Recovery Manager (SRM) Update 1 released</title><link>http://localhost:1313/logbook/site/2008/12/05/site-recovery-manager-srm-update-1-released/</link><pubDate>Fri, 05 Dec 2008 08:10:48 +0000</pubDate><guid>http://localhost:1313/logbook/site/2008/12/05/site-recovery-manager-srm-update-1-released/</guid><description>SRM 1.0 Update 1 has the following new features:
-New Permission Required to Run a Recovery Plan
-SRM now distinguishes between permission to test a recovery plan and permission to run a recovery plan. After an SRM server is updated to this release, existing users of that server who had permission to run a recovery plan no longer have that permission. You must grant Run permission to these users after the update is complete.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>srm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/srm/</link>
+    <description>Recent content in srm on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/srm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identify the Single Sign-On (SSO) deployment method for the vCenter Server</title>
+      <link>http://localhost:1313/logbook/site/2014/11/26/identify-single-sign-sso-deployment-method-vcenter-server/</link>
+      <pubDate>Wed, 26 Nov 2014 14:20:12 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/11/26/identify-single-sign-sso-deployment-method-vcenter-server/</guid>
+      <description>With vSphere 5.5 you have the following deployment methods for Single Sign-On (SSO):&#xA;vCenter Single Sign-On for your first vCenter Server vCenter Single Sign-On for an additional vCenter Server in an existing site (formerly HA Cluster) vCenter Single Sign-On for an additional vCenter Server with a new site (formerly Multisite) Once SSO is installed it can be usefull to identify what deployment options are used for example in a Site Recovery Manager (SRM) deployment.</description>
+    </item>
+    <item>
+      <title>Site Recovery Manager (SRM) Update 1 released</title>
+      <link>http://localhost:1313/logbook/site/2008/12/05/site-recovery-manager-srm-update-1-released/</link>
+      <pubDate>Fri, 05 Dec 2008 08:10:48 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2008/12/05/site-recovery-manager-srm-update-1-released/</guid>
+      <description>SRM 1.0 Update 1 has the following new features:&#xA;New Permission Required to Run a Recovery Plan&#xA;SRM now distinguishes between permission to test a recovery plan and permission to run a recovery plan. After an SRM server is updated to this release, existing users of that server who had permission to run a recovery plan no longer have that permission. You must grant Run permission to these users after the update is complete.</description>
+    </item>
+  </channel>
+</rss>

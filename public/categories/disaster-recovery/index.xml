@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>disaster-recovery on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/disaster-recovery/</link><description>Recent content in disaster-recovery on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/disaster-recovery/index.xml" rel="self" type="application/rss+xml"/><item><title>Veeam v8 is coming</title><link>http://localhost:1313/logbook/site/2014/07/14/veeam-v8-coming/</link><pubDate>Mon, 14 Jul 2014 11:38:04 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/07/14/veeam-v8-coming/</guid><description>The new version of Veeam is called “Veeam Availability Suite v8”.
-The Veeam Availability Suite v8 has improvements in the following areas:
-High Speed Recovery Data Loss Avoidance Verified Protection Leverage Data Complete Visibility HIGH-SPEED RECOVERY
-Enables low recovery time objectives (RTOs) of &amp;lt;15 minutes; enables rapid recovery of the data customers want, in the form that they want it. Features are:
-Instant VM Recovery Instant File-Level Recovery NEW v8 Veeam Explorer™ for Microsoft Exchange, SharePoint, SQL Server,Active Directory NEW v8 Veeam Explorer for Storage Snapshots (HP and NetApp) DATA LOSS AVOIDANCE</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disaster-recovery on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/disaster-recovery/</link>
+    <description>Recent content in disaster-recovery on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veeam v8 is coming</title>
+      <link>http://localhost:1313/logbook/site/2014/07/14/veeam-v8-coming/</link>
+      <pubDate>Mon, 14 Jul 2014 11:38:04 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/07/14/veeam-v8-coming/</guid>
+      <description>The new version of Veeam is called “Veeam Availability Suite v8”.&#xA;The Veeam Availability Suite v8 has improvements in the following areas:&#xA;High Speed Recovery Data Loss Avoidance Verified Protection Leverage Data Complete Visibility HIGH-SPEED RECOVERY&#xA;Enables low recovery time objectives (RTOs) of &amp;lt;15 minutes; enables rapid recovery of the data customers want, in the form that they want it. Features are:&#xA;Instant VM Recovery Instant File-Level Recovery NEW v8 Veeam Explorer™ for Microsoft Exchange, SharePoint, SQL Server,Active Directory NEW v8 Veeam Explorer for Storage Snapshots (HP and NetApp) DATA LOSS AVOIDANCE</description>
+    </item>
+  </channel>
+</rss>

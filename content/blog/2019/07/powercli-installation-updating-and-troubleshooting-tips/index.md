@@ -44,13 +44,13 @@ SerializationVersion 1.1.0.1
 
 ```PowerShell
 Install-Module -Name VMware.PowerCLI
-
 ```
+
 PowerCLI installation with admin rights:
 ```PowerShell
 Install-Module VMware.PowerCLI -AllowClobber -SkipPublisherCheck
 ```
-Use the -AllowClobber when you get: A command with the name 'Export-VM' is already available on this system.
+Use the `-AllowClobber` when you get: A command with the name `Export-VM` is already available on this system.
 
 ```PowerShell
 Install-Module VMware.PowerCLI -AllowClobber
@@ -156,6 +156,3 @@ Get-PSSnapin -registered
 Try to install the PowerCLI module using a clean install as described above.
 
 The PowerCLI page can be found here: [VMware Developer Documentation](https://developer.VMware.com/powercli)
-
-
-

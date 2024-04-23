@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>teams on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/teams/</link><description>Recent content in teams on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/teams/index.xml" rel="self" type="application/rss+xml"/><item><title>Configure Microsoft Teams offloading in VMware Horizon</title><link>http://localhost:1313/logbook/site/2020/08/25/configure-microsoft-teams-offloading-in-vmware-horizon/</link><pubDate>Tue, 25 Aug 2020 06:41:58 +0000</pubDate><guid>http://localhost:1313/logbook/site/2020/08/25/configure-microsoft-teams-offloading-in-vmware-horizon/</guid><description>With VMware Horizon 8 or the new naming format, Horizon 2006 (YYMM) Microsoft Teams offloading / media optimization is supported. Media Optimization for Microsoft Teams redirects audio calls, video calls, and viewing desktop shares for a seamless experience between the client system and the remote session without negatively affecting the virtual infrastructure and overloading the network.
-What is supported The Media Optimization for Microsoft Teams offers the following features:
-Accepting and making audio and video calls Multiparty audio and video conferencing Transfer, forward, mute, hold, and resume a call PSTN calls via dial pad Desktop screen sharing Multi monitor screen sharing and screen picker for screen sharing Volume control from the remote desktop Active speaker identification Limitations Media Optimization for Microsoft Teams has the following limitations:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teams on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/teams/</link>
+    <description>Recent content in teams on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/teams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure Microsoft Teams offloading in VMware Horizon</title>
+      <link>http://localhost:1313/logbook/site/2020/08/25/configure-microsoft-teams-offloading-in-vmware-horizon/</link>
+      <pubDate>Tue, 25 Aug 2020 06:41:58 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2020/08/25/configure-microsoft-teams-offloading-in-vmware-horizon/</guid>
+      <description>With VMware Horizon 8 or the new naming format, Horizon 2006 (YYMM) Microsoft Teams offloading / media optimization is supported. Media Optimization for Microsoft Teams redirects audio calls, video calls, and viewing desktop shares for a seamless experience between the client system and the remote session without negatively affecting the virtual infrastructure and overloading the network.&#xA;What is supported The Media Optimization for Microsoft Teams offers the following features:&#xA;Accepting and making audio and video calls Multiparty audio and video conferencing Transfer, forward, mute, hold, and resume a call PSTN calls via dial pad Desktop screen sharing Multi monitor screen sharing and screen picker for screen sharing Volume control from the remote desktop Active speaker identification Limitations Media Optimization for Microsoft Teams has the following limitations:</description>
+    </item>
+  </channel>
+</rss>

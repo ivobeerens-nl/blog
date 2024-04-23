@@ -1,7 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/update-2/</link><description>Recent content in update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/update-2/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware ESXi Dependency Error when trying to update</title><link>http://localhost:1313/logbook/site/2019/01/09/vmware-esxi-dependencyerror-when-trying-to-upgrade/</link><pubDate>Wed, 09 Jan 2019 10:17:31 +0000</pubDate><guid>http://localhost:1313/logbook/site/2019/01/09/vmware-esxi-dependencyerror-when-trying-to-upgrade/</guid><description>When trying to update a VMware ESXi 6.7 build 9484548 host to the latest ESXi 6.7 Update 1 build I’ve got the following error:
-[DependencyError] VIB VMware_bootbank_esx-base_6.7.0-1.28.10302608 requires esx-update &amp;laquo; 6.7.0-1.29, but the requirement cannot be satisfied within the ImageProfile. VIB VMware_bootbank_esx-base_6.7.0-1.28.10302608 requires esx-update &amp;gt;= 6.7.0-1.28, but the requirement cannot be satisfied within the ImageProfile. Please refer to the log file for more details.
-When searching around it looks like there are more people who experiencing this problem (link ) when trying to update to 6.</description></item><item><title>The new way to patch the vCenter Server Appliance 6</title><link>http://localhost:1313/logbook/site/2015/07/30/the-new-way-to-patch-the-vcenter-server-appliance-6/</link><pubDate>Thu, 30 Jul 2015 09:26:47 +0000</pubDate><guid>http://localhost:1313/logbook/site/2015/07/30/the-new-way-to-patch-the-vcenter-server-appliance-6/</guid><description>The patching process in vCenter Server Appliance (vCSA) version 6 is changed from previous versions. It is not possible anymore to use the Virtual Appliance Management Interface (VAMI) and update the appliance using the User Interface. The new way to patch the vCenter Server Appliance involves the following steps:
-Download the patch from the VMware Patch Download Center, link . Choose vc and select version 6.x Download the latest patch ISO Attach the *.</description></item><item><title>Installing Update Rollup (UR) 3 for System Center 2012 R2 Virtual Machine Manager</title><link>http://localhost:1313/logbook/site/2014/08/01/installing-update-rollup-3-system-center-2012-r2-virtual-machine-manager/</link><pubDate>Fri, 01 Aug 2014 12:53:54 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/08/01/installing-update-rollup-3-system-center-2012-r2-virtual-machine-manager/</guid><description>Update rollup (UR) 3 for System Center 2012 R2 Virtual Machine Manager is released this week. This update includes a Linux guest agent upgrade to support the following new operating systems:
-Ubuntu Linux 14.04 (32-bit) Ubuntu Linux 14.04 (64-bit) This update also includes the following:
-Host DHCP extension driver upgrade Several performance improvements?????? Several Management Pack package improvements And a huge list of issues that are fixed. More information can be found in the Microsoft KB article found here, link .</description></item><item><title>Tips for deploying SCVMM 2012 R2 Rollup 2</title><link>http://localhost:1313/logbook/site/2014/04/30/tips-for-deploying-scvmm-2012-r2-rollup-pack-2/</link><pubDate>Wed, 30 Apr 2014 06:56:20 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/04/30/tips-for-deploying-scvmm-2012-r2-rollup-pack-2/</guid><description>Last week Update Rollup 2 (UR2) for System Center 2012 R2 Virtual Machine Manager is released. UR2 contains important fixes for SCVMM2012 R2. Here are some deployment tips for UR2:
-Wait a least couple of weeks before deploying Update Rollups in your production environment. It happens that new Update Rollups contains huge bugs and are pulled back! Make sure you have a backup of the SCVMM database before installing UR2 Install the UR2 by download the VMM management server and VMM admin console packages link (or use Windows Update /WSUS to install both packages).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/update-2/</link>
+    <description>Recent content in update-2 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/update-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware ESXi Dependency Error when trying to update</title>
+      <link>http://localhost:1313/logbook/site/2019/01/09/vmware-esxi-dependencyerror-when-trying-to-upgrade/</link>
+      <pubDate>Wed, 09 Jan 2019 10:17:31 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2019/01/09/vmware-esxi-dependencyerror-when-trying-to-upgrade/</guid>
+      <description>When trying to update a VMware ESXi 6.7 build 9484548 host to the latest ESXi 6.7 Update 1 build I’ve got the following error:&#xA;[DependencyError] VIB VMware_bootbank_esx-base_6.7.0-1.28.10302608 requires esx-update &amp;laquo; 6.7.0-1.29, but the requirement cannot be satisfied within the ImageProfile. VIB VMware_bootbank_esx-base_6.7.0-1.28.10302608 requires esx-update &amp;gt;= 6.7.0-1.28, but the requirement cannot be satisfied within the ImageProfile. Please refer to the log file for more details.&#xA;When searching around it looks like there are more people who experiencing this problem (link ) when trying to update to 6.</description>
+    </item>
+    <item>
+      <title>The new way to patch the vCenter Server Appliance 6</title>
+      <link>http://localhost:1313/logbook/site/2015/07/30/the-new-way-to-patch-the-vcenter-server-appliance-6/</link>
+      <pubDate>Thu, 30 Jul 2015 09:26:47 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2015/07/30/the-new-way-to-patch-the-vcenter-server-appliance-6/</guid>
+      <description>The patching process in vCenter Server Appliance (vCSA) version 6 is changed from previous versions. It is not possible anymore to use the Virtual Appliance Management Interface (VAMI) and update the appliance using the User Interface. The new way to patch the vCenter Server Appliance involves the following steps:&#xA;Download the patch from the VMware Patch Download Center, link . Choose vc and select version 6.x Download the latest patch ISO Attach the *.</description>
+    </item>
+    <item>
+      <title>Installing Update Rollup (UR) 3 for System Center 2012 R2 Virtual Machine Manager</title>
+      <link>http://localhost:1313/logbook/site/2014/08/01/installing-update-rollup-3-system-center-2012-r2-virtual-machine-manager/</link>
+      <pubDate>Fri, 01 Aug 2014 12:53:54 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/08/01/installing-update-rollup-3-system-center-2012-r2-virtual-machine-manager/</guid>
+      <description>Update rollup (UR) 3 for System Center 2012 R2 Virtual Machine Manager is released this week. This update includes a Linux guest agent upgrade to support the following new operating systems:&#xA;Ubuntu Linux 14.04 (32-bit) Ubuntu Linux 14.04 (64-bit) This update also includes the following:&#xA;Host DHCP extension driver upgrade Several performance improvements?????? Several Management Pack package improvements And a huge list of issues that are fixed. More information can be found in the Microsoft KB article found here, link .</description>
+    </item>
+    <item>
+      <title>Tips for deploying SCVMM 2012 R2 Rollup 2</title>
+      <link>http://localhost:1313/logbook/site/2014/04/30/tips-for-deploying-scvmm-2012-r2-rollup-pack-2/</link>
+      <pubDate>Wed, 30 Apr 2014 06:56:20 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/04/30/tips-for-deploying-scvmm-2012-r2-rollup-pack-2/</guid>
+      <description>Last week Update Rollup 2 (UR2) for System Center 2012 R2 Virtual Machine Manager is released. UR2 contains important fixes for SCVMM2012 R2. Here are some deployment tips for UR2:&#xA;Wait a least couple of weeks before deploying Update Rollups in your production environment. It happens that new Update Rollups contains huge bugs and are pulled back! Make sure you have a backup of the SCVMM database before installing UR2 Install the UR2 by download the VMM management server and VMM admin console packages link (or use Windows Update /WSUS to install both packages).</description>
+    </item>
+  </channel>
+</rss>

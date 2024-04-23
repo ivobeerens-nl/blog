@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vSphere 6.5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/vsphere-6.5/</link><description>Recent content in vSphere 6.5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 16:18:54 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/vsphere-6.5/index.xml" rel="self" type="application/rss+xml"/><item><title>What's New in vSphere 6.5</title><link>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</link><pubDate>Tue, 18 Oct 2016 07:00:03 +0000</pubDate><guid>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</guid><description>Today at VMworld Europe 2016, vSphere 6.5 is announced.
-Update: November 15, 2016 vSphere 6.5 is GA.
-In this blog we highlight some major feature announcements on the following products and technologies:
-vCenter Server Appliance (VCSA) Virtual SAN (VSAN) Host Profiles Auto Deploy vSphere Security vSphere Fault Tolerance (FT) vSphere DRS Storage IO Control (SIOC): Content Library vSphere Operations Management vRealize Log Insight PowerCLI Here is an overview of the new feature highlights in vSphere 6.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vSphere 6.5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/vsphere-6.5/</link>
+    <description>Recent content in vSphere 6.5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 16:18:54 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/vsphere-6.5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s New in vSphere 6.5</title>
+      <link>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</link>
+      <pubDate>Tue, 18 Oct 2016 07:00:03 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</guid>
+      <description>Today at VMworld Europe 2016, vSphere 6.5 is announced.&#xA;Update: November 15, 2016 vSphere 6.5 is GA.&#xA;In this blog we highlight some major feature announcements on the following products and technologies:&#xA;vCenter Server Appliance (VCSA) Virtual SAN (VSAN) Host Profiles Auto Deploy vSphere Security vSphere Fault Tolerance (FT) vSphere DRS Storage IO Control (SIOC): Content Library vSphere Operations Management vRealize Log Insight PowerCLI Here is an overview of the new feature highlights in vSphere 6.</description>
+    </item>
+  </channel>
+</rss>

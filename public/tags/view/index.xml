@@ -1,38 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>view on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/view/</link><description>Recent content in view on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/view/index.xml" rel="self" type="application/rss+xml"/><item><title>What to know about Horizon Instant Clones</title><link>http://localhost:1313/logbook/site/2016/04/21/instant-clone/</link><pubDate>Thu, 21 Apr 2016 07:12:50 +0000</pubDate><guid>http://localhost:1313/logbook/site/2016/04/21/instant-clone/</guid><description>Horizon 7 introduced the Instant Clone feature leverages the vmFork technology introduced in vSphere 6.0 U1. With Instant Clone technology it is possible to clone and deploy a VDI desktop VMs in seconds. This is called the Just-In-Time Desktop.
-Below is an overview how an Instant Clone VM is created:
-Master Image. The Master Image or Golden Image is a Windows 7 or 10 optimized image that contains installed software such as the Horizon Agent for example.</description></item><item><title>Horizon View Administrator displays a blank error window</title><link>http://localhost:1313/logbook/site/2016/03/29/horizon-7-blank-admin-screen/</link><pubDate>Tue, 29 Mar 2016 06:29:05 +0000</pubDate><guid>http://localhost:1313/logbook/site/2016/03/29/horizon-7-blank-admin-screen/</guid><description>After upgrading to VMware Horizon View 7, the administrator webpage displays a blank error window when trying to connect using the IP address of the Connection Server.
-Horizon View 7 adds new security features that checks for the original URL for the web request. If not, it rejects the request and display the blank error window.
-Steps to resolve this:
-Use https://FQDN/admin or
-On every Connection Server create a locked.properties text file in c:\Program Files\VMware\VMware View\Server\sslgateway\conf Add the following line: checkOrigin=false Save the file Restart the &amp;ldquo;VMware Horizon View Connection Server&amp;rdquo; service After the modification you&amp;rsquo;re able to connect to the View Administrator URL using the IP address of the Connection Server.</description></item><item><title>VMware Horizon View Client Drive Redirection</title><link>http://localhost:1313/logbook/site/2015/06/05/vmware-horizon-view-client-drive-redirection/</link><pubDate>Fri, 05 Jun 2015 09:42:21 +0000</pubDate><guid>http://localhost:1313/logbook/site/2015/06/05/vmware-horizon-view-client-drive-redirection/</guid><description>On of the new features of VMware Horizon 6 version 6.1.1 is Client Drive Redirection (CDR). Microsoft RDS and Citrix already have CDR for many years in there product. Now this handy feature is available in Horizon View. CDR is supported on VDI desktops (single-user) and RDS desktops and applications on Windows and as Tech Preview on Mac OS X clients.
-Here&amp;rsquo;s a quick overview how-to enable Client Drive Redirection (CDR):</description></item><item><title>Troubleshoot replication problems between VMware Horizon View Connection servers</title><link>http://localhost:1313/logbook/site/2014/09/17/vmware-view-check-the-replication-status/</link><pubDate>Wed, 17 Sep 2014 07:15:19 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/09/17/vmware-view-check-the-replication-status/</guid><description>In environments with multiple Horizon View Connection Servers (High Available) the Lightweight Directory Access Protocol (LDAP) directory is replicated. Configuration, Pool and desktop information is stored in the ADAM database. Problems with replication can result in:
-Configuration changes made are not replicated Authentication problems The VMware View Administrator dashboard does not check the replication status. So regular checking the replication status is a good thing. Checking the replication status can be done by using the following command:</description></item><item><title>What&amp;rsquo;s new in VMware Horizon 6</title><link>http://localhost:1313/logbook/site/2014/04/09/vmware-horizon-6-whats-new/</link><pubDate>Wed, 09 Apr 2014 13:33:08 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/04/09/vmware-horizon-6-whats-new/</guid><description>VMware Horizon 6 has been today announced. VMware Horizon 6 has five major enhancements:
-Cloud Pod Architecture. Remote Desktop Session Host (RDS) Hosted Apps Virtual SAN Application Catalog vCops for View 6 Here is an overview picture of the Horizon 6 architecture:
-Cloud Pod Architecture In version 5 Horizon View supports 10.000 desktops in a Pod. If you need to to have more or than 10.000 desktops or needed to span a datacenter another Pod was needed.</description></item><item><title>Install a wildcard certificate on a VMware Horizon View Security Server</title><link>http://localhost:1313/logbook/site/2014/03/20/install-a-wildcard-certificate-on-a-vmware-horizon-view-security-server/</link><pubDate>Thu, 20 Mar 2014 20:15:02 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/03/20/install-a-wildcard-certificate-on-a-vmware-horizon-view-security-server/</guid><description>On a View Security Server I needed to change the default self signed certificate to a signed wildcard certificate. The customer had a wildcard certificate that didn’t include the private key. A certificate that include the private key is a requirement for a VMware View Security server.
-If you have the certificate (*.cer or .crt) and private key (.key), convert it to a PCKS#12 (PFX) format before you import the certificate.</description></item><item><title>VMware Horizon View Network Port Diagram</title><link>http://localhost:1313/logbook/site/2013/11/07/vmware-horizon-view-network-port-diagram/</link><pubDate>Thu, 07 Nov 2013 09:04:50 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/11/07/vmware-horizon-view-network-port-diagram/</guid><description>VMware has released a Network Port Diagram diagram for VMware Horizon View 5.2.
-This diagram covers an entire VMware View environment with protocols and port numbers used. In earlier blog posts I already create two small diagrams with protocols and port numbers used by VMware View:
-VMware Horizon View and HTML access (Blast protocol). Link The diagram created by VMware can be handy when implementing and troubleshooting VMware Horizon View.</description></item><item><title>Create a signed certificate for VMware View Connection Servers using a Windows Server 2012 CA</title><link>http://localhost:1313/logbook/site/2013/06/19/create-a-signed-certificate-for-vmware-view-connection-servers-using-a-windows-server-2012-ca/</link><pubDate>Wed, 19 Jun 2013 06:42:00 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/06/19/create-a-signed-certificate-for-vmware-view-connection-servers-using-a-windows-server-2012-ca/</guid><description>For VMware Horizon View it is recommends that you configure your VMware View Horizon Servers with a signed SSL certificate. Default when you install a VMware View Horizon servers, a certificate is generated that is not signed by a CA. Because it is not signed by a CA It is possible to to intercept traffic. So it is highly recommend to replace the default certificate with a signed certificate after the installation.</description></item><item><title>Optimize Windows 8 for Virtual Desktop Infrastructure (VDI) environments</title><link>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</link><pubDate>Fri, 12 Apr 2013 07:07:55 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</guid><description>Optimize and tuning a Windows 8 desktop in a VDI environment is important to reduce for example the CPU, IOPS and the memory footprint. During the Microsoft Management Summit (MMS) 2013 a breakout session about optimizing a Windows 8 desktop for Virtual Desktop Infrastructure (VDI) is held. The session has three main subjects:
-Microsoft Guidance for Windows 8 Configuration VDI desktop. What version of Windows 8 do I need, how many CPUs, memory, disk partitioning etc.</description></item><item><title>VMware Horizon View and Microsoft Lync 2013 support</title><link>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</link><pubDate>Wed, 03 Apr 2013 12:10:29 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</guid><description>VMware Horizon View 5.2 adds support for Microsoft Lync 2013 with audio en video. With Microsoft Lync 2010, only VoIP was supported, but required a dedicated IP-based phone. Microsoft and VMware collaborated to bring Lync 2013 support to the View 5.2 desktop.
-Here is a list of supported features with Lync 2013 in VMware View:
-Features
-Support/Unsupported
-Presence
-Supported
-Instant Message
-Supported
-Desktop Sharing
-Supported
-Application Sharing
-Supported
-PowerPoint Sharing</description></item><item><title>VMware Horizon View and HTML access (Blast protocol)</title><link>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</link><pubDate>Wed, 20 Mar 2013 14:06:49 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</guid><description>With the release of the VMware Horizon View Feature Pack 1 for VMware Horizon View 5.2 it possible to connect with HTML5 to your View desktop. This without installing additional software. The new HTML5 protocol is called Blast. Connecting by using the Blast HTML protocol can be handy when you are on a device that does not have the VMware View client installed.
-The VMware Horizon View Feature Pack 1 contains the following two main components:</description></item><item><title>Tips for implementing a VMware Horizon View Security Server</title><link>http://localhost:1313/logbook/site/2013/03/05/tips-for-implementing-a-vmware-horizon-view-security-server/</link><pubDate>Tue, 05 Mar 2013 09:43:45 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/03/05/tips-for-implementing-a-vmware-horizon-view-security-server/</guid><description>A security server is a special instance of View Connection Server that runs a subset of View Connection Server functions. You can use a security server to provide an additional layer of security between the internet and your internal network. A security server resides within a DMZ and acts as a proxy host for connections inside your trusted network.
-Setting up a VMware Horizon View Security server can be a challenging task because you have to deal with firewalls and some ports that’s need to be opened between the servers.</description></item><item><title>Display the protocol used on the VMware View desktop background</title><link>http://localhost:1313/logbook/site/2013/02/21/display-the-protocol-used-on-the-vmware-view-desktop-background/</link><pubDate>Thu, 21 Feb 2013 14:49:43 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/02/21/display-the-protocol-used-on-the-vmware-view-desktop-background/</guid><description>Systinternals has a tool called “BgInfo”. With this tool it is possible to display content on a Windows desktop background. For example environment variable Information such as “computer name” and the “IP address” can be displayed. This can be very handy when testing or for people that do they support for the Windows environment.
-VMware View 5.1 has the following environment variables available in a desktop session :
-ViewClient_Broker_DNS_Name ViewClient_Broker_DomainName ViewClient_Broker_Remote_IP_Address ViewClient_Broker_Tunneled ViewClient_Broker_Tunnel_URL ViewClient_Broker_URL ViewClient_Broker_UserName ViewClient_IP_Address ViewClient_LoggedOn_Domainname ViewClient_LoggedOn_Username ViewClient_Machine_Name ViewClient_MAC_Address ViewClient_Protocol ViewClient_Type ViewClient_Windows_Timezone The View environment variables can be added to BgInfo using the custom field option.</description></item><item><title>Configure the VMware Horizon View Event database with MS SQL Server Express</title><link>http://localhost:1313/logbook/site/2013/02/07/configure-the-view-5-1-event-database-with-sql-server-express/</link><pubDate>Thu, 07 Feb 2013 14:40:57 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/02/07/configure-the-view-5-1-event-database-with-sql-server-express/</guid><description>The event database record information about View Manager events. Without configure the event database events are logged in a log file. The log file has very limited information. So configuring the Event Database in the View environment is a best practice.
-In Proof of Concept (PoC) environments MS SQL Server Express can be used for the Event database. This procedure describes how-to create a event database by using an MS SQL Server Express database:</description></item><item><title>New updates available on VMware vCenter, VMware View, Microsoft Virtual Machine Converter and Veeam Backup &amp; Replication</title><link>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</link><pubDate>Fri, 17 Aug 2012 14:38:21 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</guid><description>Over the last days the following updates are released:
-VMware vCenter Server 5.0 Update 1b VMware View 5.1.1 Microsoft Virtual Machine Converter Plug-in for VMware vSphere beta Veeam Backup &amp;amp; Replication 6.1 Patch 1 Below are the enhancements listed per product.
-VMware vCenter Server 5.0 Update 1b What&amp;rsquo;s New:
-VMware vCenter Server 5.0 Update 1b is a patch release and offers the following improvements:
-vCenter Server 5.0 Update 1b introduces support for the following vCenter Databases Oracle 11g Enterprise Edition, Standard Edition, Standard ONE Edition Release 2 [11.</description></item><item><title>VMware Desktop Reference Architecture Workload Simulator (RAWC)</title><link>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</link><pubDate>Mon, 28 Dec 2009 11:11:31 +0000</pubDate><guid>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</guid><description>VMware released last week the desktop Reference Architecture Workload Simulator (RAWC).
-When validating VMware View designs it is important to simulate real world usage as closely as possible. The Desktop Reference Architecture Workload SImulator (RAWC) can be used to simulate a user workload in a typical Microsoft Windows® desktop environment.
-Desktop RAWC runs on a Windows XP guest operating system and is executed on each desktop virtual machine (VM) on one or more ESX™ hosts.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>view on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/view/</link>
+    <description>Recent content in view on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What to know about Horizon Instant Clones</title>
+      <link>http://localhost:1313/logbook/site/2016/04/21/instant-clone/</link>
+      <pubDate>Thu, 21 Apr 2016 07:12:50 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2016/04/21/instant-clone/</guid>
+      <description>Horizon 7 introduced the Instant Clone feature leverages the vmFork technology introduced in vSphere 6.0 U1. With Instant Clone technology it is possible to clone and deploy a VDI desktop VMs in seconds. This is called the Just-In-Time Desktop.&#xA;Below is an overview how an Instant Clone VM is created:&#xA;Master Image. The Master Image or Golden Image is a Windows 7 or 10 optimized image that contains installed software such as the Horizon Agent for example.</description>
+    </item>
+    <item>
+      <title>Horizon View Administrator displays a blank error window</title>
+      <link>http://localhost:1313/logbook/site/2016/03/29/horizon-7-blank-admin-screen/</link>
+      <pubDate>Tue, 29 Mar 2016 06:29:05 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2016/03/29/horizon-7-blank-admin-screen/</guid>
+      <description>After upgrading to VMware Horizon View 7, the administrator webpage displays a blank error window when trying to connect using the IP address of the Connection Server.&#xA;Horizon View 7 adds new security features that checks for the original URL for the web request. If not, it rejects the request and display the blank error window.&#xA;Steps to resolve this:&#xA;Use https://FQDN/admin or&#xA;On every Connection Server create a locked.properties text file in c:\Program Files\VMware\VMware View\Server\sslgateway\conf Add the following line: checkOrigin=false Save the file Restart the &amp;ldquo;VMware Horizon View Connection Server&amp;rdquo; service After the modification you&amp;rsquo;re able to connect to the View Administrator URL using the IP address of the Connection Server.</description>
+    </item>
+    <item>
+      <title>VMware Horizon View Client Drive Redirection</title>
+      <link>http://localhost:1313/logbook/site/2015/06/05/vmware-horizon-view-client-drive-redirection/</link>
+      <pubDate>Fri, 05 Jun 2015 09:42:21 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2015/06/05/vmware-horizon-view-client-drive-redirection/</guid>
+      <description>On of the new features of VMware Horizon 6 version 6.1.1 is Client Drive Redirection (CDR). Microsoft RDS and Citrix already have CDR for many years in there product. Now this handy feature is available in Horizon View. CDR is supported on VDI desktops (single-user) and RDS desktops and applications on Windows and as Tech Preview on Mac OS X clients.&#xA;Here&amp;rsquo;s a quick overview how-to enable Client Drive Redirection (CDR):</description>
+    </item>
+    <item>
+      <title>Troubleshoot replication problems between VMware Horizon View Connection servers</title>
+      <link>http://localhost:1313/logbook/site/2014/09/17/vmware-view-check-the-replication-status/</link>
+      <pubDate>Wed, 17 Sep 2014 07:15:19 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/09/17/vmware-view-check-the-replication-status/</guid>
+      <description>In environments with multiple Horizon View Connection Servers (High Available) the Lightweight Directory Access Protocol (LDAP) directory is replicated. Configuration, Pool and desktop information is stored in the ADAM database. Problems with replication can result in:&#xA;Configuration changes made are not replicated Authentication problems The VMware View Administrator dashboard does not check the replication status. So regular checking the replication status is a good thing. Checking the replication status can be done by using the following command:</description>
+    </item>
+    <item>
+      <title>What&amp;rsquo;s new in VMware Horizon 6</title>
+      <link>http://localhost:1313/logbook/site/2014/04/09/vmware-horizon-6-whats-new/</link>
+      <pubDate>Wed, 09 Apr 2014 13:33:08 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/04/09/vmware-horizon-6-whats-new/</guid>
+      <description>VMware Horizon 6 has been today announced. VMware Horizon 6 has five major enhancements:&#xA;Cloud Pod Architecture. Remote Desktop Session Host (RDS) Hosted Apps Virtual SAN Application Catalog vCops for View 6 Here is an overview picture of the Horizon 6 architecture:&#xA;Cloud Pod Architecture In version 5 Horizon View supports 10.000 desktops in a Pod. If you need to to have more or than 10.000 desktops or needed to span a datacenter another Pod was needed.</description>
+    </item>
+    <item>
+      <title>Install a wildcard certificate on a VMware Horizon View Security Server</title>
+      <link>http://localhost:1313/logbook/site/2014/03/20/install-a-wildcard-certificate-on-a-vmware-horizon-view-security-server/</link>
+      <pubDate>Thu, 20 Mar 2014 20:15:02 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/03/20/install-a-wildcard-certificate-on-a-vmware-horizon-view-security-server/</guid>
+      <description>On a View Security Server I needed to change the default self signed certificate to a signed wildcard certificate. The customer had a wildcard certificate that didn’t include the private key. A certificate that include the private key is a requirement for a VMware View Security server.&#xA;If you have the certificate (*.cer or .crt) and private key (.key), convert it to a PCKS#12 (PFX) format before you import the certificate.</description>
+    </item>
+    <item>
+      <title>VMware Horizon View Network Port Diagram</title>
+      <link>http://localhost:1313/logbook/site/2013/11/07/vmware-horizon-view-network-port-diagram/</link>
+      <pubDate>Thu, 07 Nov 2013 09:04:50 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/11/07/vmware-horizon-view-network-port-diagram/</guid>
+      <description>VMware has released a Network Port Diagram diagram for VMware Horizon View 5.2.&#xA;This diagram covers an entire VMware View environment with protocols and port numbers used. In earlier blog posts I already create two small diagrams with protocols and port numbers used by VMware View:&#xA;VMware Horizon View and HTML access (Blast protocol). Link The diagram created by VMware can be handy when implementing and troubleshooting VMware Horizon View.</description>
+    </item>
+    <item>
+      <title>Create a signed certificate for VMware View Connection Servers using a Windows Server 2012 CA</title>
+      <link>http://localhost:1313/logbook/site/2013/06/19/create-a-signed-certificate-for-vmware-view-connection-servers-using-a-windows-server-2012-ca/</link>
+      <pubDate>Wed, 19 Jun 2013 06:42:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/06/19/create-a-signed-certificate-for-vmware-view-connection-servers-using-a-windows-server-2012-ca/</guid>
+      <description>For VMware Horizon View it is recommends that you configure your VMware View Horizon Servers with a signed SSL certificate. Default when you install a VMware View Horizon servers, a certificate is generated that is not signed by a CA. Because it is not signed by a CA It is possible to to intercept traffic. So it is highly recommend to replace the default certificate with a signed certificate after the installation.</description>
+    </item>
+    <item>
+      <title>Optimize Windows 8 for Virtual Desktop Infrastructure (VDI) environments</title>
+      <link>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</link>
+      <pubDate>Fri, 12 Apr 2013 07:07:55 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/04/12/optimize-windows-8-for-virtual-desktop-infrastructure-vdi-environments/</guid>
+      <description>Optimize and tuning a Windows 8 desktop in a VDI environment is important to reduce for example the CPU, IOPS and the memory footprint. During the Microsoft Management Summit (MMS) 2013 a breakout session about optimizing a Windows 8 desktop for Virtual Desktop Infrastructure (VDI) is held. The session has three main subjects:&#xA;Microsoft Guidance for Windows 8 Configuration VDI desktop. What version of Windows 8 do I need, how many CPUs, memory, disk partitioning etc.</description>
+    </item>
+    <item>
+      <title>VMware Horizon View and Microsoft Lync 2013 support</title>
+      <link>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</link>
+      <pubDate>Wed, 03 Apr 2013 12:10:29 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</guid>
+      <description>VMware Horizon View 5.2 adds support for Microsoft Lync 2013 with audio en video. With Microsoft Lync 2010, only VoIP was supported, but required a dedicated IP-based phone. Microsoft and VMware collaborated to bring Lync 2013 support to the View 5.2 desktop.&#xA;Here is a list of supported features with Lync 2013 in VMware View:&#xA;Features&#xA;Support/Unsupported&#xA;Presence&#xA;Supported&#xA;Instant Message&#xA;Supported&#xA;Desktop Sharing&#xA;Supported&#xA;Application Sharing&#xA;Supported&#xA;PowerPoint Sharing</description>
+    </item>
+    <item>
+      <title>VMware Horizon View and HTML access (Blast protocol)</title>
+      <link>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</link>
+      <pubDate>Wed, 20 Mar 2013 14:06:49 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/03/20/vmware-horizon-view-and-html-access-blast-protocol/</guid>
+      <description>With the release of the VMware Horizon View Feature Pack 1 for VMware Horizon View 5.2 it possible to connect with HTML5 to your View desktop. This without installing additional software. The new HTML5 protocol is called Blast. Connecting by using the Blast HTML protocol can be handy when you are on a device that does not have the VMware View client installed.&#xA;The VMware Horizon View Feature Pack 1 contains the following two main components:</description>
+    </item>
+    <item>
+      <title>Tips for implementing a VMware Horizon View Security Server</title>
+      <link>http://localhost:1313/logbook/site/2013/03/05/tips-for-implementing-a-vmware-horizon-view-security-server/</link>
+      <pubDate>Tue, 05 Mar 2013 09:43:45 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/03/05/tips-for-implementing-a-vmware-horizon-view-security-server/</guid>
+      <description>A security server is a special instance of View Connection Server that runs a subset of View Connection Server functions. You can use a security server to provide an additional layer of security between the internet and your internal network. A security server resides within a DMZ and acts as a proxy host for connections inside your trusted network.&#xA;Setting up a VMware Horizon View Security server can be a challenging task because you have to deal with firewalls and some ports that’s need to be opened between the servers.</description>
+    </item>
+    <item>
+      <title>Display the protocol used on the VMware View desktop background</title>
+      <link>http://localhost:1313/logbook/site/2013/02/21/display-the-protocol-used-on-the-vmware-view-desktop-background/</link>
+      <pubDate>Thu, 21 Feb 2013 14:49:43 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/02/21/display-the-protocol-used-on-the-vmware-view-desktop-background/</guid>
+      <description>Systinternals has a tool called “BgInfo”. With this tool it is possible to display content on a Windows desktop background. For example environment variable Information such as “computer name” and the “IP address” can be displayed. This can be very handy when testing or for people that do they support for the Windows environment.&#xA;VMware View 5.1 has the following environment variables available in a desktop session :&#xA;ViewClient_Broker_DNS_Name ViewClient_Broker_DomainName ViewClient_Broker_Remote_IP_Address ViewClient_Broker_Tunneled ViewClient_Broker_Tunnel_URL ViewClient_Broker_URL ViewClient_Broker_UserName ViewClient_IP_Address ViewClient_LoggedOn_Domainname ViewClient_LoggedOn_Username ViewClient_Machine_Name ViewClient_MAC_Address ViewClient_Protocol ViewClient_Type ViewClient_Windows_Timezone The View environment variables can be added to BgInfo using the custom field option.</description>
+    </item>
+    <item>
+      <title>Configure the VMware Horizon View Event database with MS SQL Server Express</title>
+      <link>http://localhost:1313/logbook/site/2013/02/07/configure-the-view-5-1-event-database-with-sql-server-express/</link>
+      <pubDate>Thu, 07 Feb 2013 14:40:57 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/02/07/configure-the-view-5-1-event-database-with-sql-server-express/</guid>
+      <description>The event database record information about View Manager events. Without configure the event database events are logged in a log file. The log file has very limited information. So configuring the Event Database in the View environment is a best practice.&#xA;In Proof of Concept (PoC) environments MS SQL Server Express can be used for the Event database. This procedure describes how-to create a event database by using an MS SQL Server Express database:</description>
+    </item>
+    <item>
+      <title>New updates available on VMware vCenter, VMware View, Microsoft Virtual Machine Converter and Veeam Backup &amp; Replication</title>
+      <link>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</link>
+      <pubDate>Fri, 17 Aug 2012 14:38:21 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</guid>
+      <description>Over the last days the following updates are released:&#xA;VMware vCenter Server 5.0 Update 1b VMware View 5.1.1 Microsoft Virtual Machine Converter Plug-in for VMware vSphere beta Veeam Backup &amp;amp; Replication 6.1 Patch 1 Below are the enhancements listed per product.&#xA;VMware vCenter Server 5.0 Update 1b What&amp;rsquo;s New:&#xA;VMware vCenter Server 5.0 Update 1b is a patch release and offers the following improvements:&#xA;vCenter Server 5.0 Update 1b introduces support for the following vCenter Databases Oracle 11g Enterprise Edition, Standard Edition, Standard ONE Edition Release 2 [11.</description>
+    </item>
+    <item>
+      <title>VMware Desktop Reference Architecture Workload Simulator (RAWC)</title>
+      <link>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</link>
+      <pubDate>Mon, 28 Dec 2009 11:11:31 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2009/12/28/vmware-desktop-reference-architecture-workload-simulator-rawc/</guid>
+      <description>VMware released last week the desktop Reference Architecture Workload Simulator (RAWC).&#xA;When validating VMware View designs it is important to simulate real world usage as closely as possible. The Desktop Reference Architecture Workload SImulator (RAWC) can be used to simulate a user workload in a typical Microsoft Windows® desktop environment.&#xA;Desktop RAWC runs on a Windows XP guest operating system and is executed on each desktop virtual machine (VM) on one or more ESX™ hosts.</description>
+    </item>
+  </channel>
+</rss>

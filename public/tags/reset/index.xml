@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>reset on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/reset/</link><description>Recent content in reset on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/reset/index.xml" rel="self" type="application/rss+xml"/><item><title>Reset the root password of an ESXi server</title><link>http://localhost:1313/logbook/site/2014/05/21/reset-the-root-password-on-an-esxi-server/</link><pubDate>Wed, 21 May 2014 14:02:30 +0000</pubDate><guid>http://localhost:1313/logbook/site/2014/05/21/reset-the-root-password-on-an-esxi-server/</guid><description>Some time ago I needed to make a SSH connection to a new installed ESXi server. The default root password the customer was using was not working. The admin who installed the ESXi server didn’t known the password anymore. So i needed to reset the password. The VMware Knowledge Base states the following on resetting the root password on ESXi:
-Reinstalling the ESXi host is the only supported way to reset a password on ESXi.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reset on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/reset/</link>
+    <description>Recent content in reset on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/reset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reset the root password of an ESXi server</title>
+      <link>http://localhost:1313/logbook/site/2014/05/21/reset-the-root-password-on-an-esxi-server/</link>
+      <pubDate>Wed, 21 May 2014 14:02:30 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2014/05/21/reset-the-root-password-on-an-esxi-server/</guid>
+      <description>Some time ago I needed to make a SSH connection to a new installed ESXi server. The default root password the customer was using was not working. The admin who installed the ESXi server didn’t known the password anymore. So i needed to reset the password. The VMware Knowledge Base states the following on resetting the root password on ESXi:&#xA;Reinstalling the ESXi host is the only supported way to reset a password on ESXi.</description>
+    </item>
+  </channel>
+</rss>

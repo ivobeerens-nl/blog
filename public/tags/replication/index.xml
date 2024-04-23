@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>replication on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/replication/</link><description>Recent content in replication on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/replication/index.xml" rel="self" type="application/rss+xml"/><item><title>Review NAKIVO Backup &amp; Replication v7.5 - Replication</title><link>http://localhost:1313/logbook/site/2018/08/23/review-nakivo-backup-replication-v7-5-replication/</link><pubDate>Thu, 23 Aug 2018 18:44:35 +0000</pubDate><guid>http://localhost:1313/logbook/site/2018/08/23/review-nakivo-backup-replication-v7-5-replication/</guid><description>In this part of the NAKIVO Backup &amp;amp; Replication review I highlight the replication feature. With the replication feature you can replicate VMs. The source VMs are copied, a VM replica is created of each and replicated to the target VMware environment (also known as the recovery site).
-VM Replication protects for example against the following type of disasters:
-Natural disasters (earthquakes, floods, tornados etc.) Data center problems such as power losses, fire and water damage Hardware problems such as host, network and storage failures Human errors VM failures caused by updates or patches, virus or manually removal The replication feature can be used for business continuity as part of you&amp;rsquo;re disaster recovery plan.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>replication on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/replication/</link>
+    <description>Recent content in replication on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/replication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review NAKIVO Backup &amp; Replication v7.5 - Replication</title>
+      <link>http://localhost:1313/logbook/site/2018/08/23/review-nakivo-backup-replication-v7-5-replication/</link>
+      <pubDate>Thu, 23 Aug 2018 18:44:35 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2018/08/23/review-nakivo-backup-replication-v7-5-replication/</guid>
+      <description>In this part of the NAKIVO Backup &amp;amp; Replication review I highlight the replication feature. With the replication feature you can replicate VMs. The source VMs are copied, a VM replica is created of each and replicated to the target VMware environment (also known as the recovery site).&#xA;VM Replication protects for example against the following type of disasters:&#xA;Natural disasters (earthquakes, floods, tornados etc.) Data center problems such as power losses, fire and water damage Hardware problems such as host, network and storage failures Human errors VM failures caused by updates or patches, virus or manually removal The replication feature can be used for business continuity as part of you&amp;rsquo;re disaster recovery plan.</description>
+    </item>
+  </channel>
+</rss>

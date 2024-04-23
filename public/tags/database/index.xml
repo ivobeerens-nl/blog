@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>database on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/database/</link><description>Recent content in database on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/database/index.xml" rel="self" type="application/rss+xml"/><item><title>vCenter Server 6 and the vPostgres database</title><link>http://localhost:1313/logbook/site/2015/03/25/vcenter-server-6-and-the-vpostgres-database/</link><pubDate>Wed, 25 Mar 2015 13:53:18 +0000</pubDate><guid>http://localhost:1313/logbook/site/2015/03/25/vcenter-server-6-and-the-vpostgres-database/</guid><description>In vCenter Server 5.x the embedded SQL Express database supports a maximum of 5 hosts and 50 Virtual Machines. With vCenter Server 6 the embedded database is changes from SQL Express to a vPostgress database. The vPostgres database supports a maximum of 20 hosts and 200 VMs. In comparison the vPostgres database on the vCenter Server Appliance (VCSA) 6 supports 1000 hosts and 10000. When upgrading or fresh installing vCenter Server 6 make sure to note the following items:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/database/</link>
+    <description>Recent content in database on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vCenter Server 6 and the vPostgres database</title>
+      <link>http://localhost:1313/logbook/site/2015/03/25/vcenter-server-6-and-the-vpostgres-database/</link>
+      <pubDate>Wed, 25 Mar 2015 13:53:18 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2015/03/25/vcenter-server-6-and-the-vpostgres-database/</guid>
+      <description>In vCenter Server 5.x the embedded SQL Express database supports a maximum of 5 hosts and 50 Virtual Machines. With vCenter Server 6 the embedded database is changes from SQL Express to a vPostgress database. The vPostgres database supports a maximum of 20 hosts and 200 VMs. In comparison the vPostgres database on the vCenter Server Appliance (VCSA) 6 supports 1000 hosts and 10000. When upgrading or fresh installing vCenter Server 6 make sure to note the following items:</description>
+    </item>
+  </channel>
+</rss>

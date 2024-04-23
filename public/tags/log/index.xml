@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>log on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/log/</link><description>Recent content in log on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/log/index.xml" rel="self" type="application/rss+xml"/><item><title>vRealize Log Insight 3.3 available for free</title><link>http://localhost:1313/logbook/site/2016/03/03/log-insight/</link><pubDate>Thu, 03 Mar 2016 18:55:11 +0000</pubDate><guid>http://localhost:1313/logbook/site/2016/03/03/log-insight/</guid><description>VMware released vRealize Log Insight 3.3. vRealize Log Insight is a log monitoring and analytics dashboarding tool like Splunk.
-In version 3.3 a new product license is added. For each vCenter Server Standard license you will get a free 25 OSI pack license for vRealize Log Insight. So every customer with a vCenter standard license can use vRealize Log Insight with no additional costs. OSI stands for Operating System Instance. For example 1 vCenter Server and 10 ESXi hosts counts as 11 OSI licenses.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>log on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/log/</link>
+    <description>Recent content in log on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 16:57:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vRealize Log Insight 3.3 available for free</title>
+      <link>http://localhost:1313/logbook/site/2016/03/03/log-insight/</link>
+      <pubDate>Thu, 03 Mar 2016 18:55:11 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2016/03/03/log-insight/</guid>
+      <description>VMware released vRealize Log Insight 3.3. vRealize Log Insight is a log monitoring and analytics dashboarding tool like Splunk.&#xA;In version 3.3 a new product license is added. For each vCenter Server Standard license you will get a free 25 OSI pack license for vRealize Log Insight. So every customer with a vCenter standard license can use vRealize Log Insight with no additional costs. OSI stands for Operating System Instance. For example 1 vCenter Server and 10 ESXi hosts counts as 11 OSI licenses.</description>
+    </item>
+  </channel>
+</rss>

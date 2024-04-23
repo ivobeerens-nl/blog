@@ -1,0 +1,10 @@
+<!-- author -->
+{{ $bgImage:= resources.Get "images/hashicorp-ambassador-2024.jpg" }}
+{{ $bgImage:= $bgImage.Fill "300x300 webp" }}
+<div class="widget">
+  <h5 class="widget-title"><span>{{ i18n "awards" }}</span></h5>
+    <a href="http://hashicorp.com/ambassadors/directory">
+        <img class="img-fluid w-100 rounded-4" loading="lazy" decoding="async" src="{{ $bgImage.RelPermalink }}"
+            alt="Hashicorp Ambassador Ivo Beerens" target="_blank" rel="noopener noreferrer">
+    </a>
+</div>

@@ -1,7 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kickstart on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/kickstart/</link><description>Recent content in kickstart on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/kickstart/index.xml" rel="self" type="application/rss+xml"/><item><title>Create a VMware ESXi 5 PXE unattended scripted installation using Windows</title><link>http://localhost:1313/logbook/site/2011/09/20/create-vmware-esxi-5-pxe-unattended-scripted-installation-using-windows/</link><pubDate>Tue, 20 Sep 2011 13:53:30 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/09/20/create-vmware-esxi-5-pxe-unattended-scripted-installation-using-windows/</guid><description>The most information available on how-to perform a unattended scripted installation of VMware ESXi 5 is based on Linux. Here is a procedure how-to create a scripted installation of VMware ESXi 5 using Microsoft Windows.
-Here is an overview of the boot process:
-What do we need The following software must be downloaded:
-Syslinux 3.86 (This is the Syslinux version VMware supports) FileZilla Server 0_9_39 TFTPD 4.00 Notepad ++ VMware ESXi 5 ISO Step 1 Windows XP This procedure is tested with Microsoft Windows XP SP2.</description></item><item><title>Create a bootable VMware ESXi 5 USB stick in Windows and perform a scripted installation</title><link>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</link><pubDate>Sat, 17 Sep 2011 16:42:10 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</guid><description>Here is a simple procedure to make a bootable VMware ESXi 5 or ESXi 6 USB stick in Windows and perform a scripted unattended VMware ESXi installation. The 5 steps are:
-Step 1 Be sure removing all partitions and format a FAT32 partition on the USB stick by using the following command:
-Open the command prompt and enter the following commands:
-diskpart (make sure you run diskpart as administrator) list disk (list the disk in your system including the USB) select disk USB number clean create partition primary active format fs=fat32 quickassignexit Step 2 Download the Windows LinuxLive USB creator utility here .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kickstart on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/kickstart/</link>
+    <description>Recent content in kickstart on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 22:28:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/kickstart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a VMware ESXi 5 PXE unattended scripted installation using Windows</title>
+      <link>http://localhost:1313/logbook/site/2011/09/20/create-vmware-esxi-5-pxe-unattended-scripted-installation-using-windows/</link>
+      <pubDate>Tue, 20 Sep 2011 13:53:30 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/09/20/create-vmware-esxi-5-pxe-unattended-scripted-installation-using-windows/</guid>
+      <description>The most information available on how-to perform a unattended scripted installation of VMware ESXi 5 is based on Linux. Here is a procedure how-to create a scripted installation of VMware ESXi 5 using Microsoft Windows.&#xA;Here is an overview of the boot process:&#xA;What do we need The following software must be downloaded:&#xA;Syslinux 3.86 (This is the Syslinux version VMware supports) FileZilla Server 0_9_39 TFTPD 4.00 Notepad ++ VMware ESXi 5 ISO Step 1 Windows XP This procedure is tested with Microsoft Windows XP SP2.</description>
+    </item>
+    <item>
+      <title>Create a bootable VMware ESXi 5 USB stick in Windows and perform a scripted installation</title>
+      <link>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</link>
+      <pubDate>Sat, 17 Sep 2011 16:42:10 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</guid>
+      <description>Here is a simple procedure to make a bootable VMware ESXi 5 or ESXi 6 USB stick in Windows and perform a scripted unattended VMware ESXi installation. The 5 steps are:&#xA;Step 1 Be sure removing all partitions and format a FAT32 partition on the USB stick by using the following command:&#xA;Open the command prompt and enter the following commands:&#xA;diskpart (make sure you run diskpart as administrator) list disk (list the disk in your system including the USB) select disk USB number clean create partition primary active format fs=fat32 quick&#xD;assign&#xD;exit Step 2 Download the Windows LinuxLive USB creator utility here .</description>
+    </item>
+  </channel>
+</rss>

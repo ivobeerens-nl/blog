@@ -1,12 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vSphere5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/categories/vsphere5/</link><description>Recent content in vSphere5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/categories/vsphere5/index.xml" rel="self" type="application/rss+xml"/><item><title>After upgrading vSphere 4 to 5 the Fusion-IO card is in minimal mode</title><link>http://localhost:1313/logbook/site/2013/12/03/upgrading-vsphere-5-x-fusion-io-card-disappeared/</link><pubDate>Tue, 03 Dec 2013 09:49:04 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/12/03/upgrading-vsphere-5-x-fusion-io-card-disappeared/</guid><description>Last week I did a VMware vSphere and VMware View 4 to 5 upgrade. The ESXi servers for the VMware View environment uses Fusion-IO (HP IO Accelerators) PCI flash cards for there non-persistent VDI pools. After the upgrade to vSphere 5.1 I imported the latest Fusion-IO drivers and created a baseline in vSphere Update Manager (VUM) and deployed the new drivers to the cluster.
-After the installation of the Fusion-IO drivers on the ESXi hosts, the Fusion-IO card was not listed in the vSphere (Web) client.</description></item><item><title>The end of the vRAM entitlement in VMware vSphere 5 and 5.1!</title><link>http://localhost:1313/logbook/site/2012/08/27/the-end-of-the-vram-entitlement-in-vmware-vsphere-5-and-5-1/</link><pubDate>Mon, 27 Aug 2012 19:42:56 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/08/27/the-end-of-the-vram-entitlement-in-vmware-vsphere-5-and-5-1/</guid><description>About a year ago VMware introduced the vRAM entitlement (see post VMware vSphere 5 Licensing explained ). Today at VMworld 2012, VMware announced the end of the vRAM entitlement in VMware vSphere 5 and 5.1!
-In vSphere 5 and 5.1 the licensing will be per physical processor. Each physical processor needs to have at least one vSphere 5 license key assigned. The vSphere licensing removes restrictions on:
-physical cores RAM number of VMs Removing the vRAM entitlement makes it possible to scale up VMware vSphere hosts without buying extra vSphere licenses!</description></item><item><title>New updates available on VMware vCenter, VMware View, Microsoft Virtual Machine Converter and Veeam Backup &amp; Replication</title><link>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</link><pubDate>Fri, 17 Aug 2012 14:38:21 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</guid><description>Over the last days the following updates are released:
-VMware vCenter Server 5.0 Update 1b VMware View 5.1.1 Microsoft Virtual Machine Converter Plug-in for VMware vSphere beta Veeam Backup &amp;amp; Replication 6.1 Patch 1 Below are the enhancements listed per product.
-VMware vCenter Server 5.0 Update 1b What&amp;rsquo;s New:
-VMware vCenter Server 5.0 Update 1b is a patch release and offers the following improvements:
-vCenter Server 5.0 Update 1b introduces support for the following vCenter Databases Oracle 11g Enterprise Edition, Standard Edition, Standard ONE Edition Release 2 [11.</description></item><item><title>Configure the Link Layer Discovery Protocol (LLDP) in vSphere 5</title><link>http://localhost:1313/logbook/site/2012/05/16/configure-the-link-layer-discovery-protocol-lldp-in-vsphere-5/</link><pubDate>Wed, 16 May 2012 07:50:58 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/05/16/configure-the-link-layer-discovery-protocol-lldp-in-vsphere-5/</guid><description>Link Layer Discovery Protocol (LLDP)is a vendor-neutral open standard discovery protocol that is supported by multiple vendors such as Cisco, HP and Juniper for example. LLDP displays for example on what network switch and port the NIC in the ESXi hosts is connected. Prior VMware vSphere 5 only Cisco Discovery Protocol (CDP) was supported.
-In vSphere 5 Link Layer Discovery Protocol (LLDP) is supported. CDP and LLDP can be handy for example when you want to know that the correct network switch port is used when installing or troubleshooting ESXi hosts.</description></item><item><title>VM snapshot needs consolidation</title><link>http://localhost:1313/logbook/site/2012/05/10/vm-snapshot-needs-consolidation/</link><pubDate>Thu, 10 May 2012 07:59:18 +0000</pubDate><guid>http://localhost:1313/logbook/site/2012/05/10/vm-snapshot-needs-consolidation/</guid><description>When a snapshot didn’t commit properly, it can happen that the snapshot manager in the vCenter server shows no snapshot(s), but that there are still active delta files on the datastore. These ‘hidden’ snapshot can cause the datastore to run out of space.
-To report these ‘hidden’ snapshots (prior vSphere 5), I created a script that searches all the datastores for ‘*.delta’ files and reported them by mail.
-In vSphere 5 you have a new feature that reports and make it possible to consolidate these ‘hidden’ snapshot(s).</description></item><item><title>Upgrading to VMware ESXi 5</title><link>http://localhost:1313/logbook/site/2011/08/18/upgrading-to-vmware-esxi-5/</link><pubDate>Thu, 18 Aug 2011 14:52:56 +0000</pubDate><guid>http://localhost:1313/logbook/site/2011/08/18/upgrading-to-vmware-esxi-5/</guid><description>The following three supported upgrade methods to VMware ESXi 5 are available:
-Upgrade Method ESX or ESXI to ESXi5 Upgrade or Patch from ESXi 5 to ESXi 5.x vSphere Update Manager yes yes Interactive upgrade from CD, DVD, or USB drive yes yes Scripted upgrade yes yes vSphere Auto Deploy no yes esxcli no yes It is not supported to directly upgrade ESX(i) 3.x to ESXi 5. You must first upgrade ESX(i) 3 to ESX(i) 4 before upgrading to ESXi 5.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vSphere5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/categories/vsphere5/</link>
+    <description>Recent content in vSphere5 on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 09:43:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/categories/vsphere5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>After upgrading vSphere 4 to 5 the Fusion-IO card is in minimal mode</title>
+      <link>http://localhost:1313/logbook/site/2013/12/03/upgrading-vsphere-5-x-fusion-io-card-disappeared/</link>
+      <pubDate>Tue, 03 Dec 2013 09:49:04 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/12/03/upgrading-vsphere-5-x-fusion-io-card-disappeared/</guid>
+      <description>Last week I did a VMware vSphere and VMware View 4 to 5 upgrade. The ESXi servers for the VMware View environment uses Fusion-IO (HP IO Accelerators) PCI flash cards for there non-persistent VDI pools. After the upgrade to vSphere 5.1 I imported the latest Fusion-IO drivers and created a baseline in vSphere Update Manager (VUM) and deployed the new drivers to the cluster.&#xA;After the installation of the Fusion-IO drivers on the ESXi hosts, the Fusion-IO card was not listed in the vSphere (Web) client.</description>
+    </item>
+    <item>
+      <title>The end of the vRAM entitlement in VMware vSphere 5 and 5.1!</title>
+      <link>http://localhost:1313/logbook/site/2012/08/27/the-end-of-the-vram-entitlement-in-vmware-vsphere-5-and-5-1/</link>
+      <pubDate>Mon, 27 Aug 2012 19:42:56 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/08/27/the-end-of-the-vram-entitlement-in-vmware-vsphere-5-and-5-1/</guid>
+      <description>About a year ago VMware introduced the vRAM entitlement (see post VMware vSphere 5 Licensing explained ). Today at VMworld 2012, VMware announced the end of the vRAM entitlement in VMware vSphere 5 and 5.1!&#xA;In vSphere 5 and 5.1 the licensing will be per physical processor. Each physical processor needs to have at least one vSphere 5 license key assigned. The vSphere licensing removes restrictions on:&#xA;physical cores RAM number of VMs Removing the vRAM entitlement makes it possible to scale up VMware vSphere hosts without buying extra vSphere licenses!</description>
+    </item>
+    <item>
+      <title>New updates available on VMware vCenter, VMware View, Microsoft Virtual Machine Converter and Veeam Backup &amp; Replication</title>
+      <link>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</link>
+      <pubDate>Fri, 17 Aug 2012 14:38:21 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</guid>
+      <description>Over the last days the following updates are released:&#xA;VMware vCenter Server 5.0 Update 1b VMware View 5.1.1 Microsoft Virtual Machine Converter Plug-in for VMware vSphere beta Veeam Backup &amp;amp; Replication 6.1 Patch 1 Below are the enhancements listed per product.&#xA;VMware vCenter Server 5.0 Update 1b What&amp;rsquo;s New:&#xA;VMware vCenter Server 5.0 Update 1b is a patch release and offers the following improvements:&#xA;vCenter Server 5.0 Update 1b introduces support for the following vCenter Databases Oracle 11g Enterprise Edition, Standard Edition, Standard ONE Edition Release 2 [11.</description>
+    </item>
+    <item>
+      <title>Configure the Link Layer Discovery Protocol (LLDP) in vSphere 5</title>
+      <link>http://localhost:1313/logbook/site/2012/05/16/configure-the-link-layer-discovery-protocol-lldp-in-vsphere-5/</link>
+      <pubDate>Wed, 16 May 2012 07:50:58 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/05/16/configure-the-link-layer-discovery-protocol-lldp-in-vsphere-5/</guid>
+      <description>Link Layer Discovery Protocol (LLDP)is a vendor-neutral open standard discovery protocol that is supported by multiple vendors such as Cisco, HP and Juniper for example. LLDP displays for example on what network switch and port the NIC in the ESXi hosts is connected. Prior VMware vSphere 5 only Cisco Discovery Protocol (CDP) was supported.&#xA;In vSphere 5 Link Layer Discovery Protocol (LLDP) is supported. CDP and LLDP can be handy for example when you want to know that the correct network switch port is used when installing or troubleshooting ESXi hosts.</description>
+    </item>
+    <item>
+      <title>VM snapshot needs consolidation</title>
+      <link>http://localhost:1313/logbook/site/2012/05/10/vm-snapshot-needs-consolidation/</link>
+      <pubDate>Thu, 10 May 2012 07:59:18 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2012/05/10/vm-snapshot-needs-consolidation/</guid>
+      <description>When a snapshot didn’t commit properly, it can happen that the snapshot manager in the vCenter server shows no snapshot(s), but that there are still active delta files on the datastore. These ‘hidden’ snapshot can cause the datastore to run out of space.&#xA;To report these ‘hidden’ snapshots (prior vSphere 5), I created a script that searches all the datastores for ‘*.delta’ files and reported them by mail.&#xA;In vSphere 5 you have a new feature that reports and make it possible to consolidate these ‘hidden’ snapshot(s).</description>
+    </item>
+    <item>
+      <title>Upgrading to VMware ESXi 5</title>
+      <link>http://localhost:1313/logbook/site/2011/08/18/upgrading-to-vmware-esxi-5/</link>
+      <pubDate>Thu, 18 Aug 2011 14:52:56 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2011/08/18/upgrading-to-vmware-esxi-5/</guid>
+      <description>The following three supported upgrade methods to VMware ESXi 5 are available:&#xA;Upgrade Method ESX or ESXI to ESXi5 Upgrade or Patch from ESXi 5 to ESXi 5.x vSphere Update Manager yes yes Interactive upgrade from CD, DVD, or USB drive yes yes Scripted upgrade yes yes vSphere Auto Deploy no yes esxcli no yes It is not supported to directly upgrade ESX(i) 3.x to ESXi 5. You must first upgrade ESX(i) 3 to ESX(i) 4 before upgrading to ESXi 5.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>haswell on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title><link>http://localhost:1313/logbook/site/tags/haswell/</link><description>Recent content in haswell on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate><atom:link href="http://localhost:1313/logbook/site/tags/haswell/index.xml" rel="self" type="application/rss+xml"/><item><title>Haswell low power whitebox for ESXi and Hyper-V</title><link>http://localhost:1313/logbook/site/2013/06/25/haswell-low-power-whitebox-for-esxi-and-hyper-v/</link><pubDate>Tue, 25 Jun 2013 16:12:29 +0000</pubDate><guid>http://localhost:1313/logbook/site/2013/06/25/haswell-low-power-whitebox-for-esxi-and-hyper-v/</guid><description>I was searching for a new whitebox for my home lab. I had the following requirements for the new whitebox:
-Low power consumption for 24x7 running &amp;gt;16 GB memory Expansion slots for PCI(-E) cards Good performance Low noise A couple of weeks ago Intel released the new 4th generation Haswell CPUs that consumes less power. Seems to be interesting option for building a low power consumption whitebox. So I did some research and ordered the following hardware components:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>haswell on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <link>http://localhost:1313/logbook/site/tags/haswell/</link>
+    <description>Recent content in haswell on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/logbook/site/tags/haswell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Haswell low power whitebox for ESXi and Hyper-V</title>
+      <link>http://localhost:1313/logbook/site/2013/06/25/haswell-low-power-whitebox-for-esxi-and-hyper-v/</link>
+      <pubDate>Tue, 25 Jun 2013 16:12:29 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/2013/06/25/haswell-low-power-whitebox-for-esxi-and-hyper-v/</guid>
+      <description>I was searching for a new whitebox for my home lab. I had the following requirements for the new whitebox:&#xA;Low power consumption for 24x7 running &amp;gt;16 GB memory Expansion slots for PCI(-E) cards Good performance Low noise A couple of weeks ago Intel released the new 4th generation Haswell CPUs that consumes less power. Seems to be interesting option for building a low power consumption whitebox. So I did some research and ordered the following hardware components:</description>
+    </item>
+  </channel>
+</rss>
