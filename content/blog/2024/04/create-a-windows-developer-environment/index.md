@@ -12,12 +12,10 @@ tags:
     - hashicorp
     - winget
 ---
-As a development environment I use sometimes a Windows Virtual Machine (VM). This VM can be hosted on a VMware (ESXi/Workstation or Fusion), Hyper-V or Azure platform for example. I Created some PowerShell scripts to install the tools and extensions I need in a quick and easy way.
-
-To install all the software packages I have defined 3 steps:</br>
-**1.** Install the Windows Subsystem for Linux (WSL). WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with WSL.</br>
-**2.** Install the software packages. </br>
-**3.** Install the Visual Studio Code Extensions. </br>
+As development environment I use frequently a Windows Virtual Machine (VM). This VM can be hosted on a VMware (ESXi/Workstation or Fusion), Hyper-V or Azure platform for example. I created a couple of PowerShell scripts to install the tools and extensions I need. To install a local developer environment I have defined 3 steps:</br>
+**1.Install the Windows Subsystem for Linux (WSL). WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with WSL.**</br>
+**2.Install the software packages.**</br>
+**3.Install the Visual Studio Code Extensions.**</br>
 
 Each step is explained below:
 
@@ -266,4 +264,4 @@ az login
 
 These scripts can customized to deploy the software you need in your local development environment. You can automated the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.
 
-These scripts can be found on my repo on [GitHub](https://github.com/ibeerens/dev-environment).
+These scripts can be found on my [GitHub](https://github.com/ibeerens/dev-environment) repo.
