@@ -14,7 +14,7 @@ tags:
     - winget
     - iac
 ---
-As development environment I use frequently a Windows Virtual Machine (VM). This VM can be hosted on a VMware (ESXi/Workstation or Fusion), Hyper-V or Azure platform for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep and PowerShell scripts. 
+As development environment I use frequently a Windows Virtual Machine (VM). This VM can be hosted on a VMware (ESXi/Workstation or Fusion), Hyper-V or Azure platform for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep and PowerShell scripts.
 
 To install a local developer environment I have defined 3 steps:</br>
 **1. Install the Windows Subsystem for Linux (WSL).** WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with the WSL.</br>
@@ -35,15 +35,12 @@ For WSL you need to enable **Hardware Virtualization - [V] Expose hardware assis
 - After the reboot the post WSL configuration will be performed. Enter the username and password for the Ubuntu VM. </br>
 
 ![WSL after boot job](image-3.png)
-
 If you forgot to enable Hardware Virtualization the following error will be displayed:
-
 > Launching Ubuntu...</br>
 > Installing, this may take a few minutes...</br>
 > WslRegisterDistribution failed with error: 0x80370102</br>
 > Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.</br>
 > For information please visit https://aka.ms/enablevirtualization</br>
-
 
 **Check the WSL version**
 
@@ -77,7 +74,7 @@ Run the **`_2-install-packages.ps1`** PowerShell script as Administrator. The fo
 
 When the script has finished, reboot the VM.
 
-`_2-install-packages.ps1` script
+Run the `_2-install-packages.ps1` script.
 
 ```powershell
 <#
@@ -207,7 +204,7 @@ The following Visual Studio Code Extensions are installed: </br>
 - Docker
 - Dev Containers
 
-`_3_Install-vsc-ext.ps1` script
+Run the `_3_Install-vsc-ext.ps1` script.
 ```powershell
 <#
     .TITLE
@@ -278,4 +275,4 @@ az login
 
 These scripts can be customized to deploy the software you need in your local development environment. You can automated the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.
 
-These scripts can be found on my [GitHub](https://github.com/ibeerens/dev-environment) repo.
+These scripts can be found on my [GitHub](https://github.com/ibeerens/dev-environment) repository.
