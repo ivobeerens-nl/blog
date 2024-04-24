@@ -14,7 +14,7 @@ tags:
     - winget
     - iac
 ---
-As development environment I frequently use a Windows Virtual Machine (VM). This VM can be hosted on different platforms such as VMware (ESXi/Workstation or Fusion), Hyper-V or Azure for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep and PowerShell scripts.
+As a development environment, I frequently use a Windows Virtual Machine (VM). This VM can be hosted on different platforms such as VMware (ESXi/Workstation or Fusion), Hyper-V, or Azure for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep, and PowerShell scripts.
 
 ![developer](developer.jpeg)
 
@@ -271,6 +271,6 @@ az login
 
 ## Conclusion
 
-These scripts can be customized to deploy the software you need in your local development environment. You can automated the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.
+These scripts can be customized to deploy the software you need in your local development environment. You can automate the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.
 
 These scripts can be found on my [GitHub](https://github.com/ibeerens/dev-environment) repository.
