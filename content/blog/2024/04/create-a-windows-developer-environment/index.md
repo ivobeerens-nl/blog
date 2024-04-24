@@ -1,22 +1,24 @@
 ---
-title: "Create a local Windows developer environment"
+title: "Create a local Windows development environment"
 author: Ivo Beerens
 date: 2024-04-03T08:02:36+01:00
 image: 
 draft: false
 categories:
-    - developer
+    - development
     - hashicorp
     - iac
 tags:
-    - developer
+    - development
     - hashicorp
     - winget
     - iac
 ---
-As development environment I use frequently a Windows Virtual Machine (VM). This VM can be hosted on a VMware (ESXi/Workstation or Fusion), Hyper-V or Azure platform for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep and PowerShell scripts.
+As development environment I frequently use a Windows Virtual Machine (VM). This VM can be hosted on different platforms such as VMware (ESXi/Workstation or Fusion), Hyper-V or Azure for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep and PowerShell scripts.
 
-To install a local developer environment I have defined 3 steps:</br>
+![developer](developer.jpeg)
+
+To install a local development environment I have defined 3 steps:</br>
 **1. Install the Windows Subsystem for Linux (WSL).** WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with the WSL.</br>
 **2. Install the software packages.**</br>
 **3. Install the Visual Studio Code Extensions.**</br>
@@ -88,8 +90,6 @@ Run the `_2-install-packages.ps1` script.
     .NOTES
         Run as Administrator
         Find WinGet packages: https://winget.run/
-    .LINK
-        https://www.ivobeerens.nl/blog/2024/04/create-a-windows-developer-environment/
     .VERSIONS
         1.0 19-04-2024 Creation
 #>
@@ -219,8 +219,6 @@ Run the `_3_Install-vsc-ext.ps1` script.
         Install VS Code extensions
         List existing extensions: code --list-extensions
         Extensions are stored in:  %USERPROFILE%\.vscode\extensions
-    .LINK
-        https://www.ivobeerens.nl/blog/2024/04/create-a-windows-developer-environment/
     .VERSIONS
         1.0 19-04-2024 Creation
 #>
