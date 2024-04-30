@@ -39,7 +39,7 @@ In an existing environment, we already have resources that are not managed by Te
 ## terraform.tfvars
 
 In the **terraform.tfvars**, all the values of the variables are defined. I use comments (single line) and comment blocks with the following syntax:
-```json
+```
 Single line begin with: // 
 Multiple lines: begins with: /* and ends with */
 ```
@@ -58,14 +58,14 @@ The comment blocks are used for excluding multiple lines from the Terraform file
 Windows Server 2022 and Windows 11 22H2 Enterprise multi-session with trusted launch, secure boot, and vTPM enabled are defined. Select one OS.
 
 Windows 11 22H2 Enterprise Multi-Session
-```json
+```
 offer = "Windows-11"
 publisher = "microsoftwindowsdesktop"
 sku = "win11-22h2-avd"
 ```
 
 Windows Server 2022
-```json
+```
 offer = "windowsserver"
 publisher = "microsoftwindowsserver"
 sku = "2022-datacenter-azure-edition"
@@ -87,14 +87,14 @@ Public IP address
 [![](images/nsg-300x186.jpg)](images/nsg.jpg)
 
 If you have a VPN connection a private IP is sufficient. The following lines can be excluded:
-```json
+```
 // Not needed when using a VPN or Bastion
 public_ip_address_id = azurerm_public_ip.public_ip.id
 ```
 
 **and the RDP rule:**
 
-```json
+```
 // Not needed when using a VPN or Bastion
 // NSG Security RDP rule(s)
 resource "azurerm_network_security_rule" "vm-sec-rule" {
@@ -136,11 +136,11 @@ To run Terraform, execute step 1 till 3 found here: [link](https://github.com/ib
 
 First, initialize terraform which downloads the Terraform provider(s) defined:
 
-```terraform init```
+`terraform init`
 
 The password is not hardcoded in the **terraform.tfvars** file. With the Terraform apply command you can set the password for the variable "vm\_password". The apply option creates a plan and executes this.  The **--auto-approve** option doesn't ask for confirmation to apply changes:
 
-```terraform apply -var "vm\_password=ThisisaGoodPassword!" --auto-approve```
+`terraform apply -var "vm\_password=ThisisaGoodPassword!" --auto-approve`
 
 After a couple of minutes, the VM is created and the private and public IP addresses are displayed as output values.
 
@@ -156,7 +156,7 @@ When finishing with testing the  VM can be destroyed without destroying the exi
 
 The following command destroys the VM just created:
 
- ```terraform destroy -var "vm\_password=ThisisaGoodPassword!" --auto-approve```
+ `terraform destroy -var "vm\_password=ThisisaGoodPassword!" --auto-approve`
 
 ## Conclusion
 
