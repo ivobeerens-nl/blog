@@ -147,12 +147,11 @@ We understand that in today’s fast-paced tech landscape, staying informed is k
 - HashiTalks 2024 on-demand recordings. [**Learn more**](https://www.youtube.com/playlist?list=PL81sUbsFNc5aJqUuK2Dkx4U53XyzBwod3)
 
 ### **Hashicorp Terraform**
-- Terraform 1.8 released. [**Learn more**](https://www.hashicorp.com/blog/
-terraform-1-8-adds-provider-functions-for-aws-google-cloud-and-kubernetes)
+- Terraform 1.8 released. [**Learn more**](https://www.hashicorp.com/blog/terraform-1-8-adds-provider-functions-for-aws-google-cloud-and-kubernetes)
 - Terraform 1.8: Provider Defined Functions with Bruno Schaatsbergen. [**Learn more**](https://www.youtube.com/watch?v=ZshoNZd2-_g)
 - Using Terraform tfvars for environment-agnostic deployments. [**Learn more**](https://thomasthornton.cloud/2024/04/25/using-terraform-tfvars-for-environment-agnostic-deployments/)
-- Terraform – Removing Orphaned Session Hosts from an Azure Virtual Desktop Hostpool. [**Learn more**](https://citrixguyblog.com/2024/04/22/terraform-removing-orphaned-session-hosts-from-an-azure-virtual-desktop-hostpool/)
-- Terraform Authoring and Operations Professional Certification - PREVIEW.[**Learn more**](https://youtu.be/22O05-cwK88?si=k7dwhP8Ib_UVKDDr)
+- Terraform – Removing Orphaned Session Hosts from an Azure Virtual Desktop Hostpool [**Learn more**](https://citrixguyblog.com/2024/04/22/terraform-removing-orphaned-session-hosts-from-an-azure-virtual-desktop-hostpool/)
+- Terraform Authoring and Operations Professional Certification - PREVIEW. [**Learn more**](https://youtu.be/22O05-cwK88?si=k7dwhP8Ib_UVKDDr)
 - Terraforming Azure: Boldly Going Beyond 'azurerm' with Mark Tinderholt. [**Learn more**](https://youtu.be/2-8HEvIz6yU?si=DAF-pQtZGj68z-ld)
 
 ### **Hashicorp Packer**
