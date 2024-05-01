@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - April 2024"
 author: Ivo Beerens
-date: 2024-05-01T07:02:36+01:00
+date: 2024-05-01T04:02:36+01:00
 image: 
 draft: false
 categories:
