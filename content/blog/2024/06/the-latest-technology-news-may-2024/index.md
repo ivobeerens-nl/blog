@@ -36,13 +36,13 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Hibernation support now available for Azure Virtual Desktop. [**Learn more**](https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/hibernation-support-now-available-for-azure-virtual-desktop/ba-p/4155466?utm_source=dlvr.it&utm_medium=twitter)
 - Cost Optimization for General Purpose VMs using Hibernation now Generally Available. [**Learn more**](https://techcommunity.microsoft.com/t5/azure-compute-blog/cost-optimization-for-general-purpose-vms-using-hibernation-now/ba-p/4153399)
 - Be aware of a possible breaking change if you are using remote apps and desktop groups with a single host pool. [**Learn more**](https://www.linkedin.com/posts/marcelmeurer_azurevirtualdesktop-breaking-change-activity-7196833630189436929-6qKf/?utm_source=share&utm_medium=member_desktop)
-- Enable Azure Monitor to take over from Log Analytics without interrupting your AzureVirtualDesktop cloud services. [**Learn more**]()
+- Enable Azure Monitor to take over from Log Analytics without interrupting your AzureVirtualDesktop cloud services. [**Learn more**](https://youtu.be/UcEqxzlk11w?si=SUj3KjFp1yDL8ZPX)
 - Configure the Clipboard Transfer direction in Azure Virtual Desktop (Preview) with Ansible. [**Learn more**](https://whyazure.in/configure-the-clipboard-transfer-direction-in-azure-virtual-desktop-preview-with-ansible/)
 - Starting with Bicep templates for Azure Virtual Desktop. [**Learn more**](https://cloudexperts.community/starting-with-bicep-templates-for-azure-virtual-desktop/)
 - Deploy Azure Virtual Desktop with Project BICEP. [**Learn more**](https://github.com/jamesatighe/AVD-BICEP)
 
  ### **Windows 365 (W365) / CloudPC**
-- The latest weekly W365 newsletter. [Learn more](https://w365community.com/)
+- The latest weekly W365 newsletter. [**Learn more**](https://w365community.com/)
 - What's new in Windows 365 Enterprise. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#week-of-april-1-2024)
 - What's new in Windows 365 Business. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/business/whats-new)
 - What is Windows 365 Frontline? [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/introduction-windows-365-frontline)
@@ -95,6 +95,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ---
 
 ### **Microsoft 365 / AD**
+- Entra.News - Your weekly dose of Microsoft Entra. [**Learn more**](https://entra.news/)
 - Microsoft will require MFA for all Azure users. [**Learn more**](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/microsoft-will-require-mfa-for-all-azure-users/ba-p/4140391)
 - Microsoft Entra ID Tenant Starters Guide: Understanding Identity Management and Licensing. [**Learn more**](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/microsoft-entra-id-tenant-starters-guide-understanding-identity/ba-p/4154857)
 - Maester GitHub integration. [**Learn more**](https://lnkd.in/g4fSf_JE)
@@ -111,7 +112,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Advanced routing capabilities using Application Gateway Rewrite Rules. [**Learn more**](https://techcommunity.microsoft.com/t5/azure-networking-blog/advanced-routing-capabilities-using-application-gateway-rewrite/ba-p/4098115)
 - How to Create Your Own Blog Using Hugo and Azure Static Web Apps. [**Learn more**](https://blog.sinnathurai.ch/post/20240529_createblog/)
 - How to Create a Secure SFTP Service Using Azure Storage Account and Make It Publicly Accessible. [**Learn more**](https://getpractical.co.uk/2024/05/23/how-to-create-a-secure-sftp-service-using-azure-storage-account-and-make-it-publicly-accessible/)
-- Azure Bastion Developer SKU, now GA, and it's FREE!!. SKUs overview[**SKUs overview**](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings#skus) and [**Quickstart: Deploy Azure Bastion - Developer SKU**](https://learn.microsoft.com/en-us/azure/bastion/quickstart-developer-sku)
+- Azure Bastion Developer SKU, now GA, and it's FREE!!. SKUs overview [**SKUs overview**](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings#skus) and [**Quickstart: Deploy Azure Bastion - Developer SKU**](https://learn.microsoft.com/en-us/azure/bastion/quickstart-developer-sku)
 - Dealing with allocation issues in Azure? [**Learn more**](https://cloudtips.nl/dealing-with-allocation-issues-in-azure-8f1cc35e6fe5)
 - Why Are There So Many Default Routes In Azure? [**Learn more**](https://aidanfinn.com/?p=23591)
 - Azure Monitor Agent Migration for Azure Arc-Enabled Server. [**Learn more**](https://medium.com/@pratheep.sinnathurai/azure-monitor-agent-migration-for-azure-arc-enabled-server-82d393aeac14)
