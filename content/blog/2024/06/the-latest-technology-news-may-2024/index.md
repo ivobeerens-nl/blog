@@ -15,7 +15,7 @@ tags:
     - euc
 ---
 
-Welcome to our **monthly roundup** of the hottest tech updates in the worlds of Microsoft Azure (Windows 365, Azure Virtual Desktop, Cloud PC. and infrastructure), VMware by Broadcom, Omnissa, GitHub, HashiCorp, Azure DevOps and other partners. In this series, we’ll have a collection of must-read articles, each offering a deep dive into the latest technological advancements, news, and trends within these cutting-edge platforms.
+Welcome to our **monthly roundup** of the hottest tech updates in the worlds of Microsoft Azure (Windows 365, Azure Virtual Desktop, Cloud PC, and infrastructure), VMware by Broadcom, Omnissa, GitHub, HashiCorp, Azure DevOps, and other partners. This series will have must-read articles, each offering a deep dive into these cutting-edge platforms' latest technological advancements, news, and trends.
 
 ![newsletter](images/tnmay2024.jpeg)
 
