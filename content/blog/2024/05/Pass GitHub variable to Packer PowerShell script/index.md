@@ -3,7 +3,7 @@ title: "Pass a GitHub Actions secret variable to a Packer PowerShell provider"
 author: Ivo Beerens
 date: 2024-13-06T04:02:36+01:00
 image: 
-draft: true
+draft: false
 categories:
     - Packer
     - GitHub
@@ -12,7 +12,7 @@ tags:
     - GitHub
 ---
 
-# Pass a GitHub Actions secret variable to a Packer PowerShell script
+# Pass a GitHub Actions secret variable to a Packer PowerShell Provider script
 
 With GitHub Actions you can automate the image deployment with Hashicorp Packer.
 It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image. The SAS token is read from the GitHub Actions secret variable and is not in clear text defined in the PowerShell script.
@@ -24,7 +24,7 @@ This looks as follows:
 ## Pre-requested
 - A working Packer configuration for image deployment
 - Azure Storage blob account
-- In this example we authenticate with a Azure Service Principal. More information can be found in [here](https://developer.hashicorp.com/packer/integrations/hashicorp/azure)
+- In this example we authenticate with a Azure Service Principal. More information can be found [here](https://developer.hashicorp.com/packer/integrations/hashicorp/azure)
 - SAS URI access key that grants access to the Blob storage.account. The SAS URI looks like this:
 ```
 https://ibeerens12354.blob.core.windows.net/
