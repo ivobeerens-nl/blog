@@ -1,7 +1,7 @@
 ---
-title: "Pass GitHub variable to Packer PowerShell script"
+title: "Pass a GitHub Actions secret variable to a Packer PowerShell provider"
 author: Ivo Beerens
-date: 2024-05-28T04:02:36+01:00
+date: 2024-13-06T04:02:36+01:00
 image: 
 draft: true
 categories:
@@ -12,35 +12,34 @@ tags:
     - GitHub
 ---
 
+# Pass a GitHub Actions secret variable to a Packer PowerShell script
 
-GitHub Action 
-Packer
-Create a VM
-Download software from a Azure Storage Blob Account. To grant access to the blob I use the SAS URL and token that is passed from GitHub to Packer as secret.
+With GitHub Actions you can automate the image deployment with Hashicorp Packer.
+It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image. The SAS token is read from the GitHub Actions secret variable and is not in clear text defined in the PowerShell script.
 
-With Packer I create a Windows VM.
-In a Azure Blob Storage container I store applications that will be uploaded to the VM. 
+This looks as follows:
 
-Pass GitHub variable to Packer PowerShell script
+![GitHub Actions Secrets](images/github.jpg)
 
-A shared access signature (SAS) is a URI that grants restricted access rights to Azure Storage resources. You can provide a shared access signature to clients who should not be trusted with your storage account key but whom you wish to delegate access to certain storage account resources. By distributing a shared access signature URI to these clients, you grant them access to a resource for a specified period of time.
-
-A shared access signature (SAS) is a URI that grants restricted access rights to Azure Storage resources. You can provide a shared access signature to clients who should not be trusted with your storage account key but whom you wish to delegate access to certain storage account resources. By distributing a shared access signature URI to these clients, you grant them access to a resource for a specified period of time.
-An account-level SAS can delegate access to multiple storage services (i.e. blob, file, queue, table). Note that stored access policies are currently not supported for an account-level SAS.
-
+## Pre-requested
+- A working Packer configuration for image deployment
+- Azure Storage blob account
+- In this example we authenticate with a Azure Service Principal. More information can be found in [here](https://developer.hashicorp.com/packer/integrations/hashicorp/azure)
+- SAS URI access key that grants access to the Blob storage.account. The SAS URI looks like this:
 ```
-https://ibeerens1234.blob.core.windows.net/
-?sv=2022-11-02&ss=b&srt=sco&sp=rwdlaciytfx&se=2024-05-25T19:30:13Z&st=2024-05-25T11:30:13Z&spr=https&sig=
+https://ibeerens12354.blob.core.windows.net/
+?sv=2022-11-02&ss=b&srt=sco&sp=rwdrflaciytfx&23se=2024-05-25T19:30:13Z&st=2024-05-25T11:30:13Z&spr=https&sig=434
 ```
+
+### Steps
+1. Create a GitHub repository
+2. Create a repository secret with the name for example BLOBSAS and paste the SAS URI in the secret field. 
 
 ![GitHub Actions Secrets](images/1.png)
 
-
-As Packer GitHub Action I use the following action [Setup HashiCorp Packer`
-](https://github.com/marketplace/actions/setup-hashicorp-packer)
-
-
-Packer will read environment variables in the form of `PKR_VAR_name` to find the value for a variable. 
+3. Configure the GitHub Action. As Packer GitHub Action I use the [Setup HashiCorp Packer`
+](https://github.com/marketplace/actions/setup-hashicorp-packer) action
+4. Packer will read environment variables in the form of `PKR_VAR_name` to find the value for a variable. Add the `'PKR_VAR_blobsas=${{ secrets.BLOBSAS }}'` to the packer build run section
 
 ```yaml
 jobs:
@@ -63,26 +62,25 @@ jobs:
         run: "packer build -force -var-file='./packer/variables.pkr.hcl' -var 'client_id=${{ secrets.CLIENTID }}' -var 'client_secret= ${{ secrets.CLIENTSECRET }}' -var 'subscription_id=${{ secrets.SUBSCRIPTIONID }}' -var 'tenant_id=${{ secrets.TENANTID }}' -var 'PKR_VAR_blobsas=${{ secrets.BLOBSAS }}' './packer/windows11.json.pkr.hcl'"
 ```
 
-Within Packer
+5. In the Packer configuration add the following variable:
 
-```
+```hcl
 variable "PKR_VAR_blobsas" {
   type    = string
 }
 ```
 
-[environment_vars](https://developer.hashicorp.com/packer/docs/provisioners/powershell#environment_vars)
+6. In the Packer configuration add the PowerShell provisioner, add an environment variable and point to the script to download the software.
 
-
+```hcl
   provisioner "powershell" {
     environment_vars = ["saskey=${var.PKR_VAR_blobsas}"]
-    script = "./packer/scripts/105_DownloadAzcopy.ps1"
+    script = "./packer/scripts/DownloadSoftware.ps1"
   }
-
-
-# Download from Blob storage
-```
-.\azcopy.exe cp $Env:saskey "c:\install\" --recursive
 ```
 
-![newsletter](images/1.png)
+7. In the DownloadSoftware.ps1 PowerShell script I use Azcopy to download the software from the Azure storage blob to the Packer image. 
+
+```
+.\azcopy.exe cp $Env:saskey "c:\apps\" --recursive
+```
