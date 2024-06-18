@@ -1,8 +1,7 @@
 ---
 title: "Pass a GitHub Actions secret variable to a Packer PowerShell provider"
 author: Ivo Beerens
-date: 2024-13-06T04:02:36+01:00
-image: 
+date: 2024-06-17T19:16:51+02:00
 draft: false
 categories:
     - Packer
@@ -12,10 +11,11 @@ tags:
     - GitHub
 ---
 
-# Pass a GitHub Actions secret variable to a Packer PowerShell Provider
+<!-- # Pass a GitHub Actions secret variable to a Packer PowerShell Provider -->
 
 With GitHub Actions you can automate the image deployment with Hashicorp Packer.
-It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image. The SAS token is read from the GitHub Actions secret variable and is not in clear text defined in the PowerShell script.
+It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image.
+The SAS token is read from the GitHub Actions secret variable and is not in clear text defined in the PowerShell script.
 
 This looks as follows:
 
@@ -37,8 +37,7 @@ https://ibeerens12354.blob.core.windows.net/
 
 ![GitHub Actions Secrets](images/1.png)
 
-3. Configure the GitHub Action. As Packer GitHub Action I use the [Setup HashiCorp Packer`
-](https://github.com/marketplace/actions/setup-hashicorp-packer) action
+3. Configure the GitHub Action. As Packer GitHub Action I use the [Setup HashiCorp Packer](https://github.com/marketplace/actions/setup-hashicorp-packer) action
 4. Packer will read environment variables in the form of `PKR_VAR_name` to find the value for a variable. Add the `'PKR_VAR_blobsas=${{ secrets.BLOBSAS }}'` to the packer build run section
 
 ```yaml
@@ -72,15 +71,19 @@ variable "PKR_VAR_blobsas" {
 
 6. In the Packer configuration add the PowerShell provisioner, add an environment variable and point to the script to download the software.
 
-```hcl
+```yaml
   provisioner "powershell" {
     environment_vars = ["saskey=${var.PKR_VAR_blobsas}"]
     script = "./packer/scripts/DownloadSoftware.ps1"
   }
 ```
 
-7. In the DownloadSoftware.ps1 PowerShell script I use Azcopy to download the software from the Azure storage blob to the Packer image. 
+7. In the DownloadSoftware.ps1 PowerShell script I use the Azcopy  binary to download the software from the Azure storage blob to the Packer image.
 
-```
+```powershell
 .\azcopy.exe cp $Env:saskey "c:\apps\" --recursive
 ```
+
+### Conclusion
+
+With these steps it is possible to pass variables from a GitHub Action inside a Packer PowerShell provisioner. This can be useful for passing secrets for example.

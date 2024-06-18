@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+    <title>GitHub on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
     <link>http://localhost:1313/logbook/site/tags/github/</link>
-    <description>Recent content in github on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in GitHub on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 20:57:31 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2024 09:44:40 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pass a GitHub Actions secret variable to a Packer PowerShell provider</title>
+      <link>http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/</link>
+      <pubDate>Tue, 18 Jun 2024 13:16:51 +0200</pubDate>
+      <guid>http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/</guid>
+      <description>Pass a GitHub Actions secret variable to a Packer PowerShell Provider With GitHub Actions you can automate the image deployment with Hashicorp Packer. It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image.</description>
+    </item>
     <item>
       <title>Prepare for the GitHub Foundations exam</title>
       <link>http://localhost:1313/logbook/site/blog/2024/03/prepare-for-the-github-foundations-exam/</link>

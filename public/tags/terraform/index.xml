@@ -4,9 +4,9 @@
     <title>Terraform on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
     <link>http://localhost:1313/logbook/site/tags/terraform/</link>
     <description>Recent content in Terraform on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 20:57:31 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2024 22:43:46 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download the latest Hashicorp Terraform, Packer, and Vault bits</title>

@@ -210,16 +210,25 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MVK8GXB3DR"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-MVK8GXB3DR', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVK8GXB3DR"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MVK8GXB3DR');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -19427,9 +19436,9 @@ header {
 </ul>
 <h2 id="terraformtfvars">terraform.tfvars</h2>
 <p>In the <strong>terraform.tfvars</strong>, all the values of the variables are defined. I use comments (single line) and comment blocks with the following syntax:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Single</span> <span style="color:#960050;background-color:#1e0010">line</span> <span style="color:#960050;background-color:#1e0010">begin</span> <span style="color:#960050;background-color:#1e0010">with:</span> <span style="color:#75715e">// 
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">Multiple</span> <span style="color:#960050;background-color:#1e0010">lines:</span> <span style="color:#960050;background-color:#1e0010">begins</span> <span style="color:#960050;background-color:#1e0010">with:</span> <span style="color:#960050;background-color:#1e0010">/*</span> <span style="color:#960050;background-color:#1e0010">and</span> <span style="color:#960050;background-color:#1e0010">ends</span> <span style="color:#960050;background-color:#1e0010">with</span> <span style="color:#960050;background-color:#1e0010">*/</span>
-</span></span></code></pre></div><p>The comment blocks are used for excluding multiple lines from the Terraform files:</p>
+<pre tabindex="0"><code>Single line begin with: // 
+Multiple lines: begins with: /* and ends with */
+</code></pre><p>The comment blocks are used for excluding multiple lines from the Terraform files:</p>
 <ul>
 <li><strong>vm_name -</strong> The name of the VM</li>
 <li><strong>vm_rg -</strong> An existing Resource Group where the VM resources will be created</li>
@@ -19442,14 +19451,14 @@ header {
 <p><strong>Operating System</strong></p>
 <p>Windows Server 2022 and Windows 11 22H2 Enterprise multi-session with trusted launch, secure boot, and vTPM enabled are defined. Select one OS.</p>
 <p>Windows 11 22H2 Enterprise Multi-Session</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">offer</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;Windows-11&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">publisher</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;microsoftwindowsdesktop&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">sku</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;win11-22h2-avd&#34;</span>
-</span></span></code></pre></div><p>Windows Server 2022</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">offer</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;windowsserver&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">publisher</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;microsoftwindowsserver&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">sku</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;2022-datacenter-azure-edition&#34;</span>
-</span></span></code></pre></div><ul>
+<pre tabindex="0"><code>offer = &#34;Windows-11&#34;
+publisher = &#34;microsoftwindowsdesktop&#34;
+sku = &#34;win11-22h2-avd&#34;
+</code></pre><p>Windows Server 2022</p>
+<pre tabindex="0"><code>offer = &#34;windowsserver&#34;
+publisher = &#34;microsoftwindowsserver&#34;
+sku = &#34;2022-datacenter-azure-edition&#34;
+</code></pre><ul>
 <li><strong>vm_storage -</strong> Type of storage used</li>
 <li><strong>vm_timezone -</strong> Which Timezone is used</li>
 <li><strong>file_uris -</strong> File location of the Custom Script Extension</li>
@@ -19479,28 +19488,28 @@ header {
 ><img src="/logbook/site/2023/03/27/create-windows-vms-in-azure-with-terraform/images/nsg-300x186.jpg"></a>
 </p>
 <p>If you have a VPN connection a private IP is sufficient. The following lines can be excluded:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// Not needed when using a VPN or Bastion
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">public_ip_address_id</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#960050;background-color:#1e0010">azurerm_public_ip.public_ip.id</span>
-</span></span></code></pre></div><p><strong>and the RDP rule:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// Not needed when using a VPN or Bastion
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// NSG Security RDP rule(s)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">resource</span> <span style="color:#e6db74">&#34;azurerm_network_security_rule&#34;</span> <span style="color:#e6db74">&#34;vm-sec-rule&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">access</span>                      <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#f92672">&#34;Allow&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">destination_address_prefix</span>  <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;*&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">destination_port_range</span>      <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;3389&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">direction</span>                   <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;Inbound&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">name</span>                        <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;RDP&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">network_security_group_name</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#960050;background-color:#1e0010">azurerm_network_security_group.vm-nsg.name</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">priority</span>                    <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#ae81ff">100</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">protocol</span>                    <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;Tcp&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">resource_group_name</span>         <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#960050;background-color:#1e0010">data.azurerm_resource_group.vm-rg.name</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">source_address_prefixes</span>     <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#960050;background-color:#1e0010">local.authorized_ip_ranges</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">source_port_range</span>           <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#e6db74">&#34;*&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">depends_on</span> <span style="color:#960050;background-color:#1e0010">=</span> [
-</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">azurerm_network_security_group.vm-nsg</span>,
-</span></span><span style="display:flex;"><span>  ]
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="custom-script-extension">Custom Script Extension</h2>
+<pre tabindex="0"><code>// Not needed when using a VPN or Bastion
+public_ip_address_id = azurerm_public_ip.public_ip.id
+</code></pre><p><strong>and the RDP rule:</strong></p>
+<pre tabindex="0"><code>// Not needed when using a VPN or Bastion
+// NSG Security RDP rule(s)
+resource &#34;azurerm_network_security_rule&#34; &#34;vm-sec-rule&#34; {
+  access                      = &#34;Allow&#34;
+  destination_address_prefix  = &#34;*&#34;
+  destination_port_range      = &#34;3389&#34;
+  direction                   = &#34;Inbound&#34;
+  name                        = &#34;RDP&#34;
+  network_security_group_name = azurerm_network_security_group.vm-nsg.name
+  priority                    = 100
+  protocol                    = &#34;Tcp&#34;
+  resource_group_name         = data.azurerm_resource_group.vm-rg.name
+  source_address_prefixes     = local.authorized_ip_ranges
+  source_port_range           = &#34;*&#34;
+  depends_on = [
+    azurerm_network_security_group.vm-nsg,
+  ]
+}
+</code></pre><h2 id="custom-script-extension">Custom Script Extension</h2>
 <p>The azurerm_virtual_machine_extension resource, downloads and run a script in the VM as a post-deployment task. As a location, I use my own GitHub repository. In the repository is a PowerShell script that performs the following post-deployment tasks:</p>
 <ul>
 <li>Allow ICMP ping requests to the VM</li>
@@ -19743,7 +19752,7 @@ header {
 <div class="widget">
   <h5 class="widget-title"><span></span></h5>
     <a href="https://vexpert.vmware.com/directory/571">
-        <img class="img-fluid w-100 rounded-4" loading="lazy" decoding="async" src="/logbook/site/images/stars_hue0c3f340cf75d2d7ad2a1321821bc339_28760_530x358_fill_q90_h2_lanczos_smart1_3.webp"
+        <img class="img-fluid w-100 rounded-4" loading="lazy" decoding="async" src="/logbook/site/images/vexpert-broadcom-year_huff1d632facd75b55dedccb314e02119d_26211_530x358_fill_q90_h2_lanczos_smart1_3.webp"
             alt="vExpert Ivo Beerens" target="_blank" rel="noopener noreferrer">
     </a>
 </div>
@@ -19764,32 +19773,32 @@ header {
   <ul class="list-unstyled widget-list mb-0">
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://localhost:1313/logbook/site/blog/2024/04/create-a-windows-developer-environment/">
+        <a href="http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/">
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/04/create-a-windows-developer-environment/"></a></h5>
-          <small>April 3, 2024</small>
+          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/">Pass a GitHub Actions secret variable to a Packer PowerShell provider</a></h5>
+          <small>June 18, 2024</small>
         </div>
       </li>
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://localhost:1313/logbook/site/blog/2024/04/install-teams-on-a-vdi-environment/">
+        <a href="http://localhost:1313/logbook/site/blog/2024/06/the-latest-technology-news-may-2024/">
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/04/install-teams-on-a-vdi-environment/"></a></h5>
-          <small>April 3, 2024</small>
+          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/06/the-latest-technology-news-may-2024/">The latest technology news - May 2024</a></h5>
+          <small>June 1, 2024</small>
         </div>
       </li>
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://localhost:1313/logbook/site/blog/2024/04/the-latest-technology-news-march-2024/">
+        <a href="http://localhost:1313/logbook/site/blog/2024/05/the-latest-technology-news-april-2024/">
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/04/the-latest-technology-news-march-2024/">The latest technology news - March 2024</a></h5>
-          <small>April 3, 2024</small>
+          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/05/the-latest-technology-news-april-2024/">The latest technology news - April 2024</a></h5>
+          <small>May 1, 2024</small>
         </div>
       </li>
     
@@ -19939,6 +19948,10 @@ header {
           </li>
         
           <li class="list-inline-item">
+            <a href="/logbook/site/tags/development/">development</a>
+          </li>
+        
+          <li class="list-inline-item">
             <a href="/logbook/site/tags/disaster-recovery/">disaster-recovery</a>
           </li>
         
@@ -20003,7 +20016,7 @@ header {
           </li>
         
           <li class="list-inline-item">
-            <a href="/logbook/site/tags/github/">github</a>
+            <a href="/logbook/site/tags/github/">GitHub</a>
           </li>
         
           <li class="list-inline-item">
@@ -20012,6 +20025,10 @@ header {
         
           <li class="list-inline-item">
             <a href="/logbook/site/tags/hardware/">hardware</a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="/logbook/site/tags/hashicorp/">hashicorp</a>
           </li>
         
           <li class="list-inline-item">
@@ -20072,6 +20089,10 @@ header {
         
           <li class="list-inline-item">
             <a href="/logbook/site/tags/i217-v-2/">i217-v-2</a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="/logbook/site/tags/iac/">iac</a>
           </li>
         
           <li class="list-inline-item">
@@ -20756,6 +20777,10 @@ header {
         
           <li class="list-inline-item">
             <a href="/logbook/site/tags/windows7/">windows7</a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="/logbook/site/tags/winget/">winget</a>
           </li>
         
           <li class="list-inline-item">

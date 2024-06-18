@@ -6,7 +6,7 @@
   <head><script src="/logbook/site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=logbook/site/livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
-<title>IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+<title>Create a local Windows development environment</title>
 
 
 <meta
@@ -83,8 +83,10 @@
 
 
 
+  
 
-<title>IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</title>
+
+<title>Create a local Windows development environment</title>
 
 
 
@@ -188,13 +190,13 @@
 
 
 
-<meta property="og:title" content="IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)" />
+<meta property="og:title" content="Create a local Windows development environment" />
 <meta property="og:description" content="All about End User Computing, AVD, Windows 365 and Infrastructure as Code (IaC)" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/logbook/site/blog/2024/04/create-a-windows-developer-environment/" />
 
 
-<meta name="twitter:title" content="IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)" />
+<meta name="twitter:title" content="Create a local Windows development environment" />
 <meta name="twitter:description" content="All about End User Computing, AVD, Windows 365 and Infrastructure as Code (IaC)" />
 
 
@@ -208,16 +210,25 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MVK8GXB3DR"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-MVK8GXB3DR', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVK8GXB3DR"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MVK8GXB3DR');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -19378,7 +19389,7 @@ header {
       <div
         class="col-lg-8 mx-auto ">
         <div class=" mb-4">
-          <h1 class="h2 mb-3"></h1>
+          <h1 class="h2 mb-3">Create a local Windows development environment</h1>
           <ul class="list-inline post-meta mb-3">
             <li class="list-inline-item"><i class="fas fa-user me-2"></i>
               <a href="/logbook/site/author/ivo-beerens/">Ivo Beerens</a>
@@ -19386,27 +19397,276 @@ header {
             <li class="list-inline-item">Date : April 3, 2024</li>
             <li class="list-inline-item">Categories :
               <a
-                href="/logbook/site/categories/news/" class="ms-1">news </a>
+                href="/logbook/site/categories/development/" class="ms-1">development </a>
+              ,<a
+                href="/logbook/site/categories/hashicorp/" class="ms-1">hashicorp </a>
+              ,<a
+                href="/logbook/site/categories/iac/" class="ms-1">iac </a>
               </li>
             <li class="list-inline-item">Tags : <a
-                href="/logbook/site/tags/news/" class="ms-1">news </a> ,<a
-                href="/logbook/site/tags/azure/" class="ms-1">azure </a> ,<a
-                href="/logbook/site/tags/vmware/" class="ms-1">vmware </a> ,<a
-                href="/logbook/site/tags/avd/" class="ms-1">avd </a> ,<a
-                href="/logbook/site/tags/w365/" class="ms-1">w365 </a> ,<a
-                href="/logbook/site/tags/euc/" class="ms-1">euc </a> 
+                href="/logbook/site/tags/development/" class="ms-1">development </a> ,<a
+                href="/logbook/site/tags/hashicorp/" class="ms-1">hashicorp </a> ,<a
+                href="/logbook/site/tags/winget/" class="ms-1">winget </a> ,<a
+                href="/logbook/site/tags/iac/" class="ms-1">iac </a> 
             </li>
           </ul>
         </div>
         
         <div class="">
-          <div class="content"><h1 id="create">Create</h1>
-<p>Install WSL</p>
+          <div class="content"><p>As a development environment, I frequently use a Windows Virtual Machine (VM). This VM can be hosted on different platforms such as VMware (ESXi/Workstation or Fusion), Hyper-V, or Azure for example. I created a couple of PowerShell scripts to install the tools and extensions I need for creating and updating my Terraform, Packer, Bicep, and PowerShell scripts.</p>
+<p><img alt="developer" src="/logbook/site/blog/2024/04/create-a-windows-developer-environment/developer.jpeg"></p>
+<p>To install a local development environment I have defined 3 steps:</br>
+<strong>1. Install the Windows Subsystem for Linux (WSL).</strong> WSL enables to to run Linux distribution(s) on Windows. Default Ubuntu is enabled with the WSL.</br>
+<strong>2. Install the software packages.</strong></br>
+<strong>3. Install the Visual Studio Code Extensions.</strong></br></p>
+<p>Each step is explained below:</p>
+<h2 id="1-install-the-windows-subsystem-for-linux-wsl">1. Install the Windows Subsystem for Linux (WSL)</h2>
+<p>For WSL you need to enable <strong>Hardware Virtualization - [V] Expose hardware assisted virtualization to the guest OS</strong> option in the CPU properties on the VM configuration in VMware ESXi for example.</p>
+<p><img alt="alt text" src="/logbook/site/blog/2024/04/create-a-windows-developer-environment/image-4.png"></p>
 <ul>
-<li>wsl &ndash;install (in an elavated shell)</li>
-<li>Reboot</li>
+<li>Install WSL (Run as Administrator) </br></li>
+<li>Enter the following command: <strong><code>wsl --install</code></strong></li>
+<li>Reboot the VM</li>
+<li>After the reboot the post WSL configuration will be performed. Enter the username and password for the Ubuntu VM. </br></li>
 </ul>
-<p>For the PATH to be reloaded, a restart of your terminal is advised.</p>
+<p><img alt="WSL after boot job" src="/logbook/site/blog/2024/04/create-a-windows-developer-environment/image-3.png">
+If you forgot to enable Hardware Virtualization the following error will be displayed:</p>
+<blockquote>
+<p>Launching Ubuntu&hellip;</br>
+Installing, this may take a few minutes&hellip;</br>
+WslRegisterDistribution failed with error: 0x80370102</br>
+Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.</br>
+For information please visit <a href="https://aka.ms/enablevirtualization"
+
+
+
+
+ target="_blank"
+ 
+
+
+>https://aka.ms/enablevirtualization</a>
+</br></p>
+</blockquote>
+<p><strong>Check the WSL version</strong></p>
+<ul>
+<li>Enter the following command: <code>wsl -l -v</code></li>
+</ul>
+<pre tabindex="0"><code>  NAME      STATE           VERSION
+* Ubuntu    Running         2
+</code></pre><h2 id="2-install-the-software-packages">2. Install the software packages</h2>
+<p>Run the <strong><code>_2-install-packages.ps1</code></strong> PowerShell script as Administrator. The following software (latest versions) are installed:</p>
+<ul>
+<li>WinGet</li>
+<li>Azure CLI</li>
+<li>Docker Desktop</li>
+<li>Visual Studio Code</li>
+<li>PowerShell 7</li>
+<li>Microsoft Windows Terminal</li>
+<li>Git</li>
+<li>Microsoft Bicep</li>
+<li>Hashicorp Terraform</li>
+<li>Hashicorp Packer</li>
+<li>Hashicorp Vault</li>
+<li>GitHub CLI</li>
+<li>GitHub Desktop</li>
+<li>Azure Export for Terraform</li>
+<li>Az PowerShell Modules</li>
+<li>VMware PowerCLI</li>
+<li>Microsoft Graph SDK</li>
+</ul>
+<p>When the script has finished, reboot the VM.</p>
+<p>Run the <code>_2-install-packages.ps1</code> script.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e">&lt;#
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .TITLE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Install packages
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .AUTHOR
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Ivo Beerens
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        www.ivobeerens.nl
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .</span><span style="color:#e6db74">DESCRIPTION</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        PowerShell script that enables
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .</span><span style="color:#e6db74">NOTES</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Run as Administrator
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Find WinGet packages: https://winget.run/
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .VERSIONS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        1.0 19-04-2024 Creation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Variables</span>
+</span></span><span style="display:flex;"><span>$downloadfolder = <span style="color:#e6db74">&#34;c:\temp\apps\&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$ProgressPreference = <span style="color:#e6db74">&#39;SilentlyContinue&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Enable TLS 1.2</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#66d9ef">Net.ServicePointManager</span>]::SecurityProtocol = [<span style="color:#66d9ef">Net.SecurityProtocolType</span>]::Tls12
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create Folder</span>
+</span></span><span style="display:flex;"><span>Write-Host <span style="color:#e6db74">&#34;Create Temp folder: </span>$downloadfolder<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>$checkdir = Test-Path -Path $downloadfolder
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($checkdir <span style="color:#f92672">-eq</span> $false){
+</span></span><span style="display:flex;"><span>    Write-Host <span style="color:#e6db74">&#34;Creating &#39;</span>$downloadfolder<span style="color:#e6db74">&#39; folder&#34;</span>
+</span></span><span style="display:flex;"><span>    New-Item -Path $downloadfolder -ItemType Directory | Out-Null
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install the latest Windows Package Manager (WinGet) version</span>
+</span></span><span style="display:flex;"><span>$winget = Get-AppPackage -name <span style="color:#e6db74">&#39;Microsoft.DesktopAppInstaller&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(!$winget) {
+</span></span><span style="display:flex;"><span>    Write-Host <span style="color:#e6db74">&#34;Install WinGet&#34;</span>
+</span></span><span style="display:flex;"><span>    Invoke-WebRequest -Uri https<span style="color:#960050;background-color:#1e0010">:</span>//www.nuget.org/api/v2/package/Microsoft.UI.Xaml/<span style="color:#ae81ff">2.8</span>.6 -OutFile $downloadfolder<span style="color:#e6db74">&#34;microsoft.ui.xaml.2.8.6.nupkg&#34;</span>
+</span></span><span style="display:flex;"><span>    Rename-Item -Path $downloadfolder<span style="color:#e6db74">&#34;microsoft.ui.xaml.2.8.6.nupkg&#34;</span> -NewName $downloadfolder<span style="color:#e6db74">&#34;microsoft.ui.xaml.2.8.6.zip&#34;</span> -Force
+</span></span><span style="display:flex;"><span>    Expand-Archive -path $downloadfolder<span style="color:#e6db74">&#34;microsoft.ui.xaml.2.8.6.zip&#34;</span> -DestinationPath $downloadfolder
+</span></span><span style="display:flex;"><span>    Add-AppxPackage -Path $downloadfolder<span style="color:#e6db74">&#34;tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx&#34;</span>
+</span></span><span style="display:flex;"><span>    Add-AppxPackage -Path $downloadfolder<span style="color:#e6db74">&#34;tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># List the Xaml versions</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get-Appxpackage Microsoft.UI.Xaml.2.8 -allusers | Select-Object Name, Architecture</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Invoke-WebRequest -Uri https<span style="color:#960050;background-color:#1e0010">:</span>//aka.ms/getwinget -OutFile $downloadfolder<span style="color:#e6db74">&#34;Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle&#34;</span>
+</span></span><span style="display:flex;"><span>    Invoke-WebRequest -Uri https<span style="color:#960050;background-color:#1e0010">:</span>//aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile $downloadfolder<span style="color:#e6db74">&#34;Microsoft.VCLibs.x64.14.00.Desktop.appx&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Add-AppxPackage $downloadfolder<span style="color:#e6db74">&#34;Microsoft.VCLibs.x64.14.00.Desktop.appx&#34;</span>
+</span></span><span style="display:flex;"><span>    Add-AppxPackage $downloadfolder<span style="color:#e6db74">&#34;Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get-AppxPackage Microsoft.VCLibs.140.00 -allusers</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Write-Host <span style="color:#e6db74">&#34;Winget Installed&#34;</span>
+</span></span><span style="display:flex;"><span>    winget -v
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    Write-Host <span style="color:#e6db74">&#34;Winget already installed&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install Azure CLI</span>
+</span></span><span style="display:flex;"><span>Invoke-WebRequest -Uri https<span style="color:#960050;background-color:#1e0010">:</span>//aka.ms/installazurecliwindows -OutFile $downloadfolder\AzureCLI.msi
+</span></span><span style="display:flex;"><span>Set-Location $downloadfolder
+</span></span><span style="display:flex;"><span>Start-Process msiexec.exe -Wait -ArgumentList <span style="color:#e6db74">&#39;/I AzureCLI.msi /quiet&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install Winget Packages</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Find packages: https://winget.run/</span>
+</span></span><span style="display:flex;"><span>$processlist = @(
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Docker.DockerDesktop&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Microsoft.VisualStudioCode&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Microsoft.PowerShell&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Microsoft.WindowsTerminal&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Git.Git&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Microsoft.Bicep&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Hashicorp.Packer&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Hashicorp.Terraform&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;GitHub.cli&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;GitHub.GitHubDesktop&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;JGraph.Draw&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Notepad++.Notepad++&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Microsoft.Azure.AztfExport&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">foreach</span> ($item <span style="color:#66d9ef">in</span> $processlist) {
+</span></span><span style="display:flex;"><span>    Winget install -e --id $item --accept-source-agreements --accept-package-agreements
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Upgrade all the other packages</span>
+</span></span><span style="display:flex;"><span>Winget upgrade --all --accept-source-agreements --accept-package-agreements
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># AZ Powershell modules</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># PowerShell 5</span>
+</span></span><span style="display:flex;"><span>Install-PackageProvider -Name <span style="color:#e6db74">&#34;NuGet&#34;</span> -RequiredVersion <span style="color:#e6db74">&#34;2.8.5.208&#34;</span> -Confirm:$false -Force 
+</span></span><span style="display:flex;"><span>Install-Module -Name PowerShellGet -Force
+</span></span><span style="display:flex;"><span>Install-Module -Name Az -Repository PSGallery -Force
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install VMware PowerCLI</span>
+</span></span><span style="display:flex;"><span>Install-Module VMware.PowerCLI -AllowClobber -Force
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install the Microsoft Graph PowerShell SDK</span>
+</span></span><span style="display:flex;"><span>Install-Module Microsoft.Graph -Scope AllUsers -Force
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get an overview of all installed PowerShell modules</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get-InstallModule</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Remove downloadfolder</span>
+</span></span><span style="display:flex;"><span>Remove-Item $downloadfolder -Recurse -Force
+</span></span></code></pre></div><h2 id="3-install-the-extensions-needed-for-visual-studio">3. Install the Extensions needed for Visual Studio</h2>
+<p>The <strong><code>_3_Install-vsc-ext.ps1</code></strong> PowerShell script installs the Visual Studio Code Extensions and sets the GitHub username and email address.</p>
+<p>The following Visual Studio Code Extensions are installed: </br></p>
+<ul>
+<li>Azure Account</li>
+<li>Azure CLI Tools</li>
+<li>Azure Terraform</li>
+<li>GitHub Actions</li>
+<li>Gitignore</li>
+<li>Hashicorp HCL</li>
+<li>Hashicorp Terraform</li>
+<li>Markdownlint</li>
+<li>PowerShell</li>
+<li>WSL</li>
+<li>Docker</li>
+<li>Dev Containers</li>
+</ul>
+<p>Run the <code>_3_Install-vsc-ext.ps1</code> script.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e">&lt;#
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .TITLE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Install Visual Studio Code Extensions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Set the Git username and email address
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .AUTHOR
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Ivo Beerens
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        www.ivobeerens.nl
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .</span><span style="color:#e6db74">DESCRIPTION</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Install Visual Studio Code Extensions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .</span><span style="color:#e6db74">NOTES</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Install VS Code extensions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        List existing extensions: code --list-extensions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        Extensions are stored in:  %USERPROFILE%\.vscode\extensions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    .VERSIONS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        1.0 19-04-2024 Creation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Variables</span>
+</span></span><span style="display:flex;"><span>$git_usernane = <span style="color:#e6db74">&#34;Ivo Beerens&#34;</span>
+</span></span><span style="display:flex;"><span>$git_password = <span style="color:#e6db74">&#34;info@ivobeerens.nl&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$processlist = @(
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;github.vscode-github-actions&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;hashicorp.hcl&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;hashicorp.terraform&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-azuretools.vscode-azureterraform&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-vscode.azure-account&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-vscode.azurecli&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-vscode.azurecli&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-vscode.powershell&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;codezombiech.gitignore&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;davidanson.vscode-markdownlint&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;eamodio.gitlens&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-vscode-remote.remote-containers&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ms-vscode-remote.remote-wsl&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">foreach</span> ($item <span style="color:#66d9ef">in</span> $processlist) {
+</span></span><span style="display:flex;"><span>    code --install-extension $item 
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Configure Git credentials</span>
+</span></span><span style="display:flex;"><span>git config --global user.name $git_usernane
+</span></span><span style="display:flex;"><span>git config --global user.email $git_password
+</span></span></code></pre></div><h2 id="testing-the-azure-login">Testing the Azure login</h2>
+<p>With the <strong><code>az</code></strong> command you can login to Azure and set the active subscription. Here are the commands.</p>
+<h3 id="login-to-azure">Login to Azure</h3>
+<pre tabindex="0"><code>az config set core.allow_broker=true
+az account clear
+az login
+</code></pre><h3 id="list-the-active-subscription-br">List the active Subscription </br></h3>
+<p><code>az account list -o table</code></p>
+<h3 id="set-subscription">Set Subscription</h3>
+<p><code>az account set --subscription &lt;subscription_id&gt;</code></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>These scripts can be customized to deploy the software you need in your local development environment. You can automate the OS deployment by using Packer for example and run these scripts automatically to fully automate your local developer environment.</p>
+<p>These scripts can be found on my <a href="https://github.com/ibeerens/dev-environment"
+
+
+
+
+ target="_blank"
+ 
+
+
+>GitHub</a>
+ repository.</p>
 </div>
         </div>
         
@@ -19597,7 +19857,7 @@ header {
 <div class="widget">
   <h5 class="widget-title"><span></span></h5>
     <a href="https://vexpert.vmware.com/directory/571">
-        <img class="img-fluid w-100 rounded-4" loading="lazy" decoding="async" src="/logbook/site/images/stars_hue0c3f340cf75d2d7ad2a1321821bc339_28760_530x358_fill_q90_h2_lanczos_smart1_3.webp"
+        <img class="img-fluid w-100 rounded-4" loading="lazy" decoding="async" src="/logbook/site/images/vexpert-broadcom-year_huff1d632facd75b55dedccb314e02119d_26211_530x358_fill_q90_h2_lanczos_smart1_3.webp"
             alt="vExpert Ivo Beerens" target="_blank" rel="noopener noreferrer">
     </a>
 </div>
@@ -19618,32 +19878,32 @@ header {
   <ul class="list-unstyled widget-list mb-0">
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://localhost:1313/logbook/site/blog/2024/04/create-a-windows-developer-environment/">
+        <a href="http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/">
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/04/create-a-windows-developer-environment/"></a></h5>
-          <small>April 3, 2024</small>
+          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/">Pass a GitHub Actions secret variable to a Packer PowerShell provider</a></h5>
+          <small>June 18, 2024</small>
         </div>
       </li>
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://localhost:1313/logbook/site/blog/2024/04/install-teams-on-a-vdi-environment/">
+        <a href="http://localhost:1313/logbook/site/blog/2024/06/the-latest-technology-news-may-2024/">
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/04/install-teams-on-a-vdi-environment/"></a></h5>
-          <small>April 3, 2024</small>
+          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/06/the-latest-technology-news-may-2024/">The latest technology news - May 2024</a></h5>
+          <small>June 1, 2024</small>
         </div>
       </li>
     
       <li class="d-flex widget-post align-items-start">
-        <a href="http://localhost:1313/logbook/site/blog/2024/04/the-latest-technology-news-march-2024/">
+        <a href="http://localhost:1313/logbook/site/blog/2024/05/the-latest-technology-news-april-2024/">
           
         </a>
         <div class="media-body">
-          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/04/the-latest-technology-news-march-2024/">The latest technology news - March 2024</a></h5>
-          <small>April 3, 2024</small>
+          <h5 class="h6 mb-0"><a href="http://localhost:1313/logbook/site/blog/2024/05/the-latest-technology-news-april-2024/">The latest technology news - April 2024</a></h5>
+          <small>May 1, 2024</small>
         </div>
       </li>
     
@@ -19793,6 +20053,10 @@ header {
           </li>
         
           <li class="list-inline-item">
+            <a href="/logbook/site/tags/development/">development</a>
+          </li>
+        
+          <li class="list-inline-item">
             <a href="/logbook/site/tags/disaster-recovery/">disaster-recovery</a>
           </li>
         
@@ -19857,7 +20121,7 @@ header {
           </li>
         
           <li class="list-inline-item">
-            <a href="/logbook/site/tags/github/">github</a>
+            <a href="/logbook/site/tags/github/">GitHub</a>
           </li>
         
           <li class="list-inline-item">
@@ -19866,6 +20130,10 @@ header {
         
           <li class="list-inline-item">
             <a href="/logbook/site/tags/hardware/">hardware</a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="/logbook/site/tags/hashicorp/">hashicorp</a>
           </li>
         
           <li class="list-inline-item">
@@ -19926,6 +20194,10 @@ header {
         
           <li class="list-inline-item">
             <a href="/logbook/site/tags/i217-v-2/">i217-v-2</a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="/logbook/site/tags/iac/">iac</a>
           </li>
         
           <li class="list-inline-item">
@@ -20613,6 +20885,10 @@ header {
           </li>
         
           <li class="list-inline-item">
+            <a href="/logbook/site/tags/winget/">winget</a>
+          </li>
+        
+          <li class="list-inline-item">
             <a href="/logbook/site/tags/workgroup/">workgroup</a>
           </li>
         
@@ -20708,7 +20984,7 @@ header {
       "@type": "WebPage",
       "@id": "http:\/\/localhost:1313\/logbook\/site\/blog\/2024\/04\/create-a-windows-developer-environment\/"
     },
-    "headline": "",
+    "headline": "Create a local Windows development environment",
     "description": "",
     "image": "\/logbook\/site\/",
     "author": {
