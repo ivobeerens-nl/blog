@@ -28,12 +28,12 @@ esxcli system maintenanceMode set –enable-true
 - Now you need to know which image profiles are available in the VMware ESXi patch. To do this use the following command (replace the **<datastore>** with your datastore):
 
 ```
-esxcli software sources profile list -d /vmfs/volumes/<datastore>/iso/VMware-ESXi-7.0U3o-22348816-depot.zip
+esxcli software sources profile list -d /vmfs/volumes/<datastore>/iso/VMware-ESXi-7.0U3q-22348816-depot.zip
 ```
 
 - The following profiles are listed. As you can see the image profile contains 4 image profiles:
 
-![esxcli_profile](images/1.jpg)
+![esxcli_profile](images/patch.png)
 
 - Here is a table with so, 0, standard, and no-tools means:
 
@@ -41,8 +41,8 @@ esxcli software sources profile list -d /vmfs/volumes/<datastore>/iso/VMware-ESX
 |---------------| --------------------------------- |
 | standard      | With VMware Tools included        |
 | no-tools      | Without VMware Tools              |
-| so            | Security updates only image       |
-| o             | Security and Bugfix update image  |
+| sq            | Security updates only image       |
+| q             | Security and Bugfix update image  |
 
 - To install the ESXi with security and bugfix updates without VMware Tools use the following command (replace the **<datastore>** with your datastore):
 

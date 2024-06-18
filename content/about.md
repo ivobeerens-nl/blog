@@ -28,9 +28,11 @@ My name is Ivo Beerens, currently working as Solution Consultant specialized in 
 
 I'm awarded with the **VMware vExpert title for 2011 till now, 14 years in a row**.
 
-{{< image src="images/vexpert2024.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+{{< image src="images/vexpert-broadcom-year.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
 My vExpert directory profile can be found here, [link](https://vexpert.vmware.com/directory/571).
+
+Another award is the HashiCorp Ambassador 2024.
 
 ---
 
@@ -41,6 +43,7 @@ My vExpert directory profile can be found here, [link](https://vexpert.vmware.co
 - Microsoft Azure Virtual Desktop Specialty AZ-140
 - VMware Certified Professional - Data Center Virtualization 2022
 - HashiCorp Certified: Terraform Associate (003)
+- GitHub Foundations
 - HP ASE - Server Solutions Architect V2
 - ITIL Foundation in IT Service Management
 - Certified Novell Administrator (CNA)
