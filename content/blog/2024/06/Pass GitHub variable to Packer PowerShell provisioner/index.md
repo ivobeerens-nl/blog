@@ -11,13 +11,14 @@ tags:
     - GitHub
 ---
 
-<!-- # Pass a GitHub Actions secret variable to a Packer PowerShell Provider -->
+Automating image deployment with HashiCorp Packer using GitHub Actions is a powerful way to streamline your workflow.
 
-With GitHub Actions you can automate the image deployment with Hashicorp Packer.
-It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image.
+Sometimes you need to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer.
+
+A use case example is if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image.
 The SAS token is read from the GitHub Actions secret variable and is not in clear text defined in the PowerShell script.
 
-This looks as follows:
+The whole process looks as follows:
 
 ![GitHub Actions Secrets](images/github.jpg)
 
@@ -32,13 +33,14 @@ https://ibeerens12354.blob.core.windows.net/
 ```
 
 ### Steps
+Let’s break down the steps:
 1. Create a GitHub repository
-2. Create a repository secret with the name for example BLOBSAS and paste the SAS URI in the secret field. 
+2. Create a repository secret with the name for example BLOBSAS and paste the SAS URI in the secret field.
 
 ![GitHub Actions Secrets](images/1.png)
 
-3. Configure the GitHub Action. As Packer GitHub Action I use the [Setup HashiCorp Packer](https://github.com/marketplace/actions/setup-hashicorp-packer) action
-4. Packer will read environment variables in the form of `PKR_VAR_name` to find the value for a variable. Add the `'PKR_VAR_blobsas=${{ secrets.BLOBSAS }}'` to the packer build run section
+3. Configure the GitHub Action. For Packer I use the following GitHub Action: [Setup HashiCorp Packer](https://github.com/marketplace/actions/setup-hashicorp-packer).
+4. Packer will read environment variables using the  `PKR_VAR_name` format to find the value for a variable. Add the `'PKR_VAR_blobsas=${{ secrets.BLOBSAS }}'` to the packer build run section
 
 ```yaml
 jobs:
@@ -61,7 +63,7 @@ jobs:
         run: "packer build -force -var-file='./packer/variables.pkr.hcl' -var 'client_id=${{ secrets.CLIENTID }}' -var 'client_secret= ${{ secrets.CLIENTSECRET }}' -var 'subscription_id=${{ secrets.SUBSCRIPTIONID }}' -var 'tenant_id=${{ secrets.TENANTID }}' -var 'PKR_VAR_blobsas=${{ secrets.BLOBSAS }}' './packer/windows11.json.pkr.hcl'"
 ```
 
-5. In the Packer configuration add the following variable:
+5. In the Packer configuration add the following empty variable:
 
 ```hcl
 variable "PKR_VAR_blobsas" {
@@ -69,7 +71,7 @@ variable "PKR_VAR_blobsas" {
 }
 ```
 
-6. In the Packer configuration add the PowerShell provisioner, add an environment variable and point to the script to download the software.
+6. In the Packer configuration, add the PowerShell provisioner, add an environment variable and point to the script that downloads the software.
 
 ```yaml
   provisioner "powershell" {
@@ -78,11 +80,13 @@ variable "PKR_VAR_blobsas" {
   }
 ```
 
-7. In the DownloadSoftware.ps1 PowerShell script I use the Azcopy  binary to download the software from the Azure storage blob to the Packer image.
+7. In the `DownloadSoftware.ps1` PowerShell script I use the Azcopy  binary to download the software from the Azure storage blob to the Packer image.
 
 ```powershell
 .\azcopy.exe cp $Env:saskey "c:\apps\" --recursive
 ```
+
+8. Start the GitHub Action to test the image deployment and if the software is downloaded from the Azure Storage blob.
 
 ### Conclusion
 
