@@ -13,7 +13,7 @@ summaryLength = 70 # see https://gohugo.io/content-management/excerpts/
 # google analytics
 googleAnalytics = "G-MVK8GXB3DR" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+# disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["fr"] # desable language from here
 capitalizeListTitles = false # capitalize list titles
