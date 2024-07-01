@@ -6,8 +6,15 @@
     <description>Recent content in news on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 08:24:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 04:02:36 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The latest technology news - May 2024</title>
+      <link>http://localhost:1313/logbook/site/blog/2024/07/the-latest-technology-news-june-2024/</link>
+      <pubDate>Mon, 01 Jul 2024 04:02:36 +0100</pubDate>
+      <guid>http://localhost:1313/logbook/site/blog/2024/07/the-latest-technology-news-june-2024/</guid>
+      <description>Welcome to our monthly roundup of the hottest tech updates in the worlds of Microsoft Azure (Windows 365, Azure Virtual Desktop, Cloud PC, and infrastructure), VMware by Broadcom, Omnissa, GitHub, HashiCorp, Azure DevOps, and other partners. This series will have must-read articles, each offering a deep dive into these cutting-edge platforms&amp;rsquo; latest technological advancements, news, and trends.&#xA;In today’s fast-paced tech landscape, staying informed is key! That’s why we’re here to make it easy for you.</description>
+    </item>
     <item>
       <title>The latest technology news - May 2024</title>
       <link>http://localhost:1313/logbook/site/blog/2024/06/the-latest-technology-news-may-2024/</link>

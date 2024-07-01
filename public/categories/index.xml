@@ -6,8 +6,15 @@
     <description>Recent content in categories on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 09:44:40 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 04:02:36 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>news</title>
+      <link>http://localhost:1313/logbook/site/categories/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/categories/news/</guid>
+      <description></description>
+    </item>
     <item>
       <title>GitHub</title>
       <link>http://localhost:1313/logbook/site/categories/github/</link>
@@ -20,13 +27,6 @@
       <link>http://localhost:1313/logbook/site/categories/packer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/logbook/site/categories/packer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>news</title>
-      <link>http://localhost:1313/logbook/site/categories/news/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/logbook/site/categories/news/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +69,6 @@
       <link>http://localhost:1313/logbook/site/categories/azure-virtual-desktop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/logbook/site/categories/azure-virtual-desktop/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation, PowerCLI</title>
-      <link>http://localhost:1313/logbook/site/categories/automation-powercli/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/logbook/site/categories/automation-powercli/</guid>
       <description></description>
     </item>
     <item>

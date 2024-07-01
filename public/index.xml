@@ -6,14 +6,21 @@
     <description>Recent content on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 09:44:40 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 04:02:36 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The latest technology news - June 2024</title>
+      <link>http://localhost:1313/logbook/site/blog/2024/07/the-latest-technology-news-june-2024/</link>
+      <pubDate>Mon, 01 Jul 2024 04:02:36 +0100</pubDate>
+      <guid>http://localhost:1313/logbook/site/blog/2024/07/the-latest-technology-news-june-2024/</guid>
+      <description>Welcome to our monthly roundup of the hottest tech updates in the worlds of Microsoft Azure (Windows 365, Azure Virtual Desktop, Cloud PC, and infrastructure), VMware by Broadcom, Omnissa, GitHub, HashiCorp, Azure DevOps, and other partners. This series will have must-read articles, each offering a deep dive into these cutting-edge platforms&amp;rsquo; latest technological advancements, news, and trends.&#xA;In today’s fast-paced tech landscape, staying informed is key! That’s why we’re here to make it easy for you.</description>
+    </item>
     <item>
       <title>Pass a GitHub Actions secret variable to a Packer PowerShell provider</title>
       <link>http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/</link>
       <pubDate>Mon, 17 Jun 2024 19:16:51 +0200</pubDate>
       <guid>http://localhost:1313/logbook/site/blog/2024/06/pass-github-variable-to-packer-powershell-provisioner/</guid>
-      <description>With GitHub Actions you can automate the image deployment with Hashicorp Packer. It can be useful to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer. For example if you want to use an Azure storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image. The SAS token is read from the GitHub Actions secret variable and is not in clear text defined in the PowerShell script.</description>
+      <description>Automating image deployment with HashiCorp Packer using GitHub Actions is a powerful way to streamline your workflow.&#xA;Sometimes, you need to pass a GitHub Actions (secret) variable to a PowerShell provisioner script in Hashicorp Packer.&#xA;A use case example is if you want to use an Azure Storage Blob Shared Access Signature (SAS) URI as secret in a PowerShell script that downloads software from the Blob storage to the Packer image.</description>
     </item>
     <item>
       <title>The latest technology news - May 2024</title>
@@ -63,13 +70,6 @@
       <pubDate>Wed, 28 Feb 2024 15:44:42 +0100</pubDate>
       <guid>http://localhost:1313/logbook/site/blog/2024/02/new-teams-parameter-is-incorrect/</guid>
       <description>After deploying new Azure Virtual Desktop (AVD) session hosts with the new Teams Client installed, users getting the following error after the login:&#xA;C:\Program Files\WindowsApp\MSTeams_24004.1307.2669.7070_x64_8wekyb..\msteams_autostarter.exe&#xA;The parameter is incorrect&#xA;In the picture the error The parameter is incorrect is displayed as de parameter is onjuist because the AVD host has a Dutch language pack installed.&#xA;To solve this issue I performed the following steps:&#xA;Install FSLogix 2210 hotfix 3 (2.9.8784.63912). link on the AVD image.</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/logbook/site/powercli/</link>
-      <pubDate>Wed, 07 Feb 2024 19:09:10 +0100</pubDate>
-      <guid>http://localhost:1313/logbook/site/powercli/</guid>
-      <description>2019/07/16/powercli-installation-updating-and-troubleshooting-tips/</description>
     </item>
     <item>
       <title>The latest technology news - January 2024</title>
@@ -2708,7 +2708,7 @@
       <link>http://localhost:1313/logbook/site/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/logbook/site/about/</guid>
-      <description>My name is Ivo Beerens, currently working as Solution Consultant specialized in virtualization technologies such as VMware SDDC, End-User Computing (EUC), Azure, Azure Virtual Desktop (AVD), Infrastructure as Code (IaC), Business Continuity (BC), and Disaster Recovery (DR).&#xA;I&amp;rsquo;m awarded with the VMware vExpert title for 2011 till now, 14 years in a row.&#xA;http://localhost:1313/logbook/site/images/vexpert2024.png does not exist&#xD;My vExpert directory profile can be found here, link .&#xA;Certifications:&#xA;Microsoft Certified: Azure Fundamentals AZ-900 Microsoft Certified: Azure Administrator Associate AZ-104 Microsoft Certified: Azure Solutions Architect Expert (AZ-305) Microsoft Azure Virtual Desktop Specialty AZ-140 VMware Certified Professional - Data Center Virtualization 2022 HashiCorp Certified: Terraform Associate (003) HP ASE - Server Solutions Architect V2 ITIL Foundation in IT Service Management Certified Novell Administrator (CNA) Microsoft Server Virtualization with Windows Server Hyper-V and System Center 2012 R2 Microsoft Certified Solution Expert (MCSE) Private Cloud Microsoft Certified Professional (MCP) Microsoft Certified System Engineer (MCSE+I) plus internet Microsoft Certified System Engineer (MCSE) on NT4, 2000 and 2003 Microsoft Windows Server 2008 R2 Server Virtualization Microsoft Certified Technology Specialist (MCTS) Microsoft Certified Solutions Associate (MCSA) 2012 VMware Certified Professional 6 - Data Center Virtualization (VCP6) VMware AirWatch Enterprise Mobility Associate Accreditation VMware Certified Professional - Network Virtualization 2019 VMware Certified Professional - Network Virtualization (VCPN610) VMware Certified Professional (VCP) on VMware ESX 2, VI3, vSphere 4 and 5 VMware Certified Professional 5 - Data Center Virtualization (VCP550D) VMware Certified Professional (VCP) 5 - Desktop VMware Certified Advanced Professional on vSphere 4 - Datacenter Administration (VCAP-DCA) number 240 VMware Certified Advanced Professional on vSphere 4 - Datacenter Design (VCAP-DCD) number 409 VMware Certified Advanced Professional on vSphere 5 - Datacenter Design (VDCD510) VMware Certified Associate - Data Center Virtualization Cisco Data Center Unified Computing Design Specialist Designing Cisco Data Center Unified Computing 642-998 Analyzing and Visualizing Data with Power BI Veeam Certified Sales Professional 2020 Veeam Certified Technical Sales Professional 2020 Veeam VMCE 2020 Contact E-mail: info**[at]**ivobeerens.</description>
+      <description>My name is Ivo Beerens, currently working as Solution Consultant specialized in virtualization technologies such as VMware SDDC, End-User Computing (EUC), Azure, Azure Virtual Desktop (AVD), Infrastructure as Code (IaC), Business Continuity (BC), and Disaster Recovery (DR).&#xA;I&amp;rsquo;m awarded with the VMware vExpert title for 2011 till now, 14 years in a row.&#xA;My vExpert directory profile can be found here, link .&#xA;Another award is the HashiCorp Ambassador 2024.</description>
     </item>
     <item>
       <title>No Search Found</title>

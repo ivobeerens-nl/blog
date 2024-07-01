@@ -6,22 +6,8 @@
     <description>Recent content in tags on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 09:44:40 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 04:02:36 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GitHub</title>
-      <link>http://localhost:1313/logbook/site/tags/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/logbook/site/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Packer</title>
-      <link>http://localhost:1313/logbook/site/tags/packer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/logbook/site/tags/packer/</guid>
-      <description></description>
-    </item>
     <item>
       <title>avd</title>
       <link>http://localhost:1313/logbook/site/tags/avd/</link>
@@ -62,6 +48,20 @@
       <link>http://localhost:1313/logbook/site/tags/w365/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/logbook/site/tags/w365/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>http://localhost:1313/logbook/site/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Packer</title>
+      <link>http://localhost:1313/logbook/site/tags/packer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/logbook/site/tags/packer/</guid>
       <description></description>
     </item>
     <item>
@@ -125,13 +125,6 @@
       <link>http://localhost:1313/logbook/site/tags/vdi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/logbook/site/tags/vdi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation, PowerCLI</title>
-      <link>http://localhost:1313/logbook/site/tags/automation-powercli/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/logbook/site/tags/automation-powercli/</guid>
       <description></description>
     </item>
     <item>

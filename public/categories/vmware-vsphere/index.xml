@@ -6,7 +6,7 @@
     <description>Recent content in VMware vSphere on IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2024 21:39:45 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 16:02:27 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/logbook/site/categories/vmware-vsphere/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Patch a VMware ESXI host with the ESXCLI command and choose the right image profile</title>
