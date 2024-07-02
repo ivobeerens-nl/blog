@@ -93,7 +93,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 
 ### **Microsoft Azure**
 - The latest Azure updates in one feed. [**Learn more**](https://azurecharts.com/updates)
-- John Savill's Weekly Update. [**Learn more**](https://www.youtube.com/watch?v=WzbdEFhO35o&list=PLlVtbbG169nGL0hj1CeL2Zjmr73SmXIpc&pp=iAQB)
+- John Savill's Weekly Update. [**Learn more**](https://www.youtube.com/playlist?list=PLlVtbbG169nGL0hj1CeL2Zjmr73SmXIpc)
 - Azure Stack HCI - 2405 update. [**Learn more**](https://www.linkedin.com/pulse/azure-stack-hci-2405-update-darryl-van-der-peijl-kyw6e/)
 - Announcing Windows Admin Center in Azure for Windows Client machines. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-admin-center-blog/announcing-windows-admin-center-in-azure-for-windows-client/ba-p/4171977)
 - Microsoft datacenter tour. [**Learn more**](https://news.microsoft.com/stories/microsoft-datacenter-tour/)
