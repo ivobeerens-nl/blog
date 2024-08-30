@@ -1,5 +1,5 @@
 ---
-title: "The latest technology news - Juli / August 2024"
+title: "The latest technology news - July / August 2024"
 author: Ivo Beerens
 date: 2024-09-01T04:02:36+01:00
 image: 
@@ -20,7 +20,7 @@ Welcome to our **monthly roundup** of the hottest tech updates in the worlds of 
 ![newsletter](images/august2024.jpeg)
 
 In today’s fast-paced tech landscape, staying informed is key! That’s why we’re here to make it easy for you. Each month, we’ll handpick the most insightful and informative articles that covers:
-- DAAS / VDI / End User Computing (EUC), Endpoint Management and Apps
+- DAAS, VDI, End User Computing (EUC), Endpoint Management and Apps
 - Cloud
 - Virtualization
 - Infrastructure As Code (IaC) /DevOps
@@ -32,7 +32,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ---
 
 ### **Azure Virtual Desktop (AVD)**
-- AVD Community April newsLetters. [**Learn more**](https://avdcommunity.com/)
+- AVD Community newsLetters. [**Learn more**](https://avdcommunity.com/)
 - Peripheral and resource redirection over the Remote Desktop Protocol. [**Learn more**](https://learn.microsoft.com/en-us/azure/virtual-desktop/redirection-remote-desktop-protocol)
 - Configure the clipboard transfer direction and data types that can be copied in Azure Virtual Desktop. [**Learn more**](https://learn.microsoft.com/en-us/azure/virtual-desktop/clipboard-transfer-direction-data-types?tabs=intune)
 - Preferred app group type settings enhance user feed display. [**Learn more**](https://learn.microsoft.com/en-us/azure/virtual-desktop/preferred-application-group-type)
@@ -158,5 +158,6 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ---
 - Azure Fest 11 September 2024, Niewegein NL [**Learn more**]()
 - AVD Tech Fest 24-25 September 2024, Amsterdam. [**Learn more**](https://avdtechfest.com/)
-- AppManagEvent 11 Oktober 2024, Utrecht NL. [**Learn more**](https://appmanagevent.com/)
+- AppManagEvent 11 October 2024, Utrecht NL. [**Learn more**](https://appmanagevent.com/)
+- EUC World: independence, bought to you by World of EUC, 22 & 23 October. [**Learn more**](https://worldofeuc.org/eucworld2024)
 - VMware Explore Europe, 4-7 November 2024, Barcelona. [**Learn more**](https://www.vmware.com/explore/eu)
