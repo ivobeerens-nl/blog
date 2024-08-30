@@ -125,8 +125,6 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - From zero to hero with HashiCorp Boundary. [**Learn more**](https://www.hashicorp.com/blog/from-zero-to-hero-hashicorp-boundary)
 - Get started with Hashicorp Vault foundations. [**Learn more**](https://developer.hashicorp.com/vault/tutorials/get-started)
 
-[**Learn more**]()
-
 ### **Azure DevOps**
 - Azure DevOps Agent: Azure Container Instance with Private Azure Container Registry. [**Learn more**](https://rios.engineer/azure-devops-agent-azure-container-instance-with-private-azure-container-registry/)
 - Managed DevOps Pools for Azure DevOps | Full Overview & Demo. [**Learn more**](https://www.youtube.com/watch?v=FBAav6OoJlw)
