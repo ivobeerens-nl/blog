@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - July / August 2024"
 author: Ivo Beerens
-date: 2024-09-01T04:02:36+01:00
+date: 2024-09-01T00:00:36+01:00
 image: 
 draft: false
 categories:
