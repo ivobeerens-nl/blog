@@ -23,7 +23,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - DAAS, VDI, End User Computing (EUC), Endpoint Management and Apps
 - Cloud
 - Virtualization
-- Infrastructure As Code (IaC) /DevOps
+- Infrastructure As Code (IaC)/DevOps
 
 **So let’s dive again into this months top tech insights.**
 
