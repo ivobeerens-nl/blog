@@ -99,6 +99,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - General Availability: Vaulted backups for Azure Blob Storage. [**Learn more**](https://techcommunity.microsoft.com/t5/azure-governance-and-management/general-availability-vaulted-backups-for-azure-blob-storage/ba-p/4207474)
 - When to use AzCopy versus Azure PowerShell or Azure CLI. [**Learn more**](https://techcommunity.microsoft.com/t5/azure-storage-blog/when-to-use-azcopy-versus-azure-powershell-or-azure-cli/ba-p/4192517)
 - From Zero to Hero with Azure Landing Zones. [**Learn more**](https://techcommunity.microsoft.com/t5/startups-at-microsoft/from-zero-to-hero-with-azure-landing-zones/ba-p/4229195)
+- AzureArc using RDP with SSH. [**Learn more**](https://www.linkedin.com/pulse/azurearc-using-rdp-ssh-alexander-ortha-7sxae/?trackingId=elkCWQCLaCnxHOsdWnCPew%3D%3D)
 
 ### **Windows**
 - Windows news you can use: August 2024. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-news-you-can-use-august-2024/ba-p/4230093)
