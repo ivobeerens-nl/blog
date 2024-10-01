@@ -96,7 +96,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 
 ### **Windows**
 - Release notes: September 2024 - Windows 11, version 23H2. [**Learn more**](https://www.youtube.com/watch?v=qXsKJhhh43s)
-- Windows news you can use: August 2024. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-news-you-can-use-august-2024/ba-p/4230093)
+- Windows news you can use: September 2024. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-news-you-can-use-september-2024/ba-p/4257277)
 - Windows Server Update Services (WSUS) deprecation. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-server-update-services-wsus-deprecation/ba-p/4250436)
 - Now in preview: Hotpatch for Windows Server 2025. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-server-news-and-best/now-in-preview-hotpatch-for-windows-server-2025/ba-p/4248296?WT.mc_id=EM-MVP-5004264)
 - Announcing Windows Server 2025 Security Baseline Preview. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-server-insiders/announcing-windows-server-2025-security-baseline-preview/m-p/4257686)
