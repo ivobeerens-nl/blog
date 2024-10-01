@@ -35,7 +35,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - New VDI solution for Teams. [**Learn more**](https://learn.microsoft.com/en-us/microsoftteams/vdi-2)
 - New VDI solution for Teams on AVD/Windows 365 environments now generally available. [**Learn more**](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/new-vdi-solution-for-teams-on-avd-windows-365-environments-now/ba-p/4238620)
 - What's new in Windows App, users can get the app from the Microsoft store, Administrators can download the MSIX. [**Learn more**](https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=windows#latest-release)
-- DAAS like a pro = End user Computing state of the Unoin 2024 - 2025. [**Learn more**](https://daaslikeapro.com/wp-content/uploads/2024/09/DAASLIKEAPRO-State-of-the-Union-2024-2025.pdf)
+- DAAS like a pro, the End user Computing state of the Union 2024 - 2025. [**Learn more**](https://daaslikeapro.com/wp-content/uploads/2024/09/DAASLIKEAPRO-State-of-the-Union-2024-2025.pdf)
 - VDI Admins: This Changes Everything. [**Learn more**](https://youtu.be/HI2dzbGfV4M?si=RxndhfEC9xLqJJLy)
 
 ### **Azure Virtual Desktop (AVD)**
