@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - October 2024"
 author: Ivo Beerens
-date: 2024-11-01T00:00:36+01:00
+date: 2024-10-31T00:00:36+01:00
 image: 
 draft: false
 categories:
