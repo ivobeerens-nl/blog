@@ -67,16 +67,15 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Omnissa weekly EUC newsletter. [**Learn more**](https://blog.simonelberts.nl/)
 - VMware Horizon Client for Windows 2406.1. [**Learn more**](https://customerconnect.omnissa.com/downloads/details?downloadGroup=CART25FQ2_WIN_2406.1&productId=1027&rPId=118762)
 - VDI Blast Configurator. [**Learn more**](https://vdihub.fr/blast-configurator/)
-- mnissa Horizon combined offering with VMware vSphere Foundation for VDI. [**Learn more**](https://static.omnissa.com/sites/default/files/VVF-for-VDI-FAQ.pdf)
+- Omnissa Horizon combined offering with VMware vSphere Foundation for VDI. [**Learn more**](https://static.omnissa.com/sites/default/files/VVF-for-VDI-FAQ.pdf)
 - Horizon Powershell Module. [**Learn more**](https://developer.omnissa.com/horizon-powercli/)
 - Omnissa announces Limited Availability for Horizon 8 with VCD. [**Learn more**](https://techzone.omnissa.com/blog/horizon-8-and-vcd-integration-limited-availability)
 
 ### **Intune**
 - Weekly Intune newsletter by Andrew Taylor. [**Learn more**](https://andrewstaylor.com/category/newsletter/)
-- What’s new in Microsoft Intune September 2024. [**Learn more**](https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-september-2024/ba-p/4255537)
+- What's new in Microsoft Intune October 2024 [**Learn more**](https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-october-2024/ba-p/4273353)
 - Rock my printers. [**Learn more**](https://www.rockenroll.tech/2023/03/14/rock-my-printers/)
 - Connect to Cloud PCs from Windows 10 kiosks using Windows App. [**Learn more**](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/connect-to-cloud-pcs-from-windows-10-kiosks-using-windows-app/ba-p/4274384)
-- All About Azure Storage SAS Tokens. [**Learn more**](https://www.nathannellans.com/post/all-about-azure-storage-sas-tokens)
 - Easily managing Personal Data Encryption for known Windows folders. [**Learn more**](https://petervanderwoude.nl/post/easily-managing-personal-data-encryption-for-known-windows-folders/)
 
 ### **MSIX App Attach / WinGet**
@@ -114,6 +113,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Deploy Azure Arc gateway (Limited preview 2024). [**Learn more**](https://www.linkedin.com/pulse/deploy-azure-arc-gateway-limited-preview-2024-andreas-hartig-sbo8f/?trackingId=Jh%2Bz20kFQqiHXR4bDjta%2BA%3D%3D)
 - New features for Azure Virtual Desktop for Azure Stack HCI. [**Learn more**](https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/new-features-for-azure-virtual-desktop-for-azure-stack-hci/ba-p/4273496)
 - Identify Azure cloud waste. [**Learn more**](https://www.cloudcoffeebreak.com/2024/10/16/azure-cost-optimization-part-3-identify-cloud-waste.html)
+- All About Azure Storage SAS Tokens. [**Learn more**](https://www.nathannellans.com/post/all-about-azure-storage-sas-tokens)
 
 ### **Windows**
 - What's new in Windows Server 2025 (preview). [**Learn more**](https://learn.microsoft.com/en-us/windows-server/get-started/whats-new-windows-server-2025)
