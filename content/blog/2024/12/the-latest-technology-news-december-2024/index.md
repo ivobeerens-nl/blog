@@ -17,7 +17,7 @@ tags:
 
 Welcome to our **monthly roundup** of the hottest tech updates in the worlds of Microsoft Azure (Windows 365, Azure Virtual Desktop, Cloud PC, and infrastructure), VMware by Broadcom, Omnissa, GitHub, HashiCorp, Azure DevOps, and other partners. This series will have must-read articles, each offering a deep dive into these cutting-edge platforms' latest technological advancements, news, and trends.
 
-![newsletter](images/october2024-news.jpeg)
+![newsletter](images/november2024-news.jpeg)
 
 In today’s fast-paced tech landscape, staying informed is key! That’s why we’re here to make it easy for you. Each month, we’ll handpick the most insightful and informative articles that covers:
 - DAAS, VDI, End User Computing (EUC), Endpoint Management and Apps
