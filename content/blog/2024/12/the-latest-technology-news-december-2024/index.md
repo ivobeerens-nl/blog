@@ -64,7 +64,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Windows 365 slow logon times. [**Learn more**](https://www.nielskok.tech/windows-365/windows-365-slow-logon-times/)
 - Microsoft Released Non-Persistent Windows 365 Frontline Shared. [**Learn more**](https://kempeneers.eu/2024/11/20/microsoft-released-non-persistent-windows-365-frontline-shared/)
 
-### **VMware EUC / Horizon / Omnissa**
+### **Omnissa | Horizon | VMware EUC**
 - Weekly VMware Enduser Computing Updates by Julius Lienemann. [**Learn more**](https://juliuslienemann.wordpress.com/)
 - Omnissa weekly EUC newsletter. [**Learn more**](https://blog.simonelberts.nl/)
 - High availability because downtime was not on my agenda today.[**Learn more**](https://community.omnissa.com/forums/topic/69083-high-availability-because-downtime-was-not-on-my-agenda-today/?_rid=23174)
