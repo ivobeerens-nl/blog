@@ -57,6 +57,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ### **Windows 365 (W365) / CloudPC**
 - The latest weekly W365 newsletter. [**Learn more**](https://w365community.com/)
 - What's new in Windows 365 Enterprise. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#week-of-december-17-2024)
+- Unlocking the Power of Windows 365 in 2025: Your Ultimate Learning Guide. [**Learn more**](https://techcommunity.microsoft.com/discussions/windows365discussions/unlocking-the-power-of-windows-365-in-2025-your-ultimate-learning-guide/4361831)
 
 ### **Omnissa | Horizon | VMware EUC**
 - Weekly VMware Enduser Computing Updates by Julius Lienemann. [**Learn more**](https://juliuslienemann.wordpress.com/)
