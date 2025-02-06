@@ -65,7 +65,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Designating Omnissa Horizon Administrator Permissions with PowerShell. [**Learn more**](https://blog.graa.dev/Omnissa-HorizonPermissionsPowerShell)
 - Secure access to Omnissa UAG using HashiCorp Boundary with Transparent Sessions. [**Learn more**](https://blog.graa.dev/Boundary-OmnissaUag)
 - Expectations for Omnissa in 2025. [**Learn more**](https://blog.graa.dev/Omnissa-Expectations2025)
-- Unlocking the Power of Omnissa Dynamic Environment Manager with templates for Office 365 and Windows 11. [**Learn more**](community)
+- Unlocking the Power of Omnissa Dynamic Environment Manager with templates for Office 365 and Windows 11. [**Learn more**](https://community.omnissa.com/forums/topic/69211-unlocking-the-power-of-omnissa-dynamic-environment-manager-with-templates-for-office-365-and-windows-11/)
 - Omnissa Access On Premises 24.12 release. [**Learn more**](https://docs.omnissa.com/bundle/workspace-one-access-release-notesV24.12/page/workspace-one-access-release-notes.html)
 - Omnissa Horizon Client 2412 (8.14.0) download available. [**Learn more**](https://customerconnect.omnissa.com/downloads/details?downloadGroup=CART25FQ4_WIN_2412&productId=1562&rPId=118884)
 - Omnissa App Volumes 2412 release notes. [**Learn more**](https://docs.omnissa.com/bundle/AppVolumesReleaseNotesV2412/page/AppVolumes-ReleaseNotes.html)
