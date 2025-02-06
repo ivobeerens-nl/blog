@@ -32,7 +32,7 @@ I'm awarded with the **VMware vExpert title for 2011 till now, 14 years in a row
 
 My vExpert directory profile can be found here, [link](https://vexpert.vmware.com/directory/571).
 
-Another award is the HashiCorp Ambassador 2024.
+And the **HashiCorp Ambassador 2024** award.
 
 ---
 
@@ -76,5 +76,6 @@ Another award is the HashiCorp Ambassador 2024.
 ---
 
 ### Contact
-E-mail:  info**\[at\]**ivobeerens.nl
+E-mail:  ibeerens **\[at\]** gmail.com
+
 Change the **\[at\]** in the @ sign.
