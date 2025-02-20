@@ -13,7 +13,7 @@ tags:
     - euc
 ---
 
-When deploying new session hosts in existing host pools I don't want users to direct login to the new session hosts. During the deployment In the Terraform `azurerm` provider I could not find a way to enable drain mode. Then the AzAPI Terraform provider showed up.
+When deploying new AVD session hosts in existing host pools I don't want users to direct login after the new AVD session host is created. In the Terraform `azurerm` provider I could not find a way to enable drain mode. Then the AzAPI Terraform provider showed up.
 
 **What is AzAPI?**
 > The AzAPI provider is a thin layer on top of the Azure ARM REST APIs. It enables you to manage any Azure resource type using any API version, enabling you to utilize the latest functionality within Azure. AzAPI is a first-class provider designed to be used on its own or in tandem with the AzureRM provider.
@@ -31,7 +31,7 @@ $sessionHost = "000vdp0225-0.ibeerens.nl"
 
 az rest --method get --url https://management.azure.com/subscriptions/$subscriptionid/resourceGroups/$resourceGroup//providers/Microsoft.DesktopVirtualization/hostpools/$hostpool/sessionHosts/${sessionHost}?api-version=2024-04-03
 ```
-Run the script and the following output displayed:
+After running the script the following output displayed:
 
 ```
 {
@@ -71,7 +71,7 @@ provider "azapi" {
 }
 ```
 
-Here is an example of the AzApi resource block that will enable drain mode:
+Next is an example of the AzApi resource block that will enable drain mode:
 
 ```
 # AVD session host - enable drain mode 
@@ -91,7 +91,7 @@ resource "azapi_resource_action" "enterdrainmode" {
   ]
 }
 ```
-This code can be implemented in your existing Terraform code for provisioning new AVD session hosts.
+This code can be implemented in your existing Terraform code for provisioning new AVD session hosts and enable drain mode.
 
 More information can be found here:
 - [Terraform Provider for Azure Resource Manager Rest API](https://github.com/Azure/terraform-provider-azapi/tree/main)
