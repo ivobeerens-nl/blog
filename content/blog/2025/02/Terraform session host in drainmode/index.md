@@ -13,8 +13,7 @@ tags:
     - euc
 ---
 
-## Deploy new Azure Virtual Desktop (AVD) session hosts in drain mode with Terraform.
-When deploying new session hosts in existing host pools I don't want users to log-in straight to the new session hosts. During the deployment In the Terraform winrm provider I could not find a way to enable drain mode. Then the AzAPI Terraform provider showed up.
+When deploying new session hosts in existing host pools I don't want users to direct login to the new session hosts. During the deployment In the Terraform `azurerm` provider I could not find a way to enable drain mode. Then the AzAPI Terraform provider showed up.
 
 **What is AzAPI?**
 > The AzAPI provider is a thin layer on top of the Azure ARM REST APIs. It enables you to manage any Azure resource type using any API version, enabling you to utilize the latest functionality within Azure. AzAPI is a first-class provider designed to be used on its own or in tandem with the AzureRM provider.
@@ -22,12 +21,12 @@ When deploying new session hosts in existing host pools I don't want users to lo
 First, I needed to find the drain mode property. I used the following steps:
 - Deploy a single AVD session host or use an existing AVD session host.
 - Authenticate to Azure (`az login`)
-- I creatd a PowerShell script to list the properties of the AVD session host:
+- The following PowerShell / AZ commands list the properties of the AVD session host:
 ```powershell
 # Variables 
 $subscriptionId = "01433xxx-48xx-48xx-8cxx-20941a55f5xx"
-$resourceGroup = "ibs-rg-avd-backplane"
-$hostpool = "ibs-hp-prod"
+$resourceGroup = "ibs-rg-avd-sessionhosts"
+$hostpool = "ibs-hp-001"
 $sessionHost = "000vdp0225-0.ibeerens.nl"
 
 az rest --method get --url https://management.azure.com/subscriptions/$subscriptionid/resourceGroups/$resourceGroup//providers/Microsoft.DesktopVirtualization/hostpools/$hostpool/sessionHosts/${sessionHost}?api-version=2024-04-03
@@ -36,7 +35,7 @@ Run the script and the following output displayed:
 
 ```
 {
-  "id": "/subscriptions/01433xxx-48xx-48xx-8cxx-20941a55f5xx/resourcegroups/ibs-rg-avd-backplane/providers/Microsoft.DesktopVirtualization/hostpools/ibs-hp-prod/sessionhosts/000vdp0225-0.ibeerens.nl",
+  "id": "/subscriptions/01433xxx-48xx-48xx-8cxx-20941a55f5xx/resourcegroups/ibs-rg-avd-sessionhosts/providers/Microsoft.DesktopVirtualization/hostpools/ibs-hp-001/sessionhosts/000vdp0225-0.ibeerens.nl",
   "name": "ibs-hp-prod/000vdp0225-0.ibeerens.nl",
   "properties": {
     "agentVersion": "1.0.9742.2500",
@@ -72,10 +71,10 @@ provider "azapi" {
 }
 ```
 
-Here the AzApi resource block that will enable drain mode:
+Here is an example of the AzApi resource block that will enable drain mode:
 
 ```
-# Enable drain mode AVD session host
+# AVD session host - enable drain mode 
 resource "azapi_resource_action" "enterdrainmode" {
   count       = var.vm_count
   type        = "Microsoft.DesktopVirtualization/hostPools/sessionHosts@2024-04-03"
@@ -92,7 +91,6 @@ resource "azapi_resource_action" "enterdrainmode" {
   ]
 }
 ```
-
 This code can be implemented in your existing Terraform code for provisioning new AVD session hosts.
 
 More information can be found here:
