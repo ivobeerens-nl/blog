@@ -13,7 +13,10 @@ tags:
     - euc
 ---
 
-When deploying new AVD session hosts in existing host pools I don't want users to direct login after the new AVD session host is created. In the Terraform `azurerm` provider I could not find a way to enable drain mode. Then the AzAPI Terraform provider showed up.
+Using Terraform I can create new AVD session hosts when I want.
+For example after patch tuesday I create new AVD images with Packer and deploy new AVD session hosts using Terraform with GitHub Actions.
+
+When deploying new AVD session hosts in existing host pools, I don't want users to log in directly after the new AVD session host is created. In the Terraform `azurerm` provider, I could not find a way to enable drain mode. Then, the AzAPI Terraform provider showed up.
 
 **What is AzAPI?**
 > The AzAPI provider is a thin layer on top of the Azure ARM REST APIs. It enables you to manage any Azure resource type using any API version, enabling you to utilize the latest functionality within Azure. AzAPI is a first-class provider designed to be used on its own or in tandem with the AzureRM provider.
@@ -21,7 +24,7 @@ When deploying new AVD session hosts in existing host pools I don't want users t
 First, I needed to find the drain mode property. I used the following steps:
 - Deploy a single AVD session host or use an existing AVD session host.
 - Authenticate to Azure (`az login`)
-- The following PowerShell / AZ commands list the properties of the AVD session host:
+- The following PowerShell/AZ commands list the properties of the AVD session host:
 ```powershell
 # Variables 
 $subscriptionId = "01433xxx-48xx-48xx-8cxx-20941a55f5xx"
