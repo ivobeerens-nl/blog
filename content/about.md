@@ -26,13 +26,14 @@ social:
 
 My name is Ivo Beerens, currently working as Solution Consultant specialized in virtualization technologies such as VMware SDDC, End-User Computing (EUC), Azure, Azure Virtual Desktop (AVD), Infrastructure as Code (IaC), Business Continuity (BC), and Disaster Recovery (DR).
 
-I'm awarded with the **VMware vExpert title for 2011 till now, 14 years in a row**.
-
-{{< image src="images/vexpert-broadcom-year.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+I'm awarded with:
+- **VMware vExpert title (2011 till 2025), 15 years in a row**.
+{{< image src="images/vexpert2025.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
 My vExpert directory profile can be found here, [link](https://vexpert.vmware.com/directory/571).
 
-And the **HashiCorp Ambassador 2024** award.
+- **HashiCorp Ambassador 2024**. The Ambassador Directory
+can be found here: [link](https://www.hashicorp.com/en/ambassador/directory)
 
 ---
 
