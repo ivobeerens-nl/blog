@@ -125,7 +125,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - 128GB memory mini PCs is now a reality with 64GB DDR5 SODIMM. [**Learn more**](https://williamlam.com/2025/02/128gb-memory-mini-pcs-is-now-a-reality-with-64gb-ddr5-sodimm.html)
 - VMware vCenter Native Key Provider. [**Learn more**](https://thedxt.ca/2025/02/vcenter-native-key-provider/)
 - Bulk Import Intune Policies and Configurations. [**Learn more**](https://smbtothecloud.com/bulk-import-intune-policies-and-configurations/)
-= Quick Tip - Auditing ESXi boot firmware type. [**Learn more**](https://williamlam.com/2025/02/quick-tip-auditing-esxi-boot-firmware-type.html)
+- Quick Tip - Auditing ESXi boot firmware type. [**Learn more**](https://williamlam.com/2025/02/quick-tip-auditing-esxi-boot-firmware-type.html)
 - 24H2 Windows 11 and Server 2025 VMXnet3 Issues. [**Learn more**](https://www.jeffriechers.com/wiki/24h2-windows-11-and-server-2025-vmxnet3-issues/)
 - Installing vSphere Supervisor with Terraform: Step-by-Step Guide. [**Learn more**](https://worker-node.com/2025/02/10/vsphere-supervisor-terraform/)
 
