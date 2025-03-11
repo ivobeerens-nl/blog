@@ -69,7 +69,6 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - IntuneBrew, a PowerShell-based tool that simplifies the process of uploading and managing macOS applications in Microsoft Intune. [**Learn more**](https://github.com/ugurkocde/IntuneBrew/tree/main)
 - IntuneAssistant update! It is now possible to view application assignments in more detail. See if an application is assigned or not including the assignment type. [**Learn more**](https://intuneassistant.cloud/)
 - How to Customize the Windows 11 Start Menu and Taskbar with Intune. [**Learn more**](https://youtu.be/g7Bayj95uNg?si=w8klMYj2BLnNG_Ss)
-- Blocking and removing apps on Intune managed devices (Windows, iOS/iPadOS, Android and macOS). [**Learn more**]https://techcommunity.microsoft.com/blog/intunecustomersuccess/blocking-and-removing-apps-on-intune-managed-devices-windows-iosipados-android-a/4383156)
 - Rolling Out Intune Security Baselines (Without Causing a Workplace Uprising). [**Learn more**](https://www.linkedin.com/pulse/rolling-out-intune-security-baselines-without-causing-dustin-gullett-pkxxc/?trackingId=v5WTvSVYShyoIYRD4cNkMQ%3D%3D)
 - How You Should Be Using Intune Windows Security Baselines. [**Learn more**](https://youtu.be/_n2zMuWAkIM?si=tAV-yqY10oxSquFi)
 - Automating LOB App Deployment In Intune Using PowerShell Script. [**Learn more**](https://youtu.be/a28NA3wsZgU?si=OWApTlZtdn4zWMoa)
