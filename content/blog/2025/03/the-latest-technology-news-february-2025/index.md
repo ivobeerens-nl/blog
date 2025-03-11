@@ -161,7 +161,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Bulk creating Global Secure Access Enterprise applications using PowerShell. [**Learn more**](https://www.christianfrohn.dk/2025/02/20/bulk-creating-global-secure-access-enterprise-applications-using-powershell/)
 - EVERYTHING you need to know about PowerShell Remoting (HTTP/HTTPS/OpenSSH). [**Learn more**](https://youtu.be/sg_9r0PHnnM?si=epVcFFzQPaK6Cuvr)
 
-### ** Proxmox
+### ** Proxmox***
 - PROXMOX MAIL GATEWAY 8.2 is available. [**Learn more**](https://forum.proxmox.com/threads/proxmox-mail-gateway-8-2-released.162919/)
 - Dell PowerStore: Deploying Proxmox Virtual Environment — White Paper. [**Learn more**](https://infohub.delltechnologies.com/en-us/t/dell-powerstore-deploying-proxmox-virtual-environment-white-paper/)
 
