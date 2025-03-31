@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - March 2025"
 author: Ivo Beerens
-date: 2025-31-03T00:00:36+01:00
+date: 2025-31-03T13:00:36+01:00
 image: 
 draft: false
 categories:
@@ -44,6 +44,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Introducing the Windows 11 roadmap. [**Learn more**](https://techcommunity.microsoft.com/blog/windows-itpro-blog/introducing-the-windows-11-roadmap/4397783)
 
 ### **Azure Virtual Desktop (AVD)**
+
 - What's new in Azure Virtual Desktop? [**Learn more**](https://learn.microsoft.com/en-us/azure/virtual-desktop/whats-new)
 - Updating Windows and create a new Image Version for Azure Virtual Desktop DevOps Pipelines. [**Learn more**](https://blog.poffers.cloud/posts/2025-03-avd-articles/updating-windows-and-create-a-new-image-version-avd-automated/)
 - Deploying AVD as a cloud Privileged Access Workstation. [**Learn more**](https://youtu.be/n1kew9Jq4Sk?si=ui00Vn-rccC78jaY)
@@ -54,17 +55,20 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - In public preview: Multiple personal desktops with Azure Virtual Desktop. [**Learn more**](https://techcommunity.microsoft.com/blog/azurevirtualdesktopblog/in-public-preview-multiple-personal-desktops-with-azure-virtual-desktop/4394696)
 
 ### **Windows 365 (W365) / CloudPC**
+
 - The latest weekly W365 newsletter. [**Learn more**](https://w365community.com/)
 - What's new in Windows 365 Enterprise. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#week-of-december-17-2024)
 - Windows 365: Deep-Dive into Provisioning. [**Learn more**](https://youtu.be/cEP3i2g4-EQ?si=CN-AGZui9H9HWxga)
 - Create a Free Interactive License Usage Report for Microsoft 365. [**Learn more**](https://ourcloudnetwork.com/create-a-free-interactive-license-usage-report-for-microsoft-365/)
 
 ### **Omnissa | Horizon | VMware EUC**
+
 - Weekly VMware Enduser Computing Updates by Julius Lienemann. [**Learn more**](https://juliuslienemann.wordpress.com/)
 - Omnissa weekly EUC newsletter. [**Learn more**](https://blog.simonelberts.nl/)
 - Introducing the brand new 2025 Omnissa Tech Insiders page on TechZone! [**Learn more**](https://community.omnissa.com/forums/topic/69832-introducing-the-brand-new-2025-omnissa-tech-insiders-page-on-techzone/)
 
 ### **Intune**
+
 - Weekly Intune newsletter by Andrew Taylor. [**Learn more**](https://andrewstaylor.com/category/newsletter/)
 - What's new in Microsoft Intune. [**Learn more**](https://learn.microsoft.com/en-us/mem/intune/fundamentals/whats-new)
 
@@ -72,14 +76,17 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ## **Microsoft Azure**
 ---
 ### **Microsoft 365 / Entra / AD**
+
 - Entra.News - Your weekly dose of Microsoft Entra. [**Learn more**](https://entra.news/)
 - How to Upgrade Microsoft Entra Connect. [**Learn more**](https://www.alitajran.com/upgrade-microsoft-entra-connect/)
 
 ### **Microsoft Defender for Endpoint**
+
 - Resolving high CPU utilization in Microsoft Defender Antivirus. [**Learn more**](https://youtu.be/OErWturJrRI?si=twaaO-57DMClULzW)
 
 
 ### **Microsoft Azure**
+
 - John Savill's Weekly Update. [**Learn more**](https://www.youtube.com/playlist?list=PLlVtbbG169nGL0hj1CeL2Zjmr73SmXIpc)
 - Building my first Private Azure Kubernetes Cluster WAF aligned. [**Learn more**](https://blog.poffers.cloud/posts/2025-03-azure-aks/building-my-first-private-azure-kubernetes-cluster-waf-aligned/#Community)
 - Azure Local Performance Testing (Storage). [**Learn more**](https://www.auxiliumtechtalk.com/post/azure-local-performance-testing-storage)
@@ -91,11 +98,14 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Azure Subnet Peering. [**Learn more**](https://techcommunity.microsoft.com/blog/azurenetworkingblog/subnet-peering/4397640)
 
 ### **Windows**
+
 - AVMA – Simplifying Offline Device Activation. [**Learn more**](https://hartiga.de/azure/offline-device-activation-with-avma/?no_cache=1)
 
 ---
 ## **VMware by Broadcom**
+
 ---
+
 - VMUG Advantage Home Lab License Guide. [**Learn more**](https://blogs.vmware.com/code/2025/03/19/vmug-advantage-home-lab-license-guide/?utm_medium=CMTYsocial&utm_source=CMTYAdvocacy)
 - VMware vSphere 8.0 Virtual Topology Performance Study. [**Learn more**](https://www.vmware.com/docs/vsphere8-virtual-topology-perf)
 - Top 10 Reasons VMware Cloud Foundation Outshines Other Private Cloud Platforms. [**Learn more**](https://blogs.vmware.com/cloud-foundation/2025/03/13/top-10-reasons-vmware-cloud-foundation-outshines-other-private-cloud-platforms/)
@@ -119,12 +129,14 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ---
 
 ### **General**
+
 - Securely connecting to my home network with Boundary. [**Learn more**](https://medium.com/hashicorp-engineering/securely-connecting-to-my-home-network-with-boundary-6b832576d521)
 - Automating Your Home Lab with Ansible, Terraform, and CI/CD Pipelines. [**Learn more**](https://www.virtualizationhowto.com/2025/03/automating-your-home-lab-with-ansible-terraform-and-ci-cd-pipelines/)
 - Dev Containers: Develop inside a container. [**Learn more**](https://marcogerber.ch/dev-containers-develop-inside-a-container/)
 - Writing your own Ansible PowerShell Module. [**Learn more**](https://youtu.be/t28guLbd56U?si=DevB0OU8Y6XJ8PyY)
 
 ### **GitHub**
+
 - Protect the repository hosting your GitHub Action. [**Learn more**](https://jessehouwing.net/protect-the-repository-hosting-your-github-action/)
 - Setting up Trivy in your GitHub Actions. [**Learn more**](https://thomasthornton.cloud/2025/03/18/setting-up-trivy-in-your-github-actions/)
 - Azure Private Networking for GitHub-hosted Runners Demo. [**Learn more**](https://github.com/matsest/gh-runner-az-private-network-demo) and [**Learn more**](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/about-azure-private-networking-for-github-hosted-runners-in-your-organization)
@@ -132,6 +144,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - GitHub Automation with Terraform #4. [**Learn more**](https://www.linkedin.com/pulse/github-automation-terraform-4-stu-mace-o83oc/?trackingId=%2B9nreufbQ3ubZZUx6jBezQ%3D%3D)
 
 ### **Hashicorp Terraform**
+
 - Learn to Create Local Modules using Terraform. [**Learn more**](https://youtu.be/O5-i-9yZD_A?si=_66rZ2Y_Ge6KSFQr)
 - Automate Terraform Testing with Azure DevOps Pipelines. [**Learn more**](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines/)
 - Deploying a VM using terraform. [**Learn more**](https://vminfrastructure.com/2025/03/11/deploying-a-vm-using-terraform/)
@@ -147,6 +160,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 ---
 ## **Upcomming Events 2025**
 ---
+
 - EUC TechCon 2025, May 14, 2025. [**Learn more**](https://www.eventbrite.nl/e/tickets-euc-techcon-2025-1269318569009)
 - Experts Live June 3, 2025 - Call for speakers. [**Learn more**](https://www.expertslive.nl/call-for-sessions/)
 - App Management Event, October 10, 2025. [**Learn more**](https://appmanagevent.com/)
