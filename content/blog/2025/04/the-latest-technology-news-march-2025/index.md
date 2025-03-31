@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - March 2025"
 author: Ivo Beerens
-date: 2025-31-03T13:00:36+01:00
+date: 2025-31-03T00:00:36+01:00
 image: 
 draft: false
 categories:
@@ -29,6 +29,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 
 ---
 ## **DAAS / VDI / EUC / ENDPOINT / APPS MANAGEMENT**
+
 ---
 
 ### **General**
@@ -90,7 +91,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - John Savill's Weekly Update. [**Learn more**](https://www.youtube.com/playlist?list=PLlVtbbG169nGL0hj1CeL2Zjmr73SmXIpc)
 - Building my first Private Azure Kubernetes Cluster WAF aligned. [**Learn more**](https://blog.poffers.cloud/posts/2025-03-azure-aks/building-my-first-private-azure-kubernetes-cluster-waf-aligned/#Community)
 - Azure Local Performance Testing (Storage). [**Learn more**](https://www.auxiliumtechtalk.com/post/azure-local-performance-testing-storage)
-- Azure Cost CLI = ❤️. [**Learn more**](https://cloudtips.nl/azure-cost-cli-%EF%B8%8F-05a6805b3945)
+- Azure Cost CLI = Love. [**Learn more**](https://cloudtips.nl/azure-cost-cli-%EF%B8%8F-05a6805b3945)
 - Infrastructure Landing Zone - Implementation Decision-Making. [**Learn more**](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/infrastructure-landing-zone---implementation-decision-making/4386520)
 - Grafana and VNet Flow Logs. [**Learn more**](https://blog.cloudtrooper.net/2025/03/20/grafana-and-vnet-flow-logs/)
 - All the content of the Azure Spring Clean 2025. [**Learn more**](https://www.azurespringclean.com/)
