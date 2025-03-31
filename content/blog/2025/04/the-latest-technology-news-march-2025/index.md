@@ -1,7 +1,7 @@
 ---
 title: "The latest technology news - March 2025"
 author: Ivo Beerens
-date: 2025-31-03T00:00:36+01:00
+date: 2025-03-31T00:00:36+01:00
 image: 
 draft: false
 categories:
