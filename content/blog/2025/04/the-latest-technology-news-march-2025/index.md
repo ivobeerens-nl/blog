@@ -67,6 +67,7 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Weekly VMware Enduser Computing Updates by Julius Lienemann. [**Learn more**](https://juliuslienemann.wordpress.com/)
 - Omnissa weekly EUC newsletter. [**Learn more**](https://blog.simonelberts.nl/)
 - Introducing the brand new 2025 Omnissa Tech Insiders page on TechZone! [**Learn more**](https://community.omnissa.com/forums/topic/69832-introducing-the-brand-new-2025-omnissa-tech-insiders-page-on-techzone/)
+- Omnissa certification program update. [**Learn more**](https://community.omnissa.com/technical-blog/omnissa-certification-program-update-r128/?_rid=86)
 
 ### **Intune**
 
