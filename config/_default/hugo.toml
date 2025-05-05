@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 # baseURL = "https://demo.gethugothemes.com/logbook/site/"
-# baseURL = "http://localhost:1313/logbook/site/"
-baseName = "https://www.ivobeerens.nl"
+baseURL = "http://localhost:1313/logbook/site/"
+# baseName = "https://www.ivobeerens.nl"
 title = "IvoBeerens.NL | All about End User Computing, AVD, W365 and Infrastructure as Code (IaC)"
 theme = "logbook-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
@@ -10,8 +10,12 @@ timeZone = "Europe/Amsterdam"
 paginate = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 70 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "G-MVK8GXB3DR" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+googleAnalytics = "G-MVK8GXB3DR" # see https://gohugo.io/templates/internal/#configure-google-analytics
 # disqus short name
 # disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language

@@ -3,48 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/logbook/site/tags/avd/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/azure/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/blog/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/euc/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/news/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/news/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/news/</loc>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/blog/2024/07/the-latest-technology-news-june-2024/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <loc>http://localhost:1313/logbook/site/blog/2025/04/the-latest-technology-news-march-2025/</loc>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/vmware/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/w365/</loc>
-    <lastmod>2024-07-01T04:02:36+01:00</lastmod>
+    <lastmod>2025-04-01T07:49:58+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/github/</loc>
-    <lastmod>2024-06-18T15:53:32+02:00</lastmod>
+    <loc>http://localhost:1313/logbook/site/blog/2025/03/the-latest-technology-news-february-2025/</loc>
+    <lastmod>2025-03-11T10:10:48+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/categories/avd/</loc>
+    <lastmod>2025-02-21T08:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/daas/</loc>
+    <lastmod>2025-02-21T08:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2025/02/terraform-session-host-in-drainmode/</loc>
+    <lastmod>2025-02-21T08:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2025/01/the-latest-technology-news-january-2025/</loc>
+    <lastmod>2025-02-06T17:00:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/12/the-latest-technology-news-december-2025/</loc>
+    <lastmod>2025-02-06T17:00:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/12/the-latest-technology-news-november-2024/</loc>
+    <lastmod>2025-01-02T19:26:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/11/packer-configuration-for-windows-server-2025/</loc>
+    <lastmod>2024-11-08T11:00:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/hashicorp/</loc>
+    <lastmod>2024-11-08T11:00:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/categories/iac/</loc>
+    <lastmod>2024-11-08T11:00:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/packer/</loc>
+    <lastmod>2024-11-08T11:00:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/windows-server-2025/</loc>
+    <lastmod>2024-11-08T11:00:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/10/the-latest-technology-news-october-2024/</loc>
+    <lastmod>2024-11-01T08:34:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/09/the-latest-technology-news-september-2024/</loc>
+    <lastmod>2024-10-31T20:07:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/08/the-latest-technology-news-july-2024/</loc>
+    <lastmod>2024-09-01T20:25:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/blog/2024/07/the-latest-technology-news-june-2024/</loc>
+    <lastmod>2024-07-02T08:30:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/github/</loc>
     <lastmod>2024-06-18T15:53:32+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/packer/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/github/</loc>
     <lastmod>2024-06-18T15:53:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/packer/</loc>
@@ -62,22 +107,16 @@
     <loc>http://localhost:1313/logbook/site/blog/2024/04/create-a-windows-developer-environment/</loc>
     <lastmod>2024-04-24T08:13:22+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/development/</loc>
-    <lastmod>2024-04-24T08:13:22+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/development/</loc>
     <lastmod>2024-04-24T08:13:22+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/hashicorp/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/development/</loc>
     <lastmod>2024-04-24T08:13:22+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/hashicorp/</loc>
     <lastmod>2024-04-24T08:13:22+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/iac/</loc>
-    <lastmod>2024-04-24T08:13:22+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/iac/</loc>
     <lastmod>2024-04-24T08:13:22+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/blog/2024/04/the-latest-technology-news-march-2024/</loc>
@@ -89,10 +128,10 @@
     <loc>http://localhost:1313/logbook/site/tags/exam/</loc>
     <lastmod>2024-04-23T22:27:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/git/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/git/</loc>
     <lastmod>2024-04-23T22:27:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/git/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/git/</loc>
     <lastmod>2024-04-23T22:27:12+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/blog/2024/03/prepare-for-the-github-foundations-exam/</loc>
@@ -101,13 +140,10 @@
     <loc>http://localhost:1313/logbook/site/blog/2024/02/the-latest-technology-news-february-2024/</loc>
     <lastmod>2024-03-01T08:04:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/avd/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/azure-virtual-desktop/</loc>
     <lastmod>2024-03-19T14:30:23+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/azure-virtual-desktop/</loc>
-    <lastmod>2024-03-19T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/azure-virtual-desktop/</loc>
     <lastmod>2024-03-19T14:30:23+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/blog/2024/02/new-teams-parameter-is-incorrect/</loc>
@@ -143,10 +179,10 @@
     <loc>http://localhost:1313/logbook/site/categories/troubleshooting/</loc>
     <lastmod>2024-06-18T16:02:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-esxi/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vmware-esxi/</loc>
     <lastmod>2024-06-18T16:02:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vmware-esxi/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-esxi/</loc>
     <lastmod>2024-06-18T16:02:27+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vmware-vsphere/</loc>
@@ -185,10 +221,10 @@
     <loc>http://localhost:1313/logbook/site/2023/09/25/the-latest-technology-news-week-38-2023/</loc>
     <lastmod>2024-02-19T21:58:21+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/automation/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/automation/</loc>
     <lastmod>2024-04-23T08:30:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/automation/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/automation/</loc>
     <lastmod>2024-04-23T08:30:57+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2023/09/22/download-the-latest-hashicorp-terraform-packer-and-vault-bits/</loc>
@@ -287,10 +323,10 @@
     <loc>http://localhost:1313/logbook/site/2023/04/17/quick-tip-remove-expired-root-certificates-from-a-vcenter-server/</loc>
     <lastmod>2024-02-19T21:58:21+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcenter-server/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vcenter-server/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vcenter-server/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vcenter-server/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/vcsa/</loc>
@@ -329,10 +365,10 @@
     <loc>http://localhost:1313/logbook/site/2022/11/01/identify-vms-that-have-vmware-tools-with-the-openssl-v3-vulnerability/</loc>
     <lastmod>2024-02-19T21:58:21+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-tools/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vmware-tools/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vmware-tools/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-tools/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2022/10/17/how-to-install-windows-11-on-vmware-workstation/</loc>
@@ -353,10 +389,10 @@
     <loc>http://localhost:1313/logbook/site/tags/upgrade/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2022/07/13/list-all-the-active-vmware-horizon-client-versions-that-are-used/</loc>
@@ -368,10 +404,10 @@
     <loc>http://localhost:1313/logbook/site/2022/06/27/disable-the-little-drawing-known-as-search-highlights-in-the-windows-10-11-search-bar/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/microsoft-windows/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/microsoft-windows/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/microsoft-windows/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/microsoft-windows/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/windows-10/</loc>
@@ -380,10 +416,10 @@
     <loc>http://localhost:1313/logbook/site/2022/05/31/build-a-windows-10-image-with-packer-using-vmware-workstation/</loc>
     <lastmod>2024-03-25T20:57:31+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/windows/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/windows/</loc>
     <lastmod>2024-03-25T20:57:31+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/windows/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/windows/</loc>
     <lastmod>2024-03-25T20:57:31+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2022/04/14/vmware-tools-error-2711/</loc>
@@ -413,10 +449,10 @@
     <loc>http://localhost:1313/logbook/site/tags/sd-card/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere-7/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere-7/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere-7/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere-7/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/azure-vpn-gateway/</loc>
@@ -464,10 +500,10 @@
     <loc>http://localhost:1313/logbook/site/2021/07/08/create-a-central-vmware-tools-repository/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/home-assistant/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/home-assistant/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/home-assistant/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/home-assistant/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2021/06/21/run-home-assistant-supervised-as-virtual-machine-vm-on-vmware-esxi/</loc>
@@ -488,10 +524,10 @@
     <loc>http://localhost:1313/logbook/site/tags/windows-virtual-desktop/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/wvd/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/wvd/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/wvd/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/wvd/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2021/03/07/enable-adobe-flash-player-for-vmware-horizon-environments/</loc>
@@ -506,10 +542,10 @@
     <loc>http://localhost:1313/logbook/site/tags/arm/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/esxi-arm/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/esxi-arm/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/esxi-arm/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/esxi-arm/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2020/10/26/installing-home-assistant-on-esxi-arm/</loc>
@@ -518,10 +554,10 @@
     <loc>http://localhost:1313/logbook/site/tags/pi/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/home-lab/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/home-lab/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/home-lab/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/home-lab/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2020/10/21/how-to-build-an-esxi-on-arm-pi-cluster/</loc>
@@ -560,10 +596,10 @@
     <loc>http://localhost:1313/logbook/site/tags/teams/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/backup/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/backup/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/backup/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/backup/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2020/07/30/nakivo-backup-and-replication-v10-released-with-support-for-vsphere-7/</loc>
@@ -590,10 +626,10 @@
     <loc>http://localhost:1313/logbook/site/2020/02/07/vmware-homelab-build-of-materials-and-configuration/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/controlup/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/controlup/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/controlup/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/controlup/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2020/01/16/controlup-8-1-native-vmware-horizon-integration/</loc>
@@ -665,10 +701,10 @@
     <loc>http://localhost:1313/logbook/site/tags/reviews-2/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsan/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsan/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsan/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsan/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/horizon/</loc>
@@ -713,10 +749,10 @@
     <loc>http://localhost:1313/logbook/site/2018/11/06/announcements-made-at-vmworld-2018-europe/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmworld/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vmworld/</loc>
     <lastmod>2024-02-24T16:18:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vmworld/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmworld/</loc>
     <lastmod>2024-02-24T16:18:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2018/11/02/nakivo-backup-replication-v7-5-editions-and-licensing/</loc>
@@ -839,10 +875,10 @@
     <loc>http://localhost:1313/logbook/site/blog/2017/03/prevent-corruption-esxi-bootable-sd-card/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/patch/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/patch/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/patch/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/patch/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2017/03/01/update-vcenter-server-appliance-vcsa-without-internet/</loc>
@@ -863,10 +899,10 @@
     <loc>http://localhost:1313/logbook/site/2016/11/09/unable-remove-guest-introspection-service/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere-6.5/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere-6.5/</loc>
     <lastmod>2024-02-24T16:18:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere-6.5/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere-6.5/</loc>
     <lastmod>2024-02-24T16:18:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2016/10/18/whats-new-vsphere-6-5/</loc>
@@ -890,19 +926,19 @@
     <loc>http://localhost:1313/logbook/site/tags/virtual-san/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/monitoring/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/monitoring/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/monitoring/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/monitoring/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2016/08/26/tested-vdi-end-user-experience-monitor-tools/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vrops/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vrops/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vrops/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vrops/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2016/08/04/define-devices-allowed-horizon-view-desktop-uem-smart-policies/</loc>
@@ -944,10 +980,10 @@
     <loc>http://localhost:1313/logbook/site/tags/log/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vrealize/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vrealize/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vrealize/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vrealize/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2016/03/03/log-insight/</loc>
@@ -956,10 +992,10 @@
     <loc>http://localhost:1313/logbook/site/2016/02/24/intel-nuc-6th-generation-as-home-server/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/intel-nuc/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/intel-nuc/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/intel-nuc/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/intel-nuc/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2016/02/03/considerations-for-using-virtual-san-robo/</loc>
@@ -1028,10 +1064,10 @@
     <loc>http://localhost:1313/logbook/site/categories/update/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcenter-server-appliance/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vcenter-server-appliance/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vcenter-server-appliance/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vcenter-server-appliance/</loc>
     <lastmod>2024-02-23T16:57:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vcsa/</loc>
@@ -1085,10 +1121,10 @@
     <loc>http://localhost:1313/logbook/site/tags/central/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/cisco/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/cisco/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/cisco/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/cisco/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2015/04/10/first-impressions-of-cisco-ucs-central-1-3/</loc>
@@ -1121,10 +1157,10 @@
     <loc>http://localhost:1313/logbook/site/2015/02/02/whats-new-vsphere-6-vcenter-server-appliance-vcsa/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere6/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere6/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere6/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere6/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2015/02/02/whats-new-vsphere-6/</loc>
@@ -1136,10 +1172,10 @@
     <loc>http://localhost:1313/logbook/site/tags/system-center-virtual-machine-manager/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmm/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vmm/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vmm/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmm/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/hardware/</loc>
@@ -1148,10 +1184,10 @@
     <loc>http://localhost:1313/logbook/site/2015/01/05/new-whitebox-extending-home-lab/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/whitebox/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/whitebox/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/whitebox/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/whitebox/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/powershell/</loc>
@@ -1172,10 +1208,10 @@
     <loc>http://localhost:1313/logbook/site/tags/srm/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/sso/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/sso/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/sso/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/sso/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2014/11/13/hurry-vcp5-dcv-delta-exam/</loc>
@@ -1184,10 +1220,10 @@
     <loc>http://localhost:1313/logbook/site/tags/study/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcp/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vcp/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vcp/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vcp/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2014/10/30/tips-installing-update-rollup-4-system-center-2012-r2-virtual-machine-manager/</loc>
@@ -1235,10 +1271,10 @@
     <loc>http://localhost:1313/logbook/site/tags/windows-8/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/disaster-recovery/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/disaster-recovery/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/disaster-recovery/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/disaster-recovery/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/veeam/</loc>
@@ -1280,16 +1316,16 @@
     <loc>http://localhost:1313/logbook/site/2014/04/23/update-the-vcenter-inventory-in-vcac-manually/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcac/</loc>
-    <lastmod>2024-02-23T21:39:45+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vcac/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcloud-automation-center/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vcac/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vcloud-automation-center/</loc>
+    <lastmod>2024-02-23T21:39:45+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/vcloud-automation-center/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2014/04/15/identify-nic-driver-and-supported-driver-version-for-esxi-server/</loc>
@@ -1304,10 +1340,10 @@
     <loc>http://localhost:1313/logbook/site/2014/04/09/vmware-horizon-6-whats-new/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vexpert/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vexpert/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vexpert/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vexpert/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2014/04/01/vexpert-for-the-fourth-time/</loc>
@@ -1337,19 +1373,19 @@
     <loc>http://localhost:1313/logbook/site/2013/12/26/identify-lun-ids-in-windows-server-2012-r2/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/windows-server-2012/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/windows-server-2012/</loc>
     <lastmod>2024-02-24T16:18:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/windows-server-2012/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/windows-server-2012/</loc>
     <lastmod>2024-02-24T16:18:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/12/18/vcloud-networking-and-security-license-in-evaluation-mode/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vshield/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vshield/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vshield/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vshield/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/12/16/running-hyper-v-and-vmware-workstation-on-windows-8-x/</loc>
@@ -1415,10 +1451,10 @@
     <loc>http://localhost:1313/logbook/site/2013/09/02/is-the-vcenter-server-appliance-vcsa-5-5-a-replacement-for-the-windows-vcenter-server/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/maintenance/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/maintenance/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/maintenance/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/maintenance/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/08/19/perform-esxi-host-maintenance-on-a-vmware-horizon-view-floating-desktop-pool/</loc>
@@ -1442,10 +1478,10 @@
     <loc>http://localhost:1313/logbook/site/2013/07/11/enable-the-vshield-driver-in-vmware-tools/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/haswell/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/haswell/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/haswell/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/haswell/</loc>
     <lastmod>2024-02-23T21:39:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/06/25/haswell-low-power-whitebox-for-esxi-and-hyper-v/</loc>
@@ -1469,10 +1505,10 @@
     <loc>http://localhost:1313/logbook/site/2013/06/05/whats-new-in-windows-server-2012-r2-hyper-v/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/windows-server-2012-r2/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/windows-server-2012-r2/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/windows-server-2012-r2/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/windows-server-2012-r2/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/05/30/vcenter-single-sign-on-sso-password-reset/</loc>
@@ -1481,10 +1517,10 @@
     <loc>http://localhost:1313/logbook/site/2013/05/29/vexpert-2013-award/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/networking/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/networking/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/networking/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/networking/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/05/01/test-your-esxi-network-resiliency-with-esxcli/</loc>
@@ -1496,10 +1532,10 @@
     <loc>http://localhost:1313/logbook/site/categories/windows-8/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/lync/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/lync/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/lync/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/lync/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/04/03/vmware-horizon-view-and-microsoft-lync-2013-support/</loc>
@@ -1550,10 +1586,10 @@
     <loc>http://localhost:1313/logbook/site/2013/02/15/control-remotely-the-power-of-your-home-lab/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/homebrew/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/homebrew/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/homebrew/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/homebrew/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/02/07/configure-the-view-5-1-event-database-with-sql-server-express/</loc>
@@ -1565,25 +1601,25 @@
     <loc>http://localhost:1313/logbook/site/2013/01/24/in-the-vsphere-web-client-the-use-windows-session-authentication-is-grayed-out/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere51/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere51/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere51/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere51/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/01/22/why-switch-between-windows-server-2012-core-and-windows-server-2012-gui/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vdp/</loc>
-    <lastmod>2024-02-24T09:43:55+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vdp/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-data-protection/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vdp/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vmware-data-protection/</loc>
+    <lastmod>2024-02-24T09:43:55+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-data-protection/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2013/01/18/windows-2008-r2-vms-fail-to-backup-with-vmware-data-protection-vdp/</loc>
@@ -1619,10 +1655,10 @@
     <loc>http://localhost:1313/logbook/site/2012/11/28/upgrading-to-vsphere-5-1-check-your-third-party-software/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/manage/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/manage/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/manage/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/manage/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/11/22/manage-hyper-v-from-vsphere-with-vmware-vcenter-multi-hypervisor-manager/</loc>
@@ -1637,10 +1673,10 @@
     <loc>http://localhost:1313/logbook/site/tags/vds/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere-distributed-switch/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere-distributed-switch/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere-distributed-switch/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere-distributed-switch/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/10/22/what-about-vmware-vcenter-server-appliance-vcsa-version-5-1/</loc>
@@ -1649,10 +1685,10 @@
     <loc>http://localhost:1313/logbook/site/2012/09/21/implementing-vsphere-data-protection-vdp-tips/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vsphere-data-protection/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vsphere-data-protection/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vsphere-data-protection/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vsphere-data-protection/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/09/13/tips-for-upgrading-to-vmware-vcenter-5-1/</loc>
@@ -1664,16 +1700,16 @@
     <loc>http://localhost:1313/logbook/site/2012/09/07/upgrade-windows-server-2012-release-candidate-rc-to-rtm/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/fusion/</loc>
-    <lastmod>2024-02-24T09:43:55+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/fusion/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/office-2013/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/fusion/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/office-2013/</loc>
+    <lastmod>2024-02-24T09:43:55+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/office-2013/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/09/05/vmware-fusion-5-and-microsoft-office-2013-screen-refresh-problem/</loc>
@@ -1682,10 +1718,10 @@
     <loc>http://localhost:1313/logbook/site/2012/08/27/the-end-of-the-vram-entitlement-in-vmware-vsphere-5-and-5-1/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vram/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vram/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vram/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vram/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/08/21/tested-phd-virtual-backup-6-0/</loc>
@@ -1697,10 +1733,10 @@
     <loc>http://localhost:1313/logbook/site/2012/08/17/new-updates-available-on-vmware-vcenter-vmware-view-microsoft-virtual-machine-converter-and-veeam-backup-replication/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/updates/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/updates/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/updates/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/updates/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/vpshere5/</loc>
@@ -1721,19 +1757,19 @@
     <loc>http://localhost:1313/logbook/site/2012/07/30/convert-vmware-to-hyper-v-vms-with-microsoft-virtual-machine-converter/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/v2v/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/v2v/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/v2v/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/v2v/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/07/23/after-upgrading-to-vcenter-server-5-com-vmware-converter-alert/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/converter/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/converter/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/converter/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/converter/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/07/17/add-hp-drivers-vib-to-vmware-update-manager-vum/</loc>
@@ -1748,16 +1784,16 @@
     <loc>http://localhost:1313/logbook/site/tags/repository/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-update-manager/</loc>
-    <lastmod>2024-02-24T09:43:55+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vmware-update-manager/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vum/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-update-manager/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vum/</loc>
+    <lastmod>2024-02-24T09:43:55+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/vum/</loc>
     <lastmod>2024-02-24T09:43:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/06/28/nest-windows-server-2012-hyper-v-in-vmware-esxi-5/</loc>
@@ -1766,10 +1802,10 @@
     <loc>http://localhost:1313/logbook/site/2012/06/04/install-windows-server-2012-in-vmware-workstation/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/syslog/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/syslog/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/syslog/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/syslog/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/05/29/vsphere-syslog-collector-troubleshooting/</loc>
@@ -1796,16 +1832,16 @@
     <loc>http://localhost:1313/logbook/site/categories/sql-2/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcd/</loc>
-    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vcd/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcloud/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vcd/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vcloud/</loc>
+    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/vcloud/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/04/20/vmware-esxi-5-snapshot-changes/</loc>
@@ -1817,10 +1853,10 @@
     <loc>http://localhost:1313/logbook/site/2012/03/26/identify-nics-in-windows-server-8-hyper-v/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/template/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/template/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/template/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/template/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/03/22/unable-to-join-domain-when-deploy-a-template-using-guest-customization-specification/</loc>
@@ -1844,52 +1880,52 @@
     <loc>http://localhost:1313/logbook/site/tags/vpshere-5/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/esxtop/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/esxtop/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/esxtop/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/esxtop/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/02/29/kill-a-vm-in-resxtop/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/customization/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/customization/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/customization/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/customization/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/02/13/add-the-latest-patches-to-the-vmware-esxi-5-installation-media/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/image-builder/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/image-builder/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/image-builder/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/image-builder/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2012/02/01/hp-p4000-display-saniq-version-installed-patches-and-up-time/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/lefthand/</loc>
-    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/lefthand/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/p4000/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/lefthand/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/p4000/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/p4000/</loc>
+    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/logbook/site/2012/01/06/vmware-vcenter-4-and-ms-sql-express-2008-r2-bug/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/tools/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/tools/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/tools/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/tools/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/version/</loc>
@@ -1898,10 +1934,10 @@
     <loc>http://localhost:1313/logbook/site/2011/12/29/what-about-vmware-virtual-machine-hardware-versions/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/esx/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/esx/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/esx/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/esx/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/12/19/unable-to-create-vmfs-partition/</loc>
@@ -1928,22 +1964,22 @@
     <loc>http://localhost:1313/logbook/site/2011/09/20/create-vmware-esxi-5-pxe-unattended-scripted-installation-using-windows/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/kickstart/</loc>
-    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/kickstart/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/pxe/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/kickstart/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/pxe/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/scripted/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/pxe/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/scripted/</loc>
+    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/scripted/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/09/17/create-a-bootable-vmware-esxi-5-usb-stick-in-windows-and-perform-a-scripted-installation/</loc>
@@ -1958,16 +1994,16 @@
     <loc>http://localhost:1313/logbook/site/2011/09/06/things-to-know-before-implementing-vmware-data-recovery-vdr-2-0/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vdr/</loc>
-    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vdr/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-data-recovery/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vdr/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/vmware-data-recovery/</loc>
+    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-data-recovery/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/09/01/vmware-esxi-5-whitebox-supported-motherboard/</loc>
@@ -1976,10 +2012,10 @@
     <loc>http://localhost:1313/logbook/site/2011/08/18/upgrading-to-vmware-esxi-5/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/licensing/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/licensing/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/licensing/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/licensing/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/07/15/vmware-vsphere-5-licensing-explained/</loc>
@@ -1994,10 +2030,10 @@
     <loc>http://localhost:1313/logbook/site/2011/06/09/powercli-list-vm-settings-and-export-to-csv-html-gridview-screen-and-email/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vcap-dca/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vcap-dca/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vcap-dca/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vcap-dca/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/05/27/vmware-vcap-dca-exam-experience/</loc>
@@ -2021,10 +2057,10 @@
     <loc>http://localhost:1313/logbook/site/2011/05/02/unable-to-commit-snapshot-after-vadp-backup/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vadp/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vadp/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vadp/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vadp/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/03/30/unable-to-delete-a-vmdk-because-its-locked/</loc>
@@ -2045,16 +2081,16 @@
     <loc>http://localhost:1313/logbook/site/categories/server/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/exchange/</loc>
-    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/exchange/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/outlook/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/exchange/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/outlook/</loc>
+    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/outlook/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/03/04/reset-the-microsoft-outlook-folder-language/</loc>
@@ -2066,10 +2102,10 @@
     <loc>http://localhost:1313/logbook/site/2011/02/18/vmware-microsoft-and-starwind-software-updates/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/sysprep/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/sysprep/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/sysprep/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/sysprep/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2011/02/11/microsoft-sysprep-goes-wrong-on-microsoft-windows-2008-r2-and-windows-7/</loc>
@@ -2120,10 +2156,10 @@
     <loc>http://localhost:1313/logbook/site/2010/10/07/guides-on-esxtop-and-vcenter-metrics/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/metrics/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/metrics/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/metrics/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/metrics/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2010/09/24/free-ticket-for-vmworld-2010-copenhagen/</loc>
@@ -2153,10 +2189,10 @@
     <loc>http://localhost:1313/logbook/site/2010/07/27/vmware-healthanalyzer-3-0-available/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/training/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/training/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/training/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/training/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2010/03/23/trainsignal-vmware-vsphere-pro-series-vol-1/</loc>
@@ -2189,22 +2225,22 @@
     <loc>http://localhost:1313/logbook/site/categories/best-practices/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/hp-eva/</loc>
-    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logbook/site/categories/hp-eva/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/multi-pathing/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/hp-eva/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/multi-pathing/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/round-robin/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/multi-pathing/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/categories/round-robin/</loc>
+    <lastmod>2024-02-17T22:28:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/logbook/site/tags/round-robin/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/tags/desktop/</loc>
@@ -2222,10 +2258,10 @@
     <loc>http://localhost:1313/logbook/site/tags/best-practices/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/book/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/book/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/book/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/book/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2009/11/23/new-book-vsphere-4-0-quick-start-guide-released/</loc>
@@ -2336,10 +2372,10 @@
     <loc>http://localhost:1313/logbook/site/2008/12/03/VMware-patch-alert/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-35-update-3/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vmware-35-update-3/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vmware-35-update-3/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-35-update-3/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2008/12/02/VMware-view-released/</loc>
@@ -2402,10 +2438,10 @@
     <loc>http://localhost:1313/logbook/site/2008/08/12/enhanced-vmotion-compatibility-evc/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/tags/vmware-esx/</loc>
+    <loc>http://localhost:1313/logbook/site/categories/vmware-esx/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/logbook/site/categories/vmware-esx/</loc>
+    <loc>http://localhost:1313/logbook/site/tags/vmware-esx/</loc>
     <lastmod>2024-02-17T22:28:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/2008/08/12/esx-35-update-2-and-esxi-35-update-2-issue-with-product-license-to-expire/</loc>
@@ -2424,7 +2460,7 @@
     <lastmod>2024-03-09T11:51:51+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/about/</loc>
-    <lastmod>2024-06-18T16:02:27+02:00</lastmod>
+    <lastmod>2025-03-11T18:33:13+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/logbook/site/404/</loc>
     <lastmod>2024-02-07T19:13:36+01:00</lastmod>
