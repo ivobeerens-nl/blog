@@ -41,16 +41,14 @@ In today’s fast-paced tech landscape, staying informed is key! That’s why we
 - Host pool redirection defaults changing in Azure Virtual Desktop. [**Learn more**](https://techcommunity.microsoft.com/blog/azurevirtualdesktopblog/host-pool-redirection-defaults-changing-in-azure-virtual-desktop/4408071)
 - Say Goodbye to SSO Consent Prompts for AVD and Windows 365. [**Learn more**](https://blog.mindcore.dk/2025/04/say-goodbye-to-sso-consent-prompts-for-avd-and-windows-365/)
 - Azure Gov is Different: Deploying AVD on Azure Local. [**Learn more**](https://gbbcore.wordpress.com/2025/05/02/azure-gov-is-different-deploying-avd-on-azure-local/)
-- Azure Virtual Desktop auf Azure Local. [**Learn more**](https://lnkd.in/gpTyPbEf)
+- Azure Virtual Desktop auf Azure Local. [**Learn more**](https://www.youtube.com/playlist?list=PLxvjnnGdNX6Okialgqqb94TRzW6gqJIhK
 - Securing Azure Virtual Desktop with Gen2 VMs, Trusted Launch, and CIS-Hardened Windows 11. [**Learn more**](https://www.linkedin.com/pulse/securing-azure-virtual-desktop-gen2-vms-trusted-launch-jeremy-wallace-k60nc/?trackingId=oLCfNiAeSnCo6PMJCA5ykg%3D%3D)
 - Stop Using AVD MSIX App Attach, Do THIS Instead! [**Learn more**](https://youtu.be/pm_SdcymGho?si=CCDJ9HB8UhQCg9ou)
 
 ### **Windows 365 (W365) / CloudPC**
 
 - The latest weekly W365 newsletter. [**Learn more**](https://w365community.com/)
-- What's new in Windows 365 Enterprise. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#week-of-december-17-2024)
-- Windows 365: Deep-Dive into Provisioning. [**Learn more**](https://youtu.be/cEP3i2g4-EQ?si=CN-AGZui9H9HWxga)
-- Create a Free Interactive License Usage Report for Microsoft 365. [**Learn more**](https://ourcloudnetwork.com/create-a-free-interactive-license-usage-report-for-microsoft-365/)
+- What's new in Windows 365 Enterprise. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new)
 - Windows 365 and the Microsoft Intune Suite: What you need to know. [**Learn more**](https://youtu.be/7NFl6OUZqDQ?si=tlQG-ziCCFncklcL)
 - Move a Cloud PC supported options. [**Learn more**](https://learn.microsoft.com/en-us/windows-365/enterprise/move-cloud-pc)
 
